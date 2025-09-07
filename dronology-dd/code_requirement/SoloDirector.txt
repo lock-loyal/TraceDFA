@@ -1,0 +1,5 @@
+- waypoint-based flight navigation, directs drone to next waypoint in the flight plan, system. drone reaches current waypoint, system directs to next waypoint in sequence.  
+- safety diversion handling, diverts drone to roundabout path upon safety trigger, system. safety trigger detected, divert drone to predefined roundabout path.  
+- flight plan clearance on return home, clears all non-home waypoints when drone is directed to return home, system. return home initiated, remove all waypoints except home from flight plan.  
+- flight state transition management, updates drone state to in_air after completing all waypoints, system. all waypoints completed, check queue empty, set state to in_air.  
+- takeoff/landing readiness check, verifies presence of waypoints before takeoff and landing, system. check remaining waypoints before allowing takeoff or landing.

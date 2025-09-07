@@ -1,0 +1,3 @@
+- monitor uav properties, monitor uav properties in real-time by dispatching messages from queue to monitoring manager, monitoring system. messages from uavs are dispatched to monitoring manager for real-time tracking.
+- handle message interrupts, ensure monitoring dispatcher handles thread interruptions gracefully during shutdown, monitoring system. dispatcher logs shutdown and stops processing messages upon interruption.
+- publish status updates, publish uav status updates to monitoring manager for system-wide tracking, monitoring system. dispatcher publishes each incoming uav message to monitoring manager.

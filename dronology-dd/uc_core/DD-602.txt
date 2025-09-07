@@ -1,0 +1,1 @@
+simulate landing in internal simulator, allows simulating landing by changing uav's altitude to ground upon command, system. when given landing command, internalsimulator changes uav's current altitude to ground altitude.

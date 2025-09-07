@@ -1,0 +1,5 @@
+- exchange home position during handshake, transmit uav home coordinates during initial connection handshake with ground station, system. ground station and uav exchange home coordinates during connection handshake.  
+- validate safety case during handshake, ensure uav provides valid safety case identifier during connection establishment, system. verify safety case identifier exists and is approved.  
+- define home position for uav operations, set home coordinates as reference point for uav return-to-home operations, system. home coordinates must be valid lla coordinates.  
+- establish initial connection parameters, exchange necessary parameters between uav and ground station during handshake, system. parameters include home coordinates and safety case.  
+- enforce safety case compliance, require uavs to provide safety case identifier before allowing operational commands, system. block commands if safety case is invalid or missing.

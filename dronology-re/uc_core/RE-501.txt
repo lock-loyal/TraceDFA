@@ -1,0 +1,1 @@
+define flight route, define flight routes as ordered sequence of waypoints with first and final target locations, flight route manager. flight routes defined as ordered sequence of waypoints, first waypoint represents first target location, final waypoint represents final target location.

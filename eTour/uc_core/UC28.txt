@@ -1,0 +1,1 @@
+delete tag, allow agency operator to remove one or more search tags from the system, agency operator. access tag deletion function, search and display existing tags, select tags for deletion, confirm removal, delete selected tags, notify successful deletion.

@@ -1,0 +1,1 @@
+ui middleware accepts registrations, provide an interface for registering ui clients, ui middleware. provide an interface for registering ui clients.

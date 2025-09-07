@@ -1,0 +1,1 @@
+reject non registered uav, reject activation of unregistered uavs and notify the system, uav activation manager. if presented uav id is not registered, reject activation and notify gcs middleware.

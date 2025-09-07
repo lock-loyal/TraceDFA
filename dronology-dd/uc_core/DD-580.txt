@@ -1,0 +1,1 @@
+transition from landing to on_ground, change uav state when landing is completed, system. when uav in landing state reaches zero altitude, transition to on_ground state.

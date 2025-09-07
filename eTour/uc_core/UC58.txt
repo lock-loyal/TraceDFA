@@ -1,0 +1,1 @@
+view site record, display detailed information of a specific cultural site, tourist. user selects view record option, system retrieves and presents site data from database. valid authentication and site selection.

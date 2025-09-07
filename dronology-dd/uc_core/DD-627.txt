@@ -1,0 +1,1 @@
+ui middleware lists currently active uavs, allows system to retrieve information about all active uavs including location, battery level, ground speed, and health status, system. uimiddleware returns list of uav proxy objects containing information about all active uavs.

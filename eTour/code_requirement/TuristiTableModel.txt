@@ -1,0 +1,5 @@
+- display tourist data, present tourist information in tabular format, operator. access tourist management interface, retrieve and load tourist records, populate table with details, refresh view on data changes. data integrity maintained through valid input checks.  
+- activate tourist account, toggle tourist account status between active and inactive, operator. select tourist entry, trigger activation/deactivation, confirm action, update account status, refresh table display. valid tourist id required.  
+- update tourist information, modify existing tourist details, operator. select tourist record, edit data fields, validate input, confirm changes, save updated information, refresh table. mandatory fields must be filled.  
+- add new tourist, register new tourist into the system, operator. initiate creation process, input tourist details, validate data format, confirm submission, store new record, update table view. duplicate entries prevented.  
+- remove tourist record, delete tourist from system database, operator. select target tourist entry, execute deletion command, confirm removal, eliminate record from table. deletion irreversible after confirmation.

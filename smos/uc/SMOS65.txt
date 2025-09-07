@@ -1,0 +1,16 @@
+Name: ViewRegister  
+Actors: Management  
+Description: Details related to a class register  
+Preconditions:  
+• The user is logged into the management system  
+• The user has executed the use case "ViewRegistersList" and the system is displaying the list of all registers for a specific academic year  
+• The user clicks the "Register" button associated with one of the classes  
+
+Sequence of Events  
+User  
+System  
+1. Displays on screen the information contained in the register organized by date. Specifically, for the selected date, shows the list of students, indicating: absent/present, late arrivals, and a form from which it is possible to manage justifications and disciplinary notes.  
+
+Postconditions:  
+• The information related to the class register has been displayed  
+• Connection to the SMOS server terminated

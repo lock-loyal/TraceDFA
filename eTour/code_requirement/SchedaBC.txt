@@ -1,0 +1,7 @@
+- create cultural asset, add new cultural asset to system, operator. access creation form, input details including name, location, and ticket price, validate data, submit form, system stores new cultural asset. mandatory fields must be completed.  
+- modify cultural asset, update existing cultural asset information, operator. select cultural asset, open edit form, adjust details like description or opening hours, confirm changes, system updates data. valid geographic coordinates required.  
+- view cultural asset statistics, display visitor ratings and feedback trends, operator. select cultural asset, navigate to statistics tab, view monthly vote distribution and total ratings. data retrieved from server.  
+- manage feedback, edit or review tourist comments on cultural asset, operator. access feedback tab, select comment, modify text, save changes. comment must not exceed 200 characters.  
+- configure search tags, associate keywords with cultural asset for discoverability, operator. select tags from predefined list during asset creation/modification, save associations. minimum one tag required.  
+- set operational hours, define opening and closing times for cultural asset, operator. specify daily schedule via time pickers, select weekly closure day, enforce non-overlapping time intervals.  
+- handle server communication errors, maintain system reliability during remote operations, system. detect connection failures, display error message, rollback unsaved changes. retry allowed after 2 minutes.

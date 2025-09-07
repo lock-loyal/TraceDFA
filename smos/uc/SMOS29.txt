@@ -1,0 +1,19 @@
+Name: InsertAbsencesAdmin  
+Actors: Administrator  
+Description: Digitization of the Register, data entry by the Administrator  
+Preconditions:  
+• The user must be logged into the system as an Administrator.  
+• The user has performed the use case "ViewSingleRegisterDetails."  
+• The user selects the date on which they want to enter the information.  
+
+Sequence of Events  
+**User** | **System**  
+--- | ---  
+2. Fill out the form by entering absent/present students and click "Save." | 1. Update the displayed screen based on the selected date.  
+| 3. Send the data to the server. The server sends a notification email to the parent of the student for each absence.  
+| 4. Display the updated register data.  
+
+Postconditions:  
+• Absence and lateness data have been entered into the system, and notifications have been sent to parents. The system remains on the register screen.  
+• The administrator cancels the operation.  
+• Connection to the SMOS server is terminated.

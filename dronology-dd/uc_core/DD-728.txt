@@ -1,0 +1,1 @@
+uav set state message frequency command, allows gcsmiddleware to send set state frequency command to gcs with desired frequency in milliseconds, gcsmiddleware. handle and send setstatefrequency command to gcs containing desired frequency in ms.

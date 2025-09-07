@@ -1,0 +1,1 @@
+display of a report card, display of a report card, administrator. user selects academic year, system displays list of classes with report cards button, user chooses class, system displays list of students, user selects student and quarter, system displays report card of selected student for chosen quarter.

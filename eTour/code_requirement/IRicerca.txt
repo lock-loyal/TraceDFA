@@ -1,0 +1,5 @@
+- search cultural asset, retrieve paginated cultural assets based on criteria, tourist. activate search feature, input keywords/tags/radius/location, validate parameters, execute query, return matching cultural assets in specified page range. valid gps coordinates and search radius required.  
+- search rest point, obtain paginated rest points using search filters, tourist. select rest point search option, set location/radius/preferences, process request, display results in pages. maximum radius limit enforced by system.  
+- view search metrics, display total results and pages for active search, user. initiate search operation, review result count and pagination details through interface elements. requires successful search initialization.  
+- browse cultural results, access specific page of cultural assets, tourist. navigate through paginated results, select page number, load corresponding cultural asset entries. valid page range mandatory.  
+- browse rest point results, view specific page of rest points, tourist. choose results page from pagination controls, retrieve and display rest point data segment. active rest point search session required.

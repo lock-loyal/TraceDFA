@@ -1,0 +1,1 @@
+visiting waypoints during flight plan, allows uav to proceed to next waypoint when additional waypoints exist in the flight plan, system. when uav reaches target waypoint, if additional waypoints are in flight plan, vehiclecore sends next waypoint to uav's gcs.

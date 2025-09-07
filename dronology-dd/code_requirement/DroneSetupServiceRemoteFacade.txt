@@ -1,0 +1,5 @@
+- initialize drones, allows initializing drones in either virtual or physical mode based on provided initialization info, system. initialize drones with specified mode (virtual/physical) using provided drone initialization info.  
+- monitor drone status changes, enables adding and removing listeners to track changes in drone operational status, system. add listener to receive status updates, remove listener when no longer needed.  
+- retrieve active uavs, provides list of currently active uavs including their proxy representations, monitoring system. request active uav list, receive collection of active uav proxies.  
+- resend uav commands, enables resending commands to specific uav identified by uav_id, operator. select uav by id, resend latest command to address communication failures.  
+- manage drone initialization modes, restricts drone initialization to predefined modes (virtual/physical) specified in droneinitializationinfo, system. drone initialization requires selection of valid mode from predefined options.

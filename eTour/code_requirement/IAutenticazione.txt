@@ -1,0 +1,1 @@
+- authentication, validate registered user credentials during login, turista or operatore. access login interface, enter username and password, select user type, submit details, verify data against stored records, grant access or deny with error. valid credentials and user type required.

@@ -1,0 +1,5 @@
+- flight route visualization, display flight routes on a map with waypoints as pins connected by lines, flight route manager. flight routes displayed on map with waypoints as pins connected by lines.
+- waypoint editing, enable adding modifying and deleting waypoints through map interactions, flight route editor. add modify or delete waypoints through map clicks.
+- route metadata display, show route name description and waypoint count in information panel, flight route viewer. display route name description and number of waypoints.
+- automatic map centering, automatically center map view on active flight route waypoints, flight route viewer. map view centers on active route waypoints when auto-zoom enabled.
+- coordinate table synchronization, maintain synchronized display between map waypoints and data table, flight route editor. data table updates automatically when waypoints change on map.

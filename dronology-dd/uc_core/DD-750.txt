@@ -1,0 +1,1 @@
+notify dronology on connection timeout, informs dronology when uav connection timeout occurs, gcs. after uav_reconnect_timeout is reached, if connection cannot be reestablished, send uav timeout message containing uav_id to gcsmiddleware.

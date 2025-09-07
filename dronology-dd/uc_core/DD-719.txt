@@ -1,0 +1,1 @@
+activation request results, informs gcs of the result of the activation request, gcs. receive activation request result.

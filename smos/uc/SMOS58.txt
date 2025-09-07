@@ -1,0 +1,22 @@
+Name: ViewingATeacherGradeReport  
+Actors: Teacher  
+Description: Viewing a grade report  
+Preconditions:  
+• The user has logged into the system as a Teacher  
+• The user clicks on the "Online Grade Reports" button  
+
+Sequence of Events  
+User  
+System  
+2. Selects the academic year of interest.  
+4. Selects one of the displayed classes.  
+6. Selects the student whose grade report to view and the reference trimester by clicking the appropriate button.  
+1. Displays the list of academic years in which there is at least one class taught by the teacher.  
+3. Displays the classes associated with the selected academic year.  
+5. Displays the list of students in the class chosen by the user.  
+7. Displays the grade report of the selected student for the specified trimester.  
+
+Postconditions:  
+• The system displays a student's grade report  
+• The user interrupts the operation  
+• Connection to the SMOS server is terminated

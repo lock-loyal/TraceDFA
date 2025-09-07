@@ -1,0 +1,1 @@
+- track synchronization state during mission execution, manage synchronization states to coordinate drone movements in a mission, system. synchronization points transition between not activated, active, and synched states based on drone arrival.

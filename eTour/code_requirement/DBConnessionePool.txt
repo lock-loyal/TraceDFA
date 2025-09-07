@@ -1,0 +1,1 @@
+- manage database connections, handle database connection pooling for efficient access, system. system requests connection, check available connections, provide existing or create new connection, release connection after use, maintain connection validity. handle invalid connections by creating new ones.

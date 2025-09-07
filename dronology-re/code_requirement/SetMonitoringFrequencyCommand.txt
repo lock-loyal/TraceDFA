@@ -1,0 +1,1 @@
+- adjust monitoring frequency, adjust the monitoring frequency interval for drone status updates, flight operator. user sets monitoring frequency interval in milliseconds, system applies new interval to drone. monitoring frequency specified in milliseconds.

@@ -1,0 +1,5 @@
+- assign flight route, assign selected flight routes to uav via route assignment ui, route assignment operator. select existing routes and confirm assignment to uav through dialog.
+- confirm route assignment, require user confirmation before assigning new flight routes to uav, route assignment operator. user must confirm route assignments through dialog.
+- return to home, initiate uav return to home location with status validation, flight operator. validate uav status before executing return home command.
+- cancel pending flights, cancel all pending flight plans for specified uav when assigning new routes, route assignment operator. new route assignment triggers cancellation of existing pending flights.
+- resend command, retransmit commands to uav when communication failures occur, maintenance operator. manually resend commands during connection issues.

@@ -1,0 +1,4 @@
+- manage news priority, set valid priority range for news items, operator. define minimum and maximum priority values, enforce constraints during news creation or update, validate input, display error for invalid entries. priority must be between 1 and 5.  
+- active news limit, restrict maximum number of concurrently active news, operator. add new news item, check current active count, allow creation if under threshold, block exceeding limit. maximum 10 active news allowed.  
+- server configuration, maintain system environment settings, administrator. set server image storage path, configure rmi server url, validate directory existence, ensure accessibility. correct path format and server connectivity required.  
+- news expiration, automatically deactivate news after duration period, system. track news activation timestamp, calculate expiration date, remove expired news from active list. news validity period set to 30 days.

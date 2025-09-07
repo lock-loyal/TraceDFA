@@ -1,0 +1,1 @@
+- manage database connections, allows the system to efficiently handle database connections through pooling, administrator. system automatically acquires and releases connections as needed, tracks last usage time to optimize resource allocation, ensures connections are properly closed and returned to the pool after use.

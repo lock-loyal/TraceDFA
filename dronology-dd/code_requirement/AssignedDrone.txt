@@ -1,0 +1,1 @@
+- configure drone start coordinates, allows setting the initial latitude, longitude, and altitude for a drone in a mission scenario, user. select drone, set start coordinates. drone name must be unique.

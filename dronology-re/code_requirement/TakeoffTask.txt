@@ -1,0 +1,1 @@
+- define takeoff task, create a takeoff task for a specific uav with target coordinates, mission planner. takeoff task is created with uav id and target coordinates.

@@ -1,0 +1,1 @@
+only one executing flight plan per uav, ensures each uav maintains a single active flight plan, system. store one executing flight plan id per uav.

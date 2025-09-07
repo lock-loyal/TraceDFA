@@ -1,0 +1,4 @@
+- display flight route details, allows users to view detailed information about selected flight routes including creation date and total length, user. select flight route, display name, creation date, last modified date, and route length.  
+- confirm unsaved changes before editing another route, prompt user to save changes when attempting to edit a different route while current edits are unsaved, user. initiate edit on another route during active editing, show unsaved changes confirmation.  
+- delete flight route with confirmation, require user confirmation before permanently deleting a flight route, user. select delete option, confirm deletion through dialog.  
+- display route creation and modification timestamps, show formatted timestamps for route creation and last modification dates, system. timestamps displayed in 'mmm d, yyyy, hh:mm aaa' format.

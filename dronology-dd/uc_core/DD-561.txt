@@ -1,0 +1,1 @@
+hover when active plan aborted, enables uav to hover when the active flight plan is aborted, system. flight plan is aborted, uav switches to hover in place mode.

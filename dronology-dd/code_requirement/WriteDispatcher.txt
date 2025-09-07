@@ -1,0 +1,5 @@
+- manage command queue for uav communication, process outgoing commands in queue and send to uav via socket connection, system. add commands to queue, process each command in order, send via socket.  
+- handle uav command transmission, transmit drone commands as json strings over socket connection, system. convert commands to json format, write to output stream.  
+- ensure continuous command dispatch, maintain active connection and process commands until shutdown is triggered, system. monitor queue for new commands, continue processing until shutdown signal received.  
+- graceful shutdown of writer thread, safely terminate command dispatch thread, system. trigger shutdown, flush remaining commands, close socket connection.  
+- track command transmission status, log each command sent to uav for monitoring purposes, system. record timestamp and command details in log upon transmission.

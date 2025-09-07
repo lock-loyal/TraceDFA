@@ -1,0 +1,5 @@
+- synchronized takeoff and landing, enable synchronized takeoff and landing for multiple uavs through predefined flight patterns, mission planner. mission planner enables synchronized takeoff and landing using predefined flight patterns.  
+- expand flight patterns, expand flight patterns into executable task sequences including coordination points and waypoints, mission planner. predefined flight patterns expanded into sequences of tasks.  
+- task sequence activation, activate next task in sequence after completing current task and synchronization checks, individual uav mission controller. activate next task after completing current task and synchronization checks.  
+- waypoint retrieval, retrieve first waypoint of assigned flight route for mission initialization, individual uav mission controller. retrieve first waypoint of assigned route during mission initialization.  
+- mission task equality check, ensure mission plan equality based on unique uav identifier, mission plan manager. mission plans considered equal if uav identifiers match.

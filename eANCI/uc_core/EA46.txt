@@ -1,0 +1,1 @@
+sickness allowance request, allow user to request sickness allowance, user. user selects sickness allowance request, system displays page with inps office request information and allows printing, handle unexpected errors by invoking service unavailable use case, user must have accessed system and selected social assistance functionality.

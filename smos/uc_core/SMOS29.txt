@@ -1,0 +1,1 @@
+insert absences admin, allows digitizing the register and entering absence data by the administrator, administrator. system updates displayed screen based on selected date, administrator fills out form by entering absent or present students and clicks save, system sends data to server and sends notification emails to parents, system displays updated register data.

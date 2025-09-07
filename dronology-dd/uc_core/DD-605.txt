@@ -1,0 +1,1 @@
+simulate takeoff in nvecsimulator, simulate takeoff process in nvecsimulator by moving uav to takeoff altitude with infinite acceleration, system. given takeoff command, nvecsimulator moves uav to takeoff altitude at current longitude and latitude with infinite acceleration.

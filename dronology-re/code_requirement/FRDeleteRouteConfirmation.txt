@@ -1,0 +1,1 @@
+- delete flight route confirmation, prompt user to confirm deletion of flight route before proceeding, flight route manager. user attempts to delete flight route, system prompts confirmation before deletion.

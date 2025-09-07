@@ -1,0 +1,1 @@
+manual flight plan assignment, allows assigning a flight plan to a uav and placing it in the execution queue, system. assign flight plan to specific uav, place in uav's execution queue.

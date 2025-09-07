@@ -1,0 +1,1 @@
+- user login validation, ensures only users with correct credentials can access the system, user. user enters login and password, system verifies credentials, system denies access and displays error message if credentials are invalid or session is expired, invalid credentials or expired sessions restrict access.

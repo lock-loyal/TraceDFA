@@ -1,0 +1,1 @@
+- monitor uav state, track and observe the current status of a uav, monitoring system. ground station sends monitoring messages for a specific uav. each message must be associated with a specific uav and ground station.

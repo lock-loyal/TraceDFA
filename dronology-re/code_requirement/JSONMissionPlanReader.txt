@@ -1,0 +1,3 @@
+- define mission with multiple uavs, define coordinated missions involving multiple uavs each with assigned tasks, mission planner. mission planner defines coordinated missions involving multiple uavs each with assigned tasks.  
+- parse task parameters, parse tasks including optional duration parameter for each task, mission planner. each task includes optional duration parameter.  
+- import mission plan, parse mission plans from json formatted input files, mission planner. import mission plans from json formatted input files.

@@ -1,0 +1,1 @@
+- select map layers, allows user to choose between different map layers for flight visualization, user. display available map layers including satellite, carto light, and local south bend maps.

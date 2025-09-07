@@ -1,0 +1,1 @@
+- velocity command, send velocity vector commands to uavs using ned coordinate system, flight operator. flight operator sends velocity command with x y z values in ned coordinates.

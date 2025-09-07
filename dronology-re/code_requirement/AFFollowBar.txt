@@ -1,0 +1,3 @@
+- track selected uavs, display selected uavs being tracked in real time on the map with their names, active flights ui. user selects uavs to track, active flights ui displays their names and updates positions in real time.
+- stop following uavs, revert map to default view when stopping tracking of selected uavs, active flights ui. user clicks stop following button, map centers to default view and stops tracking.
+- update tracked uav list, dynamically update displayed list of tracked uavs when selection changes, active flights ui. selected uavs change, ui updates displayed uav names.

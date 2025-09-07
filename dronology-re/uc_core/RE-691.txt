@@ -1,0 +1,1 @@
+uav operations, allow users to apply flight operations to selected uavs, real time flight ui. apply flight operations to one or more selected uavs.

@@ -1,0 +1,5 @@
+- coordinated takeoff, execute takeoff sequence for multiple uavs with synchronized altitude and waypoints, mission planner. uavs ascend to coordination altitude, synchronize, move to target latitude/longitude at coordination altitude, synchronize, then descend to target altitude.  
+- altitude synchronization, ensure all uavs reach the same altitude before proceeding to next step, mission planner. uavs reach predefined coordination altitude before moving to target latitude/longitude.  
+- waypoint synchronization, enforce uavs reach specific waypoints before proceeding, mission planner. uavs reach intermediate waypoints and wait for synchronization confirmation.  
+- mission task sequencing, define sequence of tasks including takeoff, waypoints, and synchronization points, mission planner. tasks added in sequence: takeoff to coordination altitude, synchronize, move to target latitude/longitude, synchronize, descend to target altitude.  
+- target altitude adjustment, adjust target waypoint altitude from coordination to final altitude, mission planner. final waypoint altitude adjusted from coordination altitude to mission target altitude.

@@ -1,0 +1,1 @@
+accept student registration, allows the administrator to accept a student's registration to the system, administrator. system activates new user, displays list of registrations still to be activated.

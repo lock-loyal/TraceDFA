@@ -1,0 +1,4 @@
+- delete news, remove existing news entry, operator. access delete function, select news, confirm deletion, validate permissions, remove entry from system, display confirmation. news must exist and be active.  
+- insert news, add new news entry within allowed limit, operator. access news creation, fill form, submit data, validate format and maximum count, store entry, notify success. maximum active news limit enforced.  
+- modify news, update existing news details, operator. select news to edit, modify fields, submit changes, validate data, update entry, confirm success. valid data format required.  
+- retrieve news, display list of all active news entries, operator. request news list, fetch data from database, present in interface. system requires successful database connection.

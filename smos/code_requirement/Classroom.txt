@@ -1,0 +1,1 @@
+- manage classroom details, allows the administrator to create or update classroom information, administrator. administrator enters classroom name, selects associated address, specifies academic year, and saves the details, system stores the classroom data. classroom name and academic year must be provided.

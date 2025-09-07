@@ -1,0 +1,3 @@
+- define mission plan, create mission plans composed of multiple route sets for coordinated drone operations, mission planner. mission plans created by adding route sets and specifying name and description.  
+- manage route sets, add and organize route sets within a mission plan to structure complex drone missions, mission planner. add route sets to mission plan to organize mission structure.  
+- mission metadata, assign descriptive metadata including name and description to mission plans for identification, mission planner. assign name and description to mission plans.

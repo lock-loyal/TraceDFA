@@ -1,0 +1,1 @@
+message frequency assignment, assign a message frequency for all uavs, gcs. assign message frequency for all uavs.

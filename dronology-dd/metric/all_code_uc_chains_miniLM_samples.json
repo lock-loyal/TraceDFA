@@ -1,0 +1,246 @@
+{
+    "fp": [
+        {
+            "UAVMissionPlan": "- create mission plan with tasks, allows mission planner to create mission plans containing routes, waypoints, takeoff, landing, and synchronization tasks, mission planner. define sequence of tasks including routes, waypoints, takeoff, landing, and synchronization points.  \n- synchronize uavs at designated points, enforce uavs to wait until all reach synchronization point before proceeding, system. uav arrives at synchronization point, wait until all others arrive, release when all synched.  \n- expand flight pattern into executable tasks, translate predefined flight patterns into concrete mission tasks during planning phase, system. process patterns like synchronized takeoff/landing, generate corresponding waypoint and coordination tasks.  \n- manage task execution order, ensure tasks execute in predefined sequence according to mission plan, system. execute tasks in order: takeoff, route navigation, synchronization, landing.  \n- handle route-based task dependencies, require route tasks to have defined waypoints before pattern expansion, system. validate presence of route waypoints before processing flight patterns.  \n- coordinate altitude for mission operations, set common altitude for synchronized flight operations, mission planner. specify coordination altitude for takeoff/landing patterns.",
+            "DD-538": "wait at synchronization points, ensures uavs wait at synchronization points until all other uavs sharing the point have arrived, system. uav reaches synchronization point during flight plan execution, waits until all other uavs at same synchronization point arrive.",
+            "score": 0.9312834143638611,
+            "correct": false
+        },
+        {
+            "MissionPlanningServiceRemoteFacade": "- import saved mission plans, allows importing and executing predefined mission plans specified in json, user. provide interface to import saved mission plans, execute predefined missions specified in json.  \n- cancel active mission, enables cancellation of currently executing mission plan, user. trigger cancellation command, stop all mission-related operations.  \n- remote mission execution, facilitates execution of mission plans through remote service interface, system. accept mission plan via remote call, forward to mission planning service.",
+            "DD-546": "cancel mission, allows user to cancel a currently executing mission by removing pending flight plans and synchronization points, user. request mission cancellation, remove pending flight plans and synchronization points.",
+            "score": 0.9222208857536316,
+            "correct": false
+        },
+        {
+            "IMissionPlanningServiceInstance": "- execute predefined mission plans, allows executing predefined mission plans identified by their names, user. select predefined mission plan by name, trigger execution.  \n- cancel active mission, allows cancellation of the currently active mission, user. trigger cancellation command to halt active mission.  \n- remove uav from active mission, allows removing a specific uav from the current mission using its identifier, user. select uav by id, initiate removal from mission.",
+            "DD-546": "cancel mission, allows user to cancel a currently executing mission by removing pending flight plans and synchronization points, user. request mission cancellation, remove pending flight plans and synchronization points.",
+            "score": 0.8972175121307373,
+            "correct": false
+        },
+        {
+            "IFlightManagerServiceInstance": "- plan flight with waypoints, allows user to create flight plans by specifying waypoints for a uav, user. select uav, define waypoints, create flight plan.  \n- return uav to home location, enables user to command a uav to return to its home position, user. initiate return-to-home command for selected uav.  \n- pause active flight, allows user to temporarily halt a uav's current flight, user. trigger pause command during flight execution.  \n- cancel pending flight plans, enables user to remove queued flight plans for a uav, user. select uav, cancel pending flight plans.  \n- initiate uav takeoff, allows user to command a uav to take off to specified altitude, user. issue takeoff command with target altitude.  \n- emergency stop uav, enables user to immediately stop uav operations in critical situations, user. trigger emergency stop command during flight.  \n- retrieve flight status information, provides user access to real-time flight data for monitoring, user. request flight info, display status details.",
+            "DD-735": "uav takeoff command, specifies the target altitude for the takeoff command, system. takeoff command specifies target altitude.",
+            "score": 0.8956774473190308,
+            "correct": false
+        },
+        {
+            "MissionPlanningService": "- import saved mission plans, allows importing and executing predefined mission plans specified in json, system. provide interface to import saved mission plans, execute predefined missions specified in json.  \n- cancel active mission, enables user to terminate currently executing mission, user. initiate cancellation command, system stops all mission operations.  \n- remove uav from active mission, allows dynamic removal of specific uav from ongoing mission, operator. select uav to remove, system updates mission configuration excluding selected uav. must handle uav state changes during removal.",
+            "DD-546": "cancel mission, allows user to cancel a currently executing mission by removing pending flight plans and synchronization points, user. request mission cancellation, remove pending flight plans and synchronization points.",
+            "score": 0.8955391645431519,
+            "correct": false
+        },
+        {
+            "MissionPlanningServiceInstance": "- execute predefined mission plans, allows user to execute predefined mission plans stored in the system, user. select mission plan, trigger execution through mission controller.  \n- cancel ongoing mission, enables cancellation of currently active mission via mission controller, user. initiate cancellation command, mission controller terminates mission execution.  \n- manage uav participation in missions, allows dynamic removal of uavs from active missions during runtime, operator. select uav to remove, update mission synchronization.  \n- handle mission execution errors, log errors when mission execution encounters failures, system. detect execution exception, log error details.  \n- coordinate mission synchronization, maintain synchronization of uavs participating in active missions, system. track uav status, update synchronization manager.",
+            "DD-546": "cancel mission, allows user to cancel a currently executing mission by removing pending flight plans and synchronization points, user. request mission cancellation, remove pending flight plans and synchronization points.",
+            "score": 0.8946719169616699,
+            "correct": false
+        },
+        {
+            "FlightManagerService": "- assign flight plans to uavs, allows users to assign flight plans containing waypoints to specific uavs, user. select uav, define flight plan with waypoints, assign to uav.  \n- command uav takeoff, enables users to initiate takeoff procedure for uavs with specified altitude, user. select uav, set altitude, execute takeoff command.  \n- return uav to home location, provides capability to instruct uav to automatically navigate back to its origin point, user. activate return-to-home command for selected uav.  \n- pause active flight, allows temporary suspension of uav's current flight operations, user. trigger pause command during uav flight.  \n- cancel queued flight plans, enables removal of pending flight assignments for uavs, user. select uav, clear unexecuted flight plans.  \n- emergency flight termination, immediately stops all uav operations for safety purposes, user. activate emergency stop command during flight.  \n- retrieve active flight data, provides real-time information about ongoing uav flights, user. request status updates for monitored uavs.",
+            "DD-735": "uav takeoff command, specifies the target altitude for the takeoff command, system. takeoff command specifies target altitude.",
+            "score": 0.8860337734222412,
+            "correct": false
+        },
+        {
+            "PhysicalDrone": "- send movement commands to uav, allows system to send movement commands including fly to waypoint, set speed, and set velocity, system. send fly to waypoint command with coordinates and speed, set speed or velocity as specified.  \n- initiate landing procedure, allows user to command uav to land, user. send land command to uav, execute landing procedure.  \n- execute takeoff command, allows user to command uav to take off to specified altitude, user. send takeoff command with altitude parameter, execute takeoff.  \n- resend last command, enables resending last command in case of failure, system. detect command failure, resend last command to uav.  \n- update uav coordinates, system updates uav's current coordinates during flight, system. continuously update coordinates based on uav's position.  \n- adjust uav ground speed, allows user to adjust uav's ground speed during flight, user. send set ground speed command with desired speed value.  \n- set uav flight velocity, enables setting 3d velocity for uav movement, user. send velocity command with x, y, z parameters.  \n- monitor battery level, system tracks and updates uav's battery status during operations, system. continuously monitor battery level, update status information.  \n- verify waypoint proximity, system checks distance to target waypoint to determine arrival, system. calculate distance to target, mark reached when within threshold.",
+            "DD-735": "uav takeoff command, specifies the target altitude for the takeoff command, system. takeoff command specifies target altitude.",
+            "score": 0.8828409314155579,
+            "correct": false
+        },
+        {
+            "IMissionPlanningRemoteService": "- execute predefined mission plans, allows executing predefined mission plans specified in json, system. parse mission plan from json, execute coordinated drone operations.\n- cancel active mission, allows cancellation of the currently active mission, user. trigger cancellation command, stop all mission-related drone operations.",
+            "DD-546": "cancel mission, allows user to cancel a currently executing mission by removing pending flight plans and synchronization points, user. request mission cancellation, remove pending flight plans and synchronization points.",
+            "score": 0.8803777694702148,
+            "correct": false
+        },
+        {
+            "AFMissionOperations": "- execute predefined mission, allows user to upload and execute a predefined mission file through the ui, user. select mission file via upload component, execute mission upon successful upload.  \n- cancel active mission, enables user to cancel the currently active mission via a dedicated button, user. click cancel mission button, confirm cancellation.",
+            "DD-546": "cancel mission, allows user to cancel a currently executing mission by removing pending flight plans and synchronization points, user. request mission cancellation, remove pending flight plans and synchronization points.",
+            "score": 0.8742004632949829,
+            "correct": false
+        },
+        {
+            "FRDeleteRouteConfirmation": "- delete flight routes, allows user to delete existing flight routes from the system, user. select route, confirm deletion, remove route from system. requires user confirmation before deletion.",
+            "DD-658": "delete routes, allows deletion of unexecuted flight plan routes assigned to a uav, user. select route, click deselect button to delete unexecuted flight plan.",
+            "score": 0.8739751577377319,
+            "correct": false
+        },
+        {
+            "DroneSetupServiceInstance": "- initialize uavs in physical or virtual mode, allows initializing uavs in either physical or virtual mode based on user selection, user. select mode (physical/virtual), initialize uav accordingly.\n- deactivate uavs and cancel associated plans, deactivate selected uavs and cancel their pending or current flight plans, user. select uav, deactivate, cancel plans.\n- resend commands to uavs, allows resending commands to a uav in case of communication failure, user. select uav, resend command.\n- uav mode initialization constraint, uavs must be initialized as either physical or virtual, system. initialization requires mode selection.\n- active uav verification for commands, ensure commands are only sent to active uavs, system. verify uav is active before sending commands.",
+            "DD-588": "deactivate physical uavs, removes all scheduled flight plans when a uav is deactivated, system. deactivate uav, remove all scheduled flight plans from flight plan pool.",
+            "score": 0.8709221482276917,
+            "correct": false
+        },
+        {
+            "CoordinatedTakeoffPattern": "- coordinated takeoff with synchronized ascent, defines a sequence for uavs to ascend to a common altitude before moving to target, system. uavs ascend to common altitude, synchronize, then proceed to target coordinates.  \n- enforce altitude synchronization, ensures all uavs reach specified altitude before horizontal movement, system. uavs must reach coordination altitude and trigger sync point before lateral motion.  \n- sequential waypoint synchronization, requires uavs to reach intermediate waypoints and confirm before proceeding, system. uavs reach ascent waypoint, trigger sync, reach lateral waypoint, trigger sync, then descend to final target.  \n- collision avoidance during ascent, assigns unique altitudes when coordination altitude not predefined, system. generate unique altitude levels if coordination altitude parameter is unset.",
+            "DD-544": "synchronized landing, directs uavs to synchronize landing procedures through coordinated waypoints and altitudes, system. direct each uav to synchronize at final waypoint of preceding route, ascend or descend to unique altitude, synchronize, fly to home coordinates, synchronize, then descend to landing altitude.",
+            "score": 0.8660086989402771,
+            "correct": false
+        },
+        {
+            "FlightRouteplanningServiceRemoteFacade": "- manage flight route categories, handle the organization of flight routes into categories, system. create, update, or delete flight route categories as needed.  \n- create new flight routes, allows users to generate new flight routes through the system interface, user. initiate route creation, define waypoints, save route.  \n- delete existing flight routes, permits removal of obsolete or unused flight routes, user. select route, confirm deletion, remove from system.  \n- update flight route information, enables modification of existing flight route details such as waypoints or names, user. select route, edit details, save changes.  \n- retrieve flight route list, fetch and display all available flight routes, user. request route list, system returns all stored routes.  \n- notify on route changes, alert listeners when flight route data is modified, system. detect change in route data, trigger notifications to subscribed listeners.",
+            "DD-658": "delete routes, allows deletion of unexecuted flight plan routes assigned to a uav, user. select route, click deselect button to delete unexecuted flight plan.",
+            "score": 0.8643656969070435,
+            "correct": false
+        },
+        {
+            "DronologyActionExecutor": "- assign flight routes to uav, allows user to assign one or multiple flight routes to a selected uav with confirmation, user. select uav, choose routes, confirm assignment, cancel pending flights, activate new routes. uav must not be on ground for return home.  \n- return to home command, enables user to send uav back to home location after confirmation, user. initiate return to home, confirm action, execute if uav is not on ground.  \n- resend command to uav, allows user to resend latest command to uav through the ui, user. trigger resend command via ui, forward to uav.",
+            "DD-647": "assign routes to uav, allows user to assign routes to a selected uav from an available route list, user. select uav, assign routes from available route list.",
+            "score": 0.8543911576271057,
+            "correct": false
+        },
+        {
+            "IFlightManagerRemoteService": "- schedule flight with waypoints, allows user to schedule a flight by specifying a plan name and list of waypoints, user. define plan name, specify waypoints, submit flight plan.  \n- assign flight plan to uav, enables assigning a predefined flight plan to a specific uav identified by uav_id, user. select uav, choose flight plan, assign to uav.  \n- command uav to return home, triggers uav to return to its home location, user. select uav, activate return-to-home command.  \n- initiate uav takeoff, allows user to command a uav to takeoff to a specified altitude, user. select uav, set altitude, trigger takeoff.  \n- pause active flight, enables pausing the current flight of a selected uav, user. select uav in flight, activate pause command.  \n- retrieve flight status, provides detailed flight information for a specified uav, user. select uav, request current flight status.  \n- list active flights, displays all currently active flights in the system, user. access flight manager, view active flights list.  \n- cancel pending flights, removes all pending flight plans assigned to a uav, user. select uav, clear pending flight queue.",
+            "DD-735": "uav takeoff command, specifies the target altitude for the takeoff command, system. takeoff command specifies target altitude.",
+            "score": 0.8531743288040161,
+            "correct": false
+        },
+        {
+            "SimpleSimulator": "- simulate battery consumption during flight, simulate battery drain while the drone is in flight, system. activate battery drain simulation when flight starts, update voltage levels during flight.  \n- update drone position based on flight path, adjust drone's current position towards target coordinates during simulation, system. calculate movement step, update current position iteratively.  \n- verify destination reached status, check if drone has reached target coordinates within simulation step, system. compare current position to target, return true if within distance threshold.  \n- monitor battery voltage at checkpoints, record battery voltage at specific checkpoints during flight simulation, system. trigger checkpoint check during flight, log current voltage level.  \n- terminate battery drain simulation, stop battery consumption process when flight simulation ends, system. halt voltage drain updates upon flight completion.",
+            "DD-603": "simulate battery drain in simple simulator, simulates battery drain for a uav in flight by reducing battery voltage every second, system. when simulated uav is in flight, internalsimulator reduces battery by simulator_battery_drain_volts every second.",
+            "score": 0.8502487540245056,
+            "correct": false
+        },
+        {
+            "NVECSimulator": "- simulate uav flight movement, calculates uav movement between waypoints using n-vector coordinate system, system. calculate movement between current and target positions using n-vector interpolation, update uav coordinates.  \n- track uav battery consumption, simulates battery voltage drain during flight operations, system. start battery drain simulation upon flight initiation, update voltage levels during flight.  \n- determine destination reachability, checks if uav has reached target waypoint based on distance moved per time step, system. calculate remaining distance to target, confirm arrival when within threshold.  \n- convert geographic coordinates to n-vector, transforms latitude/longitude/altitude coordinates to n-vector representation for flight simulation, system. convert lla coordinates to n-vector when setting flight path.  \n- maintain flight path parameters, stores current and target positions for ongoing flight simulation, system. update position parameters when new flight path is assigned.  \n- monitor battery voltage levels, provides real-time voltage status during flight operations, system. retrieve current voltage level from battery simulation component.",
+            "DD-529": "determine if waypoint is reached, determines whether uav has reached target waypoint based on distance threshold, system. if computed distance from uav to target waypoint is less than threshold_waypoint_distance, waypoint is considered reached.",
+            "score": 0.8485480546951294,
+            "correct": false
+        },
+        {
+            "SynchronizationPoint": "- synchronization point for mission coordination, coordinate multiple uavs to reach a synchronization point before proceeding with mission, system. register uavs to synchronization point, activate synchronization, wait for all uavs to reach point, proceed once all arrived.  \n- manage collaborators for synchronization points, allows adding and removing uavs from synchronization points, system. add uavs to synchronization point, remove upon arrival, track remaining collaborators.",
+            "DD-538": "wait at synchronization points, ensures uavs wait at synchronization points until all other uavs sharing the point have arrived, system. uav reaches synchronization point during flight plan execution, waits until all other uavs at same synchronization point arrive.",
+            "score": 0.8465008735656738,
+            "correct": false
+        },
+        {
+            "NVECSimulator": "- simulate uav flight movement, calculates uav movement between waypoints using n-vector coordinate system, system. calculate movement between current and target positions using n-vector interpolation, update uav coordinates.  \n- track uav battery consumption, simulates battery voltage drain during flight operations, system. start battery drain simulation upon flight initiation, update voltage levels during flight.  \n- determine destination reachability, checks if uav has reached target waypoint based on distance moved per time step, system. calculate remaining distance to target, confirm arrival when within threshold.  \n- convert geographic coordinates to n-vector, transforms latitude/longitude/altitude coordinates to n-vector representation for flight simulation, system. convert lla coordinates to n-vector when setting flight path.  \n- maintain flight path parameters, stores current and target positions for ongoing flight simulation, system. update position parameters when new flight path is assigned.  \n- monitor battery voltage levels, provides real-time voltage status during flight operations, system. retrieve current voltage level from battery simulation component.",
+            "DD-603": "simulate battery drain in simple simulator, simulates battery drain for a uav in flight by reducing battery voltage every second, system. when simulated uav is in flight, internalsimulator reduces battery by simulator_battery_drain_volts every second.",
+            "score": 0.8459976315498352,
+            "correct": false
+        }
+    ],
+    "fn": [
+        {
+            "DroneConnectorServiceInstance": "- ground station connection management, manage active connections to ground stations, system. track active ground station connections, enforce maximum connection limit.  \n- enforce maximum concurrent ground station connections, restrict number of simultaneous ground station connections to predefined limit, system. new connection requests exceeding limit are rejected.  \n- unregister drones on ground station disconnection, remove associated drones when ground station connection terminates, system. ground station disconnects, unregister all linked drones.  \n- integrate with drone setup service for drone deactivation, coordinate with drone setup service during ground station disconnection, system. invoke drone deactivation through drone setup service when disconnecting.  \n- handle incoming ground station connection requests, process new connection requests from ground stations, system. receive connection request, validate uniqueness, register if acceptable.",
+            "DD-737": "connection lost, deactivates all uavs associated with gcs when a socket error or time-out occurs, system. when a socket error or time-out occurs, deactivate all uavs associated with gcs.",
+            "score": 0.47145572304725647,
+            "correct": true
+        },
+        {
+            "MissionController": "- mission execution, allows operator to initiate a mission after ensuring no other mission is active, operator. initiate mission when no other mission is active, execute predefined tasks in sequence. only one mission can be active at a time.\n- sequential task activation, activates mission tasks automatically when previous tasks are completed, system. check for completed tasks, activate next task in sequence upon completion.\n- mission cancellation, allows operator to cancel the currently active mission, operator. request mission cancellation, stop all active tasks, reset synchronization states. mission must be active to cancel.\n- altitude synchronization reset, resets uav altitudes to default after mission completion or cancellation, system. upon mission completion or cancellation, reset all uav altitudes to default.",
+            "DD-468": "import saved mission plans, allows importing and executing predefined mission plans specified in json, system. provide interface to import saved mission plans, execute predefined missions specified in json.",
+            "score": 0.47132110595703125,
+            "correct": true
+        },
+        {
+            "AFInfoBox": "- assign new flight route to uav, allows user to assign a new flight route to a selected uav via ui button, user. click assign route button, select from available routes, confirm assignment.\n- display real-time uav status information, shows current uav status including battery level and flight mode in active flights panel, system. continuously update status info during flight operations.\n- toggle hover in place mode for uav, enables switching hover mode via toggle switch in active flight info box, user. flip hover switch to activate/deactivate position holding.\n- initiate uav takeoff sequence, triggers takeoff procedure through dedicated button with altitude specification, user. click takeoff button, input target altitude, confirm takeoff.\n- return uav to home location, activates return-to-home procedure via dedicated button in active flight panel, user. click return home button to cancel routes and initiate landing.\n- resend previous command to uav, allows resending last command through dedicated button when communication issues occur, user. click resend command button to retransmit last instruction.\n- disable controls during user-controlled mode, grays out interaction buttons when uav enters user-controlled flight mode, system. detect user-controlled status, disable route/takeoff commands.",
+            "DD-764": "ui middleware forwards resend waypoint commands from clients to dronology, allows ui middleware to forward resend waypoint commands from clients to dronology, uimiddleware. accept resend waypoint commands with {{uav_id}}, forward to dronology.",
+            "score": 0.4688154458999634,
+            "correct": true
+        },
+        {
+            "ImageProvider": "- display uav status icons, show different icons for uav statuses like ok or user-controlled, ui. retrieve status icons from image provider based on current uav state.  \n- provide visual indicators for uav commands, display icons for commands such as takeoff, rtl, assign route, and resend command, ui. load command icons from image resources, display in relevant ui components.  \n- assign routes to uav via ui button, allow users to assign routes to uavs using a dedicated button with route icon, user. click assign route button to initiate route assignment.  \n- display focused uav with highlighted icon, highlight uav icon when selected or in focus, ui. change uav icon to focused image upon selection.  \n- represent uav waypoints with dot icons, use dot icons to mark waypoints on the map, ui. load dot icon from resources, display at waypoint coordinates.",
+            "DD-764": "ui middleware forwards resend waypoint commands from clients to dronology, allows ui middleware to forward resend waypoint commands from clients to dronology, uimiddleware. accept resend waypoint commands with {{uav_id}}, forward to dronology.",
+            "score": 0.4680299758911133,
+            "correct": true
+        },
+        {
+            "FRMetaInfo": "- display flight route metadata, show route name, description, number of waypoints, creation and modification dates, user. select a flight route, display metadata including name, description, waypoints count, dates.  \n- toggle between map and table views, allow users to switch between graphical map and tabular route representations, user. enable checkbox to display table view or hide it.  \n- enable auto-zoom to route, automatically adjust map viewport to display entire route when selected, user. check zoom to route checkbox for automatic viewport adjustment.  \n- confirm unsaved changes before route deletion, prompt user to confirm deletion if unsaved edits exist, system. attempt to delete route with pending changes, show confirmation dialog.  \n- edit route name and description via double-click, modify route metadata by double-clicking labels in info panel, user. double-click name or description field, enter edit mode, save on focus loss.",
+            "DD-767": "modify existing routes, allows modification of existing routes, routecreationui. provide capabilities to modify existing routes.",
+            "score": 0.4678560197353363,
+            "correct": true
+        },
+        {
+            "TakeoffCommand": "- takeoff command with altitude parameter, send takeoff command to drone with specified altitude, system. create takeoff command with drone id and altitude (in meters), send to drone for execution, altitude must be specified in meters.",
+            "DD-731": "uav movement command types, ensures each movement command specifies a valid command type, system. define command types as goto_waypoint, set_groundspeed, set_velocity, takeoff, land, hover.",
+            "score": 0.46652936935424805,
+            "correct": true
+        },
+        {
+            "SetStateFrequencyCommand": "- adjust state update frequency, allows modifying the frequency of state updates from uavs, system. send command to uav with new frequency value in milliseconds.",
+            "DD-768": "uav configuration command types, specifies command types for uav configuration, system. each movement command shall specify one of the following command types: set_monitoring_frequency, set_state_frequency.",
+            "score": 0.4642462730407715,
+            "correct": true
+        },
+        {
+            "ManagedDrone": "- manage flight mode states, track and manage flight mode states including taking off, flying, landing, and in_air, system. track flight mode states, update based on drone actions and commands.\n- enforce safety distance during takeoff, ensure safe distance from other drones before allowing takeoff, system. check distances to other drones, prevent takeoff if within safety zone.\n- monitor and update drone status, continuously update drone status including coordinates and flight state, system. monitor drone coordinates and state, update status information.\n- handle emergency stop commands, process emergency stop commands to immediately halt drone operations, system. receive emergency stop command, halt drone operations.\n- manage flight plan assignments, assign and unassign flight plans to drones, system. assign flight plan to drone, unassign upon completion or command.\n- execute waypoint navigation, navigate drone through assigned flight plan waypoints, system. move drone to next waypoint, notify upon reaching waypoint.\n- control temporary flight halts, allow temporary halts in drone flight with automatic resumption, system. initiate halt, resume flight after specified duration.\n- coordinate landing procedures, manage landing process including state transitions and flight unassignment, system. set landing state, unassign flight upon landing completion.\n- track and enforce safety modes, manage safety modes such as normal and halted states, system. set safety mode based on commands or conditions, enforce mode restrictions.",
+            "DD-26": "activation state is on_ground, sets uav state to on_ground when initially activated on the ground, system. when uav is activated on ground, transition to on_ground state.",
+            "score": 0.4628738462924957,
+            "correct": true
+        },
+        {
+            "FRTableDisplay": "- edit waypoint details, allows users to edit waypoint latitude, longitude, altitude, and transit speed with validation, user. select waypoint, modify values within defined ranges, validate inputs. latitude between -90 and 90, longitude between -180 and 180, altitude between 0-100 meters, transit speed greater than zero.\n- delete waypoint entries, provides delete button per waypoint row with confirmation dialog, user. click delete button, confirm deletion in dialog. prevent accidental deletions through confirmation.\n- display waypoint sequence numbers, shows waypoint order as sequential numbers starting from 1, system. automatically number waypoints based on position in route.\n- synchronize map markers with table data, updates map marker positions when waypoint coordinates are modified, system. coordinate changes in table automatically reflect on map visualization.",
+            "DD-674": "create and modify route in visual mode, allows user to create and modify routes by interacting with a visual interface, system. routecreationui supports route creation and modification in visual mode, user clicks location to create, modify, or delete waypoint.",
+            "score": 0.45910072326660156,
+            "correct": true
+        },
+        {
+            "FlightManagerService": "- assign flight plans to uavs, allows users to assign flight plans containing waypoints to specific uavs, user. select uav, define flight plan with waypoints, assign to uav.  \n- command uav takeoff, enables users to initiate takeoff procedure for uavs with specified altitude, user. select uav, set altitude, execute takeoff command.  \n- return uav to home location, provides capability to instruct uav to automatically navigate back to its origin point, user. activate return-to-home command for selected uav.  \n- pause active flight, allows temporary suspension of uav's current flight operations, user. trigger pause command during uav flight.  \n- cancel queued flight plans, enables removal of pending flight assignments for uavs, user. select uav, clear unexecuted flight plans.  \n- emergency flight termination, immediately stops all uav operations for safety purposes, user. activate emergency stop command during flight.  \n- retrieve active flight data, provides real-time information about ongoing uav flights, user. request status updates for monitored uavs.",
+            "DD-631": "ui middleware forwards hover in place commands from clients to dronology, allows ui middleware to forward hover in place commands from clients to dronology, uimiddleware. accept hover in place commands associated with uav_id, forward to dronology.",
+            "score": 0.45895588397979736,
+            "correct": true
+        },
+        {
+            "MyUI": "- real-time drone status updates, automatically refresh drone information and map display at configured intervals, system. update drone statuses every second, refresh map with focused and checked drones.  \n- establish connection to backend services, initialize service provider to connect ui with backend server on startup, system. connect to specified host and port during ui initialization.  \n- maintain active session for ui updates, ensure ui updates occur only when vaadin session is active, system. check session validity before executing refresh tasks.  \n- display navigation bar with drone controls, set navigation bar as main ui component containing flight controls and views, user. load navigation bar on ui startup, provide access to flight controls.  \n- configure ui refresh rate, set interval for automatic ui updates based on configuration settings, system. use predefined refresh rate from configuration for update scheduling.",
+            "DD-682": "request uav state upon loading, allows ui to retrieve and display activated uavs information upon loading, system. ui requests activated uavs info from uimiddleware upon loading, displays list upon response.",
+            "score": 0.45703554153442383,
+            "correct": true
+        },
+        {
+            "FlightPlan": "- flight plan creation, create flight plans with waypoints and assign to uavs, user. define waypoints, assign to uav, save as flight plan. flight plan must include start and end coordinates.\n- flight status management, manage flight status transitions from planned to flying to completed, system. flight status changes only allowed from planned to flying, flying to completed.\n- flight plan monitoring, track flight progress by checking waypoint completion, system. monitor each waypoint reached status, update flight completion status when all waypoints reached.\n- uav assignment to flight plans, assign specific uavs to flight plans during planning phase, user. select uav during flight plan creation, link to flight plan.\n- flight plan validation, ensure flight plan transitions adhere to valid status sequences, system. prevent invalid status changes like completed to flying.",
+            "DD-81": "hover at completion of flight, sets uav state to in_air when flight plan queue is empty after reaching final waypoint, system. uav reaches final waypoint of current flight plan, check if queue is empty, set state to in_air.",
+            "score": 0.45679527521133423,
+            "correct": true
+        },
+        {
+            "AFInfoBox": "- assign new flight route to uav, allows user to assign a new flight route to a selected uav via ui button, user. click assign route button, select from available routes, confirm assignment.\n- display real-time uav status information, shows current uav status including battery level and flight mode in active flights panel, system. continuously update status info during flight operations.\n- toggle hover in place mode for uav, enables switching hover mode via toggle switch in active flight info box, user. flip hover switch to activate/deactivate position holding.\n- initiate uav takeoff sequence, triggers takeoff procedure through dedicated button with altitude specification, user. click takeoff button, input target altitude, confirm takeoff.\n- return uav to home location, activates return-to-home procedure via dedicated button in active flight panel, user. click return home button to cancel routes and initiate landing.\n- resend previous command to uav, allows resending last command through dedicated button when communication issues occur, user. click resend command button to retransmit last instruction.\n- disable controls during user-controlled mode, grays out interaction buttons when uav enters user-controlled flight mode, system. detect user-controlled status, disable route/takeoff commands.",
+            "DD-694": "applying emergency operations, applies emergency actions to selected uavs or all by default, ui. user requests emergency action, apply to selected uavs; if none selected, apply to all.",
+            "score": 0.4547996520996094,
+            "correct": true
+        },
+        {
+            "DroneConnectorServiceInstance": "- ground station connection management, manage active connections to ground stations, system. track active ground station connections, enforce maximum connection limit.  \n- enforce maximum concurrent ground station connections, restrict number of simultaneous ground station connections to predefined limit, system. new connection requests exceeding limit are rejected.  \n- unregister drones on ground station disconnection, remove associated drones when ground station connection terminates, system. ground station disconnects, unregister all linked drones.  \n- integrate with drone setup service for drone deactivation, coordinate with drone setup service during ground station disconnection, system. invoke drone deactivation through drone setup service when disconnecting.  \n- handle incoming ground station connection requests, process new connection requests from ground stations, system. receive connection request, validate uniqueness, register if acceptable.",
+            "DD-445": "monitoring api, allows publishing of arbitrary monitoring messages and subscribing to specific message types, dronologyruntimemonitor. publish arbitrary monitoring messages, subscribe to specific message types.",
+            "score": 0.4545760154724121,
+            "correct": true
+        },
+        {
+            "MyUI": "- real-time drone status updates, automatically refresh drone information and map display at configured intervals, system. update drone statuses every second, refresh map with focused and checked drones.  \n- establish connection to backend services, initialize service provider to connect ui with backend server on startup, system. connect to specified host and port during ui initialization.  \n- maintain active session for ui updates, ensure ui updates occur only when vaadin session is active, system. check session validity before executing refresh tasks.  \n- display navigation bar with drone controls, set navigation bar as main ui component containing flight controls and views, user. load navigation bar on ui startup, provide access to flight controls.  \n- configure ui refresh rate, set interval for automatic ui updates based on configuration settings, system. use predefined refresh rate from configuration for update scheduling.",
+            "DD-688": "periodically update uav location, allows ui to periodically request and update uav locations on the map, ui. request current locations from uimiddleware, update uav locations on map.",
+            "score": 0.45285147428512573,
+            "correct": true
+        },
+        {
+            "ManagedDrone": "- manage flight mode states, track and manage flight mode states including taking off, flying, landing, and in_air, system. track flight mode states, update based on drone actions and commands.\n- enforce safety distance during takeoff, ensure safe distance from other drones before allowing takeoff, system. check distances to other drones, prevent takeoff if within safety zone.\n- monitor and update drone status, continuously update drone status including coordinates and flight state, system. monitor drone coordinates and state, update status information.\n- handle emergency stop commands, process emergency stop commands to immediately halt drone operations, system. receive emergency stop command, halt drone operations.\n- manage flight plan assignments, assign and unassign flight plans to drones, system. assign flight plan to drone, unassign upon completion or command.\n- execute waypoint navigation, navigate drone through assigned flight plan waypoints, system. move drone to next waypoint, notify upon reaching waypoint.\n- control temporary flight halts, allow temporary halts in drone flight with automatic resumption, system. initiate halt, resume flight after specified duration.\n- coordinate landing procedures, manage landing process including state transitions and flight unassignment, system. set landing state, unassign flight upon landing completion.\n- track and enforce safety modes, manage safety modes such as normal and halted states, system. set safety mode based on commands or conditions, enforce mode restrictions.",
+            "DD-468": "import saved mission plans, allows importing and executing predefined mission plans specified in json, system. provide interface to import saved mission plans, execute predefined missions specified in json.",
+            "score": 0.4518371522426605,
+            "correct": true
+        },
+        {
+            "IFlightDirector": "- manage flight path waypoints, allows system to handle waypoints for uav flight path, system. add, clear, and check waypoints during flight.  \n- navigate to next waypoint, directs uav to proceed to next predefined waypoint in flight plan, system. execute flytonextpoint command after reaching current waypoint.  \n- enforce safety directives, checks if flight is under safety-related restrictions during operations, system. verify safety status before proceeding with flight commands.  \n- initiate return-to-home procedure, triggers uav to return to home coordinates, system. execute returnhome command based on predefined home waypoint.  \n- validate takeoff readiness, confirms uav readiness for takeoff before launch, system. perform checks via readytotakeoff method prior to takeoff.  \n- validate landing readiness, confirms uav readiness for landing procedure, system. perform checks via readytoland method prior to landing.  \n- update flight path dynamically, enables modification of waypoints during flight operations, system. add or set new waypoints while flight is active.",
+            "DD-692": "uav operations, allows uav to perform operations including rtl, takeoff, hover in place, and resend command, system. include rtl, takeoff, hover in place, resend command operations.",
+            "score": 0.45108091831207275,
+            "correct": true
+        },
+        {
+            "MyUI": "- real-time drone status updates, automatically refresh drone information and map display at configured intervals, system. update drone statuses every second, refresh map with focused and checked drones.  \n- establish connection to backend services, initialize service provider to connect ui with backend server on startup, system. connect to specified host and port during ui initialization.  \n- maintain active session for ui updates, ensure ui updates occur only when vaadin session is active, system. check session validity before executing refresh tasks.  \n- display navigation bar with drone controls, set navigation bar as main ui component containing flight controls and views, user. load navigation bar on ui startup, provide access to flight controls.  \n- configure ui refresh rate, set interval for automatic ui updates based on configuration settings, system. use predefined refresh rate from configuration for update scheduling.",
+            "DD-685": "display uavs on map, allows displaying uav icons on the map based on current location when map is loaded and active uavs list is obtained, system. when map is loaded and all active uavs list is obtained, uirealtimeflightview displays icon on map for each registered uav based on current location.",
+            "score": 0.4497435390949249,
+            "correct": true
+        },
+        {
+            "GoToCommand": "- send drone to specified waypoint, allows user to command a drone to navigate to a specific geographic coordinate, user. select drone, specify coordinate, send goto command.",
+            "DD-731": "uav movement command types, ensures each movement command specifies a valid command type, system. define command types as goto_waypoint, set_groundspeed, set_velocity, takeoff, land, hover.",
+            "score": 0.4477454125881195,
+            "correct": true
+        },
+        {
+            "FRMainLayout": "- display flight routes on map, displays selected flight route on map component when user selects route, user. select route from list, display corresponding route on map.  \n- confirm route deletion, prompts user confirmation before deleting a flight route, user. request route deletion, show confirmation dialog.  \n- highlight selected flight route, visually distinguishes selected route from others in the list, user. click route in list, highlight selected item.  \n- notify unsaved route changes, warns users about potential data loss when modifying routes with pending changes, user. attempt to edit new route while having unsaved changes, display warning dialog.",
+            "DD-675": "waypoints connected by arcs, connects consecutive waypoints in a route on a map with arcs, system. consecutive waypoints in route on map connected by arcs.",
+            "score": 0.44739267230033875,
+            "correct": true
+        }
+    ]
+}

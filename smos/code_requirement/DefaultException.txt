@@ -1,0 +1,1 @@
+- handle unexpected errors, the system manages unexpected errors by generating exceptions with messages, user. system detects error occurrence, generates exception with message, displays error message to user, all unexpected errors must be caught and presented with message.

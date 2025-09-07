@@ -1,0 +1,1 @@
+delete banner, allow rest point operator to delete a banner advertisement associated with their rest point, rest point operator. select banner removal feature, view list of associated banners, select banner and initiate deletion, display confirmation message, confirm operation, remove banner, notify successful deletion. etour server connection interrupted.

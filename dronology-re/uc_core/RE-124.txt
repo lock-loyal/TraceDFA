@@ -1,0 +1,1 @@
+object avoidance, issue evasive directives to the uav when an object is within proximity, object avoidance system. stationary or moving object within proximity of uav, system issues evasive directives.

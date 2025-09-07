@@ -1,0 +1,1 @@
+support gcs connected uavs, support uavs connected via the gcs, vehicle core. vehicle core supports uavs connected via gcs.

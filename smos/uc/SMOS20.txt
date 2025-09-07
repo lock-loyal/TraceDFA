@@ -1,0 +1,18 @@
+Name: DeleteAddress  
+Actors: Administrator  
+Description: Delete an address from the archive  
+Preconditions:  
+• The user is logged into the system as Administrator  
+• The user has executed the use case “ViewAddressDetails”  
+• The user views detailed information of an address  
+• The user clicks the “Delete” button  
+
+Sequence of Events  
+User | System  
+--- | ---  
+1. Verifies if the address has associated classes; if so, displays an error message: “Unable to delete the address. Delete the associated classes and try again.” Otherwise, deletes the address.  
+2. Displays the updated list of addresses  
+
+Postconditions:  
+• The user has deleted an address  
+• Connection to the SMOS server is terminated

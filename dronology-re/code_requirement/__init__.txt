@@ -1,0 +1,5 @@
+- vehicle state monitoring, periodically send vehicle state messages including current status and telemetry data, ground station operator. vehicle sends state messages at configured intervals.
+- vehicle command handling, process incoming commands from ground station to control vehicle operations, ground station operator. ground station sends commands, vehicle processes and executes them.
+- rtk adjustment transmission, send rtk correction data to improve vehicle gps accuracy, ground station operator. ground station sends rtk data, vehicle applies adjustments.
+- connection management, establish and maintain connection between vehicle and ground station, system. system initiates and monitors vehicle connection status.
+- monitor interval configuration, adjust the frequency of monitor messages sent from vehicle to ground station, system administrator. administrator sets interval for monitor message updates.

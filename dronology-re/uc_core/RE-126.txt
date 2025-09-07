@@ -1,0 +1,1 @@
+collision avoidance activation, ensure commands issued are within uav capabilities, object avoidance system. object avoidance system issues commands within uav capabilities.

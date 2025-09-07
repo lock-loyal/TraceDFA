@@ -1,0 +1,6 @@
+- add uav to mission, enable adding multiple uavs to a mission plan with individual task assignments, mission planner. add multiple uavs to mission plan and assign individual tasks.  
+- establish synchronization points, create synchronization checkpoints for coordinating multi-uav task execution, mission planner. create synchronization checkpoints to coordinate task execution across uavs.  
+- validate starting position, enforce maximum allowed distance between uav and first waypoint for safety, safety manager. uav starting position exceeds maximum safety distance from first waypoint, mission execution is blocked.  
+- expand flight patterns, decompose high-level flight patterns into executable task sequences, mission planner. decompose flight patterns into executable task sequences.  
+- terminate active mission, immediately stop all uavs and cancel ongoing tasks upon mission cancellation, mission operator. mission cancellation triggers immediate stop of all uavs and task termination.  
+- sequential task activation, activate next task for each uav only after completing current task, mission scheduler. next task activates only after current task completion.

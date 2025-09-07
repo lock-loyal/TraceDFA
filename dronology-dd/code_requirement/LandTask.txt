@@ -1,0 +1,3 @@
+- create landing task, define a landing task with specified coordinates for a uav, system. define landing task with lla coordinates, assign to uav.  
+- assign landing task to uav, associate the landing task with a specific uav identified by uav_id, system. select uav by uav_id, assign landing task with coordinates.  
+- define mission task waypoints, specify waypoints for mission tasks including landing coordinates, mission planner. define waypoints as lla coordinates for task execution.

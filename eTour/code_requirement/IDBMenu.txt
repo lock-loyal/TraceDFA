@@ -1,0 +1,5 @@
+- create menu, add new menu with dishes and details for rest point, operator. access menu creation feature, input menu data, validate entries, confirm submission, store menu in database. valid dish format, unique menu id.  
+- update menu, modify existing menu information for rest point, operator. select menu to edit, load current data, make changes, validate inputs, save updates. menu must exist in system.  
+- delete menu, remove obsolete menu from rest point offerings, operator. choose menu for deletion, confirm action, remove from database. menu id validation prior to removal.  
+- retrieve daily menu, display current day's menu for specific rest point, user. select rest point and day, fetch menu data, present dish list. handle unavailable menu scenarios.  
+- view all menus, list all available menus for a rest point, operator. request menu list, retrieve from database, display in interface. no menus available notification.

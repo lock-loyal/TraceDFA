@@ -1,0 +1,1 @@
+- manage teaching assignments, allows the administrator to view and manage courses associated with a specific classroom, administrator. administrator selects classroom from list, system displays all courses assigned to selected classroom, administrator modifies course assignments as needed. administrator must have valid permissions to access classroom data.

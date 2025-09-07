@@ -1,0 +1,1 @@
+view tourist record, allow agency operator to view details of a selected tourist account, agency operator. select tourist from search results, activate display function, load account data, display tourist record. connection to etour server.

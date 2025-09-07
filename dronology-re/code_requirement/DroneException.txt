@@ -1,0 +1,1 @@
+- drone operation error handling, detect and manage errors during drone operations, drone operator. drone operation encounters error, system throws exception with message, specific error messages provided for different failure scenarios.

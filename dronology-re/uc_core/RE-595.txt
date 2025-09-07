@@ -1,0 +1,1 @@
+simulate goto, update uav location in increments towards target destination until reached, internal simulator. when given a goto command, update location at increments of {{simulation_step_size}} meters until destination reached.

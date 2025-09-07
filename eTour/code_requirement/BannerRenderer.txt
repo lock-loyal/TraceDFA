@@ -1,0 +1,1 @@
+- display banner, show advertisement images in tree structure, operator. access banner management, load images into tree nodes, select node to highlight advertisement, validate image format, render image with border on selection. invalid element type causes error.

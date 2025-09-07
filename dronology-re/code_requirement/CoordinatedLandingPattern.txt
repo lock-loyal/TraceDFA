@@ -1,0 +1,5 @@
+- coordinated landing, execute landing pattern with three waypoints and three synchronization points, mission planner. ascend to coordination altitude, reach target longitude and latitude at altitude, land at target location.  
+- synchronization point creation, establish three synchronization points during landing pattern, mission planner. create three synchronization points for coordinating landing steps.  
+- altitude coordination, set coordination altitude for uavs during landing pattern, mission planner. set coordination altitude if not already defined.  
+- task sequencing, define sequence of tasks for coordinated landing including waypoints and sync tasks, mission planner. sequence tasks as waypoint, sync, waypoint, sync, land, sync.  
+- mission monitoring, publish waypoints to monitoring system during landing pattern execution, mission planner. publish each waypoint to monitoring system when reached.

@@ -1,0 +1,5 @@
+- add category, create new category entry, operator. access category management, input category details, validate uniqueness, store category, confirm success. category name must be unique.  
+- modify category, update existing category details, operator. select category, edit information, validate existence, update data, confirm changes. category must exist.  
+- retrieve category, view category information, user. request category details, system fetch and display data. valid category identifier required.  
+- validate category existence, check category presence, system. receive category name, search database, return existence status. handle non-existent category.  
+- manage term association, link terms to category metrics, operator. select term, input values, store term data, confirm update. term must not be duplicated.

@@ -1,0 +1,10 @@
+- record student absence, allows the teacher to register a student's absence, teacher. teacher selects student and date, enters academic year, system records absence, [absence must have valid student id and date].  
+- justify absence, enables adding a justification for a recorded absence, teacher. teacher selects absence, provides justification date, system links justification to absence, [justification requires matching absence id].  
+- log student delay, permits recording a student's tardiness, teacher. teacher selects student, enters delay time and date, system saves delay record, [delay time must be specified].  
+- add disciplinary note, allows teacher to document behavioral notes, teacher. teacher selects student, enters note description and their name, system stores note, [note description and teacher name are mandatory].  
+- delete absence record, allows removal of an absence entry, administrator. administrator selects absence, confirms deletion, system removes absence and any linked justification.  
+- remove delay entry, enables deletion of a delay record, administrator. administrator selects delay, confirms deletion, system deletes delay.  
+- delete disciplinary note, permits removal of a note, administrator. administrator selects note, confirms deletion, system removes note.  
+- modify disciplinary note, allows updating note details, teacher. teacher selects note, edits description or teacher name, system updates note, [description and teacher fields cannot be empty].  
+- view class attendance, displays attendance status for all students in a class on a specific date, teacher. teacher selects class and date, system shows absences and delays for each student.  
+- check absence justification, verifies if an absence is justified, teacher. teacher views absence details, system indicates justification status and date.

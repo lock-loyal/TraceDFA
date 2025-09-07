@@ -1,0 +1,1 @@
+accept mission plan, accept and activate a mission plan upon request, ui middleware. ui middleware accepts and activates mission plan upon request.

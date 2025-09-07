@@ -1,0 +1,1 @@
+forwarding of monitoring message, forward message to subscribed clients when new monitoring message is received, dronology runtime monitor. new monitoring message received, forward to subscribed clients.

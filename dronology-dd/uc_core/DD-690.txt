@@ -1,0 +1,1 @@
+indicate route completion status, allows ui to differentiate between completed, current, and not yet traversed flight segments, ui. differentiate between completed, current, and not yet traversed flight segments.

@@ -1,0 +1,1 @@
+edit user, editing one or more details of a user existing in the system, administrator. administrator clicks modify button, system performs checks on validity of entered data and modifies user, if entered data is invalid triggers data error use case.

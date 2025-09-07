@@ -1,0 +1,5 @@
+- manage tourist accounts, enable or disable tourist profiles, operator. select tourist from list, choose activate/deactivate option, confirm action, update profile status, refresh display. profile must not be currently modified.  
+- delete tourist account, remove tourist from system, operator. select tourist, initiate deletion, confirm removal, delete account data, update tourist list. account must not be active.  
+- search tourists, filter tourist list based on criteria, operator. input surname and status filters, execute search, display matching results, clear filters. search results limited to 100 entries.  
+- view tourist profile, display detailed tourist information, operator. select tourist from list, open profile card, review personal data, close profile. profile access requires valid selection.  
+- modify tourist data, update tourist account details, operator. select tourist, open edit form, adjust information, save changes, confirm update. changes require valid data format.

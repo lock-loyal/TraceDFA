@@ -1,0 +1,5 @@
+- route meta display, display flight route metadata including name description and waypoint count, flight route ui. selected route displays name, description, and number of waypoints.
+- inline edit route info, enable inline editing of route name and description via double-click, flight route ui. double-click route name or description to edit in text fields.
+- toggle route table view, toggle visibility of tabular waypoint data using checkbox, flight route ui. check or uncheck table view checkbox to show/hide table.
+- route deletion confirmation, require confirmation before deleting selected flight route, flight route ui. delete button click triggers confirmation dialog.
+- auto-zoom toggle, enable automatic zoom to route extent during selection, flight route ui. check or uncheck zoom checkbox to enable/disable auto-zoom.

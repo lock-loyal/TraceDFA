@@ -1,0 +1,1 @@
+create log event upon initiation of flight plan, creates a log event when a flight plan is initiated, system. when flight plan is initiated, create log event with route name, assigned uav, and initiation time stamp.

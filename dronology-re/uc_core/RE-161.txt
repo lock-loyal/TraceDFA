@@ -1,0 +1,1 @@
+uav activation, activate only registered uavs, uav activation manager. uav activation manager activates uavs that are registered.

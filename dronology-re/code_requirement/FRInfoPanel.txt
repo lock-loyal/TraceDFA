@@ -1,0 +1,5 @@
+- display flight routes, display existing flight routes as a list with names and identifiers, flight route manager. flight routes displayed as selectable list items with names and identifiers.  
+- create flight route, create new flight route via button triggering route creation window, flight route manager. click add button opens window for specifying new route details.  
+- route selection, select flight route from list to view and edit details, flight route manager. click route in list highlights it and displays details.  
+- confirm unsaved changes, prompt confirmation when switching routes with unsaved edits, flight route manager. unsaved changes trigger confirmation dialog before route switch.  
+- sort route list, display flight routes alphabetically sorted by name, flight route manager. route list sorted alphabetically based on route names.

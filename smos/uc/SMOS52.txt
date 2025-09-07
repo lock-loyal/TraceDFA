@@ -1,0 +1,14 @@
+Name: Search Entities  
+Actors: Administrator  
+Description: Allows the administrator to search the system for all entities characterized by the entered keywords.  
+Preconditions:  
+• The user is logged into the system as an administrator.  
+• The user enters the text to search and clicks the "Search" button.  
+Sequence of Events  
+User  
+System  
+1. Displays the list of entities related to the searched keywords; specifically shown in an active list: Classes, Courses, Addresses, Users found.  
+Postconditions:  
+• The user is viewing an active list of entities matching the entered keywords.  
+• The user cancels the operation.  
+• Connection to the SMOS server is interrupted.

@@ -1,0 +1,1 @@
+updating waypoint colors, updates waypoint colors during flight route editing and resets them if edits are canceled, system. update waypoint colors as flight route is edited (e.g., when new first or last waypoint is added). if edits are canceled, reset colors to reflect current waypoints.

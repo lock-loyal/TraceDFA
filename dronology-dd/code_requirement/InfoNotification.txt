@@ -1,0 +1,3 @@
+- generate system notifications with severity levels, allows system to generate notifications categorized by severity (warning, info, error), system. categorize notifications by severity level (warning, info, error).  
+- monitor battery status notifications, track and manage battery-related notifications for drones, system. monitor battery status, generate notifications when thresholds are reached.  
+- handle infrastructure-related notifications, manage system infrastructure alerts and notifications, system. generate notifications for infrastructure-related events or issues.

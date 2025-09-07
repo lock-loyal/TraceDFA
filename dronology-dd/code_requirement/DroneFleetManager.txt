@@ -1,0 +1,5 @@
+- drone registration management, manage registration and unregistration of drones, system. register drone, check if already registered, add to available pool or throw exception.
+- drone availability check, verify if drones are available for mission assignment, system. check available drones pool, return boolean status.
+- drone state tracking, track drones as available or busy during missions, system. assign drone to mission mark as busy, return to available pool after mission completion.
+- designated drone retrieval, retrieve a specific drone by id from available pool, system. search available drones by id, mark as busy if found.
+- drone removal and notification, remove drone from registry and notify monitoring system, system. remove drone, send deactivation notification, update available pool.

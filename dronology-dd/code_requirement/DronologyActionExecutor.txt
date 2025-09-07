@@ -1,0 +1,3 @@
+- assign flight routes to uav, allows user to assign one or multiple flight routes to a selected uav with confirmation, user. select uav, choose routes, confirm assignment, cancel pending flights, activate new routes. uav must not be on ground for return home.  
+- return to home command, enables user to send uav back to home location after confirmation, user. initiate return to home, confirm action, execute if uav is not on ground.  
+- resend command to uav, allows user to resend latest command to uav through the ui, user. trigger resend command via ui, forward to uav.

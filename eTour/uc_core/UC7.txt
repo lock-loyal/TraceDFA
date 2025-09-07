@@ -1,0 +1,1 @@
+activate convention, process activation request for a rest point convention, agency operator. select rest point, load convention request data, validate agreement details, confirm activation, process request, notify activation success, handle server disconnection. valid convention data.

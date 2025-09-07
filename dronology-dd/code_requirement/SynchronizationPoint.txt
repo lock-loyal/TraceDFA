@@ -1,0 +1,2 @@
+- synchronization point for mission coordination, coordinate multiple uavs to reach a synchronization point before proceeding with mission, system. register uavs to synchronization point, activate synchronization, wait for all uavs to reach point, proceed once all arrived.  
+- manage collaborators for synchronization points, allows adding and removing uavs from synchronization points, system. add uavs to synchronization point, remove upon arrival, track remaining collaborators.

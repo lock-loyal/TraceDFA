@@ -1,0 +1,1 @@
+logout, end the current session, registered user. access logout function, request confirmation, confirm request, disconnect user, notify successful logout. prior successful login required.

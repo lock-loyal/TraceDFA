@@ -1,0 +1,1 @@
+- manage teaching information, allows the administrator to create or modify a teaching entity, administrator. administrator enters teaching name, system validates name length exceeds four characters, administrator saves teaching details.

@@ -1,0 +1,1 @@
+view report card, the report card of the requested student is displayed, parent. system displays report cards of selected student, parent selects desired report card, system displays details of selected report card.

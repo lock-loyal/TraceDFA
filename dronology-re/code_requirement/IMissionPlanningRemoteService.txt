@@ -1,0 +1,2 @@
+- execute mission plan, initiate execution of predefined mission plans via remote command, mission planner. user triggers execution of predefined mission plan.  
+- cancel active mission, abort currently executing mission via remote command, mission planner. user cancels active mission.

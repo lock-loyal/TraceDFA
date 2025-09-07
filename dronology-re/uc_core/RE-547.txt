@@ -1,0 +1,1 @@
+schedule flight plan, schedule a route for execution when requested, single uav flight plan scheduler. when requested, scheduler schedules route.

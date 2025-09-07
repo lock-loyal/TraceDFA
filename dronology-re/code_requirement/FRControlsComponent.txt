@@ -1,0 +1,2 @@
+- display flight routes list, present a list of available flight routes in a dedicated panel for user selection, flight route operator. flight routes list appears in left-side panel for viewing and selection.  
+- combine map and grid, display flight route visualization and data table simultaneously in main interface area, flight route operator. main interface combines geographical map with data grid for route inspection.

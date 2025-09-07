@@ -1,0 +1,22 @@
+Name: AddNewClass  
+Actors: Administrator  
+Description: Adds a new class to the archive  
+Preconditions:  
+• The user is logged into the system as Administrator.  
+• The user has already executed the use case "ViewClassList," and the system is displaying the list of classes for a specific academic year.  
+• The user clicks on the "New Class" button.  
+
+Sequence of Events  
+User  
+2. Fills out the form.  
+3. Clicks on the "Save" button.  
+
+System  
+1. The system displays the form to be filled out with: name, address, academic year.  
+4. Performs validity checks on the entered data and adds the new class to the archive; if the entered data is not valid, triggers the "DataError" use case.  
+
+Postconditions:  
+• The user has added a class to the system.  
+• Data error is notified.  
+• Connection to the SMOS server is interrupted.  
+• The Administrator cancels the operation.

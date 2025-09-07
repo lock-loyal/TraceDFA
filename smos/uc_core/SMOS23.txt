@@ -1,0 +1,1 @@
+add new course, adds a new course to the archive, administrator. system displays form to be filled out with course name, user fills out form, clicks save button, system performs checks on validity of entered data and adds new course to archive or triggers dataerror use case.

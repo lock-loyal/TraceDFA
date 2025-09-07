@@ -1,0 +1,1 @@
+list active uavs, provide a list of all active uavs, ui middleware. uimiddleware provides list.

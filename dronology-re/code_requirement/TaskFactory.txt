@@ -1,0 +1,7 @@
+- create route task, generate route task for uav to follow predefined path, mission planner. mission planner generates route task for uav to follow predefined path.  
+- schedule delay task, insert delay task with specified duration into mission sequence, mission planner. insert delay task with specified duration into mission sequence.  
+- define waypoint task, create waypoint task directing uav to specific coordinate, mission planner. create waypoint task directing uav to specific coordinate.  
+- execute takeoff task, initiate takeoff task for uav at specified coordinate, mission planner. initiate takeoff task for uav at specified coordinate.  
+- plan landing task, establish landing task for uav at designated coordinate, mission planner. establish landing task for uav at designated coordinate.  
+- enforce parameter validation, validate required parameters when creating delay tasks, mission planner. delay task creation requires duration parameter.  
+- manage unsupported tasks, reject task creation requests with unrecognized task types, mission planner. reject task creation for unsupported task types.

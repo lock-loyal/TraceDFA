@@ -1,0 +1,7 @@
+- display active flights, visualize active flight routes and real-time drone positions on a map, flight monitoring operator. flight routes displayed as connected waypoints, drones shown as markers with current coordinates.
+- track selected uavs, enable continuous map centering on selected uavs during active missions, flight monitoring operator. selected uavs remain centered on map during mission execution.
+- waypoint details popup, display latitude longitude altitude and transit speed when hovering over waypoint markers, flight monitoring operator. hover over waypoint marker triggers information popup.
+- drone status popup, show current status and enable flight control actions via hover interaction, flight monitoring operator. hover over drone marker displays status and control options.
+- automatic map scaling, adjust map viewport to contain all active drones and flight routes, flight monitoring operator. map zooms to encompass all active flight elements during initial view.
+- flight route visualization, render assigned flight routes as connected sequences of waypoints, flight monitoring operator. active flight plans displayed as lines between consecutive waypoints.
+- service connection handling, manage service availability indicators during remote communication failures, system administrator. display connectivity status when backend services become unavailable.

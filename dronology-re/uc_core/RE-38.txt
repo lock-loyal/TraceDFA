@@ -1,0 +1,1 @@
+uav type specification assignment, associate a uav type for each uav defining its basic attributes, vehicle core. vehicle core associates uav type.

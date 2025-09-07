@@ -1,0 +1,1 @@
+support internally simulated uavs, support virtual uavs, vehiclecore. vehiclecore supports virtual uavs.

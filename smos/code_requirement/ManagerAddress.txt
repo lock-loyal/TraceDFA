@@ -1,0 +1,8 @@
+- create address, allows the administrator to add a new address to the system, administrator. administrator enters address name and confirms, system checks for duplicate names and saves the address if valid, address name must be unique and non-empty.  
+- delete address, enables the administrator to remove an address from the system, administrator. administrator selects address to delete and confirms action, system removes address and any associated teaching links, address must exist in the system.  
+- assign teaching to address, links a teaching to a specific address, administrator. administrator selects address and teaching, system verifies no existing association and creates the link, teaching must not already be assigned to the address.  
+- remove teaching from address, unlinks a teaching from an address, administrator. administrator selects address and teaching, system checks existing association and removes the link, teaching must be previously assigned to the address.  
+- view address list, displays all addresses stored in the system, administrator. system retrieves and shows all addresses in a list format sorted by identifier.  
+- check address existence, verifies if an address name is already registered, administrator. system compares entered address name against existing records and returns validation result.  
+- retrieve address details, allows viewing specific address information by id, administrator. administrator selects address id, system displays corresponding name and associated teachings.  
+- list teachings per address, shows teachings linked to a selected address, administrator. administrator selects address, system fetches and displays all associated teaching ids.

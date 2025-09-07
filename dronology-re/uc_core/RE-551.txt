@@ -1,0 +1,1 @@
+automatic flight plan assignment, assign route automatically if not manually assigned to a uav, single uav flight plan scheduler. scheduled flight not manually assigned to a uav, scheduler assigns route automatically.

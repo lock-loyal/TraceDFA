@@ -1,0 +1,1 @@
+- establish connection with ground control station, allows ground control station to initiate connection to dronology, ground control station. ground control station sends connection request upon establishing connection.

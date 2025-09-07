@@ -1,0 +1,3 @@
+- transmit monitoring data from ground station to uav, sends monitoring data from ground station to specified uav, system. ground station generates monitoring data, transmits to target uav.  
+- associate monitoring messages with uav and ground station, links each monitoring message to specific uav and originating ground station, system. include uavid and groundstationid in monitoring message metadata.  
+- enable real-time status updates through monitoring messages, provides continuous status updates via dedicated monitoring message type, system. send periodic monitoring messages containing current uav state information.

@@ -1,0 +1,1 @@
+- predefined pattern expansion, expand predefined patterns into concrete mission tasks during mission creation, mission planner. mission planner creates mission, predefined patterns expanded into concrete tasks. each pattern linked to specific uav and task name.

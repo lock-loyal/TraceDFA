@@ -1,0 +1,1 @@
+ui requests uav data from ui middleware, allows ui to retrieve detailed uav information from uimiddleware when requested by the user, ui. user requests detailed uav information, ui requests uav data object from uimiddleware.

@@ -1,0 +1,3 @@
+- uav state monitoring, update real-time uav state information including location speed and battery level, monitoring system. uav sends state messages, system updates current state.
+- mode transition handling, remove uav from mission plan when mode changes to user-controlled, mission planner. uav mode changes to user-controlled, system removes from active mission.
+- unhandled message logging, log errors when encountering unsupported message types, system admin. unhandled message types trigger error logging.

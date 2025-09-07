@@ -1,0 +1,5 @@
+- create cultural asset, add new cultural asset to the system, operator. access asset creation interface, input details, submit form, validate data, store record, display success message. valid data format, system connected to etour database.  
+- delete cultural asset, remove existing cultural asset from records, operator. select target asset, confirm deletion request, execute removal, update asset list. cultural asset must exist in system.  
+- update cultural asset, modify details of registered cultural asset, operator. retrieve current asset data, edit information fields, validate changes, save updated record. valid modified data format.  
+- retrieve cultural asset details, view complete information of specific cultural asset, operator. search asset by identifier, fetch from database, display attributes. cultural asset id must be valid.  
+- list cultural assets, display all registered cultural assets in system, operator. access management interface, request full asset list, present structured overview. active connection to etour server required.

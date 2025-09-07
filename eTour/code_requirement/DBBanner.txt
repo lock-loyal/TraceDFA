@@ -1,0 +1,5 @@
+- insert advertisement, add new banner for rest point, operator. activate banner creation, input banner details and rest point id, validate data, submit to system, confirm successful insertion or handle failure. valid image path and existing rest point id required.  
+- modify advertisement, update existing banner details, operator. select banner to edit, modify image or associated rest point, validate changes, save updates, display confirmation message. banner id must exist in system.  
+- delete advertisement, remove banner from system, operator. select banner to delete, confirm removal action, process deletion request, notify success or database error. handle foreign key constraints violation.  
+- retrieve advertisement, display banners linked to specific rest point, system. query banners by rest point id, return list or empty set, render in interface. rest point id validation before query execution.  
+- fetch advertisement, obtain banner details by identifier, operator. input banner id, retrieve corresponding banner information, display data or handle non-existent entry. banner id must be valid positive integer.

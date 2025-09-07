@@ -1,0 +1,5 @@
+- register new drones upon specification, automatically register drones when vehicle specification messages are received, system. receive vehicle specification, register with unique id based on type or ip.  
+- dispatch commands to registered drones, ensure commands are only sent to registered drones, system. check registration status, forward command to appropriate drone.  
+- enable rtk adjustments for drones, provide real-time kinematic corrections to eligible drones, system. forward rtk data to drones with rtk enabled.  
+- relay drone status updates, continuously send state and handshake messages to dronology, system. monitor and forward status information via connection.  
+- manage drone lifecycle asynchronously, handle addition and removal of drones without blocking operations, system. use background processes for managing drone registration and removal.

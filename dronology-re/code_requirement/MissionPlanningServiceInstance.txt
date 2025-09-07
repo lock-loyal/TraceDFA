@@ -1,0 +1,3 @@
+- execute mission plan, initiate execution of a predefined mission plan involving multiple uavs, mission planner. mission planner initiates execution of predefined mission plan with multiple uavs.  
+- cancel active mission, terminate currently executing mission plan and halt all associated uav operations, mission supervisor. terminate executing mission plan and halt associated uav operations.  
+- synchronize uav removal, remove specific uav from active mission while maintaining synchronization of remaining fleet, mission coordinator. remove specific uav from active mission while maintaining fleet synchronization.

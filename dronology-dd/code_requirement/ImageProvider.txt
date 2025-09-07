@@ -1,0 +1,5 @@
+- display uav status icons, show different icons for uav statuses like ok or user-controlled, ui. retrieve status icons from image provider based on current uav state.  
+- provide visual indicators for uav commands, display icons for commands such as takeoff, rtl, assign route, and resend command, ui. load command icons from image resources, display in relevant ui components.  
+- assign routes to uav via ui button, allow users to assign routes to uavs using a dedicated button with route icon, user. click assign route button to initiate route assignment.  
+- display focused uav with highlighted icon, highlight uav icon when selected or in focus, ui. change uav icon to focused image upon selection.  
+- represent uav waypoints with dot icons, use dot icons to mark waypoints on the map, ui. load dot icon from resources, display at waypoint coordinates.

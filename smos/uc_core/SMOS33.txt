@@ -1,0 +1,1 @@
+remove delay, removal of a delay by the administrator, administrator. system updates screen based on selected date, administrator deletes student's late entry and clicks save, system deletes late entry from archive.

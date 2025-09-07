@@ -1,0 +1,5 @@
+- validate coordinate system conversions, ensures accurate conversion between lla and nvector coordinate systems, system. convert lla coordinates to nvector and back, verify accuracy within 5 millimeters.
+- ensure coordinate uniqueness in hash-based collections, guarantees unique coordinates are stored correctly in hash-based data structures, system. store nvector coordinates in hashset, verify uniqueness based on coordinate values.
+- verify distance calculation between coordinates, checks horizontal and vertical distance calculations between nvector points, system. calculate distance between two points, compare with expected value within tolerance.
+- test coordinate string representation, confirms correct string formatting for nvector coordinates, system. generate string from nvector, match expected format.
+- validate pvector conversion accuracy, ensures correct transformation from nvector to pvector coordinates, system. convert nvector to pvector, compare with precomputed values within error margin.

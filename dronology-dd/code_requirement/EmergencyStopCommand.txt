@@ -1,0 +1,1 @@
+- emergency stop command, allows user to send emergency stop command to a specific uav, user. user initiates emergency stop for selected uav, command is sent to stop and hover in place.

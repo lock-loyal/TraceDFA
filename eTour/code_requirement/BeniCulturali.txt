@@ -1,0 +1,4 @@
+- manage cultural assets, agency operator performs crud operations on cultural assets, operator. access cultural assets management interface, view list, select asset, execute create/update/delete, confirm action, system processes request, updates data, display confirmation. valid server connection required.  
+- search cultural assets, operator filters cultural assets by name and tags, operator. input search criteria in form, submit query, system retrieves matching assets, display results in table. handle empty results.  
+- view cultural asset details, operator accesses detailed information of a cultural asset, operator. select asset from list, open detail card, review attributes, close card. system fetches and presents data.  
+- handle server communication errors, system manages connectivity issues during operations, operator. perform server-dependent action, detect failure, display error message, abort operation. server unavailability constraint.

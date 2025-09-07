@@ -1,0 +1,4 @@
+- define flight route structure, specify flight routes as ordered sequences of waypoints with coordinate attributes, flight route manager. flight routes composed as ordered waypoint sequences containing coordinate data.
+- categorize flight routes, organize flight routes into predefined categories for structured management, flight route manager. assign flight routes to specific categories during creation or modification.
+- track route metadata, automatically record creation/modification timestamps and calculate total route distance, system. system captures timestamps and computes route length from waypoint coordinates.
+- describe flight routes, allow adding descriptive text to document purpose or characteristics of flight routes, operator. operator provides textual description when creating or editing flight route.

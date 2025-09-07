@@ -1,0 +1,1 @@
+continue to original destination, resumes uav's journey to destination after evasive directives are no longer needed, system. when uav is no longer in close proximity to an object, objectavoidance system stops sending directives and uav continues to destination.

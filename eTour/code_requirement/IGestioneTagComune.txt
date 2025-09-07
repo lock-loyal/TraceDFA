@@ -1,0 +1,1 @@
+- retrieve tag list, obtain all available tags from system, user. access tag management feature, request tag list, system processes and returns complete tag collection. handle database connection errors during retrieval.

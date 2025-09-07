@@ -1,0 +1,1 @@
+- view teacher assigned classrooms, allows the administrator to view the list of classrooms assigned to a specific teacher, administrator. administrator accesses teacher details, system retrieves and displays classrooms associated with the selected teacher, administrator must have valid permissions and teacher must exist.

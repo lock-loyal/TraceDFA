@@ -1,0 +1,1 @@
+add new address, adds a new address to the archive, administrator. system displays form to fill out with address name, administrator fills out form, clicks save button, system performs checks on validity of entered data and adds new address to archive; if entered data is invalid, triggers data error use case.

@@ -1,0 +1,3 @@
+- transmit drone commands, allows sending operational commands to control drone actions, system. send commands such as takeoff, landing, or movement to drones.
+- monitor drone status changes, enables real-time tracking of drone state through registered listeners, system. register listeners to receive updates on drone property changes.
+- manage command handler identifiers, ensures each command handler has a unique identifier for system tracking, system. assign unique ids to handlers to facilitate management.

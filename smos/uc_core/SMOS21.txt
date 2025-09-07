@@ -1,0 +1,1 @@
+assign or remove courses, assigns or removes one or more courses from a program, administrator. system displays form allowing addition or removal of courses from program, administrator selects courses to assign or remove, clicks submit button, system associates or removes selected courses with program, returns to program details view.

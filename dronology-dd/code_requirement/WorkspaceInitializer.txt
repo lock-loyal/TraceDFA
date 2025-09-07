@@ -1,0 +1,5 @@
+- server workspace setup, initializes server workspace with predefined folder structure during system startup, system. create root workspace directory, setup subdirectories for flight routes and specifications.  
+- flight route folder management, ensures dedicated folder exists for storing flight route files, system. check existence of flight route folder, create if missing during initialization.  
+- specification folder management, ensures dedicated folder exists for storing specification files, system. verify specification folder existence, create if not present during startup.  
+- import flight route files, allows importing flight route files into the system with overwrite control, user. select flight route file, specify overwrite option, import into system.  
+- enforce flight route file extension, restricts imported flight route files to specific extension (.flightroute), system. validate file extension during import, reject non-compliant files.

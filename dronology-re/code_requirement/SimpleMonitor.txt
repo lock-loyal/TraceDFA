@@ -1,0 +1,4 @@
+- real-time mission waypoint monitoring, subscribe to and display real-time updates on mission waypoint changes, monitoring operator. monitoring operator subscribes to mission waypoint updates for real-time display.
+- collision event alerts, subscribe to and display collision detection events, monitoring operator. monitoring operator subscribes to collision events for real-time alerts.
+- monitoring service registration, register message handlers for specific monitoring artifact types, monitoring backend. register message handlers to receive updates for selected monitoring artifacts.
+- monitoring dashboard initialization, launch monitoring interface displaying subscribed event categories, monitoring operator. monitoring interface launches and displays active event subscriptions.

@@ -1,0 +1,2 @@
+- execute mission, upload mission file to execute drone missions, mission planner. user uploads mission file to initiate drone missions. mission file must be valid.
+- cancel mission, terminate currently active drone mission, mission planner. user cancels active mission.

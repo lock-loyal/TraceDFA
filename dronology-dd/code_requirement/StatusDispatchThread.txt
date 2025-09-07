@@ -1,0 +1,3 @@
+- track uav real-time status, monitor and update uav coordinates, velocity, and battery level during flight, system. continuously receive status messages, update uav properties accordingly.  
+- handle uav mode changes, update uav flight mode and remove from mission plan when entering user-controlled mode, system. detect mode change to user_controlled, remove uav from active mission plan.  
+- process incoming uav messages, parse and dispatch different uav message types for appropriate handling, system. categorize messages as state or mode change, trigger corresponding updates.

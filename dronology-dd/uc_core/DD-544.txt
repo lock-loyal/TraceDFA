@@ -1,0 +1,1 @@
+synchronized landing, directs uavs to synchronize landing procedures through coordinated waypoints and altitudes, system. direct each uav to synchronize at final waypoint of preceding route, ascend or descend to unique altitude, synchronize, fly to home coordinates, synchronize, then descend to landing altitude.

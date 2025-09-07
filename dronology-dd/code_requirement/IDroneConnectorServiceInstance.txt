@@ -1,0 +1,3 @@
+- manage ground station connections, handle registration and unregistration of ground station connections, system. receive connection request, register ground station, unregister upon disconnection or error. 
+- process incoming ground station connections, allows processing and handling of incoming ground station connection requests, system. establish connection handler, validate request, maintain active communication. 
+- unregister inactive ground station connections, remove inactive or terminated ground station connections from active registry, system. identify inactive ground station by id, remove from registered connections.

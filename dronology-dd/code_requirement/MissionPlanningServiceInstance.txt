@@ -1,0 +1,5 @@
+- execute predefined mission plans, allows user to execute predefined mission plans stored in the system, user. select mission plan, trigger execution through mission controller.  
+- cancel ongoing mission, enables cancellation of currently active mission via mission controller, user. initiate cancellation command, mission controller terminates mission execution.  
+- manage uav participation in missions, allows dynamic removal of uavs from active missions during runtime, operator. select uav to remove, update mission synchronization.  
+- handle mission execution errors, log errors when mission execution encounters failures, system. detect execution exception, log error details.  
+- coordinate mission synchronization, maintain synchronization of uavs participating in active missions, system. track uav status, update synchronization manager.

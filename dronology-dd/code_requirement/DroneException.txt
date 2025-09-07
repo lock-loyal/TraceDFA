@@ -1,0 +1,1 @@
+- enforce operational constraints on drone commands, ensures drone commands comply with predefined operational constraints, system. validate commands against constraints, reject invalid commands with error messages.

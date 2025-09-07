@@ -1,0 +1,1 @@
+view class list, display of class list, administrative staff. system displays screen showing all classes in database with buttons to access each class's register.

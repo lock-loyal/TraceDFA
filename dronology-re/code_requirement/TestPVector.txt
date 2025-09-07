@@ -1,0 +1,3 @@
+- validate coordinate conversion, ensure accurate conversion between geographic coordinates and internal vector representation, simulator. convert latitude longitude altitude coordinates to internal vector format and back with precision.  
+- verify coordinate equality, ensure coordinate objects with identical values are recognized as equal, simulator. coordinate objects with same latitude longitude altitude considered equal.  
+- validate string representation, ensure coordinate vector string displays correct x y z values, simulator. coordinate vector string format matches expected precision and structure.

@@ -1,0 +1,124 @@
+{
+    "IFlightManagerRemoteService": {
+        "RE-549": 0.87548828125,
+        "RE-646": 0.82958984375,
+        "RE-651": 0.78955078125
+    },
+    "FlightManagerServiceRemoteFacade": {
+        "RE-86": 0.8408203125,
+        "RE-558": 0.814453125,
+        "RE-689": 0.79833984375
+    },
+    "ServiceIds": {
+        "RE-759": 0.93994140625
+    },
+    "ManagedHashTableList": {
+        "RE-86": 0.84912109375
+    },
+    "AFControlsComponent": {
+        "RE-681": 0.84228515625,
+        "RE-689": 0.8046875,
+        "RE-655": 0.7919921875
+    },
+    "FlightInfoCreator": {
+        "RE-86": 0.85546875,
+        "RE-655": 0.826171875,
+        "RE-651": 0.81591796875,
+        "RE-689": 0.78955078125
+    },
+    "FlightManagerService": {
+        "RE-86": 0.7998046875,
+        "RE-558": 0.7998046875
+    },
+    "FlightZoneManager2": {
+        "RE-86": 0.80322265625
+    },
+    "IFlightManagerServiceInstance": {
+        "RE-558": 0.8330078125,
+        "RE-86": 0.82080078125,
+        "RE-681": 0.79345703125
+    },
+    "IMissionPlanningServiceInstance": {
+        "RE-759": 0.859375,
+        "RE-558": 0.83740234375
+    },
+    "MissionPlanningServiceInstance": {
+        "RE-759": 0.92041015625,
+        "RE-558": 0.82275390625
+    },
+    "UAVMissionPlan": {
+        "RE-759": 0.8359375
+    },
+    "AFInfoPanel": {
+        "RE-681": 0.89306640625,
+        "RE-655": 0.85693359375,
+        "RE-691": 0.84912109375,
+        "RE-689": 0.8251953125
+    },
+    "AFMapViewOperations": {
+        "RE-655": 0.79833984375
+    },
+    "FlightInfo": {
+        "RE-86": 0.83935546875
+    },
+    "AFFollowBar": {
+        "RE-681": 0.89404296875,
+        "RE-655": 0.85546875,
+        "RE-689": 0.85009765625,
+        "RE-691": 0.828125,
+        "RE-651": 0.8037109375
+    },
+    "MissionPlanningService": {
+        "RE-759": 0.98486328125
+    },
+    "FlightPlan": {},
+    "DroneSetupService": {
+        "RE-681": 0.81787109375
+    },
+    "IFlightPlan": {
+        "RE-549": 0.814453125
+    },
+    "IFlightRoute": {},
+    "CoordinatedTakeoffPattern": {},
+    "UAVProxy": {},
+    "FlightPlanInfo": {
+        "RE-549": 0.82958984375
+    },
+    "AFMapComponent": {},
+    "AFMainLayout": {
+        "RE-681": 0.78857421875
+    },
+    "FlightRoute": {},
+    "FRInfoPanel": {
+        "RE-689": 0.8125,
+        "RE-655": 0.7890625
+    },
+    "ManagedDrone": {},
+    "DronologyActionExecutor": {
+        "RE-646": 0.9033203125,
+        "RE-549": 0.83154296875,
+        "RE-651": 0.818359375,
+        "RE-655": 0.81640625,
+        "RE-691": 0.80322265625
+    },
+    "AFAssignRouteComponent": {
+        "RE-646": 0.8310546875,
+        "RE-651": 0.791015625
+    },
+    "FullMissionPlan": {
+        "RE-759": 0.8291015625,
+        "RE-549": 0.79150390625
+    },
+    "AFDragLayout": {
+        "RE-646": 0.83740234375,
+        "RE-655": 0.83447265625,
+        "RE-651": 0.833984375
+    },
+    "FlightMissionManager": {
+        "RE-646": 0.80908203125
+    },
+    "AFInfoBox": {
+        "RE-646": 0.8583984375,
+        "RE-655": 0.79296875
+    }
+}

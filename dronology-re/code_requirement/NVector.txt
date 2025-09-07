@@ -1,0 +1,4 @@
+- n-vector coordinate definition, specify positions using n-vector components (x y z) and altitude, flight route manager. each position defined by normalized vector components and altitude value.  
+- coordinate system conversion, convert n-vector coordinates to lla and earth-centered earth-fixed formats, navigation system. transform coordinates between n-vector lla and p-vector representations.  
+- distance calculation, compute straight-line laser distance between two n-vector positions, route planner. calculate direct distance using earth-centered coordinates.  
+- travel simulation, estimate travel distance through incremental movement steps between positions, path simulator. compute travel distance via step-wise interpolation between coordinates.

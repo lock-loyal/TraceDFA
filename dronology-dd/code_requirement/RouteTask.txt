@@ -1,0 +1,1 @@
+- define route tasks for uavs within mission plans, allows defining specific route tasks for uavs as part of mission planning, mission planner. create route task with uav id and task name as part of mission plan.

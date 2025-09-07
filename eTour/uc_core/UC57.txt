@@ -1,0 +1,1 @@
+advanced search, allow tourist to find sites using advanced search options, tourist. access advanced search from personal area, display advanced search form, complete form fields and submit request, retrieve tourist's location, process search criteria, display matching sites list. transaction completes within 15 seconds.

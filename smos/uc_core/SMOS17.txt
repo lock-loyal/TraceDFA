@@ -1,0 +1,1 @@
+view address list, allows the administrator to view the list of addresses, administrator. user clicks on address management button, system displays list of addresses.

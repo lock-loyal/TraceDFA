@@ -1,0 +1,17 @@
+Name: ViewRegistriesList  
+Actors: Directorate  
+Description: Displays the list of registries for an academic year  
+Preconditions:  
+• The user must be logged into the system as Directorate  
+• The user clicks the "Digital Registry" button  
+
+**Sequence of Events**  
+**User** | **System**  
+--- | ---  
+2. Selects the academic year | 1. Displays a screen for selecting the academic year of interest  
+3. Searches the archive for all digital registries of that year and displays them associated with their respective class  
+
+**Postconditions:**  
+• The system is displaying the list of registries for a specific academic year  
+• The Directorate interrupts the operation  
+• Connection to the SMOS server is interrupted

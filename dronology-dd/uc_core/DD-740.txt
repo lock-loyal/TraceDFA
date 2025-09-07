@@ -1,0 +1,1 @@
+forward commands to uav, allows gcs to forward commands by transforming them into vehicle specific format, gcs. transform commands into vehicle specific format, forward to uav.

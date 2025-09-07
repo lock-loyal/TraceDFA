@@ -1,0 +1,1 @@
+uav movement command types, ensures each movement command specifies a valid command type, system. define command types as goto_waypoint, set_groundspeed, set_velocity, takeoff, land, hover.

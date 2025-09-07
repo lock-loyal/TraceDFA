@@ -1,0 +1,1 @@
+multiple ground stations register with dronology, allows multiple ground stations to register and be handled by gcsmiddleware simultaneously, gcsmiddleware. handle multiple gcs at the same time.

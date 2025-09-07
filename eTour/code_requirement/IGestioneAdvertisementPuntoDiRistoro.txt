@@ -1,0 +1,1 @@
+- manage rest point advertisement, operator updates or creates promotional content for rest points, operator. access advertisement management interface, modify or input advertisement details, validate content, submit changes, confirm update, system stores new advertisement data. valid advertisement format, operator authorization required.

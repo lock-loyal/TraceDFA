@@ -1,0 +1,21 @@
+Name: Assign/RemoveRolesToAUser  
+Actors: Administrator  
+Description: Allows assigning or removing roles from a user  
+Preconditions:  
+• The user is logged in as an administrator  
+• The user has executed the "ViewUserDetails" use case, and the system is displaying a user’s details  
+• The user clicks on the "User Roles" button  
+
+Sequence of Events  
+User  
+2. Selects roles to assign or remove from the user  
+3. Clicks the "Submit" button  
+
+System  
+1. Displays the role management form  
+4. Assigns or removes the user’s roles as specified by the Administrator  
+
+Postconditions:  
+• The user’s roles are modified  
+• The administrator cancels the operation  
+• Connection to the SMOS server is terminated

@@ -1,0 +1,1 @@
+- display user teaching association form, allows the administrator to display a form for associating users with teachings filtered by course, administrator. administrator navigates to the user teaching management section, selects a course from available options, system displays teachings related to the selected course for user assignment.

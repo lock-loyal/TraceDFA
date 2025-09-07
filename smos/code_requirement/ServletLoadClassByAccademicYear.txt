@@ -1,0 +1,1 @@
+- view classes by academic year, allows the administrator or director to view classes associated with a specific academic year, administrator. user selects an academic year from available options, system retrieves and displays list of classes corresponding to selected academic year. academic year must exist in the system and user must have administrative privileges.

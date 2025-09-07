@@ -1,0 +1,1 @@
+insert banner, allow rest point operator to add a new banner linked to the rest point, rest point operator. select new banner feature, display image selection form, submit chosen image, validate image and check banner limit, confirm insertion, store banner data, notify successful insertion. valid image format, maximum banners not exceeded, server connection maintained.

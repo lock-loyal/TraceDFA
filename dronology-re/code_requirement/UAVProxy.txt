@@ -1,0 +1,7 @@
+- track uav state, monitor real-time state of uav including location altitude velocity and battery level, uav monitoring system. monitor uav state with location, altitude, velocity, and battery level. 
+- update uav coordinates, update uav's current position with latitude longitude and altitude values, uav telemetry handler. update uav's current position using latitude, longitude, and altitude. 
+- manage uav status, set and retrieve current operational status of uav such as flying or idle, uav control interface. set and retrieve uav's operational status. 
+- monitor battery level, track and update remaining battery capacity of uav, power management system. track and update uav's remaining battery capacity. 
+- assign home location, define and retrieve home base coordinates for uav return operations, mission planner. define home coordinates for uav return functionality. 
+- associate ground station, link uav to specific ground control station through identifier, fleet management. link uav to ground station via identifier. 
+- maintain uav info, store and access additional metadata about uav through key-value pairs, asset management. store and access uav metadata via key-value pairs.

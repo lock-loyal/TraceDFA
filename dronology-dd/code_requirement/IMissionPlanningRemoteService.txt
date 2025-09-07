@@ -1,0 +1,2 @@
+- execute predefined mission plans, allows executing predefined mission plans specified in json, system. parse mission plan from json, execute coordinated drone operations.
+- cancel active mission, allows cancellation of the currently active mission, user. trigger cancellation command, stop all mission-related drone operations.

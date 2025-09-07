@@ -1,0 +1,1 @@
+- adjust monitoring frequency, allows changing the interval at which the system monitors drone status, system. send command with new frequency value in milliseconds to ground control station, [frequency must be specified in milliseconds].

@@ -1,0 +1,5 @@
+- process state messages, parse and dispatch incoming state messages from uavs for status updates, ground station manager. read incoming messages, parse into state messages, dispatch to status update queue.
+- handle handshake messages, manage initial handshake messages from uavs to establish communication, ground station manager. receive handshake message, post to handshake processing queue.
+- parse monitoring data, process incoming monitoring messages containing uav performance metrics, ground station manager. parse monitoring messages, dispatch to monitoring data queue.
+- manage socket connection, maintain active socket connection for continuous message reception from uavs, ground station manager. continuously read messages while connection is active, close on termination signal.
+- log message errors, capture and log errors during message parsing or processing failures, system monitor. invalid message format detected, log error details with severity level.

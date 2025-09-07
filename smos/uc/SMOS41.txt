@@ -1,0 +1,18 @@
+Name: EditNote  
+Actors: Administrator  
+Description: Editing a Disciplinary Note  
+Preconditions:  
+• The user must be logged into the system as an Administrator.  
+• The user has executed the use case "ViewNoteDetails".  
+
+Sequence of Events  
+User  
+System  
+1. The user modifies one or more fields in the displayed form: Student, description, teacher, date.  
+2. The user clicks "Save".  
+3. The system saves the changes.  
+
+Postconditions:  
+• The note data has been modified. The system returns to the register screen.  
+• The administrator cancels the operation.  
+• Connection to the SMOS server is interrupted.

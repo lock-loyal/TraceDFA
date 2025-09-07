@@ -1,0 +1,5 @@
+- create new flight routes, allows users to create new flight routes through the system interface, user. select route creation option, define waypoints, save route with name and category.
+- categorize flight routes, organize flight routes into predefined categories such as 'south-bend area' or 'river', system. assign category during route creation or modification.
+- calculate route length automatically, compute total distance of flight route based on waypoint coordinates during route creation or modification, system. sum distances between consecutive waypoints after route definition.
+- retrieve flight routes by name, enable searching for specific flight routes using their assigned names, user. enter route name in search field, display matching routes.
+- manage route file changes, automatically detect and reload modified flight route files from the filesystem, system. monitor file system for changes, update route list upon modification.

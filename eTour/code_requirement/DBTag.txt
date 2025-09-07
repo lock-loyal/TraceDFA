@@ -1,0 +1,10 @@
+- add cultural asset tag, associate a tag with a cultural asset, operator. select cultural asset, choose tag from available list, confirm association, system links tag to asset. valid tag and cultural asset id required.  
+- add rest point tag, link a tag to a rest point, operator. choose rest point, pick tag, confirm selection, system attaches tag. rest point must exist.  
+- delete tag, remove a tag from the system, operator. locate tag in management interface, initiate deletion, confirm action, system removes tag. tag not associated with any entities.  
+- create tag, define new tag for categorization, operator. access tag creation form, input tag name and properties, save entry, system stores new tag. unique tag name enforced.  
+- modify tag, update existing tag details, operator. select tag from list, edit attributes, submit changes, system updates tag information. tag must exist in database.  
+- view cultural asset tags, retrieve tags associated with cultural asset, operator. select target cultural asset, request tag list, system displays assigned tags. valid asset id required.  
+- view rest point tags, display tags linked to rest point, operator. choose rest point, trigger tag retrieval, system shows applicable tags. rest point registration confirmed.  
+- manage tag associations, remove tag from cultural asset, operator. select asset and assigned tag, execute removal, system disconnects tag. both asset and tag must exist.  
+- manage rest point tag relations, detach tag from rest point, operator. identify rest point and tag, confirm removal, system updates records. valid existing association required.  
+- browse all tags, access complete list of system tags, operator. open tag management panel, request full inventory, system displays all registered tags. pagination for large datasets.

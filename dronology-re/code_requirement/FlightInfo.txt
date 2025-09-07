@@ -1,0 +1,3 @@
+- track flight status, track current active flight plan and pending/completed flight plans for a uav, flight monitoring system. maintain current active flight plan, list of pending flight plans and list of completed flight plans.  
+- update flight plan status, update flight plan status between pending active and completed states, flight plan executor. flight plan transitions from pending to active upon execution, then to completed after finishing.  
+- maintain flight history, retain completed flight plans for historical reference and analysis, flight data archiver. completed flight plans remain accessible in historical records.

@@ -1,0 +1,4 @@
+- flight route persistence, map flight route entities to xml elements during serialization, flight route manager. flight route entities mapped to corresponding xml elements.  
+- coordinate persistence, map coordinate entities to xml elements during serialization, coordinate manager. coordinate entities mapped to corresponding xml elements.  
+- waypoint persistence, map waypoint entities to xml elements during serialization, flight route manager. waypoint entities mapped to corresponding xml elements.  
+- uav specification persistence, map uav specification entities to xml elements during serialization, uav specification manager. uav specification entities mapped to corresponding xml elements.

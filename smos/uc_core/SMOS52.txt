@@ -1,0 +1,1 @@
+search entities, allows the administrator to search the system for all entities characterized by the entered keywords, administrator. administrator enters text to search and clicks search button, system displays list of entities related to searched keywords including classes, courses, addresses, users found.

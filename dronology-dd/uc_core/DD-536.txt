@@ -1,0 +1,1 @@
+ordered lists of routes in mission plan, assigns ordered flight routes to each uav in a mission plan, uav. include uav in mission plan, assign ordered list of one or more flight routes.

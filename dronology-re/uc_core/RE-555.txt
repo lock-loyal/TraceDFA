@@ -1,0 +1,1 @@
+notify hover, notify uav to hover when no pending flights after current plan completion, single uav flight plan scheduler. uav reaches final waypoint without pending flights, scheduler notifies hover.

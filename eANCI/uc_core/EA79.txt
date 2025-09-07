@@ -1,0 +1,1 @@
+view information, allow citizen to view territory information, citizen. citizen requests territory information display, system returns information including libraries, events, museums, promotions, handle service unavailable by invoking service unavailable use case, exit conditions are citizen viewing information or service unavailable, citizen must have logged into the system.

@@ -1,0 +1,3 @@
+- manage category, create new category with specified attributes, operator. access category management feature, input category name, define parameters, validate input, save category. valid category name format.  
+- update term values, modify frequency and relevance metrics of existing terms, operator. select target term, input new frequency and relevance values, validate data, confirm update, apply changes to term. valid numerical values.  
+- check term existence, verify presence of term within category dictionary, operator. enter term name, trigger search, system checks term registry, display confirmation status. term format adheres to system constraints.

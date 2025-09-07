@@ -1,0 +1,19 @@
+Citizen (Cittadino) - An individual resident interacting with municipal services.
+Administrator (Amministratore) - A role with authority to manage system operations and users.
+Employee (Impiegato) - A staff member handling citizen requests and services.
+Family Unit (Nucleo Familiare) - A core group of related individuals for household records.
+Identity Card (CartaIdentità) - An official document verifying personal identity.
+Municipality (Comune) - The local government entity providing administrative services.
+Request (Richiesta) - A formal petition or appeal submitted for processing.
+Application (Pratica) - A citizen's submission or case requiring administrative action.
+Change of Residence (Cambio Residenza) - The process of updating a citizen's address record.
+Access (Accesso) - Permission or entry to system resources for authorized users.
+Register (Registra) - Action to sign up a citizen or user for system use.
+Login - Entry point for users to start a session within the system.
+Search (Ricerca) - Action to find information based on specific criteria.
+Modify (Modifica) - Action to alter or update existing records and details.
+View (Visualizza) - Action to inspect or display information visually.
+Insert - Action to insert new records or information.
+Delete - Action to remove or delete records or information.
+Family Status (Stato Di Famiglia) - Current composition or state of a family unit.
+Logout - Exit point for users to end a session securely.

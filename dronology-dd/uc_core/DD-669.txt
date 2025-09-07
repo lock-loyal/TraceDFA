@@ -1,0 +1,1 @@
+route description, provides fields for displaying and modifying route information, ui. display and modify id, textual description, waypoints, and other route information.

@@ -1,0 +1,1 @@
+default message frequency, set the default frequency for uav state messages, system. set default message frequency to uav_message_state_frequency.

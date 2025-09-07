@@ -1,0 +1,1 @@
+- test teaching management interface, allows the administrator to access the test interface for the teaching management module, administrator. administrator navigates to test interface, system displays confirmation of module accessibility.

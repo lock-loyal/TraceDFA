@@ -1,0 +1,1 @@
+- notify subscribers of drone monitoring messages, deliver real-time monitoring data to subscribed clients, system. send messages to subscribers, unregister on connection failure.

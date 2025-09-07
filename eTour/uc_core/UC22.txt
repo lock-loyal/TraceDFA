@@ -1,0 +1,1 @@
+delete news, allow agency operator to remove a news item from the system, agency operator. activate delete function, display news list, select news and submit, request confirmation, confirm deletion, remove news data, notify success. valid server connection.

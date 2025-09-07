@@ -1,0 +1,1 @@
+- manage banner data, store and display banner information with image validation, operator. operator accesses banner management interface, creates or updates banner node, provides image and identifier, system validates image presence, saves node data, displays in tree structure. invalid image input prevented.

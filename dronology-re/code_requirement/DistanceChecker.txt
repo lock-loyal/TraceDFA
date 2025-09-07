@@ -1,0 +1,4 @@
+- collision detection, monitor real-time distances between uavs and trigger alerts when below minimum threshold, monitoring system. continuously monitor uav positions, calculate pairwise distances, trigger alert if distance below 5 meters.
+- real-time position tracking, collect and store uav position updates including latitude longitude and altitude, monitoring system. process incoming uav state messages to update current positions.
+- timestamp validation, ensure compared position data has timestamp difference within 500 milliseconds, monitoring system. only compare uav positions if their timestamps differ by less than 500 milliseconds.
+- collision alerting, publish collision event with involved uavs and distance when threshold breached, monitoring system. publish collision message including uav ids and distance when minimum threshold is breached.

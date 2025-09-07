@@ -1,0 +1,7 @@
+- waypoint editing, enable editing of waypoint coordinates altitude and transit speed through table input fields, flight route manager. edit waypoint coordinates altitude and transit speed via table input fields.  
+- coordinate validation, validate latitude input to be between -90 and 90 and longitude between -180 and 180, flight route manager. latitude must be [-90,90], longitude must be [-180,180].  
+- altitude restriction, restrict waypoint altitude values between 0 and 100 meters, flight route manager. altitude values must be 0-100 meters.  
+- delete confirmation, require confirmation before removing waypoint from flight route, flight route manager. deletion requires confirmation.  
+- map synchronization, update map markers when modifying waypoint coordinates in table, flight route manager. coordinate changes update corresponding map markers.  
+- transit speed requirement, enforce positive transit speed values for waypoints, flight route manager. transit speed must be greater than zero.  
+- column management, display waypoint order as numeric sequence starting from 1 in table, flight route manager. display waypoint order as 1-based index.

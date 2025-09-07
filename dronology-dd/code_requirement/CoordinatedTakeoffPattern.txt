@@ -1,0 +1,4 @@
+- coordinated takeoff with synchronized ascent, defines a sequence for uavs to ascend to a common altitude before moving to target, system. uavs ascend to common altitude, synchronize, then proceed to target coordinates.  
+- enforce altitude synchronization, ensures all uavs reach specified altitude before horizontal movement, system. uavs must reach coordination altitude and trigger sync point before lateral motion.  
+- sequential waypoint synchronization, requires uavs to reach intermediate waypoints and confirm before proceeding, system. uavs reach ascent waypoint, trigger sync, reach lateral waypoint, trigger sync, then descend to final target.  
+- collision avoidance during ascent, assigns unique altitudes when coordination altitude not predefined, system. generate unique altitude levels if coordination altitude parameter is unset.

@@ -1,0 +1,7 @@
+- search citizen by name and surname, allow employee to find citizen records using name and surname, employee. employee accesses search form, system displays input fields for name and surname, employee enters data and submits search request, system retrieves matching citizen records, employee must have valid system access, exit conditions include system displaying matching results or no results message, name must be non-empty with [a-zàèéìòù'] characters, surname same as name.
+
+- search citizen by identity card code, allow employee to retrieve citizen data via identity card number, employee. employee inputs identity card code in search form, system queries database for matching code, system displays citizen details if found, employee must be authenticated, exit conditions include citizen details shown or error message if code not found, identity card code must exist in system and be valid format.
+
+- handle no search results, manage scenarios where citizen search yields no matches, employee. system displays no results message, employee reviews search criteria, system redisplays search form, exit when form is redisplayed, extends citizen search use cases to handle empty result sets.
+
+- session validation for citizen search, ensure employee session is active during search operations, employee. system checks session validity upon search request, redirects to login if session invalid, employee must have active session to perform searches, exit conditions include valid session proceeding to search or invalid session redirecting to login.

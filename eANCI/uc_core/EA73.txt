@@ -1,0 +1,1 @@
+library information, allow citizen to view library details, citizen. citizen requests to display library list, system shows library list, citizen selects library, system returns library information including location, opening dates and hours, website link, citizen must be logged into the system, exit when citizen views information or redirects to library website for book viewing.

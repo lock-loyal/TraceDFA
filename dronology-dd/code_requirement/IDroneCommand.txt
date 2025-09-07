@@ -1,0 +1,4 @@
+- define standard drone commands, ensure all drone commands include uav id, system. each command must include uav identifier.  
+- serialize drone commands to json, convert drone commands to json format for transmission, system. commands are converted to json before transmission.  
+- timestamp drone commands, record time when each command is created, system. each command includes timestamp of creation.  
+- include flight parameters in commands, commands must contain altitude, speed, and mode attributes, system. altitude, speed, mode are required command parameters.

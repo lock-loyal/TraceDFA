@@ -1,0 +1,1 @@
+- display average votes, present average rating using star icons based on value, operator. load rating data, convert numerical value to corresponding star image, render in table cell, update display upon data change. valid rating between 1 and 5 required.

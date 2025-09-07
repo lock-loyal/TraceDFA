@@ -1,0 +1,5 @@
+- manage banners, insert new advertisement for rest point, operator. select rest point, open banner dialog, choose advertisement image, confirm insertion, update banner list. valid image format required.  
+- replace banners, update existing advertisement for rest point, operator. select current banner, launch replacement dialog, select new image, confirm changes, refresh tree view. server connection must be active.  
+- delete banners, remove expired advertisement from system, operator. select target banner, confirm deletion request, remove from database, update interface. banner must belong to authorized rest point.  
+- search rest points, locate specific eatery for banner management, operator. enter name keywords, select tags, execute search, display filtered rest points. maximum 10 results per query.  
+- reset filters, clear search parameters for banner overview, operator. activate reset function, empty search fields, reload full rest point list. operation completes within 3 seconds.

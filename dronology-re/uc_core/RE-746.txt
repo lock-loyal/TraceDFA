@@ -1,0 +1,1 @@
+uav activation notification, report newly connected uavs to the gcs middleware, gcs. gcs reports newly connected uavs to gcs middleware.

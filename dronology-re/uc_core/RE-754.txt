@@ -1,0 +1,1 @@
+gcs transmits uav monitoring data, transmit uav properties to gcs middleware, gcs. gcs transmits properties to gcs middleware.

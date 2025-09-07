@@ -1,0 +1,1 @@
+- view academic years, allows the administrator to view all academic years present in the system, administrator. system retrieves and displays list of academic years stored in database, administrator accesses academic year management section.

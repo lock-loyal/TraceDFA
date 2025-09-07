@@ -1,0 +1,1 @@
+modify banner, allow agency operator to update banner advertisement image, agency operator. receive rest point list from search rest points, select rest point, view associated banners, choose banner, display image selection form, select image, validate image, confirm change, save new image, notify success. valid image format.

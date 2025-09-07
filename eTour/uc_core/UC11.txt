@@ -1,0 +1,1 @@
+view convention history, allow agency operator to view history of conventions from selected rest point, agency operator. access convention history feature, retrieve convention data from selected rest point, display history.

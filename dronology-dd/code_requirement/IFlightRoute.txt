@@ -1,0 +1,5 @@
+- create flight route with waypoints, allows defining flight routes by specifying a sequence of waypoints, route planner. specify waypoints in sequence to define flight route, must include at least two waypoints.  
+- categorize flight routes, organize flight routes into user-defined categories for better management, route manager. assign category to each created flight route.  
+- adjust takeoff altitude, set altitude parameter for takeoff phase in flight route configuration, operator. specify takeoff altitude when creating or modifying flight route.  
+- modify waypoint sequence, edit existing flight routes by adding/removing/reordering waypoints, route editor. select flight route, insert/delete waypoints at specific positions.  
+- maintain route descriptions, store and update textual descriptions for flight routes, maintainer. enter/edit descriptive text for each flight route.

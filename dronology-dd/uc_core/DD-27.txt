@@ -1,0 +1,1 @@
+uav flight plan management, manage pending flight plans for uavs, system. each uav has zero or more pending flight plans.

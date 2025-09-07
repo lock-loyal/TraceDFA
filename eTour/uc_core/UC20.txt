@@ -1,0 +1,1 @@
+insert banner, insert a new banner linked to a rest point, agency operator. select rest point from search results, access banner insertion function, display image selection form, upload image, validate image and banner limit, request confirmation, store banner association, notify successful insertion. maximum banner limit per rest point, valid image format.

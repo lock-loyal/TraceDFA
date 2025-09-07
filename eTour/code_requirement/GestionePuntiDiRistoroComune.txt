@@ -1,0 +1,5 @@
+- retrieve rest point details, obtain rest point information by id, operator. request rest point data, validate id, retrieve details from database, return bean with rest point data. invalid id or data format error.  
+- view rest point tags, display tags associated with specific rest point, tourist. select rest point, retrieve tag list from database, display tag collection. invalid rest point identifier.  
+- access recent comments, show last 10 tourist feedback entries for rest point, operator. request comment history, retrieve sorted feedback, populate comment array, display latest entries. comments limited to 30-day period.  
+- analyze vote statistics, collect vote distribution data from past month, operator. generate statistics request, calculate vote counts per rating, return aggregated results. statistics only include votes within 30 days.  
+- modify feedback comment, update existing tourist review text, tourist. edit feedback entry, verify unchanged vote value, save updated comment, confirm modification. vote alteration prohibited during edit.

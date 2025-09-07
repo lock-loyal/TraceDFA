@@ -1,0 +1,1 @@
+uav messages, handle state, monitoring, and mode change messages received from a gcs, gcs middleware. gcsmiddleware handles state messages, monitoring messages, and mode change messages received from gcs.

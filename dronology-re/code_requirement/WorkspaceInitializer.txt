@@ -1,0 +1,2 @@
+- initialize server workspace, set up root directory and subdirectories for flight routes and drone specifications, system supervisor. system supervisor sets up root directory and required subdirectories.
+- import flight route files, allow importing flight route files into designated directory with overwrite option, system supervisor. flight route files imported into designated directory, overwrite existing files if permitted.

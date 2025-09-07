@@ -1,0 +1,1 @@
+prevent reassignment of aborted flight plan, ensures aborted flight plans are not reassigned to uavs, system. aborted flight plan shall not be reassigned to any uav.

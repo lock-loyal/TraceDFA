@@ -1,0 +1,4 @@
+- edit waypoint details, allows users to edit waypoint latitude, longitude, altitude, and transit speed with validation, user. select waypoint, modify values within defined ranges, validate inputs. latitude between -90 and 90, longitude between -180 and 180, altitude between 0-100 meters, transit speed greater than zero.
+- delete waypoint entries, provides delete button per waypoint row with confirmation dialog, user. click delete button, confirm deletion in dialog. prevent accidental deletions through confirmation.
+- display waypoint sequence numbers, shows waypoint order as sequential numbers starting from 1, system. automatically number waypoints based on position in route.
+- synchronize map markers with table data, updates map marker positions when waypoint coordinates are modified, system. coordinate changes in table automatically reflect on map visualization.

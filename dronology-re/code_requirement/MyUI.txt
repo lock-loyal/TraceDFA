@@ -1,0 +1,5 @@
+- real-time drone monitoring, periodically refresh and display drone status and position information on map, operator. timer triggers periodic refresh of drone status and position information displayed on map.
+- focus on specific drone, track selected drone's location continuously until manually changed, operator. operator selects drone to focus on, map continuously follows selected drone's location.
+- multi-drone selection, select multiple drones to display their status and positions simultaneously, operator. operator selects multiple drones, map displays all selected drones.
+- server connection management, establish and maintain connection to backend service for data exchange, system. ui connects to backend service at specified host and port to exchange data.
+- ui layout organization, structure user interface with navigation bar containing controls and map sections, operator. navigation bar organizes interface into controls panel and map display areas.

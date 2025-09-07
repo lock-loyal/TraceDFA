@@ -1,0 +1,5 @@
+- track real-time position, update and maintain current uav position in system, system. continuously update uav's latitude, longitude, and altitude coordinates.  
+- set home base location, establish uav's designated home base coordinates, system. configure home base location for automatic return operations.  
+- switch to user-controlled mode, transition uav flight control to manual user operation, system. change flight mode state to user-controlled when permitted.  
+- maintain uav status information, manage and expose uav's current velocity and battery level, system. update velocity and battery level data through dedicated status object.  
+- enforce flight mode transition rules, restrict mode changes based on current flight zone conditions, system. prevent invalid mode transitions according to flight zone constraints.

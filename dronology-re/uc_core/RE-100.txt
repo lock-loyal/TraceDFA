@@ -1,0 +1,1 @@
+remove planned flight, unassign flight plan from uav awaiting execution, single uav flight plan scheduler. if requested, unassign flight plan.

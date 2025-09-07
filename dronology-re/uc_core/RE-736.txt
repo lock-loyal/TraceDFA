@@ -1,0 +1,1 @@
+connection lost, notify dronology and deactivate all associated uavs when connection to gcs is lost, gcs middleware. connection to gcs from gcs middleware is lost, gcs middleware notifies dronology and deactivates uavs.

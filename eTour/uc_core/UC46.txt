@@ -1,0 +1,1 @@
+modify search preferences, allow tourist to update personal search preferences, tourist. tourist accesses modification feature, system loads current preferences into form, tourist edits and submits changes, system validates and requests confirmation, tourist confirms, system saves updated preferences, displays success message.

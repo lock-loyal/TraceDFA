@@ -1,0 +1,3 @@
+- establish uav connection, establish initial connection between uav and ground station via handshake message, uav operator. uav initiates connection, ground station receives handshake with uav id and ground station id.  
+- exchange home location, transmit uav home location as lla coordinates during handshake, uav operator. handshake message includes uav home location as lla coordinates.  
+- provide safety case, include safety case information in handshake message for compliance verification, safety manager. handshake message contains safety case details for validation.

@@ -1,0 +1,1 @@
+- uav command acknowledgment, uav sends acknowledgment messages to ground station upon receiving commands, uav operator. uav sends acknowledgment message to ground station after receiving command.

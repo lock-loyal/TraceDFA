@@ -1,0 +1,4 @@
+- add dish, insert new dish into system, operator. access dish management, input dish details, submit data, validate entries, confirm addition, store dish information. valid dish data format, unique dish identifier.
+- modify dish, update existing dish details, operator. select dish to edit, load current data, modify fields, submit changes, validate updates, confirm modification, save updated data. valid dish identifier required.
+- delete dish, remove dish from system, operator. select dish to delete, confirm removal action, process deletion, update database. valid dish identifier must exist.
+- retrieve dishes by menu, display list of dishes associated with menu, operator. select menu identifier, submit request, fetch dishes, display results. valid menu identifier required.

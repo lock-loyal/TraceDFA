@@ -1,0 +1,1 @@
+- initiate landing command, allow operators to send land command to uav using predefined mode, drone operator. operator sends land command to uav, uav transitions to land mode.

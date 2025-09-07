@@ -1,0 +1,2 @@
+- record a delay, tracks student tardiness entries, administrator. administrator enters date, time, and academic year for student delay, system stores delay record with provided details, student id, date, time, and academic year must be specified.
+- view delay details, displays student tardiness information, teacher. system shows list of delays including date, arrival time, and associated academic year for selected student.

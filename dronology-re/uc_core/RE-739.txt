@@ -1,0 +1,1 @@
+forward commands to uav, forward received commands from gcs middleware to the respective uav, gcs. gcs receives command from gcs middleware, forwards to uav.

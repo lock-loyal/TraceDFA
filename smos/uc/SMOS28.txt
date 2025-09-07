@@ -1,0 +1,16 @@
+Name: ViewSingleRegisterDetails  
+Actors: Administrator  
+Description: Displays the details of one of the class registers  
+Preconditions:  
+• The user must be logged into the system as an Administrator  
+• The user must have executed the use case "ViewRegistersList"  
+• Clicks the "Details" button associated with one of the registers  
+
+Event Sequence  
+User  
+System  
+1. Displays on screen the information contained in the register organized by date. Specifically, for the current date, it shows the list of students, specifying: absent/present, late arrivals, and a form from which justifications and disciplinary notes can be managed.  
+
+Postconditions:  
+• The system is displaying the details of a class register  
+• Connection to the SMOS server is terminated

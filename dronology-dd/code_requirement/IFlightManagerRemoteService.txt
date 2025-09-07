@@ -1,0 +1,8 @@
+- schedule flight with waypoints, allows user to schedule a flight by specifying a plan name and list of waypoints, user. define plan name, specify waypoints, submit flight plan.  
+- assign flight plan to uav, enables assigning a predefined flight plan to a specific uav identified by uav_id, user. select uav, choose flight plan, assign to uav.  
+- command uav to return home, triggers uav to return to its home location, user. select uav, activate return-to-home command.  
+- initiate uav takeoff, allows user to command a uav to takeoff to a specified altitude, user. select uav, set altitude, trigger takeoff.  
+- pause active flight, enables pausing the current flight of a selected uav, user. select uav in flight, activate pause command.  
+- retrieve flight status, provides detailed flight information for a specified uav, user. select uav, request current flight status.  
+- list active flights, displays all currently active flights in the system, user. access flight manager, view active flights list.  
+- cancel pending flights, removes all pending flight plans assigned to a uav, user. select uav, clear pending flight queue.

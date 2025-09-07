@@ -1,0 +1,1 @@
+- configure multiple map layers, allows user to configure and display multiple map layers including base layers and overlays, user. add layers with name and url, specify overlay status, display on map. overlay status is optional, defaults to base layer.

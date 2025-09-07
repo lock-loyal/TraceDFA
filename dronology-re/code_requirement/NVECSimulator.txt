@@ -1,0 +1,5 @@
+- flight path simulation, simulate uav movement along flight path using n-vector coordinate system, simulation manager. simulate uav movement between waypoints using n-vector coordinate calculations.  
+- battery voltage modeling, model battery voltage drain during flight operations and checkpoint tracking, simulation engine. model voltage drain during flight and track consumption at checkpoints.  
+- coordinate conversion, convert latitude-longitude-altitude coordinates to n-vector representation for calculations, navigation system. convert lla coordinates to n-vector for movement computations.  
+- movement interpolation, calculate intermediate positions between current and target coordinates per simulation step, path following system. calculate precise intermediate positions during each movement iteration.  
+- flight termination check, determine when uav reaches target coordinates within movement threshold, navigation monitor. check remaining distance to target against movement threshold for termination.

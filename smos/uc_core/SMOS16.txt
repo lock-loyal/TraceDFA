@@ -1,0 +1,1 @@
+delete class, deletes a class from the archive, administrator. system deletes class from archive, displays updated list of classes.

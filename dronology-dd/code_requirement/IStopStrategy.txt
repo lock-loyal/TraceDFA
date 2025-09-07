@@ -1,0 +1,1 @@
+- define uav stop strategies, allows implementation of various strategies for stopping uav operations, system. execute predefined stop strategies based on operational conditions.

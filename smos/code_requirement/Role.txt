@@ -1,0 +1,1 @@
+- manage user roles, the system supports different user roles with specific permissions, administrator. administrator assigns roles to users during registration or profile updates, roles include administrator, teacher, student, parent, ata, and director each with distinct access levels.

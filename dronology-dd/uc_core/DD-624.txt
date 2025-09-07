@@ -1,0 +1,1 @@
+ui middleware handles control heartbeat, allows ui middleware to monitor the liveness of clients holding control locks on uavs, system. monitor liveness of clients with control locks, ensure active control sessions.

@@ -1,0 +1,1 @@
+search, search cultural heritage for all, guest user. guest user activates search, system displays form, user submits form, system retrieves guest user's location using location use case and processes search, displays matching sites list.

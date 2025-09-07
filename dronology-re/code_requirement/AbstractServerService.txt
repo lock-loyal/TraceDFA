@@ -1,0 +1,7 @@
+- service lifecycle management, manage starting and stopping of service instances, service administrator. start or stop services through administrator actions. 
+- service status monitoring, track and report the operational state of each service, system monitor. track operational state of each service and report status. 
+- universal service notifications, allow subscribing to status changes across all services, system monitor. subscribe to status change notifications for all services. 
+- workspace configuration, set a custom workspace directory for service operations, system administrator. set custom workspace directory to configure service operations. 
+- service information aggregation, collect and provide details of all registered services, system monitor. collect details of all registered services and provide summary. 
+- core service differentiation, distinguish core services from file-based services in reporting, system monitor. differentiate core services from file-based services when reporting. 
+- service listener management, add or remove listeners for individual service status updates, system integrator. add or remove listeners to receive service-specific status updates.

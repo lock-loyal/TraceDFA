@@ -1,0 +1,1 @@
+- generate combined report, display cultural assets and rest points in a unified table, operator. operator selects report generation, system retrieves cultural assets and rest points data, merge records into table, render name, description, address, city, province columns. data must be valid and non-empty.

@@ -1,0 +1,3 @@
+- manage convention, create new agreement between agency and rest point, operator. access convention management, input details (dates, price, banner limit), link to rest point, validate data, confirm creation, store agreement. valid dates, positive price, active status.  
+- update convention, modify existing agreement terms, operator. select convention, edit details (end date, price, banner limit), submit changes, validate updates, confirm modification, update stored data. convention must be active.  
+- deactivate convention, disable expired or inactive agreements, operator. select active convention, trigger deactivation, confirm action, set status to inactive, update record. convention end date passed.

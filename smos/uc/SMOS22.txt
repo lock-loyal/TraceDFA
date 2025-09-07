@@ -1,0 +1,19 @@
+Name: ViewListOfCourses  
+Actors: Administrator  
+Description: Allows viewing the list of courses  
+Preconditions:  
+• The user is logged into the system with the role of Administrator  
+• The user clicks the "Course Management" button  
+
+Sequence of Events  
+User  
+System  
+1.  
+2.  
+Searches for courses in the archive  
+Displays the course management screen  
+and views the list of courses  
+
+Postconditions:  
+• The system displays the list of courses stored in the archive  
+• Connection to the SMOS server is terminated

@@ -1,0 +1,2 @@
+- delete a user, allows the administrator to remove a user from the system, administrator. administrator selects user to delete and confirms action, system verifies user is not the last administrator, deletes user and updates user list. system must have at least one administrator remaining.  
+- manage administrator constraints, prevents deletion of the last administrator to maintain system access, administrator. system checks number of existing administrators, blocks deletion if selected user is the last administrator, displays error message.

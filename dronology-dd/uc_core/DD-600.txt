@@ -1,0 +1,1 @@
+simulate goto in internal simulator, allows simulating goto command computation in internal simulator, system. when given a goto command, compute next coordinate based on angle of travel and step-size.

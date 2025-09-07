@@ -1,0 +1,1 @@
+site registration, allows a student to register with the system, visitor. system displays registration form containing first name, last name, mobile number, email, username, password, confirm password, user fills in form fields, submits form, system enters registration request into system.

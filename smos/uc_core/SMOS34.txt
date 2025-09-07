@@ -1,0 +1,1 @@
+view list of justifications, displays the list of justifications, administrator. system displays all student's absences recorded in selected academic register during school year, already justified absences shown in green, those to be justified in red.

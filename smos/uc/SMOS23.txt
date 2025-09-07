@@ -1,0 +1,21 @@
+Name: AddNewCourse  
+Actors: Administrator  
+Description: Adds a new course to the archive  
+Preconditions:  
+• The user is logged into the system as an Administrator  
+• The user has already executed the use case “ViewCourseList,” and the system is displaying the list of courses  
+• The user clicks the “New Course” button  
+
+Sequence of Events  
+User  
+2. Fills out the form  
+3. Clicks the “Save” button  
+
+System  
+1. The system displays the form to be filled out with: course name.  
+4. Performs checks on the validity of the entered data and adds the new course to the archive; if the entered data is invalid, triggers the “DataError” use case.  
+
+Postconditions:  
+• The user has added a course  
+• An error is notified: “SMOS server connection is lost”  
+• The Administrator cancels the operation

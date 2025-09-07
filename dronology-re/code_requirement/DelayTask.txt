@@ -1,0 +1,1 @@
+- schedule mission delay, insert a specified delay duration between consecutive mission tasks for uav synchronization, mission planner. after completing a route, mission planner inserts delay before next task. duration must be specified in seconds.

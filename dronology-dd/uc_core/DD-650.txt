@@ -1,0 +1,1 @@
+transmit route removals to uimiddleware, send removal requests to uimiddleware when route assignments are removed from a uav, system. remove route assignment from uav, send request to uimiddleware to remove assignment in dronology.

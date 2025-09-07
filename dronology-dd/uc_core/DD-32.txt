@@ -1,0 +1,1 @@
+transition from taking_off to flying, change uav state when target altitude is achieved, system. uav in taking_off state achieves target altitude, transition to flying state.

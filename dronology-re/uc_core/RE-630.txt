@@ -1,0 +1,1 @@
+ui middleware forwards commands, forward commands from uis to dronology, ui middleware. uimiddleware accepts commands from uis and forwards to dronology.

@@ -1,0 +1,1 @@
+connect gcs to dronology via middleware, handle multiple gcs connections via middleware, gcs middleware. handle multiple gcs.

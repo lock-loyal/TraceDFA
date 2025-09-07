@@ -1,0 +1,1 @@
+view registers list, displays the list of registers for an academic year, administrator. system displays screen for selecting academic year, administrator selects academic year, system searches archive for all digital registers from that year and displays them associated with their respective classes.

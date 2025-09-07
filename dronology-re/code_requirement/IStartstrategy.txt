@@ -1,0 +1,1 @@
+- define start strategy, enable selection and implementation of different uav starting procedures, strategy manager. strategy manager selects and applies specific start strategy for uav. each strategy must implement the defined interface.

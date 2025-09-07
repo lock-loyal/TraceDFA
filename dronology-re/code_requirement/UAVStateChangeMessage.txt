@@ -1,0 +1,2 @@
+- track uav state transitions, capture and record changes in uav state including previous and current states, monitoring system. when a uav's state changes, the system records the previous state, new state, and precise timestamp.
+- timestamp state changes, assign precise timestamps to each uav state transition event, monitoring system. each state change is recorded with the exact time of occurrence.

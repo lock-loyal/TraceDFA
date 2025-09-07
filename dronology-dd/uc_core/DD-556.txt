@@ -1,0 +1,1 @@
+executing flight plan associated with uav, associates the executing flight plan id with the uav, system. associate currently executing flight plan id with uav.

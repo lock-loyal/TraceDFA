@@ -1,0 +1,1 @@
+add new class, adds a new class to the archive, administrator. system displays form to be filled with name, address, academic year, administrator fills out form, clicks save button, system performs validity checks on entered data, adds new class to archive; if data not valid, triggers dataerror use case.

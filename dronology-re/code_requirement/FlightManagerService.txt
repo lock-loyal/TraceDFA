@@ -1,0 +1,7 @@
+- plan flight route, allow users to define flight routes by specifying a sequence of waypoints for uavs, flight manager. users define flight routes by specifying ordered waypoints including coordinates.
+- initiate uav takeoff, enable users to command uavs to take off and reach specified altitude, flight operator. command uav to take off and ascend to defined altitude.
+- execute return to home, provide capability to command uavs to return to their home location during flight, flight operator. trigger uav to navigate back to home coordinates.
+- pause active flight, allow temporary suspension of ongoing uav flights for operational adjustments, flight supervisor. pause flight execution while maintaining current position.
+- cancel pending flights, enable removal of scheduled flight plans from uav mission queues, flight supervisor. delete queued flight plans before execution.
+- activate emergency stop, implement immediate termination of all uav operations for safety critical situations, safety officer. instantly stop all uav movement and systems.
+- retrieve flight status, provide real-time access to current flight parameters and uav state information, monitoring operator. view altitude, position and operational status of active flights.

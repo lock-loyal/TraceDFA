@@ -1,0 +1,3 @@
+- registration, create new tourist account with personal details, tourist. access registration form, input required data, submit form, validate information, generate account, store details, confirm successful registration. valid data format, unique username.
+- modify profile, update tourist personal information, tourist. access profile management, edit existing data fields, save changes, validate inputs, update stored details, display confirmation. valid data format, active account status.
+- account activation, enable or disable tourist account access, operator. select tourist account, toggle activation status, confirm operation, update account status, notify tourist. valid operator privileges, existing account.

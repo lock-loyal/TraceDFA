@@ -1,0 +1,1 @@
+request tosap accepted, allow employee to accept tosap request, employee. employee views received notification, system displays citizen's request, employee verifies data validity and enables bureaucratic procedure, system sends confirmation email to citizen, includes request tosap use case, employee must be authenticated in the system.

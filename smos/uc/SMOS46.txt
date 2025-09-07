@@ -1,0 +1,23 @@
+Name: InsertReportCard  
+Actors: Administrator  
+Description: Insertion of a student's report card performed by the Administrator  
+Preconditions:  
+• The user has logged into the system as an Administrator  
+• The user clicks on the “Online Report Cards” button  
+
+Sequence of Events  
+User  
+2. Selects the class of the student for whom to enter the report card  
+4. Selects the student to whom to enter the report card by clicking the corresponding button  
+6. Enters the grades for the report card, either in full or partially, and clicks the “Save” button  
+
+System  
+1. Displays the list of classes present in the system related to the current academic year, with a “Report Cards” button next to each class  
+3. Displays the list of students in the class selected by the user  
+5. Displays the form for entering a report card  
+7. Enters the input grades into the archive and returns the user to the class student display page  
+
+Postconditions:  
+• The report card related to a student has been added to the system.  
+• The user interrupts the operation  
+• Connection to the SMOS server interrupted

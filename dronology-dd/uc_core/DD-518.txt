@@ -1,0 +1,1 @@
+location accuracy, ensures distance calculations between coordinates are accurate within 1 meter over 400000 meters, system. compute distances between two coordinates with accuracy within 1 meter over 400000 meters.

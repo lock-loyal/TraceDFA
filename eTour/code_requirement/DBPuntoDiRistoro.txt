@@ -1,0 +1,7 @@
+- manage rest point, create new rest point entry, operator. access rest point management, input details and location, validate data, confirm creation, store in database, display success message. valid data format required, unique partitaiva constraint.  
+- modify rest point, update existing rest point information, operator. select rest point, edit details, submit changes, validate updates, confirm modification, update database entry, notify operator. rest point must exist in system.  
+- delete rest point, remove rest point from system, operator. select rest point, initiate deletion, confirm action, remove from database, refresh listing. rest point must have no active associations.  
+- search rest points, retrieve rest points matching criteria, tourist. enter keywords/tags/location range, execute search, display paginated results, allow page navigation. maximum distance parameter enforced.  
+- advanced rest point search, prioritize results using tourist preferences, tourist. activate advanced search, apply saved preferences, combine with keywords/location, display personalized results. valid tourist id required.  
+- view rest point details, display complete rest point information, tourist. select rest point from list, retrieve database record, show contact/opening hours/location data. system requires stable database connection.  
+- list all rest points, display complete catalog of rest points, operator. access management interface, fetch all entries, present in paginated table. operator authentication mandatory.

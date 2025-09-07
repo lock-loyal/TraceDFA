@@ -1,0 +1,1 @@
+distinguish key waypoints, distinguish between starting, ending, and intermediate waypoint markers, route creation ui. distinguish between starting, ending, and intermediate waypoint markers.

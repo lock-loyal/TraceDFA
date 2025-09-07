@@ -1,0 +1,7 @@
+- display active uavs, shows active uavs with status, battery, location, and speed info, user. retrieve active uav list from server, display real-time status updates.  
+- confirm uav return to home, requires user confirmation before sending selected uavs to home location, user. select uavs, trigger return-to-home, confirm action via dialog.  
+- bulk uav selection, allows selecting/deselecting all uavs via single button, user. click select/deselect all button to toggle all checkboxes.  
+- expand/collapse uav details, toggle visibility of detailed uav information panels, user. click expand/collapse all button to show/hide details.  
+- automatic uav list refresh, updates active uav list when new drones connect or existing disconnect, system. periodically check server for active uav changes, update ui accordingly.  
+- uav status synchronization, maintains consistent status display between ui and backend systems, system. update uav info panels with latest status from server.  
+- connection loss handling, manages ui state when backend connection is lost, system. display reconnection notifications, clear uav list on prolonged disconnection.

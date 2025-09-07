@@ -1,0 +1,1 @@
+- persist flight route details, enables system to store and retrieve flight route information using serialization, system. utilize xstream persistor for flight route data storage and retrieval.

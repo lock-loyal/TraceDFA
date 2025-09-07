@@ -1,0 +1,1 @@
+view circulars, allow citizen to view municipal circulars, citizen. citizen accesses circulars area via link, system displays numbered list, citizen selects circular via link, system displays selected circular, handle technical failures by invoking service unavailable use case, citizen must have system access.

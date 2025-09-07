@@ -1,0 +1,1 @@
+client registers for uav activation events, allows client to register for uav activation event notifications when uav instances are activated or deactivated, client. register with uimiddleware, receive notifications on uav activation events.

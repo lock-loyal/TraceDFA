@@ -1,0 +1,2 @@
+- real-time monitoring subscription, enable clients to subscribe to real-time monitoring messages for selected drones, monitoring operator. monitoring operator subscribes to receive real-time updates for specific drones.  
+- dynamic monitoring frequency adjustment, allow configuring the frequency of monitoring data updates per uav, monitoring operator. monitoring operator sets the update frequency for individual uavs.

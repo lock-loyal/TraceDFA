@@ -1,0 +1,5 @@
+- simulate battery consumption during flight, simulate battery drain while the drone is in flight, system. activate battery drain simulation when flight starts, update voltage levels during flight.  
+- update drone position based on flight path, adjust drone's current position towards target coordinates during simulation, system. calculate movement step, update current position iteratively.  
+- verify destination reached status, check if drone has reached target coordinates within simulation step, system. compare current position to target, return true if within distance threshold.  
+- monitor battery voltage at checkpoints, record battery voltage at specific checkpoints during flight simulation, system. trigger checkpoint check during flight, log current voltage level.  
+- terminate battery drain simulation, stop battery consumption process when flight simulation ends, system. halt voltage drain updates upon flight completion.

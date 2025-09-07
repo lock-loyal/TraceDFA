@@ -1,0 +1,1 @@
+insert cultural asset, allow agency operator to add a new cultural asset into the system, agency operator. activate new cultural asset insertion feature, display input form, fill form with asset details, validate data, confirm submission, store new cultural asset, notify successful creation. system rejects duplicate cultural assets.

@@ -1,0 +1,1 @@
+view student data, allows parent to view information related to their children, parent. system displays summary table with information related to children including date, absences, disciplinary notes, delays, and justifications.

@@ -1,0 +1,17 @@
+Name: ViewReportCard  
+Actors: Parent  
+Description: The report card of the requested student is displayed  
+Preconditions:  
+• The user has logged into the system as a Parent  
+• The user clicks the report card button associated with one of their children  
+
+Sequence of Events  
+User  
+System  
+2. Selects the desired report card  
+1. Displays the report cards of the selected student  
+3. Displays details of the selected report card  
+
+Postconditions:  
+• The system displays a student’s report card  
+• Connection to the SMOS server is terminated

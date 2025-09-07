@@ -1,0 +1,1 @@
+remove site from favorites, allow tourist to delete a site from their favorites list, tourist. select site to remove via option, prompt for removal confirmation, confirm action, remove site from favorites list, display removal notification. connection to etour server interrupted.

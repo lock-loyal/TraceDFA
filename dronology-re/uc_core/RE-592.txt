@@ -1,0 +1,1 @@
+uav registration, store uav metadata information such as the uav's technical characteristics, uav registration manager. store uav metadata including technical characteristics.

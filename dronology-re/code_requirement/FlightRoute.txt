@@ -1,0 +1,4 @@
+- define flight route, define flight routes as ordered sequence of waypoints with first and final target locations, flight route manager. flight routes defined as ordered sequence of waypoints, first waypoint represents first target location, final waypoint represents final target location.  
+- modify flight route, enable creation and modification of flight routes, ui middleware. enable creation and modification of flight routes.  
+- waypoint definition, specify waypoints using coordinates including longitude latitude and altitude, . each waypoint is specified with coordinates.  
+- set takeoff altitude, enforce positive altitude values when configuring takeoff parameters, flight route manager. takeoff altitude configuration requires positive numerical values.

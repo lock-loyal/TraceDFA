@@ -1,0 +1,246 @@
+{
+    "fp": [
+        {
+            "WaypointTask": "- waypoint definition, specify waypoints using coordinates including longitude latitude and altitude, mission planner. each waypoint is specified with coordinates.",
+            "RE-77": "waypoint definition, specify waypoints using coordinates including longitude latitude and altitude, . each waypoint is specified with coordinates.",
+            "score": 0.9559082031249999,
+            "correct": false
+        },
+        {
+            "FlightRoutePersistenceProvider": "- persist flight route, manage storage and retrieval of flight route data using xstream serialization, flight route manager. flight route manager persists flight routes via xstream serialization.",
+            "RE-505": "persist flight route, persist flight routes, flight route manager. flight route manager persists flight routes.",
+            "score": 0.813232421875,
+            "correct": false
+        },
+        {
+            "ServiceIds": "- flight route definition, define flight routes as ordered sequences of waypoints for uav navigation, flight route manager. flight routes created/modified as ordered waypoint sequences.\n- simulator scenario activation, activate predefined simulation scenarios containing drone configurations and flight paths, simulation manager. simulation manager selects/activates scenario triggering virtual drone initialization.\n- remote command execution, enable sending control commands to drones through remote interfaces, remote operator. remote operator issues commands via dedicated communication channels.\n- real-time flight operations, manage ongoing flight activities including takeoff navigation and landing procedures, flight manager. flight manager monitors/adjusts active flight parameters.\n- drone initialization configuration, set up initial drone parameters including virtual/physical mode and starting coordinates, setup technician. technician configures mode/coordinates during pre-flight preparation.\n- drone specification management, maintain technical specifications detailing uav capabilities and constraints, specification manager. specification manager creates/updates drone model documentation.\n- mission plan execution, coordinate simultaneous flight plan execution across multiple uavs, mission planner. mission planner initiates concurrent flight operations for grouped drones.",
+            "RE-501": "define flight route, define flight routes as ordered sequence of waypoints with first and final target locations, flight route manager. flight routes defined as ordered sequence of waypoints, first waypoint represents first target location, final waypoint represents final target location.",
+            "score": 0.807421875,
+            "correct": false
+        },
+        {
+            "MissionPlanningService": "- execute mission plan, execute predefined mission plans for multiple uavs concurrently, mission planner. mission planner executes flight plans for multiple uavs concurrently.  \n- cancel active mission, cancel currently active mission and stop all associated uav operations, mission supervisor. cancel active mission and stop all associated uav operations.  \n- remove uav from mission, dynamically remove specific uav from ongoing mission while allowing others to continue, mission adjuster. remove specific uav from active mission while other uavs continue operations.",
+            "RE-558": "cancel active plan, abort currently executing flight plan of a uav when requested, single uav flight plan scheduler. if requested, scheduler aborts current flight plan.",
+            "score": 0.8070312500000001,
+            "correct": false
+        },
+        {
+            "IFlightManagerRemoteService": "- define flight route, define flight routes by specifying ordered sequence of waypoints for flight plan creation, flight manager. flight routes defined as ordered sequence of waypoints.\n- assign flight route, assign flight route to specific uav by associating plan with uav identifier, flight operator. associate flight plan with specific uav identifier.\n- return home command, command uav to return to home location during active flight, flight operator. operator triggers return to home procedure during flight.\n- altitude takeoff, initiate uav takeoff procedure with specified target altitude parameter, flight operator. operator specifies altitude parameter for takeoff.\n- flight pause, pause active uav flight while maintaining current position, flight operator. operator triggers pause during active flight.\n- flight monitoring, retrieve detailed flight information including status and progress for specific uav, monitoring system. system provides real-time flight status updates.\n- active flight listing, display list of currently active flights with basic operational parameters, monitoring system. system maintains updated list of in-progress flights.\n- flight plan cancellation, remove pending flight plans from uav execution queue, flight operator. operator cancels queued plans before execution.",
+            "RE-501": "define flight route, define flight routes as ordered sequence of waypoints with first and final target locations, flight route manager. flight routes defined as ordered sequence of waypoints, first waypoint represents first target location, final waypoint represents final target location.",
+            "score": 0.8014160156250001,
+            "correct": false
+        },
+        {
+            "IFlightPlan": "- assign uav to flight plan, associate a managed drone with a flight plan for mission execution, flight planner. flight plan is associated with managed drone for mission execution. flight plan must have a designated drone id for assignment.\n- track flight status, monitor and update the current status of a flight plan as flying or completed, flight status monitor. flight plan status transitions to flying when assigned drone starts, transitions to completed upon mission end. flight plan cannot transition to completed unless all waypoints are reached.\n- define flight waypoints, specify ordered list of waypoints representing the flight path, flight route designer. flight plan includes ordered waypoints defining the flight path from start to end location.\n- manage flight coordinates, retrieve start and end coordinates of the flight plan for route validation, flight zone validator. flight plan provides start and end location coordinates using latitude longitude altitude values.\n- enforce flight timing, record scheduled start and end times for flight plan execution, mission scheduler. flight plan maintains scheduled start and end timestamps for operational timeline tracking.",
+            "RE-101": "assign new flight plan, execute next flight plan upon current plan completion if pending plans exist, single uav flight plan scheduler. uav reaches final waypoint with pending plans, scheduler executes next plan.",
+            "score": 0.79833984375,
+            "correct": false
+        },
+        {
+            "IMissionPlanningRemoteService": "- execute mission plan, initiate execution of predefined mission plans via remote command, mission planner. user triggers execution of predefined mission plan.  \n- cancel active mission, abort currently executing mission via remote command, mission planner. user cancels active mission.",
+            "RE-545": "cancel mission, cancel the active mission when requested if currently active, mission planner. when requested, if a mission is active, cancel active mission.",
+            "score": 0.794482421875,
+            "correct": false
+        },
+        {
+            "FlightInfo": "- track flight status, track current active flight plan and pending/completed flight plans for a uav, flight monitoring system. maintain current active flight plan, list of pending flight plans and list of completed flight plans.  \n- update flight plan status, update flight plan status between pending active and completed states, flight plan executor. flight plan transitions from pending to active upon execution, then to completed after finishing.  \n- maintain flight history, retain completed flight plans for historical reference and analysis, flight data archiver. completed flight plans remain accessible in historical records.",
+            "RE-101": "assign new flight plan, execute next flight plan upon current plan completion if pending plans exist, single uav flight plan scheduler. uav reaches final waypoint with pending plans, scheduler executes next plan.",
+            "score": 0.7900390625,
+            "correct": false
+        },
+        {
+            "FlightManagerService": "- plan flight route, allow users to define flight routes by specifying a sequence of waypoints for uavs, flight manager. users define flight routes by specifying ordered waypoints including coordinates.\n- initiate uav takeoff, enable users to command uavs to take off and reach specified altitude, flight operator. command uav to take off and ascend to defined altitude.\n- execute return to home, provide capability to command uavs to return to their home location during flight, flight operator. trigger uav to navigate back to home coordinates.\n- pause active flight, allow temporary suspension of ongoing uav flights for operational adjustments, flight supervisor. pause flight execution while maintaining current position.\n- cancel pending flights, enable removal of scheduled flight plans from uav mission queues, flight supervisor. delete queued flight plans before execution.\n- activate emergency stop, implement immediate termination of all uav operations for safety critical situations, safety officer. instantly stop all uav movement and systems.\n- retrieve flight status, provide real-time access to current flight parameters and uav state information, monitoring operator. view altitude, position and operational status of active flights.",
+            "RE-656": "modify assigned routes, allow user to reorder or remove flight plans before flight execution, user. user reorders routes or removes flight plans assigned to uav if flight has not started.",
+            "score": 0.785986328125,
+            "correct": false
+        },
+        {
+            "AFFollowBar": "- track selected uavs, display selected uavs being tracked in real time on the map with their names, active flights ui. user selects uavs to track, active flights ui displays their names and updates positions in real time.\n- stop following uavs, revert map to default view when stopping tracking of selected uavs, active flights ui. user clicks stop following button, map centers to default view and stops tracking.\n- update tracked uav list, dynamically update displayed list of tracked uavs when selection changes, active flights ui. selected uavs change, ui updates displayed uav names.",
+            "RE-681": "display activated uavs, display the name and status of all currently activated uavs, real time flight ui. real time flight ui displays names and statuses of activated uavs.",
+            "score": 0.7859375,
+            "correct": false
+        },
+        {
+            "FlightPlanInfo": "- flight plan creation, define flight plans with waypoints, start location, and timing details, flight manager. flight plans include waypoints, start location, start time, and end time.\n- assign flight plan to uav, associate flight plan with specific uav using unique identifier, flight manager. flight plan is linked to uav via drone id.\n- track flight duration, record start and end times for flight plan execution monitoring, flight manager. flight plan execution monitored via start and end times.\n- define flight route, specify ordered sequence of waypoints for uav navigation, flight manager. flight route defined as ordered list of waypoints.",
+            "RE-501": "define flight route, define flight routes as ordered sequence of waypoints with first and final target locations, flight route manager. flight routes defined as ordered sequence of waypoints, first waypoint represents first target location, final waypoint represents final target location.",
+            "score": 0.785107421875,
+            "correct": false
+        },
+        {
+            "DronologyActionExecutor": "- assign flight route, assign selected flight routes to uav via route assignment ui, route assignment operator. select existing routes and confirm assignment to uav through dialog.\n- confirm route assignment, require user confirmation before assigning new flight routes to uav, route assignment operator. user must confirm route assignments through dialog.\n- return to home, initiate uav return to home location with status validation, flight operator. validate uav status before executing return home command.\n- cancel pending flights, cancel all pending flight plans for specified uav when assigning new routes, route assignment operator. new route assignment triggers cancellation of existing pending flights.\n- resend command, retransmit commands to uav when communication failures occur, maintenance operator. manually resend commands during connection issues.",
+            "RE-656": "modify assigned routes, allow user to reorder or remove flight plans before flight execution, user. user reorders routes or removes flight plans assigned to uav if flight has not started.",
+            "score": 0.781787109375,
+            "correct": false
+        },
+        {
+            "MissionPlanningService": "- execute mission plan, execute predefined mission plans for multiple uavs concurrently, mission planner. mission planner executes flight plans for multiple uavs concurrently.  \n- cancel active mission, cancel currently active mission and stop all associated uav operations, mission supervisor. cancel active mission and stop all associated uav operations.  \n- remove uav from mission, dynamically remove specific uav from ongoing mission while allowing others to continue, mission adjuster. remove specific uav from active mission while other uavs continue operations.",
+            "RE-656": "modify assigned routes, allow user to reorder or remove flight plans before flight execution, user. user reorders routes or removes flight plans assigned to uav if flight has not started.",
+            "score": 0.7806640625000001,
+            "correct": false
+        },
+        {
+            "AFControlsComponent": "- active flight info panel, display real-time flight information for active uavs, flight operator. flight operator views real-time flight information including status and waypoints.",
+            "RE-120": "real time flight ui, display the location of active uavs as icons on the map, real time flight ui. display location of active uavs as icons on map.",
+            "score": 0.780517578125,
+            "correct": false
+        },
+        {
+            "MissionPlanningService": "- execute mission plan, execute predefined mission plans for multiple uavs concurrently, mission planner. mission planner executes flight plans for multiple uavs concurrently.  \n- cancel active mission, cancel currently active mission and stop all associated uav operations, mission supervisor. cancel active mission and stop all associated uav operations.  \n- remove uav from mission, dynamically remove specific uav from ongoing mission while allowing others to continue, mission adjuster. remove specific uav from active mission while other uavs continue operations.",
+            "RE-587": "deactivate physical uavs, cancel all current and scheduled flight plans when a uav is deactivated, uav activation manager. uav is deactivated, manager cancels flight plans.",
+            "score": 0.780029296875,
+            "correct": false
+        },
+        {
+            "IMissionPlanningServiceInstance": "- execute mission plan, initiate execution of a predefined mission plan containing multiple coordinated uav operations, mission planner. user triggers execution of a predefined mission plan. mission plan must exist and be valid.\n- cancel active mission, terminate currently executing mission and halt all associated uav operations, mission planner. user initiates cancellation of ongoing mission. active mission must be in progress.\n- remove uav from mission, remove specified uav from mission participation while maintaining mission integrity, mission planner. user removes uav from active or planned mission. uav must be assigned to mission.",
+            "RE-656": "modify assigned routes, allow user to reorder or remove flight plans before flight execution, user. user reorders routes or removes flight plans assigned to uav if flight has not started.",
+            "score": 0.7791503906249999,
+            "correct": false
+        },
+        {
+            "RouteTask": "- define route task, associate a specific route task with a uav by providing unique identifier and name, mission planner. mission planner creates route task by associating uav identifier and task name.",
+            "RE-549": "manual flight plan assignment, assign the route to the given uav if the route contains a specific uav id, single uav flight plan scheduler. route contains specific uav id, assign route to given uav.",
+            "score": 0.7764648437499999,
+            "correct": false
+        },
+        {
+            "MissionPlanningService": "- execute mission plan, execute predefined mission plans for multiple uavs concurrently, mission planner. mission planner executes flight plans for multiple uavs concurrently.  \n- cancel active mission, cancel currently active mission and stop all associated uav operations, mission supervisor. cancel active mission and stop all associated uav operations.  \n- remove uav from mission, dynamically remove specific uav from ongoing mission while allowing others to continue, mission adjuster. remove specific uav from active mission while other uavs continue operations.",
+            "RE-101": "assign new flight plan, execute next flight plan upon current plan completion if pending plans exist, single uav flight plan scheduler. uav reaches final waypoint with pending plans, scheduler executes next plan.",
+            "score": 0.7763671875,
+            "correct": false
+        },
+        {
+            "MissionPlanningService": "- execute mission plan, execute predefined mission plans for multiple uavs concurrently, mission planner. mission planner executes flight plans for multiple uavs concurrently.  \n- cancel active mission, cancel currently active mission and stop all associated uav operations, mission supervisor. cancel active mission and stop all associated uav operations.  \n- remove uav from mission, dynamically remove specific uav from ongoing mission while allowing others to continue, mission adjuster. remove specific uav from active mission while other uavs continue operations.",
+            "RE-28": "execute flight plan, execute one flight plan at a time per uav, single uav flight plan scheduler. single uav flight plan scheduler executes one flight plan at a time for each uav.",
+            "score": 0.7755859375,
+            "correct": false
+        },
+        {
+            "EmergencyStopCommand": "- emergency stop, trigger immediate halt and hover for specified uav, uav operator. operator triggers emergency stop command, uav stops movement and hovers in place.",
+            "RE-521": "maintain position during hover in place, halt uav in place and maintain current position when hover command is issued, flight manager. when hover in place command is issued, flight manager halts uav and maintains position.",
+            "score": 0.7754882812499999,
+            "correct": false
+        }
+    ],
+    "fn": [
+        {
+            "VirtualDrone": "- virtual uav simulation, simulate virtual uav behavior through internal flight dynamics model, flight simulator. simulate virtual uav behavior using flight dynamics model.\n- battery level tracking, track and update battery level during flight operations, flight simulator. battery level tracked and updated during flight operations.\n- coordinate-based navigation, navigate to target coordinates using predefined flight paths, flight simulator. navigate to target coordinates along predefined flight paths.\n- flight status synchronization, synchronize flight status including coordinates and battery level, flight simulator. flight status synchronized with current coordinates and battery level.",
+            "RE-86": "managed flight plan queue, maintain a managed list of pending flight plans for each uav, single uav flight plan scheduler. maintain managed list of pending flight plans.",
+            "score": 0.6200683593749999,
+            "correct": true
+        },
+        {
+            "SimpleSimulator": "- flight simulation, simulate flight movement between specified start and target coordinates, simulator manager. flight simulator calculates movement steps between current position and target coordinates.  \n- battery drain simulation, simulate continuous battery voltage reduction during active flight operations, simulator manager. battery drain simulation runs during active flight operations.  \n- voltage monitoring, retrieve current battery voltage level during simulation runtime, system monitoring. voltage monitoring provides real-time battery level information.  \n- flight path assignment, define flight path by specifying current and target geographical coordinates, simulator manager. flight path requires defining start and target coordinates.  \n- movement progression, advance drone position along flight path based on specified distance per time step, simulator manager. movement progression calculates new position each simulation step.  \n- destination verification, check if drone has reached target coordinates within allowed distance threshold, simulator manager. destination verification triggers upon movement completion.  \n- checkpoint recording, capture current battery state at specific simulation intervals, system monitoring. checkpoint recording tracks battery status at defined points.",
+            "RE-595": "simulate goto, update uav location in increments towards target destination until reached, internal simulator. when given a goto command, update location at increments of {{simulation_step_size}} meters until destination reached.",
+            "score": 0.6197265625,
+            "correct": true
+        },
+        {
+            "MissionPlanningServiceRemoteFacade": "- execute mission plan, enable remote execution of mission plans by sending mission data as json string, mission planner. send mission plan as json string to dronology for execution.\n- cancel active mission, allow remote cancellation of the currently active mission, mission planner. cancel the currently active mission via remote command.",
+            "RE-639": "accept mission plan, accept and activate a mission plan upon request, ui middleware. ui middleware accepts and activates mission plan upon request.",
+            "score": 0.61962890625,
+            "correct": true
+        },
+        {
+            "FlightManagerServiceInstance": "- flight planning, create flight plans with waypoints for uavs, flight manager. users create flight plans specifying waypoints for uav navigation.\n- uav takeoff, initiate uav takeoff sequence with specified altitude, flight operator. operator triggers takeoff command with target altitude parameter.\n- flight interruption, pause active uav flights temporarily, flight operator. operator issues pause command during ongoing flight.\n- emergency termination, immediately stop uav flight operations for safety, flight supervisor. supervisor activates emergency stop to halt all uav movements.\n- return command, instruct uav to return to home coordinates, flight operator. operator triggers return-to-home procedure during active flight.\n- pending flight cancellation, remove queued flight plans for specific uav, flight scheduler. scheduler cancels pending flights from uav's execution queue.\n- flight monitoring, retrieve real-time flight status and active plans, monitoring system. system provides current flight information and planned routes.",
+            "RE-646": "assign routes, provide means to select existing routes and assign them to a uav, route assignment ui. select existing routes and assign to uav.",
+            "score": 0.61767578125,
+            "correct": true
+        },
+        {
+            "PhysicalDrone": "- waypoint navigation, send fly-to commands with target coordinates and speed to base station for execution, physical drone operator. fly-to command includes target coordinates and optional speed, command sent to base station.  \n- command retry, resend previous command if transmission failure detected, physical drone operator. previous command resent upon transmission failure.  \n- flight mode transition, update flight mode to user-controlled upon receiving mode change notification, system. flight mode updated to user-controlled when notification received.  \n- status monitoring, update drone coordinates velocity and battery level from incoming data streams, system. coordinates velocity and battery level updated via data streams.  \n- takeoff and land, execute takeoff to specified altitude and land commands via base station, physical drone operator. takeoff command sent with altitude, land command triggers landing.  \n- ground speed adjustment, set ground speed during flight operations via dedicated command, physical drone operator. ground speed adjusted by sending speed command.",
+            "RE-701": "monitoring messages, provide functionality to retrieve monitoring messages and distribute them to clients, dronology runtime monitor. retrieve monitoring messages and distribute them to clients.",
+            "score": 0.61611328125,
+            "correct": true
+        },
+        {
+            "FlightManagerService": "- plan flight route, allow users to define flight routes by specifying a sequence of waypoints for uavs, flight manager. users define flight routes by specifying ordered waypoints including coordinates.\n- initiate uav takeoff, enable users to command uavs to take off and reach specified altitude, flight operator. command uav to take off and ascend to defined altitude.\n- execute return to home, provide capability to command uavs to return to their home location during flight, flight operator. trigger uav to navigate back to home coordinates.\n- pause active flight, allow temporary suspension of ongoing uav flights for operational adjustments, flight supervisor. pause flight execution while maintaining current position.\n- cancel pending flights, enable removal of scheduled flight plans from uav mission queues, flight supervisor. delete queued flight plans before execution.\n- activate emergency stop, implement immediate termination of all uav operations for safety critical situations, safety officer. instantly stop all uav movement and systems.\n- retrieve flight status, provide real-time access to current flight parameters and uav state information, monitoring operator. view altitude, position and operational status of active flights.",
+            "RE-649": "transmit route assignments to ui middleware, notify dronology when a route is assigned or removed from a uav, route assignment ui. route is assigned or removed from uav, route assignment ui notifies dronology.",
+            "score": 0.61328125,
+            "correct": true
+        },
+        {
+            "FlightZoneManager2": "- flight plan scheduling, assign pending flight plans to available uavs and manage takeoff order, flight zone manager. flight zone manager assigns pending flight plans to available uavs, manages takeoff order based on readiness checks. \n- takeoff clearance, manage uav takeoff sequence by checking altitude permissions and airspace capacity, flight zone manager. uav awaits takeoff clearance until altitude permissions granted and maximum in-air limit not exceeded.\n- return home command, create automatic flight plan to guide uav back to base coordinates with safe altitude, flight operator. uav returns to home via predefined route when command triggered.\n- collision monitoring, perform periodic collision avoidance checks during uav flights, safety system. system executes scheduled collision checks at defined frequency during flight operations.\n- emergency stop, immediately halt all uav movements and operations via direct command, flight operator. uav stops all movements instantly when emergency stop triggered.\n- pause flight, temporarily suspend uav flight progress while maintaining current position, flight operator. uav halts in mid-air when pause command received, resumes upon instruction.\n- active uav limit, enforce maximum number of uavs allowed in air simultaneously via capacity checks, flight zone manager. flight zone manager restricts active uav count to predefined maximum during plan assignments.",
+            "RE-649": "transmit route assignments to ui middleware, notify dronology when a route is assigned or removed from a uav, route assignment ui. route is assigned or removed from uav, route assignment ui notifies dronology.",
+            "score": 0.6094238281250001,
+            "correct": true
+        },
+        {
+            "SyncConstants": "- takeoff ascent monitoring, monitor ascent phase completion during takeoff by tracking ascent target waypoint, mission synchronization manager. system tracks when uav reaches ascent target during takeoff.  \n- takeoff waypoint synchronization, synchronize mission steps upon reaching first waypoint post takeoff, mission synchronization manager. system triggers next steps when uav reaches first waypoint after takeoff.  \n- landing ascent monitoring, track ascent target achievement during landing phase, mission synchronization manager. system monitors uav reaching ascent target during landing.  \n- landing coordinate synchronization, coordinate landing steps after uav reaches specified longitude and latitude, mission synchronization manager. system synchronizes landing steps upon reaching target coordinates.  \n- home position landing confirmation, confirm landing completion when uav reaches home position, mission synchronization manager. system confirms landing when uav arrives at home position.",
+            "RE-759": "mission planning, execute flight plans for multiple uavs concurrently, mission planner. mission planner executes flight plans for multiple uavs concurrently.",
+            "score": 0.608056640625,
+            "correct": true
+        },
+        {
+            "FlightManagerServiceInstance": "- flight planning, create flight plans with waypoints for uavs, flight manager. users create flight plans specifying waypoints for uav navigation.\n- uav takeoff, initiate uav takeoff sequence with specified altitude, flight operator. operator triggers takeoff command with target altitude parameter.\n- flight interruption, pause active uav flights temporarily, flight operator. operator issues pause command during ongoing flight.\n- emergency termination, immediately stop uav flight operations for safety, flight supervisor. supervisor activates emergency stop to halt all uav movements.\n- return command, instruct uav to return to home coordinates, flight operator. operator triggers return-to-home procedure during active flight.\n- pending flight cancellation, remove queued flight plans for specific uav, flight scheduler. scheduler cancels pending flights from uav's execution queue.\n- flight monitoring, retrieve real-time flight status and active plans, monitoring system. system provides current flight information and planned routes.",
+            "RE-649": "transmit route assignments to ui middleware, notify dronology when a route is assigned or removed from a uav, route assignment ui. route is assigned or removed from uav, route assignment ui notifies dronology.",
+            "score": 0.6045898437499999,
+            "correct": true
+        },
+        {
+            "FRControlsComponent": "- display flight routes list, present a list of available flight routes in a dedicated panel for user selection, flight route operator. flight routes list appears in left-side panel for viewing and selection.  \n- combine map and grid, display flight route visualization and data table simultaneously in main interface area, flight route operator. main interface combines geographical map with data grid for route inspection.",
+            "RE-646": "assign routes, provide means to select existing routes and assign them to a uav, route assignment ui. select existing routes and assign to uav.",
+            "score": 0.601318359375,
+            "correct": true
+        },
+        {
+            "IManagedDroneStateChangeListener": "- drone state notification, notify listeners of state changes in managed drones, drone state monitor. managed drone state changes trigger notification to registered listeners.",
+            "RE-555": "notify hover, notify uav to hover when no pending flights after current plan completion, single uav flight plan scheduler. uav reaches final waypoint without pending flights, scheduler notifies hover.",
+            "score": 0.60048828125,
+            "correct": true
+        },
+        {
+            "FRMapComponent": "- flight route visualization, display flight routes on a map with waypoints as pins connected by lines, flight route manager. flight routes displayed on map with waypoints as pins connected by lines.\n- waypoint editing, enable adding modifying and deleting waypoints through map interactions, flight route editor. add modify or delete waypoints through map clicks.\n- route metadata display, show route name description and waypoint count in information panel, flight route viewer. display route name description and number of waypoints.\n- automatic map centering, automatically center map view on active flight route waypoints, flight route viewer. map view centers on active route waypoints when auto-zoom enabled.\n- coordinate table synchronization, maintain synchronized display between map waypoints and data table, flight route editor. data table updates automatically when waypoints change on map.",
+            "RE-672": "route creation and modification, allow the user to create and modify a route, route creation ui. user creates or modifies route.",
+            "score": 0.59775390625,
+            "correct": true
+        },
+        {
+            "SimpleSimulator": "- flight simulation, simulate flight movement between specified start and target coordinates, simulator manager. flight simulator calculates movement steps between current position and target coordinates.  \n- battery drain simulation, simulate continuous battery voltage reduction during active flight operations, simulator manager. battery drain simulation runs during active flight operations.  \n- voltage monitoring, retrieve current battery voltage level during simulation runtime, system monitoring. voltage monitoring provides real-time battery level information.  \n- flight path assignment, define flight path by specifying current and target geographical coordinates, simulator manager. flight path requires defining start and target coordinates.  \n- movement progression, advance drone position along flight path based on specified distance per time step, simulator manager. movement progression calculates new position each simulation step.  \n- destination verification, check if drone has reached target coordinates within allowed distance threshold, simulator manager. destination verification triggers upon movement completion.  \n- checkpoint recording, capture current battery state at specific simulation intervals, system monitoring. checkpoint recording tracks battery status at defined points.",
+            "RE-593": "simulate virtual uav behavior, approximate the behavior of a uav, internal simulator. internal simulator approximates uav behavior.",
+            "score": 0.59755859375,
+            "correct": true
+        },
+        {
+            "IFlightManagerServiceInstance": "- flight plan creation, define flight plans with specified waypoints and assign to uavs, flight manager. user creates flight plan with waypoints and assigns to uav.  \n- return to base, initiate automatic return of uav to its home location, flight operator. operator triggers return to home command for selected uav.  \n- flight suspension, temporarily pause ongoing uav flight operations, flight operator. operator pauses active flight of selected uav.  \n- flight cancellation, remove pending flight plans from uav queue, flight scheduler. scheduler cancels queued flights for specified uav.  \n- takeoff procedure, execute vertical ascent of uav to predefined altitude, flight operator. operator initiates takeoff sequence with target altitude.  \n- emergency termination, immediately halt all uav movements and systems, safety officer. safety officer activates emergency stop for uav.  \n- flight status monitoring, retrieve real-time information about active uav flights, monitoring system. system provides current flight data for specified uav.  \n- multi-uav coordination, manage concurrent flight operations for multiple unmanned vehicles, mission controller. controller oversees simultaneous flights across uav fleet.",
+            "RE-649": "transmit route assignments to ui middleware, notify dronology when a route is assigned or removed from a uav, route assignment ui. route is assigned or removed from uav, route assignment ui notifies dronology.",
+            "score": 0.59736328125,
+            "correct": true
+        },
+        {
+            "ManagedDrone": "- flight state transitions, manage transitions between flight states including taking off flying landing and on ground, drone operator. manage transitions between flight states: taking off, flying, landing, on ground.\n- safety mode management, toggle safety modes between normal and halted states with automatic resumption, safety manager. toggle safety modes between normal and halted, halted mode automatically resumes after specified time.\n- flight plan assignment, assign flight plans to uavs and unassign upon completion or interruption, flight director. assign flight plans to uavs, unassign upon completion or interruption.\n- collision avoidance, enforce minimum safety distance between uavs during takeoff and flight, safety manager. enforce minimum safety distance between uavs during takeoff and flight.\n- emergency stop, immediately stop uav operations overriding current commands, emergency handler. immediately stop uav operations overriding current commands.\n- waypoint navigation, navigate uav through assigned waypoints with progress monitoring, flight director. navigate uav through assigned waypoints, monitor progress and report reached waypoints.\n- altitude control, set and validate target altitude before takeoff, flight operator. set and validate target altitude before takeoff, ensure non-zero altitude.\n- automated landing, initiate landing sequence when flight plan completes or conditions met, flight director. initiate landing sequence when flight plan completes or conditions met.",
+            "RE-611": "log flight plan events, log all flight plan related events, activity logger. activitylogger logs all flight plan related events.",
+            "score": 0.593212890625,
+            "correct": true
+        },
+        {
+            "IManagedDroneStateChangeListener": "- drone state notification, notify listeners of state changes in managed drones, drone state monitor. managed drone state changes trigger notification to registered listeners.",
+            "RE-86": "managed flight plan queue, maintain a managed list of pending flight plans for each uav, single uav flight plan scheduler. maintain managed list of pending flight plans.",
+            "score": 0.592529296875,
+            "correct": true
+        },
+        {
+            "CommandIds": "- takeoff command initiation, allow users to send takeoff commands to uavs specifying target altitude, uav operator. user sends takeoff command with target altitude to uav, uav must be in state allowing takeoff.\n- flight mode adjustment, enable changing uav flight mode through set mode commands, uav operator. user issues set mode command to switch uav flight mode.\n- velocity control, provide capability to set uav velocity via velocity commands, uav operator. user sends set velocity command to adjust uav speed.\n- ground speed adjustment, allow users to modify uav ground speed using set groundspeed command, uav operator. user issues set groundspeed command to change uav speed.\n- movement cessation, enable stopping uav movement via stop command, uav operator. user sends stop command to halt uav movement.\n- location targeting, command uav to move to specific location using goto command, uav operator. user sends goto location command with coordinates.",
+            "RE-759": "mission planning, execute flight plans for multiple uavs concurrently, mission planner. mission planner executes flight plans for multiple uavs concurrently.",
+            "score": 0.5921386718749999,
+            "correct": true
+        },
+        {
+            "FRControlsComponent": "- display flight routes list, present a list of available flight routes in a dedicated panel for user selection, flight route operator. flight routes list appears in left-side panel for viewing and selection.  \n- combine map and grid, display flight route visualization and data table simultaneously in main interface area, flight route operator. main interface combines geographical map with data grid for route inspection.",
+            "RE-672": "route creation and modification, allow the user to create and modify a route, route creation ui. user creates or modifies route.",
+            "score": 0.584912109375,
+            "correct": true
+        },
+        {
+            "FRMainLayout": "- flight route visualization, display flight routes on a map with highlighted waypoints and paths, flight route manager. user clicks on a route, system highlights the selected route and displays it on the map.  \n- route selection confirmation, prompt user confirmation before deleting a flight route, flight route manager. user initiates route deletion, system prompts confirmation.  \n- unsaved changes handling, alert users to unsaved modifications before navigating away, flight route manager. user attempts to exit with unsaved changes, system displays warning.  \n- flight route controls, provide interactive controls for managing flight route display and actions, flight route manager. controls include route selection, deletion, and map interaction.",
+            "RE-668": "route description, include unique id, textual description, and editable waypoints in the ui, ui. each route shall include a unique id, textual description, and set of waypoints; all editable in ui.",
+            "score": 0.5821777343750001,
+            "correct": true
+        },
+        {
+            "WriteDispatcher": "- command transmission, transmit drone commands via network connection to uavs, ground station connector. dispatcher sends commands from queue through output stream to uav.  \n- command queue management, maintain ordered queue for outgoing drone commands, ground station connector. outgoing commands are queued and processed in sequence.  \n- dispatcher shutdown, gracefully terminate command transmission using marker object, ground station connector. marker object signals shutdown, stops processing and closes connection.",
+            "RE-759": "mission planning, execute flight plans for multiple uavs concurrently, mission planner. mission planner executes flight plans for multiple uavs concurrently.",
+            "score": 0.579150390625,
+            "correct": true
+        }
+    ]
+}

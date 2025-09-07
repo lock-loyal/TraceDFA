@@ -1,0 +1,8 @@
+- flight state transitions, manage transitions between flight states including taking off flying landing and on ground, drone operator. manage transitions between flight states: taking off, flying, landing, on ground.
+- safety mode management, toggle safety modes between normal and halted states with automatic resumption, safety manager. toggle safety modes between normal and halted, halted mode automatically resumes after specified time.
+- flight plan assignment, assign flight plans to uavs and unassign upon completion or interruption, flight director. assign flight plans to uavs, unassign upon completion or interruption.
+- collision avoidance, enforce minimum safety distance between uavs during takeoff and flight, safety manager. enforce minimum safety distance between uavs during takeoff and flight.
+- emergency stop, immediately stop uav operations overriding current commands, emergency handler. immediately stop uav operations overriding current commands.
+- waypoint navigation, navigate uav through assigned waypoints with progress monitoring, flight director. navigate uav through assigned waypoints, monitor progress and report reached waypoints.
+- altitude control, set and validate target altitude before takeoff, flight operator. set and validate target altitude before takeoff, ensure non-zero altitude.
+- automated landing, initiate landing sequence when flight plan completes or conditions met, flight director. initiate landing sequence when flight plan completes or conditions met.

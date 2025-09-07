@@ -1,0 +1,24 @@
+Name: Assign/Remove Courses to a Teacher  
+Actors: Administrator  
+Description: Allows assigning or removing courses from a teacher  
+Preconditions:  
+• The user is logged in as an administrator  
+• The user has executed the "View User Details" use case, and the system is displaying the details of a teacher  
+• The user clicks the "Teacher's Courses" button  
+
+Sequence of Events  
+User  
+2. Selects the academic year  
+4. Selects the desired class  
+6. Selects the courses to associate with or remove from the teacher  
+
+System  
+1. Displays the course management form for the selected teacher  
+3. Displays the list of available classes for the selected academic year  
+5. Displays the list of courses associated with that class  
+7. Assigns or removes the teacher’s courses as indicated by the Administrator  
+
+Postconditions:  
+• One or more courses have been assigned to or removed from the teacher  
+• The Administrator interrupts the operation  
+• Connection to the SMOS server is terminated

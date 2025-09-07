@@ -1,0 +1,1 @@
+notify dronology on lost connection, notifies gcsmiddleware when connection to uav is lost and reconnection fails, gcs. if connection to uav is lost and gcs fails to reconnect, notify gcsmiddleware.

@@ -1,0 +1,1 @@
+save flight route, saves uploaded flight route under a unique name as an xml file, flightroutemanager. upload flight route to dronology, save as uniquely named xml file.

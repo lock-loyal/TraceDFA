@@ -1,0 +1,15 @@
+Name: ViewNoteDetails  
+Actors: Administrator  
+Description: Displays the details of a note  
+Preconditions:  
+• The user must be logged into the system as an Administrator  
+• The user has executed the use case "ViewNotesList"  
+• Clicks the "Details" button associated with one of the notes  
+Event Sequence  
+User  
+System  
+1. Displays a form with the note details: student, description, teacher, date.  
+Postconditions:  
+• The system is displaying the details of a note  
+• The administrator cancels the operation  
+• Connection to the SMOS server is interrupted

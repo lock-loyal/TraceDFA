@@ -1,0 +1,1 @@
+- system configuration initialization, system initializes essential services and database connectivity parameters on startup, administrator. system reads configuration parameters from file during startup, configures smtp server settings, database driver, connection details, connection pool limits, and system footer text.

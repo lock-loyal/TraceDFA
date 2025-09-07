@@ -1,0 +1,1 @@
+edit a report card, use case to modify a student's report card, administrator. system displays form with editable fields including grades for different subjects, administrator enters new data and clicks confirm button, system displays confirmation message and shows form with list of students.

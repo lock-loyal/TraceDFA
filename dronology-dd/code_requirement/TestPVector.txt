@@ -1,0 +1,4 @@
+- precise geospatial coordinate conversion, ensure accurate conversion between lla and pvector coordinates, system. convert lla coordinates to pvector and back with millimeter-level precision.  
+- validate coordinate equality and hashcode, ensure pvector instances with same coordinates are considered equal, system. check equality and hashcode consistency for identical coordinates.  
+- handle edge cases in coordinate conversion, verify conversion accuracy at geographical extremes, system. test conversions at poles, international date line, and altitude variations.  
+- enforce string representation consistency, maintain standardized string format for pvector coordinates, system. convert pvector to string in fixed decimal format.

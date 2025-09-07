@@ -1,0 +1,1 @@
+- create a disciplinary note, allows the teacher to record a disciplinary note for a student, teacher. teacher selects student and enters note details including date, description, and academic year, system saves note to student's record.

@@ -1,0 +1,5 @@
+- initialize uavs with mode and coordinate, allows initializing uavs in virtual or physical mode with specified coordinates, system. provide initialization parameters including mode and start coordinates, activate uav instance.  
+- track active uavs, maintain and provide list of currently active uavs, system. update active uav list when initializing or deactivating, allow retrieval of active uav proxies.  
+- deactivate uav instances, remove uav from active operations, system. select active uav, trigger deactivation process.  
+- resend failed commands to uav, handle command transmission failures by resending instructions, system. detect command failure, automatically resend command to specified uav.  
+- notify uav status changes, alert system components about uav state modifications, system. register listeners, propagate status change events when uav states update.

@@ -1,0 +1,1 @@
+load configuration, configure vaadin ui according to stored configuration parameters, vaadin ui. when vaadin ui is activated, configured according to stored parameters.

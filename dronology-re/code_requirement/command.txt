@@ -1,0 +1,8 @@
+- initiate takeoff, initiate takeoff command with specified altitude, flight operator. operator sends takeoff command with target altitude parameter.
+- adjust monitoring frequency, set frequency for drone state monitoring updates, monitoring system. operator specifies monitoring interval in seconds or milliseconds.
+- command velocity adjustment, send velocity command with north east down components, flight operator. operator defines velocity using ned coordinates.
+- define flight mode, switch drone operation mode via command, flight operator. operator selects mode from available options and sends to drone.
+- update home location, set new home location using geographic coordinates, flight operator. operator provides longitude latitude altitude for new home point.
+- control arming state, arm or disarm drone via command, flight operator. operator sends boolean command to change arming state.
+- adjust groundspeed, set horizontal movement speed during flight, flight operator. operator specifies speed value for drone's ground movement.
+- navigate to waypoint, command drone to move to specified geographic coordinates, flight operator. operator defines target location with longitude latitude altitude.

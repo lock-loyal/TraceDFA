@@ -1,0 +1,1 @@
+onboard obstacle avoidance, prevent issuing directives when onboard obstacle avoidance is active, obstacle avoidance. uav has active onboard obstacle avoidance, system does not issue directives.

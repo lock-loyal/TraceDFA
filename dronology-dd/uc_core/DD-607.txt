@@ -1,0 +1,1 @@
+simulate travel to target, allows nvecsimulator to simulate movement towards target coordinates in steps until reached, system. respond to goto command, move towards target coordinates in steps until target is reached.

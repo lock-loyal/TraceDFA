@@ -1,0 +1,1 @@
+uav type specification assignment, associates each virtual and physical drone with a predefined uav type defining its basic attributes, system. associate predefined uav_type with virtual and physical drones, define basic attributes.

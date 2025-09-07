@@ -1,0 +1,1 @@
+determine if waypoint is reached, determines whether uav has reached target waypoint based on distance threshold, system. if computed distance from uav to target waypoint is less than threshold_waypoint_distance, waypoint is considered reached.

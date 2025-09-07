@@ -1,0 +1,1 @@
+- logging framework, provide structured logging framework with multiple severity levels and categories, system component. logging framework supports debug info warn error and fatal levels along with mission and hardware specific categories.

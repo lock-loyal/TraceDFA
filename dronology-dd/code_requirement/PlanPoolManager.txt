@@ -1,0 +1,7 @@
+- uav flight plan management, manage pending flight plans for uavs, system. each uav has zero or more pending flight plans.  
+- activate pending flight plan, transition pending flight plan to active status upon completion of current plan, system. check current plan completion, activate next pending plan.  
+- track completed flight plans, maintain history of completed flight plans per uav, system. store completed plans in uav-specific history after execution.  
+- cancel pending flight plans, allows cancellation of all pending flight plans for a specific uav, operator. select uav, cancel all pending flight plans.  
+- flight plan status notifications, notify monitoring systems when flight plan status changes, system. publish status updates upon plan activation/completion/cancellation.  
+- override current flight plan, replace current active plan with emergency return-to-home plan, operator. initiate emergency override, replace current plan with rth plan.  
+- validate uav assignment, ensure flight plans are assigned to existing uavs, system. reject plans with invalid uav identifiers during assignment.

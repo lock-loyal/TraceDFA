@@ -1,0 +1,1 @@
+- view absence justification list, allows the administrator to view the list of student absences that require justification, administrator. administrator selects student, system retrieves absences for selected student in academic year, system displays list of absences needing justification.

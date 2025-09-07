@@ -1,0 +1,1 @@
+- define flight patterns with synchronization points, allows creating flight patterns with synchronization points for mission coordination, mission planner. initialize synchronization manager, create synchronization points, add mission tasks. each pattern must define its own synchronization points.

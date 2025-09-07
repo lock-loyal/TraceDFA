@@ -1,0 +1,1 @@
+- create synchronization tasks for mission plans, allows creating synchronization tasks to coordinate uav actions during missions, system. initiate mission, create synchronization task for uav, execute task to coordinate with other uavs.

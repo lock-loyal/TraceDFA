@@ -1,0 +1,5 @@
+- add visit feedback, record tourist feedback for rest point visit, tourist. access feedback form, submit feedback details, validate input, store feedback, confirm submission. valid rest point id and tourist authentication required.  
+- modify visit feedback, update existing feedback for rest point visit, tourist. retrieve existing feedback, edit details, submit changes, validate data, update record, notify success. feedback must exist and be editable within time limit.  
+- list rest point feedback, display all feedback entries for specific rest point, operator. select rest point, request feedback list, retrieve entries, display in table. rest point must be active and have existing feedback.  
+- retrieve tourist visit, access specific visit details for tourist and rest point, tourist. select rest point, request visit history, retrieve record, display details. valid tourist and rest point identifiers required.  
+- view tourist visit history, display all rest point visits made by tourist, tourist. access profile section, request visit history, retrieve records, display chronological list. tourist account must be active.

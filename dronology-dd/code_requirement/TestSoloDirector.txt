@@ -1,0 +1,4 @@
+- validate return to home command with invalid coordinates, ensures return-to-home command fails when provided coordinates are not in the flight plan, system. check if provided coordinates exist in flight plan, throw exception if not present.
+- validate return to home command with valid first waypoint, ensures return-to-home command succeeds when home is the first waypoint in the flight plan, system. verify home coordinate matches first waypoint, execute return.
+- validate return to home command with valid last waypoint, ensures return-to-home command succeeds when home is the last waypoint in the flight plan, system. verify home coordinate matches last waypoint, execute return.
+- validate return to home command with valid middle waypoint, ensures return-to-home command succeeds when home is a middle waypoint in the flight plan, system. verify home coordinate matches existing waypoint, adjust flight plan.

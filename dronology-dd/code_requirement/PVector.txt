@@ -1,0 +1,4 @@
+- wgs-84 position reckoning, utilize wgs-84 reference system for position reckoning, system. position reckoning utilizes wgs-84 reference system.  
+- earth-centered coordinate representation, represent positions using earth-centered earth-fixed reference frame, system. x-axis points to prime meridian equator intersection, y-axis to longitude 90 equator, z-axis to north pole.  
+- coordinate system conversions, convert between earth-centered coordinates and latitude/longitude/altitude systems, system. provide conversion methods between pvector and lla/nvector coordinate representations.  
+- geodetic position accuracy, ensure precise coordinate conversions through validated mathematical formulas, system. coordinate conversions use equations from published geodetic research papers.

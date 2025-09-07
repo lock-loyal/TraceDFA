@@ -1,0 +1,5 @@
+- flight path execution, direct uav to fly through ordered sequence of waypoints at specified approach speeds, flight director. uav follows ordered sequence of waypoints with approach speeds.
+- safety diversion management, manage safety diversions by redirecting uav along roundabout path when collision detected, flight director. safety diversion detected, flight director redirects uav along roundabout path.
+- waypoint clearance, remove completed waypoints from flight plan once uav reaches them, flight director. uav reaches waypoint, flight director removes it from flight plan.
+- return home initiation, initiate return to home by clearing existing waypoints except home waypoint, flight director. return home initiated, flight director clears existing waypoints except home.
+- flight mode transition, transition uav flight mode to in-air after completing all waypoints, flight director. all waypoints completed, flight director transitions uav to in-air mode.

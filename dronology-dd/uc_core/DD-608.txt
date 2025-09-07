@@ -1,0 +1,1 @@
+simulate land in nvecsimulator, simulates landing by changing uav altitude to ground when commanded, system. receive land command, immediately change uav altitude to ground altitude.

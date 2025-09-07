@@ -1,0 +1,4 @@
+- create news, add a new news entry to the system, operator. access news creation interface, input news details, validate content, store news data, confirm successful creation. news marked as active upon submission.  
+- modify news, update existing news content, operator. select target news, load current data into editor, edit fields, validate changes, save updated version. news id must exist in database.  
+- delete news, remove inactive or outdated news, operator. choose news item, confirm deletion request, execute removal from database. system verifies news id validity before deletion.  
+- retrieve active news, display list of currently active news items, tourist. request active news feed, fetch valid entries from database, present in chronological order. only non-expired news appear in results.

@@ -1,0 +1,4 @@
+- organize flight routes, categorize flight routes into groups based on geographical regions, flight route manager. flight routes organized into groups such as river or south-bend area.  
+- retrieve flight route by name, allow users to search and retrieve flight route details using route name, flight route manager. flight route details retrieved by entering route name.  
+- manage flight route categories, maintain predefined categories for organizing flight routes, flight route manager. predefined categories include default and river.  
+- access flight route by id, enable retrieval of flight route information using unique identifier, flight route manager. flight route information accessed via unique id.

@@ -1,0 +1,4 @@
+- flight status aggregation, compile flight status information including current awaiting and completed flights, flight monitoring ui. flight monitoring ui displays current awaiting and completed flights.
+- flight plan details, provide detailed flight plan information including assigned uav waypoints and timestamps, flight monitoring ui. display detailed flight plan information with assigned uav waypoints and timestamps.
+- pending flight tracking, track and list pending flights awaiting execution, flight monitoring ui. list pending flights awaiting execution.
+- completed flight history, maintain and present history of completed flights with start and end times, flight monitoring ui. present history of completed flights including start and end times.

@@ -1,0 +1,3 @@
+- reorder pending flight plans via drag and drop, allows users to adjust the order of pending flight plans for a uav by dragging and dropping route boxes, user. drag route box, drop at desired position in pending plans list.  
+- display pending flight plans for selected uav, shows list of pending flight plans assigned to a specific uav in the active flights view, user. select uav, view pending flight plans in drag-and-drop layout.  
+- synchronize flight plan order with backend, updates backend service with new flight plan order after user rearrangement, system. upon drag-and-drop reorder, send updated sequence to flight management service.

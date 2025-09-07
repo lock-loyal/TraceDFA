@@ -1,0 +1,1 @@
+- check active convention, verify advertisement allowance for rest point, operator. select rest point, retrieve active convention, check maximum banners allowed, display advertisement if permitted, show error if exceeded. convention must be active and maxbanner >=4.

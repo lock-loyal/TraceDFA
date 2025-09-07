@@ -1,0 +1,5 @@
+- receive and process uav state messages, handle incoming uav state messages from monitoring system, system. receive uav state messages, forward to reminds connector for processing.  
+- monitor uav status updates, track and process real-time status updates from uavs via monitoring messages, system. receive uav status updates, route to reminds connector for further handling.  
+- maintain active connection for monitoring, ensure continuous connection by sending periodic keep-alive signals, system. run background thread to maintain active monitoring connection.  
+- forward monitoring messages to connector, route different types of uav monitoring messages to appropriate processing components, system. check message type, send to reminds connector based on message category.  
+- handle multiple message types, process uav state, monitoring, and custom messages through unified interface, system. accept uavstate, monitoring, and monitorable messages, dispatch accordingly.

@@ -1,0 +1,7 @@
+- forward uav state messages to reminds, transmits uav state messages to reminds system for monitoring, system. capture uav state messages, transform into transmittable events, send to reminds.  
+- forward uav monitoring messages to reminds, transmits uav monitoring messages to reminds system for tracking, system. capture monitoring messages, convert into events, transmit via dedicated probes.  
+- categorize flight control commands for reminds routing, classify commands like takeoff or goto into flightcontrol category for proper event distribution, system. map command types to flightcontrol scope, route through designated probes.  
+- map dronology internal messages to reminds events, transform internal messages like routeplanning or state changes into reminds-compatible event structures, system. convert message types to standardized event names, ensure proper scope assignment.  
+- handle waypoint reached notifications, process waypoint reached events from uavs and transmit as reminds events, system. detect waypoint reached messages, transform into waypointreached events, forward to reminds.  
+- manage uav activation events in reminds, capture physical uav activation messages and route as uavactivation events, system. detect activation messages, convert to standardized format, transmit via probes.  
+- transmit flight plan status updates, send flight plan activation and completion events to reminds system, system. detect plan_activated/complete messages, convert to flightplanactivated/complete events, distribute through probes.

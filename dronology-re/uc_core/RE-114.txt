@@ -1,0 +1,1 @@
+display map in ui, display a map when the real time flight ui is loaded, real time flight ui. when real time flight ui is loaded, map is displayed.

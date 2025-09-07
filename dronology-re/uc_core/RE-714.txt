@@ -1,0 +1,1 @@
+groundstation middleware communication protocol, follow predefined steps to establish a connection between a gcs and dronology, gcs middleware. follow predefined set of steps.

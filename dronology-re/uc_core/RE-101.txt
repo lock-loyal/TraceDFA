@@ -1,0 +1,1 @@
+assign new flight plan, execute next flight plan upon current plan completion if pending plans exist, single uav flight plan scheduler. uav reaches final waypoint with pending plans, scheduler executes next plan.

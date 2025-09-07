@@ -1,0 +1,2 @@
+- adjust gimbal orientation, enable adjusting the gimbal's rotational orientation during flight, drone operator. operator adjusts gimbal orientation to specific coordinates during flight.
+- validate coordinate input, ensure provided coordinates for gimbal rotation are valid, . coordinates must be valid longitude, latitude, and altitude values.

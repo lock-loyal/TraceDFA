@@ -1,0 +1,18 @@
+Name: RemoveDelay  
+Actors: Administrator  
+Description: Removal of a delay by the Administrator  
+Preconditions:  
+• The user must be logged into the system as an Administrator.  
+• The user has executed the use case “ViewSingleRegisterDetails”.  
+• Selects the date on which they wish to remove a delay.  
+
+Sequence of Events  
+User | System  
+--- | ---  
+2. Deletes a student’s late entry and clicks “Save” | 1. Updates the screen based on the selected date  
+3. Deletes the late entry from the archive.  
+
+Postconditions:  
+• The system has removed the delay. The system remains on the register screen.  
+• The administrator cancels the operation.  
+• Connection to the SMOS server is lost.

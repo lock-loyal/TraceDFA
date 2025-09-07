@@ -1,0 +1,20 @@
+Name: EditUser  
+Actors: Administrator  
+Description: Editing one or more details of a user existing in the system  
+Preconditions:  
+• The user is logged in as an administrator  
+• The user has executed the use case "ViewUserDetails," and the system is displaying a user's details  
+• The user modifies one or more pieces of information in the user details display form  
+
+Sequence of Events  
+User  
+1. Clicks the "Modify" button  
+
+System  
+2. Performs checks on the validity of the entered data and modifies the user; if the entered data is invalid, triggers the "DataError" use case  
+
+Postconditions:  
+• The user has been modified  
+• The data error is notified  
+• The administrator terminates the operation  
+• Connection to the SMOS server is interrupted

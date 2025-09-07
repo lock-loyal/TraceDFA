@@ -1,0 +1,5 @@
+- modify rest point data, update rest point details through form editing, operator. activate edit mode, modify fields like address and opening hours, validate inputs, save changes, confirm update, display success notification. mandatory fields must be non-empty.  
+- create new rest point, add new rest point entry to the system, operator. open creation form, input name and location details, validate required fields, submit data, confirm successful creation. mandatory fields validation enforced.  
+- view rest point statistics, display monthly and total visit metrics, operator. navigate to statistics tab, view pre-calculated metrics like average ratings. system retrieves data from backend.  
+- manage rest point feedback, review tourist-submitted evaluations, operator. access feedback tab, view feedback entries in table format, sort or filter entries. system loads feedback data on tab activation.  
+- assign rest point tags, associate searchable tags with rest point, operator. select tags from panel, apply changes, confirm tag association. tags linked to rest point searchability.

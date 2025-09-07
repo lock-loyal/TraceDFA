@@ -1,0 +1,53 @@
+{
+    "Richiesta": {},
+    "ServletModificaImpiegato": {
+        "EA78": 0.85205078125
+    },
+    "DbRichiesta": {},
+    "ServletMostraAccessoA": {},
+    "CittadinoManager": {
+        "EA11": 0.87744140625,
+        "EA22": 0.875,
+        "EA13": 0.86474609375,
+        "EA23": 0.861328125,
+        "EA29": 0.85693359375,
+        "EA17": 0.841796875
+    },
+    "ServletEliminaCittadino": {
+        "EA4": 0.90283203125
+    },
+    "Cittadino": {
+        "EA11": 0.87109375,
+        "EA13": 0.8642578125,
+        "EA22": 0.85693359375,
+        "EA23": 0.85693359375,
+        "EA6": 0.84912109375
+    },
+    "CIManager": {
+        "EA31": 0.85595703125
+    },
+    "ServletCaricaPratica": {
+        "EA31": 0.85400390625,
+        "EA30": 0.84619140625
+    },
+    "CartaIdentita": {
+        "EA41": 0.8603515625,
+        "EA31": 0.83984375
+    },
+    "ServletModificaAccesso": {
+        "EA17": 0.8701171875,
+        "EA11": 0.84228515625
+    },
+    "ServletModificaCittadino": {
+        "EA11": 0.90283203125,
+        "EA13": 0.8583984375,
+        "EA6": 0.84912109375
+    },
+    "Accesso": {},
+    "ServletRegistraCittadino": {
+        "EA22": 0.92333984375,
+        "EA23": 0.9091796875,
+        "EA6": 0.865234375,
+        "EA2": 0.83984375
+    }
+}

@@ -1,0 +1,6 @@
+- coordinate conversion validation, validate accurate conversion between nvector and lla coordinate systems, coordinate system manager. ensure accurate conversion between coordinate systems for precise drone navigation.
+- distance calculation validation, ensure correct calculation of distance between two coordinates, coordinate system manager. calculate distance between coordinates with precision for flight route accuracy.
+- coordinate system equality, verify equality of coordinate instances with same latitude longitude and altitude, coordinate system manager. coordinate instances with identical values are considered equal.
+- hash code consistency, ensure coordinate instances with same values generate identical hash codes, coordinate system manager. coordinate instances with same values produce same hash code for data integrity.
+- pvector conversion validation, validate accurate conversion of nvector to pvector coordinate system, coordinate system manager. ensure correct conversion to pvector for internal system computations.
+- coordinate string representation, generate string representation of coordinate for debugging and logging, coordinate system manager. string representation includes x y z components and altitude.

@@ -1,0 +1,5 @@
+- handshake communication, establish initial communication between drone and ground station upon connection, drone operator. drone sends handshake message with home coordinates and safety case upon connection.
+- state reporting, transmit real-time drone state including location attitude velocity and battery status, drone operator. drone sends periodic state updates with current location attitude velocity and battery status.
+- monitoring telemetry, provide detailed telemetry data including gps information and sensor readings, monitoring system. drone sends telemetry data with gps coordinates velocity battery levels and sensor readings.
+- command acknowledgment, acknowledge receipt and processing of commands sent to the drone, ground station. drone sends acknowledgment message with command identifier upon receiving instructions.
+- mode change notification, notify ground station when flight mode is changed, drone operator. drone sends mode change message with new mode name upon mode transition.

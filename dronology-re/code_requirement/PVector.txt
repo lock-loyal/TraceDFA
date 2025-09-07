@@ -1,0 +1,5 @@
+- define 3d position, represent drone positions in 3d space using x y and z coordinates, coordinate system manager. drone positions represented in 3d space using x y z coordinates.  
+- convert coordinate systems, convert between earth-centered earth-fixed and latitude longitude altitude coordinate systems, coordinate system manager. convert between coordinate systems for different use cases.  
+- ensure coordinate accuracy, enforce precise coordinate values through mathematical validation, coordinate system manager. coordinate values validated using mathematical formulas.  
+- altitude determination, calculate altitude based on earth-centered coordinates, coordinate system manager. altitude determined from earth-centered coordinates.  
+- geographic position derivation, derive geographic positions from earth-centered coordinates, flight navigation system. geographic positions derived for navigation purposes.

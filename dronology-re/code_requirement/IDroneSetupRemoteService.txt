@@ -1,0 +1,4 @@
+- drone initialization, initialize drones with specified mode and start coordinates, drone setup manager. initialize drones with specified mode and start coordinates, mode must be virtual or physical.  
+- active uav monitoring, retrieve list of active uavs for status tracking, drone operator. retrieve list of active uavs.  
+- status change subscription, subscribe or unsubscribe to uav status change notifications, monitoring system. subscribe or unsubscribe to receive uav status change notifications.  
+- command retransmission, resend previous command to uav upon communication failure, command handler. resend command to uav when communication failure occurs.

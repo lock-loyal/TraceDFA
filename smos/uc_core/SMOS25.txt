@@ -1,0 +1,1 @@
+modify course, modify the details of a course, administrator. user clicks save button, system performs checks on validity of entered data and updates course in archive, triggers dataerror use case if entered data is invalid, displays updated list of courses.

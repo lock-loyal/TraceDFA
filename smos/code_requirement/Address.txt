@@ -1,0 +1,1 @@
+- manage address information, allows the administrator to define and edit address details used in the system, administrator. administrator accesses address management interface, enters or modifies address name, system stores updated information for user or classroom location assignments.

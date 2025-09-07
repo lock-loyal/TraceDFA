@@ -1,0 +1,5 @@
+- track uav state changes, monitor and record state changes of uavs during operations, system. detect state change event, generate message with timestamp and uav id.  
+- detect collision events, identify and log collision occurrences during uav flights, system. monitor for collision events, generate alert message upon detection.  
+- monitor waypoint completion, track when uav reaches designated waypoints during flight, system. trigger message upon reaching each predefined waypoint.  
+- activate mission plans, enable initiation of predefined mission plans for uav operations, user. send command to activate mission plan, system processes and confirms activation.  
+- record fence breach incidents, capture unauthorized uav entries into restricted zones, system. detect fence breach, generate message with breach details.

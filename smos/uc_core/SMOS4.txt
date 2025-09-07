@@ -1,0 +1,1 @@
+change password, allows a user to change their password, registered user. system displays form with fields old password new password confirm new password, user fills out form and submits it, system confirms successful password change.

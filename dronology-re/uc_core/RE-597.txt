@@ -1,0 +1,1 @@
+simulate battery, approximate the state of the battery, internal simulator. internal simulator approximates battery state.

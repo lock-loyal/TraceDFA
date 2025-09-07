@@ -1,0 +1,1 @@
+create log event when flight plan is executed, creates a log event when a flight plan is executed including route name, assigned uav, and execution timestamp, system. execute flight plan, create log event with route name, uav assignment, and execution timestamp.

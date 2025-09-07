@@ -1,0 +1,1 @@
+- flight plan status change notification, notify listeners when flight plan status changes, system. detect flight plan status change, trigger notifications to registered listeners.

@@ -1,0 +1,8 @@
+- flight plan creation, define flight plans with specified waypoints and assign to uavs, flight manager. user creates flight plan with waypoints and assigns to uav.  
+- return to base, initiate automatic return of uav to its home location, flight operator. operator triggers return to home command for selected uav.  
+- flight suspension, temporarily pause ongoing uav flight operations, flight operator. operator pauses active flight of selected uav.  
+- flight cancellation, remove pending flight plans from uav queue, flight scheduler. scheduler cancels queued flights for specified uav.  
+- takeoff procedure, execute vertical ascent of uav to predefined altitude, flight operator. operator initiates takeoff sequence with target altitude.  
+- emergency termination, immediately halt all uav movements and systems, safety officer. safety officer activates emergency stop for uav.  
+- flight status monitoring, retrieve real-time information about active uav flights, monitoring system. system provides current flight data for specified uav.  
+- multi-uav coordination, manage concurrent flight operations for multiple unmanned vehicles, mission controller. controller oversees simultaneous flights across uav fleet.

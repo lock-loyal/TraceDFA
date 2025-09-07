@@ -1,0 +1,1 @@
+- mission plan execution, enable users to upload and execute mission plans via the ui, mission planner. user uploads mission plan file, system executes the plan, requires valid backend connection.

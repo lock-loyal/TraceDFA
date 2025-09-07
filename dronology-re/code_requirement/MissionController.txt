@@ -1,0 +1,5 @@
+- mission execution, execute a mission by building the mission plan and activating tasks on demand, mission controller. mission controller builds mission plan and activates tasks when conditions met.
+- single mission enforcement, prevent concurrent mission executions by allowing only one active mission, mission controller. only one mission can be active at any time.
+- periodic task activation, check for activatable tasks at fixed rate during mission execution, mission controller. controller periodically checks for tasks ready for activation.
+- mission cancellation, terminate active mission and reset altitude synchronization states, mission operator. mission operator cancels active mission and resets synchronization.
+- singleton access control, ensure single controller instance manages all mission executions, system. system restricts mission control to singleton controller instance.

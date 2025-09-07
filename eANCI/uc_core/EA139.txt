@@ -1,0 +1,1 @@
+service unavailable, handle technical failure exceptions by displaying notification messages, citizen. system displays terminal message indicating request cannot be processed, citizen reads notification message, system redisplays input form, use case extends other cases to handle technical failure exceptions, exit when input form is redisplayed.

@@ -1,0 +1,17 @@
+Name: AcceptStudentRegistration  
+Actors: Administrator  
+Description: Allows the administrator to accept a student's registration to the system  
+Preconditions:  
+• The user has already executed the use case "View Registration Requests"  
+• The user clicks the "Accept" button associated with a registration request  
+
+Event Sequence  
+User  
+System  
+1. Activates the new user in the system.  
+2. Displays the list of registrations still to be activated  
+
+Postconditions:  
+• The user has accepted a registration request to the system  
+• The user cancels the operation  
+• Connection to the SMOS server is interrupted

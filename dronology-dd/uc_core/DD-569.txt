@@ -1,0 +1,1 @@
+hover in place when distance to small, issues hover command when obstacle is detected within minimum stopping distance, system. detect obstacle within min_stopping_distance, issue hover in place command.

@@ -1,0 +1,1 @@
+delete course, deletes a course from the archive, administrator. user clicks delete button, system deletes course from archive, displays updated list of courses.

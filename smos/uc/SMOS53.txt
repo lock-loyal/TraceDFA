@@ -1,0 +1,11 @@
+Name: ViewClassList  
+Actors: Administrative Staff  
+Description: Display of class list  
+Preconditions:  
+• The user must be logged into the system as administrative staff.  
+Sequence of Events  
+User  
+System  
+1. The system displays a screen to the user showing all classes in the database, with a button to access each class’s register.  
+Postconditions:  
+The user is shown a list from which to select a class.

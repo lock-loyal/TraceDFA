@@ -1,0 +1,5 @@
+- record rest point visit, capture tourist visit details including vote and comment, tourist. initiate visit recording, input visit data, submit form, validate input, update rest point statistics, confirm successful recording. invalid vote value or missing comment triggers error.  
+- modify visit details, update existing visit information except vote, tourist. select visit entry, edit comment or date, submit changes, validate data, confirm update, store modifications. comment exceeds maximum length.  
+- view rest point visits, display list of all visits for specific rest point, operator. access rest point profile, request visits history, retrieve and present visit records. rest point must exist in system.  
+- retrieve tourist visit history, list all rest point visits made by tourist, tourist. access personal profile, navigate to visit history, fetch and display visit entries. tourist account must be active.  
+- fetch specific visit record, obtain detailed visit information for tourist and rest point, operator. select tourist and rest point, query database, return matching visit data. concurrent access handled via transactions.

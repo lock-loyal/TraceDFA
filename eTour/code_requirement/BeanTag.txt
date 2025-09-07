@@ -1,0 +1,1 @@
+- manage tag, create or update tag information with valid attributes, operator. access tag management interface, input tag name and description, validate fields, save data, confirm operation success. tag name must be unique and non-empty.

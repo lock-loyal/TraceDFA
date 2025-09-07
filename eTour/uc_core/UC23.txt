@@ -1,0 +1,1 @@
+modify news, allow agency operator to edit and update news content, agency operator. activate news editing, view news list, select news item, load data into form, edit and submit changes, validate data, confirm modification, store updated data, notify success. agency operator cancels operation or etour server connection interrupted.

@@ -1,0 +1,1 @@
+- define waypoints with coordinates and approach speed, create navigation points with specific coordinates and speed for flight routes, system. create waypoint with latitude, longitude, altitude coordinates and approach speed.

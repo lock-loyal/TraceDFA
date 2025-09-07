@@ -1,0 +1,1 @@
+assign routes, provide means to select existing routes and assign them to a uav, route assignment ui. select existing routes and assign to uav.

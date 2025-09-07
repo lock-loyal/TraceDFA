@@ -1,0 +1,1 @@
+- delete a teaching, the administrator deletes a teaching from the system, administrator. system verifies administrator privileges, administrator confirms deletion, system removes teaching record, redirects to teaching list page. administrator must have valid permissions and teaching must exist.

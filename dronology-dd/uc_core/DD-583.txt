@@ -1,0 +1,1 @@
+reject duplicate request for uav activation, prevents duplicate uav activation by notifying gcs middleware when a uav id is already active, system. if presented uav id is currently activated, notify gcs middleware and perform no additional activation.

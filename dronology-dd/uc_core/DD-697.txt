@@ -1,0 +1,1 @@
+continual following uavs, automatically adjust map view to center selected uavs and display their routes at 60% view coverage when follow mode is active, user. activate ui follow mode, map zooms and pans to center selected uavs, active routes occupy 60% of view.

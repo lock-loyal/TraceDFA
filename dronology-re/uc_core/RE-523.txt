@@ -1,0 +1,1 @@
+flight route assignment during hover, assign route and maintain hover when route is assigned to a hovering uav, flight manager. flight route assigned to hovering uav, flight manager assigns route and maintains hover mode.

@@ -1,0 +1,4 @@
+- manage flight plan list, maintain a list of flight plans for each uav ensuring non-null returns, flight plan manager. each uav has a list of flight plans, accessing non-existing entries returns empty list.  
+- add flight plan, append new flight plan to uav's existing list of plans, flight plan manager. new flight plan added to uav's list, list created if non-existent.  
+- clear flight plans, remove all flight plans from a specific uav's list, flight plan manager. all entries in uav's flight plan list are cleared.  
+- retrieve flight plans, obtain current flight plans for a uav returning empty list when none exist, flight plan manager. flight plans retrieved as list, empty list returned for no entries.

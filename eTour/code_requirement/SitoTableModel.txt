@@ -1,0 +1,3 @@
+- display cultural asset list, present cultural assets with name, city, and distance from current tourist position, tourist. access cultural asset list, retrieve data, calculate distances, populate table columns, display formatted results. requires valid gps coordinates.  
+- display rest point list, show rest points including name, city, and distance from tourist location, tourist. open rest point list, fetch rest points, compute distances, organize in table view, present sorted entries. gps signal must be active.  
+- localization, track and update tourist current position for distance calculation, system. obtain gps coordinates, validate data, compute distances to sites, refresh display upon location change. handle unavailable gps with error prompt.

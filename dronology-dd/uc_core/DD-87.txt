@@ -1,0 +1,1 @@
+remove flight plan from queue, allows removal of a flight plan from a uav's queue, system. unassign flight plan from uav, remove from flight plan queue.

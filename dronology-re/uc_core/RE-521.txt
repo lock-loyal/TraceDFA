@@ -1,0 +1,1 @@
+maintain position during hover in place, halt uav in place and maintain current position when hover command is issued, flight manager. when hover in place command is issued, flight manager halts uav and maintains position.

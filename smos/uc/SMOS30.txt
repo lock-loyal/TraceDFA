@@ -1,0 +1,19 @@
+Name: InsertDelaysAdmin  
+Actors: Administrator  
+Description: Digitalization of the Register, data entry by the Administrator  
+Preconditions:  
+• The user must be logged into the system as an Administrator.  
+• The user has performed the use case "ViewSingleRegisterDetails".  
+• Select the date on which they want to enter the information.  
+
+Sequence of Events  
+User | System  
+--- | ---  
+2. Fill out the form by entering students with delays and click "Save". | 1. Update the displayed screen based on the date.  
+3. Submit the data to the server. |  
+4. Display the updated register data.  
+
+Postconditions:  
+• The delay data has been entered into the system, and the system has sent notifications to the parents. The system remains on the register screen.  
+• The Administrator interrupts the operation.  
+• Connection to the SMOS server is interrupted.

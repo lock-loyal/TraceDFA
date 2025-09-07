@@ -1,0 +1,16 @@
+Name: ModifyDelay  
+Actors: Administrator  
+Description: modification of a delay by the Administrator  
+Preconditions:  
+• The user must be logged into the system as an Administrator  
+• The user has performed the use case “ViewSingleRegisterDetails”  
+• Select the date on which they wish to modify the delay  
+Sequence of Events  
+User | System  
+--- | ---  
+2. The user modifies the delay and clicks “Save” | 1. Updates the screen based on the selected date  
+3. The system sends the modified data to the server |  
+Postconditions:  
+• The system has modified the delays on the entered date. The system remains on the register screen.  
+• The administrator cancels the operation  
+• Connection to the SMOS server is lost

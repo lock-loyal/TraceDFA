@@ -1,0 +1,1 @@
+real time flight ui, display the location of active uavs as icons on the map, real time flight ui. display location of active uavs as icons on map.

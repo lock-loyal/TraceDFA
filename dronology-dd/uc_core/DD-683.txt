@@ -1,0 +1,1 @@
+periodically request uav state, allows the ui to periodically retrieve and display activated uavs, ui. periodically request list of activated uavs from uimiddleware, update display of activated uavs.

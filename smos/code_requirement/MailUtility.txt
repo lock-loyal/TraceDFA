@@ -1,0 +1,1 @@
+- send notification email, allows the system to send email notifications to users, user. user triggers an email notification, system constructs message with provided sender, receiver, subject, and text, system sends email via configured smtp server, valid email addresses and smtp server configuration required.

@@ -1,0 +1,1 @@
+display a list of existing routes, allows ui to display existing routes when loaded, ui. request all existing routes from uimiddleware, display routes upon response.

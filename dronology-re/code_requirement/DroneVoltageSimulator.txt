@@ -1,0 +1,4 @@
+- battery voltage simulation, simulate battery voltage depletion during flight based on elapsed time, drone simulator. battery voltage decreases by 0.25 volts per minute of flight, voltage updated at checkpoints.  
+- battery recharge, reset battery voltage to full capacity when recharging, drone simulator. recharging resets battery voltage to 15.0 volts.  
+- battery state management, track battery states including charging depleting and stable, drone simulator. battery state transitions between charging depleting and stable based on operations.  
+- voltage checkpoints, update battery voltage at defined intervals during depletion, drone simulator. voltage recalculates after 5-second intervals during depletion.

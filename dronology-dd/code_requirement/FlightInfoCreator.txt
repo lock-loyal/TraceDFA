@@ -1,0 +1,2 @@
+- retrieve flight information for a uav, allows users to view current, pending, and completed flight plans for a selected uav, user. select uav, retrieve and display current, pending, and completed flight plans.  
+- display active flight plans, enables viewing all currently active flight plans across uavs in the system, system. collect active flight data from plan pool manager, display aggregated flight plan information.

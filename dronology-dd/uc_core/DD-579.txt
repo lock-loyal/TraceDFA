@@ -1,0 +1,1 @@
+transition from in_air to landing,change uav state when a landing command is received,system.uav in in_air state receives land command, transition to landing state.

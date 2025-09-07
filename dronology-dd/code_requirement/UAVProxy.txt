@@ -1,0 +1,5 @@
+- track real-time uav status, provides current status information of uavs including battery level and velocity, system. continuously update and provide status information like battery level, velocity, and coordinates.  
+- maintain uav location data, manage and provide access to uav's current geographical coordinates, system. track latitude, longitude, altitude, update when coordinates change.  
+- associate uavs with ground stations, link each uav to specific ground station for management purposes, system. assign and update ground station id for each uav.  
+- monitor uav battery levels, track and update battery level information for uavs, system. provide current battery level, update when changes occur.  
+- set home location for uavs, allows defining home coordinate for uav return operations, system. assign and update home coordinates for each uav.

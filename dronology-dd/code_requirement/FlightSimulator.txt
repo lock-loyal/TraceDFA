@@ -1,0 +1,4 @@
+- simulate step-by-step uav movement toward waypoints, calculates uav position incrementally based on current and target coordinates, system. compute movement steps using trigonometric functions, update current position after each step.  
+- check destination reached status, verify if uav is within proximity of target waypoint, system. compare current and target positions, return true if within threshold.  
+- set flight path for uav, defines path from current position to target coordinates, system. initialize current and target positions, reset reached status upon new path assignment.  
+- update uav coordinates during flight, adjust latitude and longitude based on computed increments, system. calculate new position using step size and angle, set updated coordinates.

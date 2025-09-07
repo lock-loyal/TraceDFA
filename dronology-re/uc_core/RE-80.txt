@@ -1,0 +1,1 @@
+visit waypoints during flight plan, send next waypoint to uav during flight plan execution, vehicle core. flight plan executed, vehicle core sends next waypoint.

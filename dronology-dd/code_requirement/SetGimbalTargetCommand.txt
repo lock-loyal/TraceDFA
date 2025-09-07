@@ -1,0 +1,1 @@
+- adjust gimbal target, allows operator to adjust gimbal's target to specified coordinates, operator. set new target coordinates for gimbal, send command to uav.

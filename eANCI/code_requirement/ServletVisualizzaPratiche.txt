@@ -1,0 +1,1 @@
+- view applications, allow employee to view all submitted applications, employee. employee accesses application list, system retrieves and displays list of applications, employee scrolls through list to inspect application details, exit when list is displayed or service unavailable invoking service unavailable use case, employee must have system access.

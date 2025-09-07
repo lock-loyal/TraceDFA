@@ -1,0 +1,1 @@
+display state of activated uavs, allows displaying the name, state, battery level, speed, and current coordinates of each activated uav, system. display uav details including name, state, battery level, speed, and current coordinates.

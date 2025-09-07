@@ -1,0 +1,3 @@
+- import saved mission plans, allows importing and executing predefined mission plans specified in json, user. provide interface to import saved mission plans, execute predefined missions specified in json.  
+- cancel active mission, enables cancellation of currently executing mission plan, user. trigger cancellation command, stop all mission-related operations.  
+- remote mission execution, facilitates execution of mission plans through remote service interface, system. accept mission plan via remote call, forward to mission planning service.

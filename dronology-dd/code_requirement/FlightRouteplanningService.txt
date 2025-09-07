@@ -1,0 +1,4 @@
+- manage flight route categories, organize flight routes into predefined categories for structured access, system. group flight routes into categories such as default for organized management.  
+- retrieve flight routes by id, allows fetching detailed flight route information using unique identifier, system. use route id to fetch corresponding flight route details.  
+- retrieve flight routes by name, enables accessing flight routes using their assigned names, user. search for flight route by name, return matching route details.  
+- transmit modified flight routes, update and send adjusted flight route data to the system, user. modify flight route parameters, transmit updated route to apply changes.

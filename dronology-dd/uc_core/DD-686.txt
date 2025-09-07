@@ -1,0 +1,1 @@
+differentiate uav types, allows differentiation of uav types through distinct icons, system. assign different icons to different uav types.

@@ -1,0 +1,1 @@
+log all commands sent to gcs, log each command sent to gcs via gcs middleware, system. log commands sent to gcs via gcs middleware.

@@ -1,0 +1,1 @@
+delete user, deletes a user from the system, administrator. system deletes user from archive, displays updated user list.

@@ -1,0 +1,1 @@
+client registers for flight route events, allows client to register for flight route event notifications when a flight route is created, modified, or deleted, client. register with uimiddleware, receive notifications on flight route events.

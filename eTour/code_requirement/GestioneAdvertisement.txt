@@ -1,0 +1,4 @@
+- add advertisement banner, operator creates a new banner for a rest point, operator. access banner management, upload image, validate convention limits, generate unique filename, store image file, insert banner record, confirm success. maximum banners per convention not exceeded.  
+- modify advertisement banner, operator updates existing banner image, operator. select target banner, upload new image, validate format, overwrite existing file, update database reference, notify successful modification. valid image format required.  
+- remove advertisement banner, operator deletes a specific banner, operator. select banner to delete, remove associated image file, delete database entry, confirm deletion. banner must exist in system.  
+- retrieve advertisement banners, operator views active banners for a rest point, operator. request banner list by rest point id, fetch banner metadata, load associated images, display combined results. handle missing image files.

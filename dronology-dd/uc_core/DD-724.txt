@@ -1,0 +1,1 @@
+uav state messages, formats uav state messages as json objects containing both mandatory and optional elements, system. format messages as json objects, include mandatory and optional elements.

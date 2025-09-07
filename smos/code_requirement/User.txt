@@ -1,0 +1,4 @@
+- user registration, allows the administrator to register a new user in the system, administrator. administrator fills in user details including login and password, system validates minimum 5-character length for credentials, displays confirmation message.
+- update user profile, enables users to modify their personal information, user. user accesses profile page and edits fields like email or phone number, system saves updated details after validation.
+- parent-child association, links student accounts to parent users for access management, administrator. administrator selects student profile and specifies parent user id, system establishes relationship for authorization purposes.
+- user authentication, verifies login credentials during system access, user. user enters username and password, system checks credential validity and grants access upon successful verification.

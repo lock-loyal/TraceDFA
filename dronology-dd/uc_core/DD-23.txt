@@ -1,0 +1,1 @@
+coordinate specification, specify waypoints using longitude and latitude in decimal degrees format, system. all waypoints specified using degrees longitude and latitude in decimal degrees format (e.g. 38.6556758 -77.7872153).

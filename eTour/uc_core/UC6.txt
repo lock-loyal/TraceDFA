@@ -1,0 +1,1 @@
+delete rest point, allow agency operator to remove a rest point from the system, agency operator. view rest points list from cultural asset search results, select rest point, request deletion confirmation, confirm deletion, delete selected rest point, notify success. agency operator cancels operation or etour server connection interruption.

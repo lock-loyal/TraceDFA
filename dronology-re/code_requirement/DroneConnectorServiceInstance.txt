@@ -1,0 +1,3 @@
+- ground station connection registration, allow ground stations to register and establish communication channels, ground station operator. ground station sends registration request, system verifies uniqueness and establishes connection, ground station id must be unique.
+- connection limit enforcement, enforce maximum number of simultaneous ground station connections, system administrator. connection requests exceeding maximum limit trigger rejection warnings.
+- unregister drone connections, remove registered ground station connections and deactivate associated drones, system administrator. ground station disconnects, system removes connection and deactivates linked drones.

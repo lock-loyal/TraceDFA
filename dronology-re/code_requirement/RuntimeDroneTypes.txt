@@ -1,0 +1,5 @@
+- set simulation environment, configure the system to operate in simulation mode with virtual drones, system administrator. system administrator configures system to operate in simulation mode with virtual drones. system can only be set to simulation mode once.  
+- set physical environment, configure the system to operate in physical mode with real drones, system administrator. system administrator configures system to operate in physical mode with real drones. system can only be set to physical mode once.  
+- register command handler, register command handlers for drone operations with unique identifiers, integration manager. integration manager registers command handlers with unique identifiers to prevent duplicates.  
+- retrieve command handler, retrieve registered command handler by identifier for drone command execution, integration manager. integration manager retrieves command handler by identifier to execute drone commands.  
+- unregister command handler, remove a registered command handler by identifier, integration manager. integration manager removes command handler by identifier when no longer needed.

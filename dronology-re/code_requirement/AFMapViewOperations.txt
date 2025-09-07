@@ -1,0 +1,3 @@
+- follow uavs, allow users to toggle map focus on selected uavs, active flight monitor. clicking follow selected uavs button centers map on selected uavs.  
+- view all uavs, enable users to reset map view to display all active uavs, active flight monitor. clicking view all uavs button adjusts map boundaries to show all uavs.  
+- map operations grouping, organize map-related controls in dedicated panel with descriptive labels, ui designer. map view operations grouped under labeled section with follow and view buttons.

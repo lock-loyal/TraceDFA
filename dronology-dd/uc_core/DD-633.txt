@@ -1,0 +1,1 @@
+ui middleware forwards return to home commands from clients to dronology, allows uimiddleware to accept return-to-home commands associated with a uav id and forward them to dronology, system. accept return-to-home commands with uav id, forward to dronology.

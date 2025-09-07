@@ -1,0 +1,4 @@
+- mission execution logging, log mission-related info and errors during mission operations, system. capture mission info and errors, log under mission category.  
+- hardware status monitoring, log hardware events including info, trace, and fatal errors, system. capture hardware events, log under hw category with appropriate severity.  
+- error handling with severity-based logging, log errors and exceptions with different severity levels, system. log errors and exceptions, categorize by severity (debug, info, warn, error, fatal).  
+- exception propagation tracking, forward logged exceptions to designated handlers after logging, system. log exception details, forward to exception handling component.

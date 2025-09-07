@@ -1,0 +1,1 @@
+cancel pending flight, notify dronology when user cancels pending flight plan, route assignment ui. user cancels pending flight plan, route assignment ui notifies dronology.

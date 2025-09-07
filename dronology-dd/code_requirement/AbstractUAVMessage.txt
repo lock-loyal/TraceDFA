@@ -1,0 +1,5 @@
+- monitor uav status via messages, track uav status through structured messages containing timestamps and identifiers, system. messages include send/receive timestamps, uav_id, groundstation_id for status tracking.  
+- structure uav monitoring messages, define message format with type, data map, and uav/ground station identifiers, system. messages contain type, key-value data, uav_id, groundstation_id fields.  
+- associate messages with ground stations, link each message to originating ground station through identifier, system. include groundstation_id in message structure.  
+- track message timestamps, record precise send and receive timestamps for each uav message, system. capture send timestamp at creation, receive timestamp upon arrival.  
+- serialize messages to json, convert uav messages to json format for transmission, system. use gson library for json serialization.

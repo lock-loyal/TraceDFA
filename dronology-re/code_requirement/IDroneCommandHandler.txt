@@ -1,0 +1,2 @@
+- command transmission, transmit commands to uavs for execution, command handler. command handler sends commands to uavs for execution, invalid commands result in exceptions.
+- real-time status monitoring, set up callback listeners for receiving uav status updates, status monitor. callback listener receives real-time updates on uav status changes, communication failure prevents status updates.

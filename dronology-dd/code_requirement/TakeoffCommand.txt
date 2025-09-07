@@ -1,0 +1,1 @@
+- takeoff command with altitude parameter, send takeoff command to drone with specified altitude, system. create takeoff command with drone id and altitude (in meters), send to drone for execution, altitude must be specified in meters.

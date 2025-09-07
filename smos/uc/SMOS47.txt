@@ -1,0 +1,20 @@
+Name: EditAReportCard  
+Actors: Administrator  
+Description: Use case to modify a student's report card  
+Preconditions:  
+• The user has logged into the system as an Administrator  
+• The user has performed the use case "ViewAReportCard"  
+• The user clicks the edit button  
+
+Sequence of Events  
+User  
+2. Enters the new data and clicks the confirm button  
+
+System  
+1. Displays the form with editable fields, including grades for different subjects  
+3. The system displays a confirmation message and shows the form with the list of students  
+
+Postconditions:  
+• A student's report card is modified  
+• The user cancels the operation  
+• Connection to the SMOS server is terminated

@@ -1,0 +1,3 @@
+- wgs-84 position reckoning, utilize wgs-84 reference system for position reckoning and coordinate conversions, system. convert positions between lla, nvector, and pvector coordinate systems using wgs-84 standard.  
+- calculate direct and travel distances, provide two distance metrics between positions - direct laser distance and realistic travel distance, system. calculate laser distance via straight line, compute travel distance along earth's surface.  
+- coordinate transformations for navigation, enable conversion between global coordinates and local ned coordinates relative to reference position, system. transform positions to north-east-down coordinates using rotation matrices for navigation calculations.

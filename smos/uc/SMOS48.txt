@@ -1,0 +1,19 @@
+Name: DeleteAReportCard  
+Actors: Administrator  
+Description: The Administrator deletes a report card from the system  
+Preconditions:  
+• The user is logged into the system as an Administrator  
+• The user has performed the use case "View a Report Card"  
+• The user clicks on the "Delete" button  
+
+Sequence of Events  
+User  
+2. The user confirms deletion by pressing the confirmation button  
+
+System  
+1. The system displays a form to confirm deletion  
+3. Displays a message confirming successful deletion and shows the form with the list of classes  
+
+Postconditions:  
+• A student’s report card is deleted  
+• Connection to the SMOS server is terminated

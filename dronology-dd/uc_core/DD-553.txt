@@ -1,0 +1,1 @@
+remove pending plans when return-to-home, remove scheduled flight plans when uav returns home, system. issue return-to-home command during flight, abort current flight plan, remove scheduled plans from queue.

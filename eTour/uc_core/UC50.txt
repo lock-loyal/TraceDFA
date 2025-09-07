@@ -1,0 +1,1 @@
+view visited sites, allow tourist to view list of sites where they provided feedback, tourist. select feature to display visited sites, retrieve list of sites with feedback, display list. valid user authentication.

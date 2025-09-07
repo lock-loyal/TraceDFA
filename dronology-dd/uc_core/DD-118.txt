@@ -1,0 +1,1 @@
+load saved map scale, allows loading of the map at the scale specified in the configuration, system. load map, scale as per configuration settings.

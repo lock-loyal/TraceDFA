@@ -1,0 +1,1 @@
+- landing strategy execution, define and execute landing procedures for uavs, system. upon landing command, execute predefined landing strategy to safely land the uav.

@@ -1,0 +1,1 @@
+- manage rest point menu, create or update a menu for a rest point, operator. access menu management feature, input menu details including day and rest point association, validate data, save menu information, confirm successful operation. valid rest point identifier required.

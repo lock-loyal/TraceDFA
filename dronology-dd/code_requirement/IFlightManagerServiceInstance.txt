@@ -1,0 +1,7 @@
+- plan flight with waypoints, allows user to create flight plans by specifying waypoints for a uav, user. select uav, define waypoints, create flight plan.  
+- return uav to home location, enables user to command a uav to return to its home position, user. initiate return-to-home command for selected uav.  
+- pause active flight, allows user to temporarily halt a uav's current flight, user. trigger pause command during flight execution.  
+- cancel pending flight plans, enables user to remove queued flight plans for a uav, user. select uav, cancel pending flight plans.  
+- initiate uav takeoff, allows user to command a uav to take off to specified altitude, user. issue takeoff command with target altitude.  
+- emergency stop uav, enables user to immediately stop uav operations in critical situations, user. trigger emergency stop command during flight.  
+- retrieve flight status information, provides user access to real-time flight data for monitoring, user. request flight info, display status details.

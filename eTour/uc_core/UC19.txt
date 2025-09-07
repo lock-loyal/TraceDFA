@@ -1,0 +1,1 @@
+delete banner, allow agency operator to remove a banner advertisement associated with a rest point, agency operator. retrieve rest points list from search rest points, select rest point, view associated banners, select banner, display confirmation message, confirm deletion, remove banner, notify successful deletion.

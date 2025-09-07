@@ -1,0 +1,4 @@
+- monitor real-time location, track uav's current location including latitude longitude and altitude, monitoring service. location includes latitude, longitude, altitude.  
+- track flight mode, monitor uav's active flight mode such as guided or land, monitoring service. active flight modes include guided, land.  
+- check operational status, determine uav's operational status like active or emergency, monitoring service. operational statuses include active, emergency.  
+- monitor battery metrics, track battery level voltage and current consumption, monitoring service. battery metrics include level, voltage, current.

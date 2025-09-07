@@ -1,0 +1,3 @@
+- submit rest point feedback, enable tourist to provide visit evaluation and comments, tourist. access feedback submission, input rating and comment, validate data, confirm submission, store feedback, notify successful submission. valid rating range (1-5), existing tourist and rest point ids.  
+- manage rest point feedback, store and update tourist evaluations for rest points, system. system receives feedback data, validate format and references, persist evaluation, update rest point statistics. invalid data format or non-existent references rejected.  
+- view rest point visit history, display past tourist visits to a rest point, tourist. access visit history, retrieve stored visit records, display visit dates and feedback. requires valid tourist authentication.

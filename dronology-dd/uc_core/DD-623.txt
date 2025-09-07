@@ -1,0 +1,1 @@
+ui middleware handles control lock releases, handles forwarding control requests to release uav control locks, ui middleware. forward control requests from ui clients to release control lock on uav.

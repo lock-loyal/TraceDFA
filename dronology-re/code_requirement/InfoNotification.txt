@@ -1,0 +1,1 @@
+- system notification categorization, categorize system notifications by severity levels and predefined types for monitoring, monitoring system. system generates notifications with severity and type attributes, notifications must have defined severity and type.

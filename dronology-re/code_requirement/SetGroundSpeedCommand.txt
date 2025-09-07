@@ -1,0 +1,1 @@
+- adjust ground speed, set the uav ground speed in meters per second via ground control station command, uav operator. operator sends command to set ground speed, gcs applies speed adjustment to uav.

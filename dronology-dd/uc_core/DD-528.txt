@@ -1,0 +1,1 @@
+compute distance to next waypoint, allows calculation of the current distance to the target waypoint based on uav coordinates, vehiclecore. receive uav current coordinates and assigned target waypoint, compute distance to target waypoint.

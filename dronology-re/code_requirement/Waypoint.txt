@@ -1,0 +1,3 @@
+- waypoint definition, specify waypoints using coordinates including longitude latitude and altitude, flight route manager. each waypoint is specified with coordinates.
+- define approach speed, set approaching speed for each waypoint to control uav movement between points, flight route manager. waypoints include configurable approaching speed parameter.
+- track waypoint status, monitor whether uav has reached each predefined waypoint during flight, monitoring system. system tracks reached status for each waypoint during flight execution.

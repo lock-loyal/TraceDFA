@@ -1,0 +1,1 @@
+ui requests pending flight plans from uimiddleware, allows user to view flight plans assigned to a uav by requesting pending plans from uav flight info object, user. user requests to view uav flight plans, ui requests pending plans from uav flight info, displays them.

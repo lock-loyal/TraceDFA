@@ -1,0 +1,1 @@
+- view justification details, allows the administrator to view detailed information about a specific absence or delay justification, administrator. administrator selects a justification entry from the list, system displays justification details including associated classroom and documented reason.

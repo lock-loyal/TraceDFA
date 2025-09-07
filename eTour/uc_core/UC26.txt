@@ -1,0 +1,1 @@
+modify comment, allow agency operator to edit a selected feedback comment, agency operator. view site list from search site results, select comment for editing, load feedback data into form, edit comment text, validate input, confirm changes, store modified comment. valid comment format.

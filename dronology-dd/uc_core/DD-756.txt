@@ -1,0 +1,1 @@
+gcs transmits uav properties, allows gcs to send uav's current properties to gcsmiddleware when received from uav, gcs. send uav properties to gcsmiddleware upon reception from uav.

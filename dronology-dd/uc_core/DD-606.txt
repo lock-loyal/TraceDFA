@@ -1,0 +1,1 @@
+simulate go to in nvec simulator, simulates uav movement based on goto command computation using normal vectors and altitude, system. compute next coordinate using current/destination normal vectors and altitude, move uav with infinite acceleration, apply numerical methods to determine next coordinate simulation_step_size meters along path.

@@ -1,0 +1,1 @@
+monitor students, allows querying the system regarding the number of absences and comments associated with students, administrator. administrator clicks student monitoring button, system searches archive for students exceeding predefined absence and comment thresholds in current academic year, displays screen with retrieved data.

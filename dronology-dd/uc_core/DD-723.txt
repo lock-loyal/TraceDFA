@@ -1,0 +1,1 @@
+uav monitoring messages, allows uav monitoring messages to be formatted as json objects containing information about a single uav, system. messages formatted as json objects containing arbitrary information regarding a single uav.

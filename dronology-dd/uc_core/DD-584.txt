@@ -1,0 +1,1 @@
+check for registered id, verify uav id is registered and not activated before activation, uavactivationmanager. receive new activation request from gcsmiddleware, check uav id is registered and non-activated.

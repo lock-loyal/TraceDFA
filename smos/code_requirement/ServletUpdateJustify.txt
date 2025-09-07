@@ -1,0 +1,1 @@
+- update a justification, allows the administrator to modify an existing absence justification, administrator. administrator provides justification details including academic year and date, system verifies justification existence, updates justification details. academic year and date must be valid, justification must exist.

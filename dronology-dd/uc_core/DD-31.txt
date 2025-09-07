@@ -1,0 +1,1 @@
+transition from awaiting_takeoff_clearance to taking_off, change uav state when takeoff clearance is granted, system. grant permission to uav in awaiting_takeoff_clearance state, transition to taking_off state.

@@ -1,0 +1,1 @@
+- flight plan status monitoring, notify listeners when flight plan status changes occur, flight plan monitor. flight plan status changes trigger notification to registered listeners.

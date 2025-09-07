@@ -1,0 +1,1 @@
+ui binding to a uav, allows vaadinui to request control via uimiddleware before issuing commands to a uav, vaadinui. request control via uimiddleware before issuing commands.

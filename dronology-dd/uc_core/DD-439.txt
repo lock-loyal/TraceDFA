@@ -1,0 +1,1 @@
+multiple map layers, allows the open street map component to support multiple map providers, system. support multiple map providers in open street map component.

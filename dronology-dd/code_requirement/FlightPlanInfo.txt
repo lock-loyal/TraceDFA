@@ -1,0 +1,4 @@
+- create flight plan with waypoints and schedule, allows defining a flight plan including waypoints and schedule for a uav, user. define flight plan name, set waypoints, start location, start time, end time, assign to uav.  
+- assign flight plan to uav, associate a flight plan with a specific uav using its drone id, user. select uav by drone id, assign flight plan.  
+- update flight plan details, allows modifying waypoints, start location, start time, and end time of existing flight plans, user. select flight plan, modify waypoints or schedule parameters.  
+- view flight plan parameters, displays waypoints, start location, and schedule details for created flight plans, user. access flight plan info to view assigned drone, route coordinates, and time parameters.

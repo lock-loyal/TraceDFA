@@ -1,0 +1,3 @@
+- register message handlers for monitoring, allows external systems to register handlers for receiving monitoring messages, system. external system registers message handler to receive monitoring updates.  
+- retrieve subscribed monitoring handlers, enables fetching all subscribed message handlers for a specific artifact identifier, system. use artifact identifier to fetch associated monitoring handlers.  
+- unsubscribe from monitoring messages, allows external systems to unsubscribe their message handlers from receiving further updates, system. external system unsubscribes handler to stop monitoring updates.

@@ -1,0 +1,1 @@
+view user list, displays the list of users present in the system, administrator. system searches for users in the archive and displays their list.

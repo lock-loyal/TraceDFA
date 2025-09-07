@@ -1,0 +1,1 @@
+flight route must be valid, check validity of new or modified flight routes by verifying waypoints, flightroutemanager. upon receipt of new or modified flight route from ui middleware, check it is a valid_flight_route ensuring all waypoints are valid coordinates and route contains at least one waypoint.

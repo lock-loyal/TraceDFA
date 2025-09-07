@@ -1,0 +1,6 @@
+- waypoint navigation, send fly-to commands with target coordinates and speed to base station for execution, physical drone operator. fly-to command includes target coordinates and optional speed, command sent to base station.  
+- command retry, resend previous command if transmission failure detected, physical drone operator. previous command resent upon transmission failure.  
+- flight mode transition, update flight mode to user-controlled upon receiving mode change notification, system. flight mode updated to user-controlled when notification received.  
+- status monitoring, update drone coordinates velocity and battery level from incoming data streams, system. coordinates velocity and battery level updated via data streams.  
+- takeoff and land, execute takeoff to specified altitude and land commands via base station, physical drone operator. takeoff command sent with altitude, land command triggers landing.  
+- ground speed adjustment, set ground speed during flight operations via dedicated command, physical drone operator. ground speed adjusted by sending speed command.

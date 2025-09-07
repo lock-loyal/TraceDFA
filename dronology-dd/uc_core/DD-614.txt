@@ -1,0 +1,1 @@
+create log event when uav reaches waypoint, creates a log event when uav reaches a waypoint during flight plan execution, system. uav reaches waypoint while executing flight plan, create log event with waypoint coordinates, assigned uav, flight plan id, and timestamp.

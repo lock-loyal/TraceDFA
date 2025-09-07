@@ -1,0 +1,3 @@
+- define mission task, associate each mission task with a specific uav and waypoint, mission planner. each mission task is associated with a specific uav and contains target waypoint coordinates.
+- task identification, retrieve uav identifier and task name for mission task tracking, mission monitoring system. system retrieves uav identifier and task name when tracking mission progress.
+- waypoint binding, link mission tasks to geographic coordinates through predefined waypoints, flight path generator. mission tasks reference predefined waypoints containing geographic coordinates.

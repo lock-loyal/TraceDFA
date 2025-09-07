@@ -1,0 +1,7 @@
+- collision detection, detect and record collision events during flight operations, monitoring system. collision occurs during flight, system detects and records event with timestamp and uav identifier.  
+- waypoint achievement tracking, capture waypoint reached events to track uav navigation progress, monitoring system. uav reaches predefined waypoint, system records event with coordinates and timestamp.  
+- flight plan activation, monitor activation of flight plans for uavs, mission controller. flight plan activated for uav, system generates activation event with plan details.  
+- uav state transition, track changes in uav operational states, monitoring system. uav state changes, system records transition with old and new states.  
+- geofence violation, identify and log fence breach incidents during flights, safety monitor. uav breaches geofence boundary, system triggers violation alert with location data.  
+- mission completion, record completion events for uav flight plans, mission controller. uav completes assigned mission plan, system generates completion notification.  
+- uav mode activation, track activation of virtual or physical uav modes, system operator. virtual/physical uav mode activated, system logs mode switch event.

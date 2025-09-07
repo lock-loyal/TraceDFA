@@ -1,0 +1,1 @@
+load default coordinates, position map view at predefined location when loaded. when loading map view, positioned at predefined location.

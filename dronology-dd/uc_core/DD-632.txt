@@ -1,0 +1,1 @@
+uimiddleware forwards takeoff commands from clients to dronology, allows uimiddleware to forward takeoff commands from clients to dronology based on uav_id, system. accept takeoff commands associated with uav_id, forward to dronology.

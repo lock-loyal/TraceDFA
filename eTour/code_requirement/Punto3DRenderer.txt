@@ -1,0 +1,1 @@
+- display 3d point coordinates, present 3d point data in formatted string within table cells, operator. render latitude, longitude, altitude values as concatenated string in table cell, center-align text, apply selection highlighting. cell value must be valid punto3d instance.

@@ -1,0 +1,1 @@
+hover in place state change, change uav state when commanded to hover in place, system. when uav is commanded to hover in place, change state to hover in place and send command to gcs.

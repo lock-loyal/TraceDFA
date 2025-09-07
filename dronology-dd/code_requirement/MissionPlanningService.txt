@@ -1,0 +1,3 @@
+- import saved mission plans, allows importing and executing predefined mission plans specified in json, system. provide interface to import saved mission plans, execute predefined missions specified in json.  
+- cancel active mission, enables user to terminate currently executing mission, user. initiate cancellation command, system stops all mission operations.  
+- remove uav from active mission, allows dynamic removal of specific uav from ongoing mission, operator. select uav to remove, system updates mission configuration excluding selected uav. must handle uav state changes during removal.

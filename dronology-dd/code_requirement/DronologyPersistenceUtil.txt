@@ -1,0 +1,1 @@
+- standardize xml tags for data persistence, ensures consistent xml element names for flight routes, coordinates, waypoints, and uav specifications during serialization, system. serialize flight routes as flightroute, coordinates as coordinate, waypoints as waypoint, uav specifications as uavspecification.

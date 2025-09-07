@@ -1,0 +1,1 @@
+update uav location frequency, updates uav location on the map according to the defined refresh rate, system. update uav location on map at {{ui_uav_refresh_rate}} interval.

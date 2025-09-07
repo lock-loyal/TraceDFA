@@ -1,0 +1,1 @@
+validate route altitude and speed, only accept valid altitude and speed values for waypoint, route creation ui. route creation ui accepts valid values.

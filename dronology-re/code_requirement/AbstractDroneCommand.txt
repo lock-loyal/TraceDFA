@@ -1,0 +1,4 @@
+- command serialization, serialize drone commands into json format for transmission to ground control system, command processing. each command is converted into json format.
+- unique command identifier, generate unique identifier for each command sent to a drone, command processing. each command includes unique identifier.
+- uav identification, include uav identifier in every command for target drone recognition, command processing. commands contain uav identifier for target recognition.
+- command timestamping, record timestamp when command is transmitted to drone, command processing. command transmission time is recorded.

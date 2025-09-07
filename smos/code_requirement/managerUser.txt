@@ -1,0 +1,5 @@
+- view user list, allows the administrator to view and manage all system users, administrator. administrator navigates to user management section, system displays table with user details including name and email, sorted and paginated. 
+- add new user, enables the administrator to create a new user account, administrator. administrator clicks 'new user' button, system displays user registration form, administrator fills in details and submits, system adds user to database and updates list.
+- access user details, allows the administrator to view detailed information about specific users, administrator. administrator clicks details icon next to user entry, system displays profile page with comprehensive user data.
+- modify password, enables users to change their authentication credentials, user. user selects password modification option, system displays password change form, user enters new credentials and confirms update.
+- user access control, restricts user management functions to authorized administrators, system. non-administrator users attempting to access management page get redirected to home screen.

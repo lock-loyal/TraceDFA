@@ -1,0 +1,1 @@
+insert information, allow employee to insert a new news, employee. employee requests new news insertion, system displays submission form, employee enters news data, system receives form and inserts news, handle insertion error by invoking service unavailable use case, employee must be authenticated.

@@ -1,0 +1,1 @@
+revert to previous state after rescinding hover in place, revert uav state when hover command is rescinded, system. rescind hover in place command, revert uav to previous state.

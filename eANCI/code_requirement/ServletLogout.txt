@@ -1,0 +1,2 @@
+- logout citizen session, allow citizen to terminate their session, citizen. citizen clicks logout button, system invalidates session data, citizen redirected to home page, exit when session terminated. citizen must have active session.  
+- logout employee session, allow employee or administrator to terminate their session, employee. user clicks logout button, system invalidates session, user redirected to login page, exit when session terminated. employee must have active session.

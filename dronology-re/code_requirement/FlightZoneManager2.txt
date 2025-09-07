@@ -1,0 +1,7 @@
+- flight plan scheduling, assign pending flight plans to available uavs and manage takeoff order, flight zone manager. flight zone manager assigns pending flight plans to available uavs, manages takeoff order based on readiness checks. 
+- takeoff clearance, manage uav takeoff sequence by checking altitude permissions and airspace capacity, flight zone manager. uav awaits takeoff clearance until altitude permissions granted and maximum in-air limit not exceeded.
+- return home command, create automatic flight plan to guide uav back to base coordinates with safe altitude, flight operator. uav returns to home via predefined route when command triggered.
+- collision monitoring, perform periodic collision avoidance checks during uav flights, safety system. system executes scheduled collision checks at defined frequency during flight operations.
+- emergency stop, immediately halt all uav movements and operations via direct command, flight operator. uav stops all movements instantly when emergency stop triggered.
+- pause flight, temporarily suspend uav flight progress while maintaining current position, flight operator. uav halts in mid-air when pause command received, resumes upon instruction.
+- active uav limit, enforce maximum number of uavs allowed in air simultaneously via capacity checks, flight zone manager. flight zone manager restricts active uav count to predefined maximum during plan assignments.

@@ -1,0 +1,1 @@
+- generate goto command, generate goto command containing target location coordinates, ground control station. ground control station generates goto command with target location coordinates, command includes latitude longitude and altitude.

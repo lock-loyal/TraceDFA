@@ -1,0 +1,1 @@
+- view address details, allows the administrator to view detailed information of a specific address, administrator. administrator selects address from list, system retrieves and displays address details including street, city, and other related information, only accessible by administrator role.

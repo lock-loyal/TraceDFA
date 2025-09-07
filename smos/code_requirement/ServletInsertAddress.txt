@@ -1,0 +1,1 @@
+- insert address, allows the administrator to add a new address to the system, administrator. administrator enters address name in input field and submits form, system verifies address uniqueness and saves to database if valid, address name must be unique.

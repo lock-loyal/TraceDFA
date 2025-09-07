@@ -1,0 +1,4 @@
+- create tag, add new tag to system, operator. access tag creation feature, input tag details, validate data, store new tag, confirm success. valid tag data format required.  
+- delete tag, remove existing tag from system, operator. select tag for deletion, confirm action, remove tag from database, display confirmation. tag must exist in system.  
+- modify tag, update existing tag details, operator. retrieve current tag data, edit information, validate changes, save updates, notify operator. valid modified data format.  
+- retrieve tag, view detailed tag information, operator. search for specific tag, request details, system retrieves and displays tag data. tag id must be valid.

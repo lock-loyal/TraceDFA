@@ -1,0 +1,1 @@
+- delete an address, the administrator deletes an address from the system, administrator. administrator selects address to delete and confirms action, system verifies administrator privileges and removes address from database, displays success message and redirects to address list. administrator must have valid permissions and address must exist.

@@ -1,0 +1,22 @@
+Name: InsertNote  
+Actors: Administrator  
+Description: Insert Disciplinary Notes  
+Preconditions:  
+• The user must be logged into the system as an Administrator.  
+• The user has executed the use case "ViewSingleRegisterDetails."  
+• The user has already executed the use case "ViewNotesList."  
+• The user clicks the "New Note" button.  
+
+Sequence of Events  
+User  
+System  
+2. Fills out the form  
+3. Clicks "Save"  
+1. Displays a form with note fields (student, date, teacher, description).  
+4. Saves the note and sends an email notification to the parent  
+
+Postconditions:  
+• The note data has been entered into the system, and the system has sent the notification to the parents.  
+• The system returns to the register screen.  
+• The administrator terminates the operation.  
+• Connection to the SMOS server is interrupted.

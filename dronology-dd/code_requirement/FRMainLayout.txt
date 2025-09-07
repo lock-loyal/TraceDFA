@@ -1,0 +1,4 @@
+- display flight routes on map, displays selected flight route on map component when user selects route, user. select route from list, display corresponding route on map.  
+- confirm route deletion, prompts user confirmation before deleting a flight route, user. request route deletion, show confirmation dialog.  
+- highlight selected flight route, visually distinguishes selected route from others in the list, user. click route in list, highlight selected item.  
+- notify unsaved route changes, warns users about potential data loss when modifying routes with pending changes, user. attempt to edit new route while having unsaved changes, display warning dialog.

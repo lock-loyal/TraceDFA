@@ -1,0 +1,22 @@
+Name: NewUser  
+Actors: Administrator  
+Description: Insertion of a new user into the system  
+Preconditions:  
+• The user is logged in as an administrator  
+• The user has executed the use case "ViewUserList," and the system is displaying the list of existing users  
+• The user clicks the "New User" button  
+
+Sequence of Events  
+User  
+2. Fills in the form fields  
+3. Clicks the "Save" button  
+
+System  
+1. Displays the user input form containing the following fields: First Name, Last Name, email, phone, login, password, confirm password.  
+4. Performs validity checks on the entered data and adds the new user to the repository; if the entered data is invalid, triggers the "DataError" use case  
+
+Postconditions:  
+• A new user has been created  
+• A data error notification is issued  
+• The administrator cancels the operation  
+• Connection to the SMOS server is terminated

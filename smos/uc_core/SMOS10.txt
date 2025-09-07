@@ -1,0 +1,1 @@
+assign or remove roles to a user, allows assigning or removing roles from a user, administrator. system displays role management form, administrator selects roles to assign or remove, clicks submit button, system assigns or removes user's roles as specified by administrator.

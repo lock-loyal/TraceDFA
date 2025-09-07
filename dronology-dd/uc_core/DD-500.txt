@@ -1,0 +1,1 @@
+transition to user controlled, change vehicle state when a mode change message is received, system. receive mode change message to user controlled, transition vehicle to user controlled state.

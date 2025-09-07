@@ -1,0 +1,5 @@
+- manage tags, enable operator to create new tags, operator. access tag management interface, display tag form, input name and description, validate entries, confirm submission, store new tag, display success message. valid data format required.  
+- modify tag, allow operator to update existing tag details, operator. select tag from list, load data into form, edit name or description, confirm changes, update tag record, refresh tag list. valid data format, tag must exist.  
+- delete tag, permit operator to remove obsolete tags, operator. select tag from list, initiate deletion, confirm action, remove tag from system, update tag list. tag must not be associated with cultural assets.  
+- reset tag form, clear input fields for new entry, operator. activate reset function, erase current form data, prepare for new tag input. confirmation not required.  
+- exit tag management, close tag management interface, operator. initiate exit command, confirm unsaved changes, close window, return to main menu. unsaved data triggers confirmation dialog.

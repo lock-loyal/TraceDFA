@@ -1,0 +1,1 @@
+- thread synchronization, provide a dummy lock object for synchronized blocks to manage concurrent access in drone operations, system component. system components use dummy lock object to synchronize access and prevent concurrency issues.

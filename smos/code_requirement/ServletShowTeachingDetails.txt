@@ -1,0 +1,1 @@
+- view teaching details, allows the administrator to view detailed information of a specific teaching, administrator. administrator selects teaching from list, system retrieves teaching details from database and displays them, administrator must have valid permissions and teaching must exist.

@@ -1,0 +1,3 @@
+- initialize drone system services, starts all required services for drone system operations during startup, system. start remote service, supervisor, flight route planning, flight manager, drone setup, specification, simulator, mission planning, and drone connector services.  
+- configure runtime environment, sets runtime environment to physical mode for real drone operations, system. set runtime environment to physical mode.  
+- remote service management, enables remote access to drone monitoring services, system. contribute drone monitoring service to remote manager for remote access.

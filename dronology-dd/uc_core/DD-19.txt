@@ -1,0 +1,1 @@
+client registers for uav configuration event, allows client to receive notifications when a new uav type configuration is created, modified, or deleted, client. register with uimiddleware, receive notifications on uav configuration changes.

@@ -1,0 +1,4 @@
+- initialize uav, initialize uavs with specified mode name and initial coordinates, drone setup manager. initialize uavs with mode (virtual or physical), name, and initial coordinates.  
+- track active uavs, track active uavs via proxy objects representing physical or virtual drones, drone setup manager. retrieve active uavs through proxy objects.  
+- monitor uav status changes, allow adding and removing listeners for uav status change events, external monitoring system. add or remove listeners to receive uav status change notifications.  
+- retry command transmission, resend previous command to uav when communication failure occurs, drone setup manager. resend command to uav upon communication failure.

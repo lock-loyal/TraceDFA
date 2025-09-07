@@ -1,0 +1,3 @@
+- insert teaching, allows the administrator to add a new teaching to the system, administrator. administrator enters teaching name and submits form, system verifies teaching uniqueness, saves new teaching if valid, displays confirmation. teaching name must be unique.
+- manage teaching duplication, prevents creation of duplicate teaching entries, administrator. system checks existing teachings during insertion, rejects duplicate names, displays error message when duplicate detected.
+- enforce mandatory teaching fields, ensures required teaching information is provided, administrator. system validates name field completeness, prevents submission until mandatory name field is filled.

@@ -1,0 +1,5 @@
+- remote service registration, allows remote components to register their services with the system, system. remote component sends registration request, system registers service.
+- remote service discovery, enables clients to retrieve a list of available remote services, client. client requests service list, system returns available services.
+- service availability monitoring, allows clients to subscribe to service availability changes, client. client subscribes as listener, receives notifications on service changes.
+- external service contribution, permits external providers to contribute new services to the system, external provider. contribute service via interface, system integrates service.
+- remote service access, provides clients access to specific remote services by service type, client. request service by class, system returns service instance.

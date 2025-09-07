@@ -1,0 +1,16 @@
+Name: ViewRegistrationRequests  
+Actors: Administrator  
+Description: Allows the administrator to view the list of registration requests received by the system  
+Preconditions:  
+• The user is logged into the system as an administrator  
+• The user clicks the "View Registration Requests List" button on the home page  
+
+Sequence of Events  
+User  
+System  
+1. Displays the list of registrations still to be activated.  
+
+Postconditions:  
+• The user is viewing the list of student registration requests to the system  
+• The user interrupts the operation  
+• Connection to the SMOS server interrupted

@@ -1,0 +1,2 @@
+- initialize drones with virtual or physical mode, allows specifying a drone's mode (virtual/physical) during initialization, operator. select drone mode, set initial location, provide type during initialization.
+- set safety information for drones, allows adding or updating safety-related information for a drone, operator. provide safety details during or after drone initialization.

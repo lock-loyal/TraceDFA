@@ -1,0 +1,4 @@
+- retrieve uav status, provide real-time access to uav status including battery level and velocity, monitoring system. monitoring system accesses uav status with battery level and velocity.  
+- track uav location, monitor and report current uav coordinates including longitude latitude and altitude, tracking service. tracking service monitors uav coordinates.  
+- access uav metadata, retrieve static uav information such as assigned ground station and unique identifier, configuration manager. configuration manager accesses uav metadata.  
+- verify home location, confirm registered home coordinates for safe return procedures, safety supervisor. safety supervisor verifies home coordinates.

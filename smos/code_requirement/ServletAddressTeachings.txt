@@ -1,0 +1,1 @@
+- view address teachings, allows the administrator to view all teachings associated with an address, administrator. administrator accesses address teachings management page, system retrieves and displays list of all teachings linked to addresses, administrator sees complete teaching list. administrator privileges required.

@@ -1,0 +1,1 @@
+gcs transmits monitoring messages, allows gcs to request uav properties at specified intervals, gcs. request uav properties every {{uav_message_monitoring_frequency}} seconds.

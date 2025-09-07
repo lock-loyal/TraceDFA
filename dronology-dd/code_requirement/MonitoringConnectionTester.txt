@@ -1,0 +1,1 @@
+- register monitoring message handlers, allows system to register handlers for receiving drone monitoring messages, system. create remote message handler, register with drone monitoring service using artifact identifier.

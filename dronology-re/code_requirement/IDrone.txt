@@ -1,0 +1,5 @@
+- drone takeoff and landing, allow drone operator to initiate takeoff to specified altitude and command landing, drone operator. operator initiates takeoff with altitude parameter, drone ascends; operator commands landing, drone descends safely. altitude must be specified for takeoff.
+- flight destination control, direct drone to fly to specified coordinates at defined speed, flight controller. flight controller sets target coordinates and speed, drone navigates to location.
+- monitor drone status, track real-time location and battery level of drone, monitoring system. system retrieves latitude, longitude, altitude, and battery status periodically.
+- send drone commands, transmit control instructions to drone including velocity adjustments, control system. commands sent to drone, executed if valid, exceptions thrown for invalid commands.
+- adjust movement parameters, set ground speed and velocity components for drone movement, flight planner. flight planner updates speed or velocity values, drone adjusts movement accordingly.

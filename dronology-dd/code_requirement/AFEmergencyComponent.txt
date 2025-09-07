@@ -1,0 +1,2 @@
+- initiate emergency hover for all uavs, allows user to trigger hover in place command for all uavs via emergency button, user. click emergency hover button, send command to all uavs. applies to all uavs collectively.
+- initiate emergency return to home for all uavs, allows user to trigger return to home command for all uavs via emergency button, user. click emergency return to home button, send command to all uavs. applies to all uavs collectively.

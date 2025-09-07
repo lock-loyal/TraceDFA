@@ -1,0 +1,1 @@
+logout citizen, allow citizen to log out from the system, citizen. citizen clicks logout button, system logs out citizen and returns to main screen, citizen must be authenticated in the system.

@@ -1,0 +1,1 @@
+retrieve flight route, allows retrieval of a flight route file by its unique name, uimiddleware. uimiddleware requests flight route by name, flightroutemanager retrieves associated file.

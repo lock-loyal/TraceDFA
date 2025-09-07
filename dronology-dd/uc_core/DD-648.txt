@@ -1,0 +1,1 @@
+use mouse to assign routes, allows assigning a route to a selected uav using mouse interactions, user. assign route to selected uav using mouse to drag and drop or double-click on the route.

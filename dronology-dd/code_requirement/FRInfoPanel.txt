@@ -1,0 +1,5 @@
+- display list of existing flight routes, show all stored flight routes in a scrollable panel upon ui load, user. ui requests route data from dronology, displays routes with creation dates and lengths.  
+- create new flight route, allows user to initiate new route creation via dedicated button, user. click add route button, open route creation window, enforce unsaved changes check.  
+- refresh flight route list, update displayed routes after modifications or system changes, system. trigger refresh, fetch latest routes from backend, reload ui panel.  
+- switch between flight route selections, enable users to select different routes from the list, user. click route entry, highlight selected route, update map display.  
+- enforce edit mode restrictions, prevent route modifications while another route is being edited, system. detect active edit session, prompt user to resolve conflicts before switching.

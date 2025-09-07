@@ -1,0 +1,1 @@
+hierarchical organization of monitoring topics, allows clients to subscribe to messages in a hierarchical structure based on gcs, uavs, and properties, client. topics organized hierarchically, subscribe to all messages or specific gcs, uavs, and properties.

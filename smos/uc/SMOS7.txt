@@ -1,0 +1,16 @@
+Name: ViewUserDetails  
+Actors: Administrator  
+Description: Displays the details of a user  
+Preconditions:  
+• The user is logged in as an administrator  
+• The user has executed the use case "ViewUserList," and the system is displaying the list of users in the system  
+• The user clicks the "Details" button  
+
+Event Sequence  
+User  
+System  
+1. Displays the detailed user information, specifically: First Name, Last Name, email, phone, login, password.  
+
+Postconditions:  
+• The system displays detailed information about a user  
+• Connection to the SMOS server is terminated

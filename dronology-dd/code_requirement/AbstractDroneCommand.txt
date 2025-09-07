@@ -1,0 +1,4 @@
+- generate unique identifier for each command, ensures each command sent to uav has a unique identifier, system. generate unique identifier when creating a new command.  
+- associate commands with specific uav, links each command to a specific uav using uav identifier, system. include uav identifier in command data structure.  
+- serialize commands to json format, converts command objects to json strings for transmission, system. convert command data to json format before sending.  
+- timestamp command transmission, records exact time when command is dispatched, system. capture current system time when sending command.

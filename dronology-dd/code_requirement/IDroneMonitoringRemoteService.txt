@@ -1,0 +1,3 @@
+- register monitoring message handlers, allows clients to register custom handlers for receiving drone monitoring messages, system. client registers handler, system sends monitoring messages to handler upon receiving data.  
+- specify monitoring frequency per uav, enables setting the frequency of monitoring data updates for individual uavs, operator. select uav, set desired monitoring frequency.  
+- filter monitoring messages by artifact, allows clients to receive monitoring messages only for specified drone components, operator. register handler with artifact identifier, receive filtered messages.

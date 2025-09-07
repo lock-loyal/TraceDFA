@@ -1,0 +1,7 @@
+- manage flight path waypoints, allows system to handle waypoints for uav flight path, system. add, clear, and check waypoints during flight.  
+- navigate to next waypoint, directs uav to proceed to next predefined waypoint in flight plan, system. execute flytonextpoint command after reaching current waypoint.  
+- enforce safety directives, checks if flight is under safety-related restrictions during operations, system. verify safety status before proceeding with flight commands.  
+- initiate return-to-home procedure, triggers uav to return to home coordinates, system. execute returnhome command based on predefined home waypoint.  
+- validate takeoff readiness, confirms uav readiness for takeoff before launch, system. perform checks via readytotakeoff method prior to takeoff.  
+- validate landing readiness, confirms uav readiness for landing procedure, system. perform checks via readytoland method prior to landing.  
+- update flight path dynamically, enables modification of waypoints during flight operations, system. add or set new waypoints while flight is active.

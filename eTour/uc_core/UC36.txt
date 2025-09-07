@@ -1,0 +1,1 @@
+login error, handle incorrect login credentials provided by user, user. user enters invalid login data, system displays error message and requests confirmation, user acknowledges error, system reverts to login interface. valid credentials required.

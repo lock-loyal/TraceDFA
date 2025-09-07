@@ -1,0 +1,5 @@
+- initialize uavs in physical or virtual mode, allows initializing uavs in either physical or virtual mode based on user selection, user. select mode (physical/virtual), initialize uav accordingly.
+- deactivate uavs and cancel associated plans, deactivate selected uavs and cancel their pending or current flight plans, user. select uav, deactivate, cancel plans.
+- resend commands to uavs, allows resending commands to a uav in case of communication failure, user. select uav, resend command.
+- uav mode initialization constraint, uavs must be initialized as either physical or virtual, system. initialization requires mode selection.
+- active uav verification for commands, ensure commands are only sent to active uavs, system. verify uav is active before sending commands.

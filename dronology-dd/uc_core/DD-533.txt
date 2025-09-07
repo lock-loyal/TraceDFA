@@ -1,0 +1,1 @@
+takeoff altitude, use prescribed takeoff altitude from flight plan when uav is on ground, system. if flight plan has takeoff altitude and uav is on ground, use that altitude as target.

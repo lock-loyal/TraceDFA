@@ -1,0 +1,4 @@
+- collision detection, detect potential collisions between uavs by monitoring their proximity, monitoring checker. detect potential collisions when distance between two uavs falls below safety threshold.  
+- collision logging, log collision events with involved uav identifiers and measured distance, monitoring checker. collision events include identifiers of both uavs and distance measurement.  
+- proximity tracking, track real-time distance between uav pairs during flight operations, monitoring system. continuously track distance between all active uav pairs.  
+- collision alert generation, generate alerts when uavs exceed minimum separation distance, safety monitor. alerts triggered when inter-uav distance violates safety parameters.

@@ -1,0 +1,1 @@
+applying emergency operations, applies emergency actions to selected uavs or all by default, ui. user requests emergency action, apply to selected uavs; if none selected, apply to all.

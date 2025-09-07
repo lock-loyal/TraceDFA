@@ -1,0 +1,1 @@
+request family status, allow citizen to request their family status, citizen. citizen presses family status button, system displays family status, citizen chooses to print or send to email, system executes chosen operation, citizen must be authenticated in the system, handle service unavailable by invoking service unavailable use case.

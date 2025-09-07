@@ -1,0 +1,1 @@
+activation request approved, send activation confirmation message when request is approved, gcsmiddleware. when activation request is approved, send predefined activation confirmation message to gcs.

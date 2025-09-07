@@ -1,0 +1,8 @@
+- delete rest point, remove a specific rest point from the system, operator. select rest point, confirm deletion, validate identifier, execute database removal, notify success. invalid id or database error triggers failure.  
+- insert rest point, add new rest point details into the system, operator. input rest point data, validate bean format, store in database, confirm successful insertion. invalid data format rejected.  
+- modify rest point, update existing rest point information, operator. edit rest point details, validate changes, apply updates to database, display confirmation. bean validation ensures data integrity.  
+- retrieve rest points, obtain complete list of all rest points, operator. request rest point list, fetch from database, return formatted results. empty results handled via exception.  
+- filter rest points by convention status, display rest points with active/inactive conventions, operator. select convention status filter, retrieve matching rest points, exclude conflicting entries, present filtered list. active convention check required.  
+- activate convention, enable a convention for a rest point, operator. select rest point and convention details, validate parameters, update convention status in database. existing active convention blocks activation.  
+- view rest point feedback, access tourist feedback linked to usernames, operator. select rest point, retrieve visit records and tourist data, map feedback to usernames, display consolidated list. invalid rest point id rejected.  
+- manage rest point tags, add or remove tags associated with a rest point, operator. select tag operation, validate tag existence, update database relations, confirm operation success. duplicate tag addition prevented.

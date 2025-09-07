@@ -1,0 +1,1 @@
+unique id for each gcs, assign a unique identifier to each gcs connecting to gcsmiddleware, system. assign unique groundstation_id to gcs on connection.

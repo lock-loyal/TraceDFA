@@ -1,0 +1,1 @@
+ui middleware supports flight route creation, allows creation of new flight route with unique id when requested by ui client, ui client. request flight route creation, uimiddleware creates new flight route with unique id.

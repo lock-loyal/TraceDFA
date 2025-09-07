@@ -1,0 +1,5 @@
+- handshake upon uav connection, establishes initial communication by sending home location and safety case data, uav. on connection, send home coordinates and safety case in handshake message, safety case file must be present.
+- real-time state updates, continuously transmit uav location, attitude, velocity, and battery status, uav. collect state data, send to monitoring system at intervals.
+- monitor gps and sensor data, provides detailed gps metrics and sensor readings for monitoring, uav. include eph, epv, satellite count, and velocity in monitoring messages.
+- acknowledge command receipt, confirm received commands by sending acknowledgment with message id, uav. upon command receipt, generate ack with corresponding msgid.
+- mode change notification, notify system when uav flight mode changes, uav. detect mode change, send new mode name in message.

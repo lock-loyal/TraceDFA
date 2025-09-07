@@ -1,0 +1,1 @@
+load default coordinates, sets the map to predefined coordinates unless configured otherwise, system. center map at white field, university of notre dame, south bend in when no configuration parameters are set.

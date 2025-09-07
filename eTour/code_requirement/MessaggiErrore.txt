@@ -1,0 +1,5 @@
+- database connection failure, notify user about connection issues, system. system detects dbms connection error, display error message, log incident, prevent further operations until resolved. connection timeout or invalid credentials.  
+- banner limit exceeded, enforce maximum number of active advertisements, operator. attempt to add new banner, validate current count, reject addition if limit reached, display error message. maximum 10 banners allowed per agency.  
+- data validation failure, ensure correct bean data format, system. validate user-input bean fields, detect format mismatch, block invalid data submission, show format error notification. bean fields require specific data types.  
+- file operation error, handle file read/write failures, system. access or modify file, detect i/o exception, display file error message, rollback transaction. insufficient permissions or missing files.  
+- unknown system error, manage unexpected application failures, system. encounter unhandled exception, log error details, show generic error message, suggest restarting application. non-reproducible or unclassified issues.

@@ -1,0 +1,6 @@
+- cultural asset deletion, remove a cultural asset from the system, operator. select cultural asset, initiate deletion, validate asset id, confirm removal, delete from database, notify success. invalid id or database error triggers failure.  
+- cultural asset insertion, add new cultural asset to the system, operator. access insertion form, input asset details, validate data format, submit to database, confirm successful creation. invalid bean format rejected.  
+- cultural asset retrieval, display all cultural assets managed by the agency, operator. request asset list, fetch from database, return complete list, handle empty results. database connection required.  
+- cultural asset modification, update existing cultural asset information, operator. select asset, edit details, validate updated data, submit changes, confirm persistence. valid bean format enforced.  
+- tag assignment, associate a tag with a cultural asset, operator. select asset and tag, verify tag non-existence, add relation to database, confirm linkage. duplicate tags prevented.  
+- tag removal, detach a tag from a cultural asset, operator. select asset and existing tag, validate association, delete relation from database, confirm removal. non-existent tags ignored.

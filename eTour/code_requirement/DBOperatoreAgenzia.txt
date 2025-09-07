@@ -1,0 +1,2 @@
+- retrieve operator details, fetch agency operator information using username, operator. initiate retrieval process, input username, execute query, return operator data if exists. valid username required, database connection active.
+- modify operator password, update agency operator password using provided details, operator. access password change feature, input new password, validate and execute update, confirm success. valid operator id and database connection required.

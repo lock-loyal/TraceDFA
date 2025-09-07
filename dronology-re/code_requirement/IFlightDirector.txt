@@ -1,0 +1,4 @@
+- flight path sequencing, process waypoints in specified order during flight execution, flight director. flight director processes waypoints in specified order, drone proceeds to next waypoint after completing current. 
+- waypoint management, allow adding and clearing waypoints during flight operations, flight director. add new waypoints to flight path or clear existing waypoints during flight.
+- return home command, initiate automated return to predefined home coordinates, flight director. drone returns to home coordinates when return home command is activated.
+- takeoff and landing readiness, verify operational conditions before permitting takeoff or landing actions, flight director. system verifies operational status before enabling takeoff or landing commands.

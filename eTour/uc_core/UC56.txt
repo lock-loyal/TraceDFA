@@ -1,0 +1,1 @@
+localization, return current tourist position, system. system requests position data, gps calculates tourist position, system waits for position data, return tourist position or handle undetectable position. gps response time exceeds 5 seconds.

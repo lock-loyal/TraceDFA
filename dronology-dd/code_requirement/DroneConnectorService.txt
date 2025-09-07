@@ -1,0 +1,3 @@
+- manage ground station connections, handle registration and unregistration of ground station connections, system. process incoming connection requests, register valid connections, unregister upon disconnection or error.  
+- validate ground station connection requests, ensure connection requests from ground stations are valid and unique, system. check request validity, verify uniqueness, allow or reject connection.  
+- enforce single active connection per ground station, restrict each ground station to one active connection at a time, system. prevent duplicate registrations, allow only one active connection per ground station id.

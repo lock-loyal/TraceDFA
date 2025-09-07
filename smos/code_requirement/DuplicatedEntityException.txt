@@ -1,0 +1,1 @@
+- prevent duplicate entity insertion, ensures that a user cannot create an entity with existing identifier or unique attributes, administrator. user attempts to save entity details, system checks for existing entries matching unique constraints, system displays error message if duplication detected, entity must have unique identifier and attributes.

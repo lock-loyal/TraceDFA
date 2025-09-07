@@ -1,0 +1,1 @@
+log state and monitoring messages, log state and monitoring messages when hw_trace log level is active, system. when hw_trace log level is active, log each state and monitoring message.

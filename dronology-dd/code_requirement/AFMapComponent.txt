@@ -1,0 +1,5 @@
+- display active flights map, shows real-time map with active uavs and flight routes, user. request active uavs and flight routes, display on map with dynamic positioning.  
+- follow selected uavs on map, centers map view on selected uavs with automatic zoom adjustment, user. select uavs from list, map follows selected uavs' positions.  
+- view uav status via map markers, displays detailed uav status through interactive map markers, user. hover over uav marker, show popup with status info and control options.  
+- display flight route waypoint details, shows waypoint parameters when hovering over route markers, user. hover over waypoint marker, display coordinates/altitude/speed info.  
+- automatic map reconnection handling, maintains map functionality during service interruptions, system. detect service disconnection, attempt automatic reconnection while notifying user.

@@ -1,0 +1,13 @@
+- register administrator, allow administrator to add new administrator to the system, administrator. administrator accesses registration form, system displays input fields for matricola, name, surname, email, and login, administrator enters data and submits, system checks for unique matricola and login, creates new administrator record, exit conditions include successful registration or error due to duplicate matricola/login, matricola must be unique and non-empty, login must be unique and exist in access credentials.
+
+- remove administrator, allow administrator to delete administrator records, administrator. administrator selects administrator to delete, system verifies no active references, removes administrator from database, exit conditions include successful deletion or error if administrator has linked records, administrator must exist in the system and have no associated active data.
+
+- view administrator by name, allow administrator to search administrators by name and surname, administrator. administrator enters name and surname in search form, system returns matching administrator records, exit when results display or no matches found, name and surname must be non-empty and exist in system records.
+
+- view administrator by matriculation, allow administrator to retrieve administrator details using matricola, administrator. administrator inputs matricola, system displays full administrator profile, exit when profile displays or invalid matricola error occurs, matricola must exist in the system and follow format rules.
+
+- view all administrators, allow administrator to list all registered administrators, administrator. administrator accesses administrator management section, system displays complete list of administrators with key details, exit when list displays or empty database notification occurs.
+
+- view administrator by login, allow administrator to find administrator via login credentials, administrator. administrator enters login identifier, system returns corresponding administrator data, exit when data displays or invalid login error occurs, login must exist in system and be associated with administrator role.
+
+- modify administrator details, allow administrator to update administrator information, administrator. administrator selects administrator and edits fields (matricola, name, surname, email, login), system validates new data uniqueness, updates database record, exit conditions include successful update or error from duplicate matricola/login/invalid format, all fields must comply with format rules and maintain referential integrity.

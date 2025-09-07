@@ -1,0 +1,1 @@
+insert note, insert disciplinary notes, administrator. system displays form with note fields (student, date, teacher, description), administrator fills out form, clicks save, system saves note and sends email notification to parent.

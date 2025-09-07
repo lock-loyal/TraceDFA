@@ -1,0 +1,8 @@
+- validate uav safety case before registration, ensures uavs provide valid safety case during handshake before registration, system. uav sends handshake message with safety case, validate safety case, register uav upon success.  
+- forward uav status updates to monitoring system, allows status messages from uavs to be forwarded to monitoring components, system. receive status updates from uavs, forward to monitoring queue for processing.  
+- manage outgoing command queue for uav communications, handles queuing and dispatching drone commands to connected uavs, system. queue outgoing commands, dispatch via communication channels to uavs.  
+- register new physical drones during handshake, creates drone entries in system when new uavs connect via handshake protocol, system. receive handshake message from uav, create physical drone entry in drone setup service.  
+- monitor message queue capacity limits, detects and alerts when message queues reach maximum capacity, system. track queue sizes, generate alerts when buffers approach overflow thresholds.  
+- terminate ground station connections cleanly, unregisters ground stations and stops dispatch threads during shutdown, system. initiate teardown process, cancel dispatch threads, unregister groundstation from connector service.  
+- create dedicated dispatch threads per uav, establishes separate message processing threads for each connected uav, system. create new dispatch thread when uav connects, assign dedicated message queue.  
+- process multiple message types concurrently, handles state messages, monitoring data and commands through parallel processing, system. utilize thread pool to concurrently process status updates, monitoring data and command delivery.

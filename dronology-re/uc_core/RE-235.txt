@@ -1,0 +1,1 @@
+reconnect gcs to uav, allow reconnection of gcs to uav after disconnecting, gcs. gcs loses connection to an uav, gcs attempts to reconnect.

@@ -1,0 +1,1 @@
+frequency of uav coordinates requests, allows gcs to request uav's current coordinates at specified intervals, gcs. requests uav's current coordinates every {{uav_message_state_frequency}} seconds.

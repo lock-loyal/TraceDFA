@@ -1,0 +1,1 @@
+- submit cultural asset feedback, validate and store tourist feedback on cultural asset visits, tourist. submit feedback form, input rating and comment, check rating validity, ensure comment presence, confirm submission, store feedback data. valid rating (1-5), non-empty comment.

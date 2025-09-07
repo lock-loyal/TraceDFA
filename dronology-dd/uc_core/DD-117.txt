@@ -1,0 +1,1 @@
+load default map scale, loads the default map scale when no configuration is provided, system. if no scale information is provided in the configuration, display map at {{map_default_scale}} scale.

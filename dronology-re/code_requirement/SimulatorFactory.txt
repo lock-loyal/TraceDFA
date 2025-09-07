@@ -1,0 +1,2 @@
+- simulator selection, select between simple and nvec simulator implementations based on configuration, simulator manager. system selects simulator type for virtual drone based on configuration flag.  
+- virtual drone simulation, provide simulation capabilities for virtual drones using selected simulator, simulator engine. virtual drones utilize selected simulator for flight simulation.

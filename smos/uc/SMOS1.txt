@@ -1,0 +1,18 @@
+Name: Login  
+Actors: Registered User  
+Description: Allows a user to log in to the system  
+Preconditions:  
+- The user is not logged into the system  
+- The user has a username and password  
+- Completes and submits the login form  
+
+Sequence of Events:  
+| User | System |  
+|------|--------|  
+| 1. Verifies that the username and password have a length >=5. If the condition is met, proceeds to step 2; otherwise, notifies the user of the error. |  
+| 2. Searches the archive to check if the username and password entered by the user exist among loggable users. |  
+| 3. If the search is successful, the user is logged into the system. |  
+
+Postconditions:  
+- The system displays the Registered User’s workspace  
+- Termination of the connection to the SMOS server

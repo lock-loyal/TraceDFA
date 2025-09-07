@@ -1,0 +1,1 @@
+uav command id, ensure each command includes a unique uav identifier, system. include unique {{uav_id}} in each command.

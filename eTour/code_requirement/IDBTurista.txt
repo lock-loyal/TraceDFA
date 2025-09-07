@@ -1,0 +1,12 @@
+- tourist registration, create new tourist account, turista. access registration interface, input personal details, submit form, validate data, store in system, display confirmation message. unique username and valid email format required.  
+- modify tourist profile, update tourist information, turista. access profile management, edit details, submit changes, validate inputs, update database record, confirm success. valid data format enforced.  
+- delete tourist account, remove tourist from system, turista. initiate deletion request, confirm action, erase account data, notify completion. associated preferences and data cleared.  
+- retrieve tourist details, view tourist information, operatore. search by username or id, fetch from database, display profile data. valid identifier must exist.  
+- add cultural asset preference, link cultural asset to favorites, turista. select cultural asset, add to preferences, confirm selection, update database, acknowledge success. asset must exist and not duplicate.  
+- add rest point preference, link rest point to favorites, turista. choose rest point, add to favorites, confirm action, update system, notify addition. rest point validity checked.  
+- remove cultural asset preference, unlink cultural asset from favorites, turista. select preferred asset, remove from list, confirm removal, update database, display confirmation. asset must be in favorites.  
+- remove rest point preference, unlink rest point from favorites, turista. select rest point, delete from preferences, confirm action, modify database, indicate success. rest point must exist in list.  
+- search tourists by username, find tourists with partial username match, operatore. input username fragment, execute search, retrieve matching entries, display results. partial matching logic applied.  
+- list active/inactive tourists, display tourists by account status, operatore. select activation filter, query database, present filtered list. valid status selection enforced.  
+- view cultural asset preferences, display tourist's favorite cultural assets, turista. access favorites section, retrieve stored assets, show list. tourist must have existing preferences.  
+- view rest point preferences, display tourist's preferred rest points, turista. navigate to favorites, fetch data from system, present rest points. valid account authentication required.

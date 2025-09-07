@@ -1,0 +1,5 @@
+- flight plan queuing, queue pending flight plans for a single uav, flight plan manager. new flight plans added to pending queue, each uav maintains separate queue.
+- sequential plan execution, process flight plans in first-in-first-out order, flight plan manager. current plan completes, next pending plan becomes active.
+- plan completion handling, move completed flight plans from active to completed list, flight plan manager. active plan finishes execution, system archives to completed.
+- plan cancellation, remove all pending flight plans from queue, flight plan operator. pending plans cleared upon cancellation request.
+- plan override, replace current and pending plans with new priority plan, emergency operator. new plan immediately replaces active and queued plans.

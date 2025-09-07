@@ -1,0 +1,1 @@
+mission planning supports synchronized waits, allows uav to wait at synchronization points until specified delay expires, system. uav executing flight plans reaches synchronization point followed by delay task, waits until delay in seconds expires.

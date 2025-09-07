@@ -1,0 +1,1 @@
+view registries list, displays the list of registries for an academic year, directorate. system displays screen for selecting academic year of interest, directorate selects academic year, system searches archive for all digital registries of that year and displays them associated with their respective class.

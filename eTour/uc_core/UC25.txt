@@ -1,0 +1,1 @@
+visualize statistical reports, allow agency operator to view statistical reports for selected locations, agency operator. access statistical report feature, retrieve list of locations and display in form, select location and submit, retrieve site feedback using search site use case for selected location, generate statistical report, display report.

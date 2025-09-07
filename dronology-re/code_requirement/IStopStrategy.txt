@@ -1,0 +1,1 @@
+- customize stop strategy, define customizable strategies for stopping uav operations, flight control system. system applies specific stop strategy when required, each strategy must implement execute method.

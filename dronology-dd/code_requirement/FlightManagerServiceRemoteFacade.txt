@@ -1,0 +1,6 @@
+- assign flight plans to uavs remotely, allows remote clients to assign flight plans to specific uavs, remote client. specify uav id and flight plan details, send assignment request.  
+- execute remote takeoff commands, allows remote clients to send takeoff commands to uavs with specified altitude, remote client. select uav, set altitude, initiate takeoff.  
+- trigger return to home remotely, enables remote clients to command uavs to return to home location, remote client. select uav, activate return-to-home operation.  
+- pause active flights via remote command, provides remote clients ability to pause ongoing uav flights, remote client. select uav, send pause flight request.  
+- cancel pending flight plans remotely, allows remote clients to cancel queued flight plans for uavs, remote client. select uav, cancel pending flight assignments.  
+- retrieve current flight information remotely, enables remote clients to access real-time flight status of uavs, remote client. request flight details for specific uav id.

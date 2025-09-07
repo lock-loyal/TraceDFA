@@ -1,0 +1,22 @@
+Name: DisplayOfAReportCard  
+Actors: Administrator  
+Description: Display of a report card  
+Preconditions:  
+• The user has logged into the system as an Administrator.  
+• The user clicks on the "Online Report Cards" button.  
+
+Sequence of Events  
+User:  
+1. Selects the academic year.  
+3. Chooses the class of the student whose report card they wish to view.  
+5. Selects the student and the quarter for which to view the report card by clicking the corresponding button.  
+
+System:  
+2. Displays the list of classes in the system with an associated "Report Cards" button next to each class.  
+4. Displays the list of students in the class selected by the user.  
+6. Displays the report card of the selected student for the chosen quarter.  
+
+Postconditions:  
+• The system displays a student’s report card.  
+• The user interrupts the operation.  
+• Connection to the SMOS server is terminated.

@@ -1,0 +1,1 @@
+- input validation, restrict form field input to specified maximum length, operatore. enter data into form field, input exceeds character limit, system truncates input, display updated field content. maximum characters defined per field configuration.

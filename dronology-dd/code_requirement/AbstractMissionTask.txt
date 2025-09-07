@@ -1,0 +1,2 @@
+- define mission tasks with uav assignment, allows creating mission tasks assigned to specific uavs with unique names, system. create mission task with uav id and task name, assign to uav.  
+- restrict waypoint specification to relevant tasks, ensures waypoints are only defined for tasks requiring navigation, system. waypoints specified only for tasks requiring navigation, others throw error.

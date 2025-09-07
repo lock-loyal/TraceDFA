@@ -1,0 +1,2 @@
+- configure map layers, allow users to add and configure multiple map layers with name and source url, map configuration manager. users add layers specifying name, url, and overlay flag.  
+- display overlay layers, distinguish overlay layers from base map layers using overlay flag, map visualization ui. overlay layers rendered on top of base map layers.

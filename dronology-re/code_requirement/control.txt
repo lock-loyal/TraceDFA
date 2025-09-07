@@ -1,0 +1,5 @@
+- register vehicle, enable registration of new vehicles by specifying parameters including vehicle id and rtk capability, control station. register new vehicles by specifying parameters such as vehicle id and rtk capability.
+- process dronology commands, handle incoming dronology commands by dispatching them to appropriate uavs, control station. dispatch received commands to intended uavs based on target vehicle id.
+- manage vehicle status, continuously monitor and forward uav state and handshake information to dronology, control station. forward uav status updates and handshake messages to dronology.
+- rtk adjustment, provide real-time kinematic adjustments to rtk-enabled uavs, control station. send rtk correction data to uavs equipped with rtk capability.
+- vehicle removal, allow removal of registered uavs including shutdown procedures, control station. remove registered uavs and ensure proper shutdown.

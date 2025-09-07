@@ -1,0 +1,1 @@
+view user details, displays the details of a user, administrator. system displays detailed user information including first name, last name, email, phone, login, password.

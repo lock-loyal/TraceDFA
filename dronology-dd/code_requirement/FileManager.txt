@@ -1,0 +1,4 @@
+- monitor directory for file changes, track file changes in specified directory and notify subscribers, system. initialize directory watcher on specified path, notify subscribers of changes matching extension.  
+- retrieve files as byte arrays, allows clients to request files by id and receive content as byte arrays, system. validate file existence, read content, return as byte array, throw error if missing.  
+- save uploaded files with extension, store uploaded byte arrays as files with specified extension, system. check existing file, delete if present, save new content with extension.  
+- filter files by extension, load files from directory filtering by specified extension, system. list directory files, filter by extension, return matching files.

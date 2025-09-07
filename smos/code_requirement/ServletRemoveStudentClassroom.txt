@@ -1,0 +1,1 @@
+- remove student from classroom, allows the administrator to remove a student from a class, administrator. administrator selects student and classroom, system verifies student is enrolled in selected classroom, administrator confirms removal, system disassociates student from classroom and updates records.

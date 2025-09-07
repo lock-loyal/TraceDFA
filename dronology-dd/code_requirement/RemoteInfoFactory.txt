@@ -1,0 +1,3 @@
+- flight status display, display current, pending, and completed flight plans with details such as waypoints and timestamps, user. request flight information, receive aggregated data including current, pending, and completed flights.  
+- flight plan information aggregation, collect flight plan details including assigned drone, waypoints, and timestamps into a structured format, system. aggregate flight plan details into flight info object for remote clients.  
+- categorize flight plans by status, organize flight plans into current, awaiting takeoff, completed, and pending categories, system. group flight plans based on their operational status.

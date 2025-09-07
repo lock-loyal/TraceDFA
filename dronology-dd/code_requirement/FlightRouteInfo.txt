@@ -1,0 +1,5 @@
+- create flight route with waypoints, allows user to create flight routes by defining waypoints and metadata, user. define waypoints, set category and description, save route with creation timestamp.  
+- categorize flight routes, organize flight routes into categories for better management, user. assign category to flight route during creation or modification.  
+- track route modification history, record timestamps for creation and last modification of flight routes, system. automatically set date created on route creation, update date modified on changes.  
+- calculate route length, compute total distance of flight route based on waypoints, system. automatically calculate route length when waypoints are added or modified.  
+- manage waypoint sequence, add or remove waypoints in flight route configuration, user. select route, modify waypoint sequence through add/remove operations.

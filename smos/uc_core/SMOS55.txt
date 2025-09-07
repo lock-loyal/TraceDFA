@@ -1,0 +1,1 @@
+insert ata delays, digitization of the register collecting data from administrative staff class by class, administrative staff. system displays screen with all present students including delay checkbox next to each when selected dropdown fields appear to choose delay hour, user selects delays, clicks confirm, system sends data to server.

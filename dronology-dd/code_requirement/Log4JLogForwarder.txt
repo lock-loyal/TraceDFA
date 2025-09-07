@@ -1,0 +1,2 @@
+- log exceptions at different severity levels before propagating, system logs exceptions at specified severity levels before propagating them, system. log exception at trace/debug/info/warn/error/fatal level, throw exception after logging.
+- forward log messages to root logger, system forwards log messages to root logger for centralized handling, system. send info/warn/error level messages to root logger.

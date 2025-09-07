@@ -1,0 +1,22 @@
+mission: a specific operation or task assigned to drones for execution.
+flight: the act or process of drone movement through the air.
+drone: an unmanned aerial vehicle used for various operations.
+uav: unmanned aerial vehicle, synonymous with drone.
+plan: a detailed strategy or blueprint for drone missions or flights.
+route: the predefined path to be followed during a flight.
+task: a discrete action or job within a broader mission.
+command: an instruction issued to control drone actions.
+control: the management and direction of drone operations.
+monitoring: observing and tracking drone status and performance.
+takeoff: the process of a drone launching into the air.
+landing: the process of a drone returning to the ground.
+waypoint: a specific point along a flight route for navigation.
+collision: an event involving potential impact with obstacles, related to safety.
+service: a functional capability within the drone management system.
+manager: a role or component responsible for overseeing operations.
+strategy: a high-level approach for coordinating drone activities.
+map: a geographical representation used for flight visualization.
+operations: activities involved executing and managing drone missions.
+info: information pertaining to flight or mission data.
+state: the current status or condition of a drone (e.g., flying, idle).
+simulator: a tool for simulating flight scenarios for training or testing.

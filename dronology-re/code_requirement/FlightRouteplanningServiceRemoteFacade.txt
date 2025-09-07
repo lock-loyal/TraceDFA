@@ -1,0 +1,5 @@
+- remote flight route creation, enable remote clients to create new flight routes, remote client. remote clients create new flight routes.  
+- remote flight route deletion, allow remote clients to delete existing flight routes, remote client. remote clients delete existing flight routes.  
+- flight route retrieval, provide remote clients with list of available flight routes, remote client. remote clients retrieve list of available flight routes.  
+- flight route category access, expose flight route category information to remote clients, remote client. remote clients access flight route category information.  
+- flight route change notifications, notify remote clients about flight route modifications, remote client. remote clients receive notifications when flight routes get modified.

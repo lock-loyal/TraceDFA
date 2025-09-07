@@ -1,0 +1,1 @@
+- mission synchronization, enforce synchronization of all registered uavs at a synchronization point before proceeding, mission planner. once a synchronization point is activated, all registered uavs must reach the point to proceed.

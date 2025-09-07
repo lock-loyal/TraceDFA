@@ -1,0 +1,1 @@
+add site to favorites, allow tourist to insert selected site into bookmarks list, tourist. activate add to favorites feature for current site, display confirmation prompt, confirm selection, insert site into bookmarks, display success notification. server connection remains active.

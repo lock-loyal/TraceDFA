@@ -1,0 +1,2 @@
+- create operator profile, register new agency operator with personal and login details, operator. access registration form, input username, name, surname, password, submit data, validate entries, confirm details, save operator profile. valid data format required.  
+- modify operator data, update agency operator's account information, operator. access profile management, load existing data, edit fields, validate changes, confirm update, store revised details. valid input format enforced.

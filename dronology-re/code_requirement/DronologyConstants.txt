@@ -1,0 +1,4 @@
+- define flight route extension, establish .froute as standard file extension for flight route definitions, flight route manager. flight route definitions saved with .froute extension.  
+- standardize simulation scenario storage, use .sim file extension for storing simulation scenario configurations, simulator manager. simulation scenarios saved with .sim extension.  
+- organize flight route files, maintain flight route data files in dedicated flightroute directory, file system manager. flight route files stored in flightroute directory.  
+- categorize simulation assets, store simulation scenario files in simscenario directory, simulator manager. simulation scenario files stored in simscenario directory.

@@ -1,0 +1,1 @@
+no waypoint directives during hover in place, prevents sending waypoint directives to gcs when uav is in hover in place mode, system. if uav is in hover in place mode, no waypoint directives are sent to gcs.

@@ -1,0 +1,1 @@
+activate/disable tourist account, allow agency operator to enable or disable selected tourist account, agency operator. select tourist record, trigger activation/deactivation feature, request confirmation, confirm operation, update account status, display result notification. valid user session.

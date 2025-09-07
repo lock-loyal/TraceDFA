@@ -1,0 +1,1 @@
+- forward uav telemetry for real-time monitoring, forwards uav telemetry data to monitoring manager for real-time updates, system. take uav messages from queue, publish to monitoring manager asynchronously.

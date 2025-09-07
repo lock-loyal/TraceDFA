@@ -1,0 +1,1 @@
+uav state transitions, transition uav between states according to allowed state transitions, vehicle core. when requested, vehicle core transitions uav states according to allowed state transitions.

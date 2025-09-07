@@ -1,0 +1,1 @@
+reorder routes, allows reordering of routes in flight plans assigned to a uav that have not been executed by dragging within the list, user. drag route to new position in assigned routes list, reorder flight plans.

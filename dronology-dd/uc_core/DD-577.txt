@@ -1,0 +1,1 @@
+support for internally simulated uavs, allows system to support internally simulated uavs, system. support internally simulated uavs.

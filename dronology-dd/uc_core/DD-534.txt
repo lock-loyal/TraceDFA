@@ -1,0 +1,1 @@
+use default altitude if not provided in flight plan, use system default altitude when flight plan lacks takeoff altitude for grounded uav, system. assign flight plan without takeoff altitude to uav on ground, use system-wide default altitude as target takeoff altitude.

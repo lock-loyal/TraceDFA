@@ -1,0 +1,1 @@
+deactivate physical uavs, cancel all current and scheduled flight plans when a uav is deactivated, uav activation manager. uav is deactivated, manager cancels flight plans.

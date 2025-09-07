@@ -1,0 +1,1 @@
+- delete a justification, allows the administrator to remove a justification from the system, administrator. administrator selects justification to delete, system verifies justification existence, administrator confirms deletion, system removes justification and displays updated register. justification must exist to be deleted.

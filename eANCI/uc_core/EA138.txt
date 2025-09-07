@@ -1,0 +1,1 @@
+incorrect data, handle incorrect input exceptions by redisplaying form, citizen. system displays error message indicating incorrect request, citizen reads notification message, system redisplays input form, exit when form is redisplayed, extends other use cases to handle input error failures.

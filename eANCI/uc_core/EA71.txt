@@ -1,0 +1,1 @@
+view clinic booking, allow citizen to view clinic booking details, citizen. citizen requests booking view, system displays booking data including date time and clinic, handle modification or deletion by invoking modify booking or delete booking use cases, exit conditions include citizen viewing info or initiating changes, citizen must be authenticated.

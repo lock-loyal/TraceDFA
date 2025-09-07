@@ -1,0 +1,1 @@
+log out, allows a user to exit the system, registered user. user clicks logout button, system displays login form.

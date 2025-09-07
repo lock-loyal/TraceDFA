@@ -1,0 +1,1 @@
+load configuration, stores configuration parameters on the server for system setup, system. configuration parameters including map coordinates, scale, map style, and color scheme stored in json object on server.

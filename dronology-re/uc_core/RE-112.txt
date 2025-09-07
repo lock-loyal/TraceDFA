@@ -1,0 +1,1 @@
+ui binding to uav, request control of uav when command is issued by vaadinui, vaadinui. command issued by vaadinui for uav, vaadinui requests control.

@@ -1,0 +1,1 @@
+notify gcsmiddleware upon uav activation, allows gcs to send home location, timestamp, and uav_id to gcsmiddleware upon uav activation, gcs. send home location, timestamp, and uav_id to gcsmiddleware upon uav activation.

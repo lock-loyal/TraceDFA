@@ -1,0 +1,1 @@
+search site, allow user to search for a specific site in the system, user. activate search functionality, display search form, submit search criteria, process request, return results list. results must be returned within specified time limit.

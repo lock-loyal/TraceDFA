@@ -1,0 +1,1 @@
+- mission task configuration, define tasks with uav association and waypoints for mission planning, system. each task includes uav id, task name, and waypoint coordinates.

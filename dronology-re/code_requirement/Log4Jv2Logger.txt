@@ -1,0 +1,5 @@
+- mission log categorization, categorize mission related logs using mission info and mission error levels, mission operator. mission related events logged with mission info or mission error levels.  
+- hardware status tracking, track hardware status changes using hw info hw trace and hw fatal levels, hardware manager. hardware status changes logged with hw info hw trace or hw fatal levels.  
+- error severity differentiation, differentiate error severity levels for mission and hardware components, system administrator. mission errors logged with mission error level, hardware failures logged with hw fatal level.  
+- exception logging with context, log exceptions with context markers for mission or hardware categories, system administrator. exceptions include mission or hardware context markers based on error source.  
+- log message formatting, format error and fatal log messages with separator suffix for visual distinction, system administrator. error and fatal messages appended with separator line for highlighting.

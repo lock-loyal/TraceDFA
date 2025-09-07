@@ -1,0 +1,1 @@
+- view family status, allow citizen to view their family unit composition, citizen. citizen accesses family status section, system requests family unit id, citizen provides id, system retrieves and displays family members list, exit conditions include family members list displayed or invalid id invoking invalid data use case, family unit id must exist in system and be valid.

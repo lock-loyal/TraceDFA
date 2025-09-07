@@ -1,0 +1,1 @@
+- delete administrator, prevents the deletion of the sole administrator user in the system, administrator. administrator attempts to delete user, system checks if user is the only administrator, displays error message if deletion is not allowed. system must have at least one administrator.

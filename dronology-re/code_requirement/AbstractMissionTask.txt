@@ -1,0 +1,1 @@
+- define mission task, create mission tasks with name and assigned uav, mission planner. each mission task must specify a name and be assigned to a uav.

@@ -1,0 +1,1 @@
+activation of additional uav detected by gcs, forward activation request for newly detected uav to dronology, gcs middleware. gcs requests activation of newly detected uav, gcs middleware forwards request to dronology.

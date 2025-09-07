@@ -1,0 +1,6 @@
+- flight route editing, enable users to enter and exit edit mode for modifying flight route details, flight route manager. users enter edit mode to modify waypoints, exit to cancel or save changes.
+- waypoint coordinate entry, allow users to input waypoint coordinates as longitude, latitude, and altitude values, flight route editor. each waypoint requires longitude, latitude, and altitude inputs.
+- route metadata update, update flight route metadata including name and description during editing, flight route editor. modify route name and description while in edit mode.
+- waypoint reordering, enable drag-and-drop reordering of waypoints on the map during editing, flight route editor. drag waypoints to adjust their order in the route sequence.
+- edit conflict detection, verify saved route matches user changes before finalizing updates, flight route editor. system checks for discrepancies between edited and persisted route data.
+- approach speed configuration, specify approach speed for each waypoint during route editing, flight route editor. set transit speed value for individual waypoints.

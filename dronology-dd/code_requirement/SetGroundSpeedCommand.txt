@@ -1,0 +1,1 @@
+- set uav ground speed, allows operator to adjust the ground speed of a uav via the ground control system (gcs), operator. specify desired ground speed in m/s, send command to gcs for execution.

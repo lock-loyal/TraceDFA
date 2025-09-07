@@ -1,0 +1,10 @@
+file_name,approach,top@p,map_change,precision_change,recall_change,f1_change
+_no_art.csv,all_code_uc_chains_bge,20%,-0.031,-0.053,0.043,-0.009
+_no_art.csv,all_code_uc_chains_bge,15%,-0.026,-0.031,0.039,0.01
+_no_art.csv,all_code_uc_chains_bge,10%,-0.033,-0.063,0.028,0.001
+_no_decompose.csv,all_code_uc_chains_bge,20%,0.064,0.059,-0.103,-0.044
+_no_decompose.csv,all_code_uc_chains_bge,15%,0.073,0.06,-0.086,-0.047
+_no_decompose.csv,all_code_uc_chains_bge,10%,0.064,0.052,-0.052,-0.035
+_no_link.csv,all_code_uc_chains_bge,20%,-0.066,-0.166,0.211,-0.055
+_no_link.csv,all_code_uc_chains_bge,15%,-0.061,-0.128,0.23,0.015
+_no_link.csv,all_code_uc_chains_bge,10%,-0.057,-0.153,0.197,0.037

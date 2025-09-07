@@ -1,0 +1,1 @@
+simulate land, move uav to ground altitude corresponding to current longitude and latitude when landing command is given, internal simulator. when given landing command, internal simulator moves uav to ground altitude corresponding to current longitude and latitude.

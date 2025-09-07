@@ -1,0 +1,4 @@
+- define command parameters, specify command attributes including altitude, speed, and mode for uav operations, command generator. commands include parameters altitude, speed, mode.
+- serialize command data, convert uav command objects into json-formatted strings for transmission, communication handler. command objects converted into json strings.
+- associate uav identifier, link each generated command to a specific uav using unique identifier, command dispatcher. each command contains uav identifier.
+- timestamp command creation, record creation time for each command to track issuance sequence, command logger. command creation time recorded.

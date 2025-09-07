@@ -1,0 +1,1 @@
+flight plan scheduling, allows creation of a new flight plan using scheduled flight route details, system. when flight route is scheduled for execution, use waypoints, takeoff altitude, and identifier to instantiate flight plan.

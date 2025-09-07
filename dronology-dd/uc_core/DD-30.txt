@@ -1,0 +1,1 @@
+transition from on_ground to awaiting_takeoff_clearance, change uav state when a flight plan is assigned, system. assign flight plan to uav in on_ground state, transition to awaiting_takeoff_clearance state.

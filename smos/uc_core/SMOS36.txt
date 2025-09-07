@@ -1,0 +1,1 @@
+enter justification, allows entering a justification, administrator. system displays form to enter justification fields including justification date, administrator fills out the form, clicks save, system saves justification.

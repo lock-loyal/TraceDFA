@@ -1,0 +1,8 @@
+- manage search preferences, create new search preference entry, operator. access preference management, input preference details, submit form, validate data, store in database, confirm successful creation. invalid data format detected.  
+- associate preference with cultural asset, link search preference to cultural asset, operator. select cultural asset and preference, submit association, validate entries, update database, confirm successful linkage. cultural asset must exist.  
+- associate preference with rest point, connect search preference to rest point, operator. choose rest point and preference, submit request, verify data, store relation, notify operator. rest point must be valid.  
+- remove search preference, delete existing preference entry, operator. select preference to delete, confirm action, execute deletion, update database, display confirmation. preference must not be linked.  
+- retrieve tourist preferences, display search preferences linked to tourist, operator. select tourist, request preferences, fetch data, present list, handle missing entries. tourist must be registered.  
+- view cultural asset preferences, list search preferences associated with asset, operator. access asset details, request preferences, retrieve data, show preferences, handle no associations.  
+- view rest point preferences, show search preferences connected to rest point, operator. select rest point, fetch preferences, display list, manage empty results. rest point must be active.  
+- list all search preferences, display all available search preferences, operator. access preference management, request full list, retrieve entries, present in interface, handle empty database.

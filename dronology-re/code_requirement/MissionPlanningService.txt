@@ -1,0 +1,3 @@
+- execute mission plan, execute predefined mission plans for multiple uavs concurrently, mission planner. mission planner executes flight plans for multiple uavs concurrently.  
+- cancel active mission, cancel currently active mission and stop all associated uav operations, mission supervisor. cancel active mission and stop all associated uav operations.  
+- remove uav from mission, dynamically remove specific uav from ongoing mission while allowing others to continue, mission adjuster. remove specific uav from active mission while other uavs continue operations.

@@ -1,0 +1,4 @@
+- register monitoring message handlers, allows registration of message handlers for specific artifact identifiers, system. attach handler to artifact identifier, add to handler tree.  
+- unsubscribe monitoring message handlers, remove registered message handlers from all artifact identifiers, system. remove handler from root and all related identifiers.  
+- retrieve subscribed message handlers, obtain all handlers subscribed to a specific artifact identifier or its parents, system. find all parent identifiers, collect attached handlers.  
+- manage hierarchical artifact identifiers, organize artifact identifiers in a tree structure for monitoring, system. create tree structure with root node, add identifiers as nodes.

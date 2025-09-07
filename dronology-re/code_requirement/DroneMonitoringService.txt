@@ -1,0 +1,4 @@
+- subscribe to monitoring messages, allow message handlers to subscribe to drone monitoring messages for specific artifacts, monitoring subscriber. message handlers subscribe to receive monitoring messages for specified artifacts.  
+- general monitoring subscription, enable message handlers to subscribe to all monitoring messages without artifact filtering, monitoring subscriber. message handlers subscribe to receive all monitoring messages regardless of artifact.  
+- unsubscribe monitoring, permit removal of message handlers from monitoring subscriptions, monitoring subscriber. message handlers are removed from monitoring subscriptions.  
+- retrieve subscribed handlers, obtain all message handlers subscribed to a specific artifact's monitoring messages, monitoring manager. monitoring manager retrieves handlers subscribed to an artifact's messages.

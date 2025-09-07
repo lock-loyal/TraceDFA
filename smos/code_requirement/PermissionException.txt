@@ -1,0 +1,1 @@
+- handle unauthorized access, system prevents users from performing operations without required permissions, user. user attempts restricted action, system checks user permissions, denies access and displays permission denied error message, user must have appropriate role to perform action.

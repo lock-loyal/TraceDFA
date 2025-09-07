@@ -1,0 +1,5 @@
+- define flight patterns for mission planning, create reusable flight patterns for mission planning, mission planner. define flight patterns as sequences of tasks for uav missions.  
+- expand flight patterns into mission tasks, convert flight patterns into executable mission tasks during planning, system. generate tasks based on current and target locations, add to mission plan.  
+- coordinate uav movements during pattern execution, ensure synchronized flight paths for multiple uavs during pattern execution, system. verify uav positions are unique and non-overlapping before execution.  
+- validate flight pattern parameters, check validity of current and target coordinates before task generation, system. coordinates must be unique and sufficiently separated.  
+- manage task lists for flight patterns, maintain ordered lists of tasks associated with flight patterns, system. each pattern contains a predefined sequence of tasks.

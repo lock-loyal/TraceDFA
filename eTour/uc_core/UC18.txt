@@ -1,0 +1,1 @@
+check number of banners, verify if a rest point has reached the maximum allowed banner count, agency operator. agency attempts to add new banner, system checks convention data for current banner count, displays notification if limit exceeded, user acknowledges notification, system restores previous state. valid convention agreement.

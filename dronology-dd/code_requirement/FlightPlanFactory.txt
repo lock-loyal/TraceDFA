@@ -1,0 +1,2 @@
+- create flight plan for uav, allows creation of flight plans with uav id, name, and waypoints, system. create flight plan by specifying uav id, plan name, and waypoints.  
+- create flight plan without uav association, allows creation of flight plans without specifying uav id by providing plan name and waypoints, system. create flight plan by specifying plan name and waypoints only.

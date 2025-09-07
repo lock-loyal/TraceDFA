@@ -1,0 +1,1 @@
+- takeoff command, send command to gcs for drone takeoff with specified altitude, drone operator. command includes target altitude parameter in meters.

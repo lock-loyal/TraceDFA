@@ -1,0 +1,1 @@
+return to home without detours, return uav to original launch location without additional waypoints when command is issued, flight manager. when return to home command is issued, flight manager returns uav to original launch location without issuing additional waypoint or routing commands.

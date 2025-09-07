@@ -1,0 +1,1 @@
+only accept one connection per gcs, allows only one connection per gcs, gcsmiddleware. accept one connection for each gcs.

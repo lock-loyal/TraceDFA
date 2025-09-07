@@ -1,0 +1,1 @@
+- state frequency adjustment, adjust frequency of state updates transmitted from uav to ground control system, drone command manager. users set state update frequency, system applies new frequency to selected uav. frequency value must be valid positive integer in milliseconds.

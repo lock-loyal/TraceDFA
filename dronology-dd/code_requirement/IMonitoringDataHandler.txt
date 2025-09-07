@@ -1,0 +1,1 @@
+- process incoming monitoring messages, handles queuing and sequential processing of monitoring data points, system. queue incoming monitoring messages, process each message in order.

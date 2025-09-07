@@ -1,0 +1,2 @@
+- define uav flight plan, create flight plans by associating a uav identifier with a plan name and ordered waypoints, flight plan manager. users create flight plans for specific uavs by providing uav id, plan name, and waypoints.  
+- define general flight plan, create flight plans by specifying a plan name and ordered waypoints without immediate uav assignment, flight plan manager. users create reusable flight plans by defining name and waypoints for later uav assignment.

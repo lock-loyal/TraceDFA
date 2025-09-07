@@ -1,0 +1,2 @@
+- execute predefined mission, allows user to upload and execute a predefined mission file through the ui, user. select mission file via upload component, execute mission upon successful upload.  
+- cancel active mission, enables user to cancel the currently active mission via a dedicated button, user. click cancel mission button, confirm cancellation.

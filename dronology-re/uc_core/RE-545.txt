@@ -1,0 +1,1 @@
+cancel mission, cancel the active mission when requested if currently active, mission planner. when requested, if a mission is active, cancel active mission.

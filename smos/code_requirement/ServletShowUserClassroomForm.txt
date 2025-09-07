@@ -1,0 +1,1 @@
+- display user classroom form, allows the administrator to access the form for associating users with classrooms, administrator. administrator navigates to user classroom management section, system displays form to input user and classroom details.

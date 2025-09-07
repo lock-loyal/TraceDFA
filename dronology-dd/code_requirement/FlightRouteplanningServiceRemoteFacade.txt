@@ -1,0 +1,6 @@
+- manage flight route categories, handle the organization of flight routes into categories, system. create, update, or delete flight route categories as needed.  
+- create new flight routes, allows users to generate new flight routes through the system interface, user. initiate route creation, define waypoints, save route.  
+- delete existing flight routes, permits removal of obsolete or unused flight routes, user. select route, confirm deletion, remove from system.  
+- update flight route information, enables modification of existing flight route details such as waypoints or names, user. select route, edit details, save changes.  
+- retrieve flight route list, fetch and display all available flight routes, user. request route list, system returns all stored routes.  
+- notify on route changes, alert listeners when flight route data is modified, system. detect change in route data, trigger notifications to subscribed listeners.

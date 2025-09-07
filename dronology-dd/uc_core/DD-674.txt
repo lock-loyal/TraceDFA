@@ -1,0 +1,1 @@
+create and modify route in visual mode, allows user to create and modify routes by interacting with a visual interface, system. routecreationui supports route creation and modification in visual mode, user clicks location to create, modify, or delete waypoint.

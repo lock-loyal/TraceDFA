@@ -1,0 +1,5 @@
+- transmit files between client and server, enables transferring files from client to server and vice versa, system. client transmits file to server, server processes and stores file.  
+- notify listeners on file changes, informs registered listeners when file-related changes occur, system. register listener, notify on file creation/update/deletion.  
+- retrieve list of managed files, provides capability to fetch all files managed by the service, system. request file list, return collection of managed files.  
+- create new file items, allows generating new file items through the service interface, system. initiate creation, generate empty file item with default properties.  
+- delete existing file items, supports removal of file items from service management, system. select item for deletion, remove from storage and update registries.

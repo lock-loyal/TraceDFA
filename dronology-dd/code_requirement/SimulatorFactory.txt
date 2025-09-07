@@ -1,0 +1,1 @@
+- switch between simulation models, allows system to select between different drone simulation models based on configuration, system. check configuration parameter, instantiate simple or nvec simulator accordingly, simulation model selection determined by configuration parameter.

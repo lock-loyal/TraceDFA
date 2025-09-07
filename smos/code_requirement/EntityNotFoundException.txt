@@ -1,0 +1,1 @@
+- handle missing entity error, system displays an error message when a requested entity is not found, user. user attempts to access an entity, system checks repository and finds entity does not exist, system throws exception and redirects to error page with descriptive message, entity must exist in repository.

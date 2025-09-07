@@ -1,0 +1,1 @@
+delete a route, allows user to delete a route after confirmation, user. press route delete button, display confirmation message, delete route upon confirmation.

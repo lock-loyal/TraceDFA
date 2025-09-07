@@ -1,0 +1,1 @@
+- predefined pattern expansion, allows predefined patterns to be expanded into executable tasks during mission creation, system. create mission with predefined pattern, expand into executable tasks when mission is initialized.

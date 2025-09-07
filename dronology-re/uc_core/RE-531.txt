@@ -1,0 +1,1 @@
+takeoff altitude, notify uav to takeoff vertically until reaching prescribed altitude when flight plan is activated, flight scheduling and execution. flight plan activated for uav on ground, notify takeoff to reach altitude.

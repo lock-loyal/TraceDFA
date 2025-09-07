@@ -1,0 +1,7 @@
+- flight route definition, define flight routes as ordered sequences of waypoints for uav navigation, flight route manager. flight routes created/modified as ordered waypoint sequences.
+- simulator scenario activation, activate predefined simulation scenarios containing drone configurations and flight paths, simulation manager. simulation manager selects/activates scenario triggering virtual drone initialization.
+- remote command execution, enable sending control commands to drones through remote interfaces, remote operator. remote operator issues commands via dedicated communication channels.
+- real-time flight operations, manage ongoing flight activities including takeoff navigation and landing procedures, flight manager. flight manager monitors/adjusts active flight parameters.
+- drone initialization configuration, set up initial drone parameters including virtual/physical mode and starting coordinates, setup technician. technician configures mode/coordinates during pre-flight preparation.
+- drone specification management, maintain technical specifications detailing uav capabilities and constraints, specification manager. specification manager creates/updates drone model documentation.
+- mission plan execution, coordinate simultaneous flight plan execution across multiple uavs, mission planner. mission planner initiates concurrent flight operations for grouped drones.

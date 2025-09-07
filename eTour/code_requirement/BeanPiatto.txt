@@ -1,0 +1,2 @@
+- create dish record, operator adds new dish to the system, operator. access dish creation form, input name and price, select associated menu, validate data, save dish details, confirm successful creation. dish name not empty, price positive value.  
+- update dish information, operator modifies existing dish details, operator. search for target dish, load current data into form, edit fields, validate changes, save updates, display confirmation message. valid menu association required.

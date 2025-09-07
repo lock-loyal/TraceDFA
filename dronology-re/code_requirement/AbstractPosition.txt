@@ -1,0 +1,4 @@
+- coordinate conversion, enable conversion between terrestrial coordinate systems (lla nvector pvector), system core. users convert positions between latitude/longitude/altitude, nvector, and pvector coordinate systems.  
+- distance calculation, compute direct and travel distances between two positions, system core. calculate straight-line and realistic travel distances for accurate navigation planning.  
+- ned coordinate transformation, transform global positions into local north-east-down coordinates, system core. determine relative positions in ned coordinates from a specified origin.  
+- rotation matrix creation, generate rotation matrices for coordinate system transformations, system core. create matrices to rotate displacement vectors into local ned frames.

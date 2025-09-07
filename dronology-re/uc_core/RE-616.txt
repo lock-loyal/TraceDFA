@@ -1,0 +1,1 @@
+logging of gcs related events, log all commands sent to and messages received from a gcs, activity logger. log all commands sent to and messages received from a gcs.

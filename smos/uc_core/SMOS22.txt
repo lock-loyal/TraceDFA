@@ -1,0 +1,1 @@
+view list of courses, allows viewing the list of courses, administrator. administrator clicks course management button, system displays course management screen, administrator searches for courses in archive and views list of courses, system displays list of courses stored in archive.

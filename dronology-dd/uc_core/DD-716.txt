@@ -1,0 +1,1 @@
+gcs uav announcement, allows gcs to announce recognized uavs to gcsmiddleware, gcs. in step three, announce current set of recognized uavs to gcsmiddleware.

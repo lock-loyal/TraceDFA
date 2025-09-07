@@ -1,0 +1,1 @@
+view favorite sites, allow tourist to view their list of favorite sites, tourist. select feature to display favorites, load and display list.

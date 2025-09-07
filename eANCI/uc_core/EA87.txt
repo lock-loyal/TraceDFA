@@ -1,0 +1,1 @@
+request building file copy, allow citizen to request a copy of building file and notify employee, citizen and employee. citizen requests copy via button, system sends request to employee, system notifies citizen request forwarded and copy will be sent shortly, handle technical failures by invoking service unavailable use case, includes search building file.

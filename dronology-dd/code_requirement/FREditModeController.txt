@@ -1,0 +1,4 @@
+- edit route details, allows users to modify route parameters including latitude, longitude, altitude, and transit speed, user. select route, edit parameters, save changes. numeric values required for latitude, longitude, altitude, and transit speed.
+- exit route editing mode, enables users to exit route editing mode without saving changes, user. trigger exit edit mode, revert to previous route configuration.
+- validate route updates post-saving, ensure route updates are correctly reflected in dronology after saving, system. after saving, verify route details match updated parameters.
+- save modified flight routes, allows users to save changes made to flight routes, user. modify route details, confirm changes, save updated route.

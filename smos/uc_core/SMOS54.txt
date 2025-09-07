@@ -1,0 +1,1 @@
+insert absences, digitization of the register and data collection from ata staff class by class, ata staff. system displays screen with students and radio buttons to mark student as absent or present by default present, user selects absent students, clicks save, system sends data to server and for each absence sends notification email to student's parent.

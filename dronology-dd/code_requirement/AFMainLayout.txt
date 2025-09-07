@@ -1,0 +1,4 @@
+- toggle between map views, allows users to switch between different map viewing modes such as follow mode and average center view, user. click view button to set average center, click follow button to enable follow mode.  
+- manage active flight tracking interface, provides a user interface for tracking active flights including map and control components, user. display map component alongside flight control panels.  
+- enable drone follow mode, allows users to follow selected drones on the map with continuous tracking, user. select drones, activate follow mode to track selected drones on map.  
+- synchronize map view with user selections, updates the map display based on user-selected drones and viewing preferences, system. user selects drones or view mode, map adjusts display accordingly.

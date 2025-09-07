@@ -1,0 +1,3 @@
+- flight route file storage, store flight route files with .froute extension in flightroute directory, system. flight route files saved with .froute extension in flightroute folder.  
+- specification file storage, store specification files with .specification extension in specifications directory, system. specification files saved with .specification extension in specifications folder.  
+- simulation scenario file storage, store simulation scenario files with .sim extension in simscenario directory, system. simulation scenario files saved with .sim extension in simscenario folder.

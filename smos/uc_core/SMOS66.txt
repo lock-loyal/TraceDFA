@@ -1,0 +1,1 @@
+view report card, viewing a report card, management. user selects academic year, system displays list of classes with report cards button, user chooses class, system displays students, user selects student and term, system displays report card.

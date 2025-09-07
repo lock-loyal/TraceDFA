@@ -1,0 +1,3 @@
+- display followed uavs list, allows ui to show a list of uavs currently being followed on the map, user. select uavs to follow, display list in follow bar.  
+- exit follow mode, enables users to stop following selected uavs and reset map view, user. click stop following button, exit follow mode, reset map to default view.  
+- dynamic update of followed uavs, update displayed uav list when followed uavs change during active flights, system. detect changes in followed uavs, refresh ui list.

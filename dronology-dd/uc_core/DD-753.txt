@@ -1,0 +1,1 @@
+gcs forwards uav coordinates to middleware, allows gcs to send uav's current coordinates to middleware when received from uav, gcs. send uav coordinates to gcsmiddleware when received from uav.

@@ -1,0 +1,1 @@
+modify cultural asset, allow agency operator to update selected cultural asset information, agency operator. view cultural asset list from search results, select cultural asset, load data into editable form, submit changes, validate data, confirm modification, store updated data, display success message. input controls block multiple submissions after confirmation.

@@ -1,0 +1,1 @@
+uav properties, defines properties sent from gcs to gcsmiddleware in json format, system. gcs sends properties to gcsmiddleware using json.

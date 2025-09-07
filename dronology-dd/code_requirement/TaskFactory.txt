@@ -1,0 +1,4 @@
+- create mission tasks, allows creating different types of mission tasks including flight patterns, routes, synchronization points, and delays, user. specify task type, uav id, task name, and parameters to create corresponding mission task.  
+- generate coordinate-based tasks, enables generating waypoint, takeoff, and landing tasks by providing specific coordinates, system. create waypoint, takeoff, or landing task when uav id and coordinate are provided.  
+- enforce task parameter validation, ensures required parameters are provided when creating delay tasks, system. delay task creation requires duration parameter, else throw exception.  
+- synchronize uav operations, allows creating synchronization tasks to coordinate multiple uavs during mission execution, mission planner. create sync task to synchronize uav operations at specified mission stage.

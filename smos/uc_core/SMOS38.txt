@@ -1,0 +1,1 @@
+view justification details, displays the details of a justification, administrator. system displays a form with the justification details and the option to modify or delete the justification.

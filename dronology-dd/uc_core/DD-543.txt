@@ -1,0 +1,1 @@
+synchronized takeoff, directs uavs to perform a coordinated takeoff and flight pattern, system. direct each uav to takeoff to unique altitude, synchronize with other uavs, fly to first waypoint's coordinates, synchronize, adjust altitude to target waypoint, synchronize to complete pattern.

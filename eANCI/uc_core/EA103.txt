@@ -1,0 +1,1 @@
+download module, allow citizen to download a form to join volunteering, citizen. citizen accesses form download, system displays form, citizen initiates download, system saves form, exit on successful download invoking become volunteer use case or failure invoking service unavailable, citizen must be authenticated in municipal system or have accessed it.

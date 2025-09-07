@@ -1,0 +1,1 @@
+manual flight plan assignment, assign the route to the given uav if the route contains a specific uav id, single uav flight plan scheduler. route contains specific uav id, assign route to given uav.

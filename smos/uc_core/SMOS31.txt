@@ -1,0 +1,1 @@
+edit absence, allows the administrator to modify absences by inserting or deleting them, administrator. system updates screen based on selected date, administrator modifies absence and clicks save, submits modified data, system sends rectification email to student's parent.

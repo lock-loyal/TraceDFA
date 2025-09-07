@@ -1,0 +1,1 @@
+- active flight info panel, display real-time flight information for active uavs, flight operator. flight operator views real-time flight information including status and waypoints.

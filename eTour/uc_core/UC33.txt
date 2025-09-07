@@ -1,0 +1,1 @@
+registration, allow guest user to create a new account, guest user. access registration feature, display form, fill and submit details, validate data, request confirmation, confirm operation, create account, notify success. handle invalid data with errored use case.

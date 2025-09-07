@@ -1,0 +1,1 @@
+- modify personal data, allows the administrator to change their login credentials, administrator. administrator enters new login and password, system verifies login uniqueness and updates credentials, login must be unique and administrator privileges required.

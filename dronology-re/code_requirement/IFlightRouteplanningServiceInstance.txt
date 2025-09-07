@@ -1,0 +1,3 @@
+- retrieve flight route categories, access predefined categories for organizing flight routes, flight route manager. flight route manager provides predefined categories for organizing flight routes.  
+- fetch flight route by identifier, retrieve specific flight route details using unique identifier, flight route manager. flight route manager returns route details when valid identifier is provided.  
+- lookup flight route by name, obtain flight route information by specifying exact route name, flight route manager. flight route manager returns route details when valid name is provided.

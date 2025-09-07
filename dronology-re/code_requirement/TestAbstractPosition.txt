@@ -1,0 +1,4 @@
+- validate ned conversion, verify conversion between lla coordinates and ned vectors maintains accuracy for drone positioning, flight route manager. convert lla coordinates to ned vectors and back to confirm precise positioning.  
+- calculate coordinate distance, compute accurate travel distance between two geographic coordinates for flight path planning, flight route manager. calculate distance between lla coordinates to ensure correct flight path lengths.  
+- verify rotation matrix, ensure correct rotation matrix generation from lla coordinates for drone orientation adjustments, flight route manager. generate rotation matrix from lla coordinates to validate orientation transformations.  
+- ensure coordinate precision, validate coordinate transformations maintain required precision thresholds for reliable drone navigation, flight route manager. assert coordinate conversion results within specified epsilon tolerance.

@@ -1,0 +1,1 @@
+simulate travel to target, simulates movement towards target coordinates when responding to a go to command, system. respond to go to command, internalsimulator moves in steps towards target coordinates until reached.

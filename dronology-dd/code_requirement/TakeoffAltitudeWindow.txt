@@ -1,0 +1,1 @@
+- specify takeoff altitude, allows user to input desired takeoff altitude for uav via dialog, user. open takeoff altitude dialog, input altitude value, confirm to trigger takeoff. altitude must be valid numerical value.

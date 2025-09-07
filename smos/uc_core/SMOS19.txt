@@ -1,0 +1,1 @@
+view address details, allows viewing the details of an address, administrator. system displays screen with details of a single address including address name.

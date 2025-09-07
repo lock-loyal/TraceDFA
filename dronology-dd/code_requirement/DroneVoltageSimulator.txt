@@ -1,0 +1,4 @@
+- battery voltage simulation during flight, simulate battery voltage decrease during flight based on elapsed time, system. voltage decreases by 0.25 volts per minute of flight.  
+- recharge battery, reset battery voltage to full capacity when recharging, system. recharge resets voltage to 15.0 volts.  
+- track battery depletion state, monitor battery state as charging, depleting, or stable, system. battery state transitions between charging, depleting, and stable.  
+- calculate voltage drain over time, compute voltage reduction based on time spent in depleting state, system. voltage drain calculated using elapsed time since last checkpoint.

@@ -1,0 +1,9 @@
+- manage search preferences, add new search preference to the system, operator. access preference management, enter preference details, validate data, store preference in database, confirm successful addition. valid preference data format.  
+- delete search preference, remove existing search preference from system, operator. select preference to delete, confirm removal action, delete from database, notify success. preference must exist in system.  
+- view tourist preferences, retrieve list of search preferences linked to tourist, tourist. access preferences section, request preferences list, system displays saved preferences. active tourist account required.  
+- assign cultural asset preference, link search preference to specific cultural asset, operator. select cultural asset, choose preference to assign, confirm association, update database. valid cultural asset and preference id.  
+- assign rest point preference, associate search preference with specific rest point, operator. choose rest point, select preference, confirm link, store relation in database. valid rest point and preference identifiers.  
+- remove tourist preference, delete specific search preference from tourist profile, tourist. select preference to remove, confirm deletion, update database, display confirmation. preference must belong to tourist.  
+- remove cultural asset preference, unlink search preference from cultural asset, operator. select cultural asset, choose preference to remove, confirm action, update database. existing association required.  
+- remove rest point preference, detach search preference from rest point, operator. choose rest point, select preference, confirm removal, modify database records. valid rest point and preference relation.  
+- view all preferences, display complete list of search preferences in system, operator. access preferences management, request full list, system retrieves and shows all entries. operator privileges required.

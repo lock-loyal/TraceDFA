@@ -1,0 +1,1 @@
+modify comment, allow tourist to edit previously submitted feedback comment, tourist. access site details page, select edit comment function, update comment text, validate input, confirm changes, save updated comment, display confirmation. valid data format, active server connection.

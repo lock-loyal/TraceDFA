@@ -1,0 +1,2 @@
+- view cultural asset feedback, display list of feedback entries with comments and votes, tourist. access cultural asset details, request feedback history, retrieve stored entries, display each entry's comment and rating. handle empty feedback by showing sample data.  
+- submit cultural asset visit, allow tourist to provide feedback on cultural asset visit, tourist. complete cultural asset visit, access feedback form, enter comment and rating, submit data, validate input, store visit record, confirm submission. invalid rating value or empty comment.

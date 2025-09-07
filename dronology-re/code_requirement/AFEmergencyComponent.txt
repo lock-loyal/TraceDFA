@@ -1,0 +1,3 @@
+- emergency hover, trigger all uavs to hover in place during emergency situations, uav operator. user clicks hover button to command all uavs to hover.  
+- emergency return home, trigger all uavs to return to home location during emergencies, uav operator. user clicks return home button to command all uavs to return.  
+- emergency operations grouping, display emergency operation controls in grouped ui component, uav operator. emergency operations grouped in dedicated ui section.

@@ -1,0 +1,1 @@
+forward commands, forward commands from dronology to gcs, gcs middleware. gcs middleware forwards commands sent from dronology to a gcs.

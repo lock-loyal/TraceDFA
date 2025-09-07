@@ -1,0 +1,1 @@
+- mission execution failure handling, handle errors during mission execution by throwing exceptions with descriptive messages, mission executor. mission execution encounters error, system throws exception indicating failure reason, invalid mission parameters or execution errors.

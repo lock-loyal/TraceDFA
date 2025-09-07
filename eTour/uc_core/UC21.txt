@@ -1,0 +1,1 @@
+insert news, allow agency operator to add new news entries into the system, agency operator. activate insertion feature, display form, fill form and submit, validate data, confirm insertion, store news data, notify success. valid data format, operation cancellation possible.

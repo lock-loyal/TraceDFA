@@ -1,0 +1,4 @@
+- flight plan creation, define flight plans with waypoints, start location, and timing details, flight manager. flight plans include waypoints, start location, start time, and end time.
+- assign flight plan to uav, associate flight plan with specific uav using unique identifier, flight manager. flight plan is linked to uav via drone id.
+- track flight duration, record start and end times for flight plan execution monitoring, flight manager. flight plan execution monitored via start and end times.
+- define flight route, specify ordered sequence of waypoints for uav navigation, flight manager. flight route defined as ordered list of waypoints.

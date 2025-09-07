@@ -1,0 +1,4 @@
+- map view selection, allow users to switch between map viewing modes, active flights ui. user selects view mode (follow or static) through control buttons.  
+- follow mode activation, enable following selected uavs on the map with continuous tracking, active flights ui. user activates follow mode to track selected uavs' real-time positions.  
+- automatic map centering, center map view on average position of selected uavs when exiting follow mode, active flights ui. map automatically centers on selected uavs' average position.  
+- persistent follow mode, maintain active tracking of selected uavs during map updates, active flights ui. follow mode persists through map refresh/update cycles.

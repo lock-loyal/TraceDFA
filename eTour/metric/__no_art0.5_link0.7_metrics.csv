@@ -1,0 +1,4 @@
+approach,top@p,code filter,uc filter,map,precision,recall,f1
+all_code_uc_chains_bge,20%,(0.9296|0.7416),(1.0000|0.5088),0.5735,0.3186,0.3405,0.3292
+all_code_uc_chains_bge,15%,(0.9296|0.7416),(1.0000|0.5088),0.5718,0.3576,0.2962,0.3240
+all_code_uc_chains_bge,10%,(0.9296|0.7416),(1.0000|0.5088),0.5706,0.3681,0.2655,0.3085

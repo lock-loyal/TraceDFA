@@ -1,0 +1,4 @@
+- simulate movement steps, simulate drone movement towards target coordinates in incremental steps, movement simulator. movement simulator calculates drone position changes in incremental steps towards target.  
+- define flight path, set flight path by specifying current position and target coordinates for drone movement, movement simulator. flight path defined by current position and target coordinates.  
+- checkpoint verification, verify if drone has reached a designated checkpoint during flight, movement simulator. check if drone has reached a designated checkpoint.  
+- destination reached check, determine if drone has reached final destination based on distance moved per time step, movement simulator. destination considered reached when cumulative movement meets threshold.

@@ -1,0 +1,2 @@
+- modify tourist data, allow tourist or operator to update tourist profile information, tourist, operator. access profile modification, load current data, edit details, validate input format, confirm changes, update database, display success message. valid data format required, database connection must be active.  
+- retrieve tourist information, enable operator to view tourist profile details, operator. request tourist data by id, validate id, fetch from database, display profile information. invalid id or database error triggers exception.

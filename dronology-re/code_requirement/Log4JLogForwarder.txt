@@ -1,0 +1,4 @@
+- forward log messages, forward log messages to root logger and another logger instance, logging system. logging system forwards messages to root logger and another logger.  
+- log exception propagation, log exceptions at different severity levels before propagating them, logging system. exceptions logged at specified severity level before being thrown.  
+- support multiple log levels, provide logging capabilities for different severity levels including info warn and error, logging system. logging supports severity levels info warn error.  
+- integrate logging components, integrate with log4j2 framework for logging functionality, logging system. integrates with log4j2 framework for logging.

@@ -1,0 +1,1 @@
+- deploy cultural asset service, make cultural asset management service available for remote access, system. launch control server, initialize service, export service via rmi, bind service to registry, handle deployment exceptions. service deployment failure scenarios.

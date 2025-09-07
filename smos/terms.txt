@@ -1,0 +1,16 @@
+user: individuals in the system (students, teachers, administrators, parents).
+classroom: physical or virtual space for instruction.
+teaching: educational course or instructional session.
+role: permission designation (e.g., student, teacher, administrator).
+address: location details for users or classrooms.
+report: summary document for records or analysis.
+absence: non-attendance at an expected activity.
+justify: documented reason for absence or delay.
+register: attendance or enrollment tracking record.
+note: comments or remarks about entities.
+administrator: user role with administrative privileges.
+student: user role focused on learning activities.
+teacher: user role responsible for instruction.
+votes: feedback or decisions from users.
+statistics: numerical data insights from system records.
+delay: tardiness to an activity.

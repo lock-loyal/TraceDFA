@@ -1,0 +1,4 @@
+- create rest point operator, add new operator to the system, operator. activate operator creation, input operator details, validate data, save to database, confirm successful creation. valid operator data format.  
+- modify rest point operator, update existing operator information, operator. access operator modification, load current data, edit details, validate changes, save updated data, display confirmation. valid data format.  
+- delete rest point operator, remove operator from the system, operator. initiate deletion, confirm operation, remove operator record, notify success. operator exists in the system.  
+- view rest point operator details, retrieve operator information, operator. request operator data, fetch from database, display details. operator exists in the system.

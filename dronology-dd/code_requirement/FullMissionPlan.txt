@@ -1,0 +1,8 @@
+- manage multi-uav mission plans, manage mission plans composed of tasks for multiple uavs, system. assign tasks to uavs, coordinate execution through synchronization points.  
+- synchronize tasks across uavs, ensure tasks across uavs are synchronized using designated synchronization points, system. define synchronization points, coordinate task execution timing.  
+- validate uav starting position, check uav proximity to first waypoint before mission start, system. measure distance between uav and first waypoint, enforce maximum safety threshold.  
+- import mission plans from json, allow loading mission plans defined in json format, system. parse json file, create mission plan with assigned uavs and tasks.  
+- expand complex flight patterns, decompose high-level flight patterns into executable tasks, system. process flight patterns, generate corresponding waypoints or routes.  
+- cancel active missions, halt all uavs and terminate mission execution, system. issue stop commands to all uavs in mission, clear active tasks.  
+- assign tasks to individual uavs, allocate specific tasks to uavs within a mission plan, system. select uav, add task to its mission plan.  
+- monitor task completion status, track progress of active tasks across uavs, system. check task completion state, trigger subsequent tasks when prerequisites met.

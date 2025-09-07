@@ -1,0 +1,5 @@
+- reorder flight routes, enable drag and drop to reorder pending flight routes for a specific uav, route assignment ui. drag and drop flight routes to reorder pending flight sequence for uav.  
+- display pending routes, retrieve and display pending flight routes associated with a selected uav, route assignment ui. display pending flight routes for selected uav.  
+- assign route via drag and drop, assign flight routes to uav by dragging route info boxes into the layout, route assignment ui. drag flight route info boxes into layout to assign to uav.  
+- remove assigned routes, remove flight routes from uav by dragging out of layout, route assignment ui. drag flight route info boxes out of layout to remove assignment.  
+- maintain route sequence, persist the order of flight routes based on their position in drag layout, route assignment ui. route execution order determined by layout component sequence.

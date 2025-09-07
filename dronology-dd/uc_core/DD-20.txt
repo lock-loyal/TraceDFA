@@ -1,0 +1,1 @@
+client registers for flight plan events, allows client to receive notifications when a new flight plan is activated or executed, client. register with uimiddleware, receive notifications on flight plan activation or execution.

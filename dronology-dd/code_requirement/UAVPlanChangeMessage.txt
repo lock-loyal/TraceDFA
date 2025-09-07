@@ -1,0 +1,5 @@
+- monitor uav plan changes, track and log changes to uav flight plans for internal monitoring, system. capture plan change events with uavid, flightid, timestamps, and type.  
+- associate plan changes with specific uavs, link each plan change message to a particular uav using unique identifiers, system. include uavid in plan change messages for tracking.  
+- timestamp plan modification events, record precise timestamps when flight plan changes occur, system. generate precise timestamp at message creation.  
+- categorize monitoring messages by type, classify internal monitoring messages as plan_change type for filtering, system. set message type to plan_change for relevant events.  
+- track flight plan scheduling details, record scheduled start and end times for modified flight plans, system. include starttime and endtime fields in change messages.

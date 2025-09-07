@@ -1,0 +1,1 @@
+create and modify route in table mode, allows creation and modification of routes using a tabular interface, user. routecreationui displays editable table with waypoints and uav velocity approaching each waypoint.

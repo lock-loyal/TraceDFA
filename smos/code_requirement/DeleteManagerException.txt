@@ -1,0 +1,1 @@
+- delete manager user, prevents the administrator from deleting the only manager user in the system, administrator. administrator attempts to delete a manager user, system verifies if it is the last manager, blocks deletion and displays error message, at least one manager user must exist in the system.

@@ -1,0 +1,1 @@
+delete cultural asset, allow agency operator to delete selected cultural asset, agency operator. view cultural assets from search results, select and activate delete function, system asks confirmation, user confirms operation, system deletes selected cultural asset, notify successful deletion. system implements input controls to prevent multiple submissions during deletion.

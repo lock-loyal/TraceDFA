@@ -1,0 +1,4 @@
+- create mission plans with multiple route sets, allows combining multiple route sets into a single mission plan, mission planner. create mission plan, add multiple route sets, save combined plan.  
+- manage route sets within mission plans, enable addition and retrieval of route sets for mission configuration, operator. select mission plan, add/remove route sets as needed.  
+- unique identifier assignment for mission plans, automatically generate unique id for each new mission plan, system. generate uuid upon mission plan creation.  
+- obsolete mission plan implementation, deprecated mission plan class indicates phased-out functionality, system. mark legacy mission plan implementation as deprecated.

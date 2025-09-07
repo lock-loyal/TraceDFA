@@ -1,0 +1,2 @@
+- generate location statistics, retrieve list of all locations with cultural assets or rest points, operator. access statistics feature, request location list, process query, compile distinct locations from both categories, return complete list.  
+- calculate average votes, determine combined average vote score for a specific location, operator. select target location, retrieve cultural assets and rest points votes, compute average for each category, calculate overall average, display result. valid location must exist in the system.

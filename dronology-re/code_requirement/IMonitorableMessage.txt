@@ -1,0 +1,4 @@
+- monitor uav state, capture uav state changes through monitoring messages containing uavid data timestamp and type, monitoring system. uav state changes generate messages with uavid data timestamp and type.
+- track uav artifacts, associate monitoring messages with specific uav artifacts using unique identifiers, monitoring system. each message is associated with a uav artifact via identifier.
+- categorize monitoring data, classify monitoring messages by type to differentiate between status updates and alerts, monitoring system. messages are categorized by type such as status or alert.
+- timestamp monitoring events, record precise timestamps for each monitoring event to track chronological order, monitoring system. each monitoring event includes a precise timestamp.

@@ -1,0 +1,10 @@
+- process incoming drone commands, allows handling commands such as takeoff, land, set mode, and adjust velocity, system. receive command, validate, execute corresponding drone operation.  
+- connect to physical or virtual drones, establish connection to either physical or simulated drones based on configuration, system. configure connection type, initiate handshake, establish communication.  
+- monitor sensor health status, continuously check status of critical sensors and report anomalies, system. detect sensor malfunctions, log warnings for unavailable or unhealthy sensors.  
+- switch drone control modes, change between guided, stabilize, and land modes affecting autonomy, system. mode change triggers control handover to rc or regains autonomous control.  
+- set home location for drone, define new home coordinates for return-to-home operations, user. specify latitude, longitude, altitude, update drone's home reference point.  
+- adjust velocity during flight, modify drone's north/east/down velocity components in guided mode, user. set ned velocities, send updated movement parameters.  
+- execute simulated takeoff procedures, perform virtual takeoff sequence for sitl instances, simulator. initiate takeoff command, simulate altitude ascent in virtual environment.  
+- handle asynchronous vehicle connections, enable non-blocking drone connection establishment, system. initiate connection thread, maintain operation during handshake process.  
+- enforce pre-flight safety checks, verify armable status before executing critical commands, system. check vehicle readiness, prevent command execution until safety conditions met.  
+- manage ground speed adjustments, modify drone's horizontal movement speed during missions, user. set target speed, update flight parameters for consistent pace.

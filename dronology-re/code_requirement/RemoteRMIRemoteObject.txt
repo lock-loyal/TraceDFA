@@ -1,0 +1,6 @@
+- service registration, allow registration of remote services with the system, ui middleware. remote services register with the system to become available.  
+- service discovery, enable retrieval of available services by clients, remote client. clients retrieve list of registered services.  
+- service listener management, manage listeners for tracking service availability changes, remote client. add or remove listeners to track service availability changes.  
+- remote service contribution, enable contribution of custom remote services to the system, service provider. contribute custom remote services to the system.  
+- service unregistration, remove registered services from the system, ui middleware. unregister services to make them unavailable.  
+- service information retrieval, provide detailed information about registered services, remote client. retrieve detailed information about each registered service.

@@ -1,0 +1,1 @@
+delete menu, allow restaurant point operator to remove a selected daily menu from the system, restaurant point operator. access delete menu function, display weekly days form, select day and submit, request confirmation, confirm deletion, remove selected menu, display success notification. handle cancellation or connection loss.

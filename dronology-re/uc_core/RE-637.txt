@@ -1,0 +1,1 @@
+route assignment, enable assigning an existing route to an active uav, ui middleware. ui middleware enables existing route assignment to active uav.

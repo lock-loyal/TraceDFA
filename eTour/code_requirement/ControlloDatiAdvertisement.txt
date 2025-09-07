@@ -1,0 +1,2 @@
+- validate banner data, ensure banner information meets required criteria before storage, operator. submit banner details, system checks id validity, file path presence, and associated rest point id, store data if valid or reject with error. id, file path, and rest point id must be valid.
+- validate news data, confirm news entry has consistent dates and non-empty content, operator. input news details, system verifies publication date precedes expiration date and text is provided, save entry or display error message. publication date must be before expiration date.

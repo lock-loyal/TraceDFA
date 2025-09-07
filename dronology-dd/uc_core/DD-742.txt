@@ -1,0 +1,1 @@
+monitoring message frequency, set default frequency for uav monitoring messages, system. default message frequency for uav monitoring messages is set to {{uav_message_mon_frequency}}.

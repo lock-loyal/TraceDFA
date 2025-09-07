@@ -1,0 +1,1 @@
+display uav flight plan details, display details about the selected uav and its flight plans when requested by the user, route assignment ui. user requests, route assignment ui displays details.

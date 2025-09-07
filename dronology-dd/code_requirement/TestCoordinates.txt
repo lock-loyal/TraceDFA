@@ -1,0 +1,2 @@
+- validate coordinate equality, ensure coordinates with identical latitude, longitude, and altitude values are considered equal, system. create coordinates with same values, check equality.  
+- handle coordinate equality in hash collections, ensure hash-based collections correctly identify and manage coordinate equality, system. add coordinates to hash collection, verify size after removals.

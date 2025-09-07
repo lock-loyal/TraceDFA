@@ -1,0 +1,1 @@
+check flight plan for takeoff altitude, ensures takeoff altitude is specified in flight plan when takeoff command is issued, system. when takeoff command is issued, flightschedulingandexecution checks flight plan for pre-specified altitude.

@@ -1,0 +1,3 @@
+- manage ground station connections, handle registration and unregistration of ground station connectors, drone connector manager. manage registration and unregistration of ground station connectors.  
+- process connection requests, accept and process incoming connection requests from ground stations, drone connector manager. drone connector manager processes incoming connection requests.  
+- enforce connection constraints, ensure valid and authorized ground station connections through registration validation, drone connector manager. registration requires valid connection request message.

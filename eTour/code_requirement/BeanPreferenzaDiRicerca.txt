@@ -1,0 +1,1 @@
+- manage search preferences, create or update search preference details, system. instantiate preference object with id and name, validate data format, store or update in system. valid id and name format required.

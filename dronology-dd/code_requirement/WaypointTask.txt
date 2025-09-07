@@ -1,0 +1,1 @@
+- define waypoints as mission tasks, allows creating tasks for uavs to reach specific coordinates during a mission, system. create waypoint task with specified coordinate for uav.

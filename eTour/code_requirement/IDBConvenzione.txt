@@ -1,0 +1,6 @@
+- add convention, create new agreement between system and rest point, operator. access convention management, display form, fill details and submit, validate data, confirm operation, store convention, notify success. valid data format, unique convention id.  
+- modify convention, update existing agreement details, operator. select convention, load current data, edit fields, submit changes, validate input, confirm modification, update database, display success message.  
+- delete convention, remove existing agreement from system, operator. select convention, confirm deletion, process removal, update records, notify completion. convention must exist.  
+- view convention history, retrieve past agreements for specific rest point, operator. select rest point, request historical data, process query, display list of conventions.  
+- check active convention, display current valid agreement for rest point, operator. select rest point, retrieve active convention, validate existence, return details.  
+- list active conventions, provide all rest points with current agreements, operator. access active convention list, query database, process results, display rest points with active conventions.

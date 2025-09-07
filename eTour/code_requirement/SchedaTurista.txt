@@ -1,0 +1,3 @@
+- modify tourist data, allow operator to update tourist profile information, operator. access tourist record, enable edit mode, modify form fields, save changes, confirm operation, validate data, update profile, display success message. valid data format required.  
+- reset tourist data, allow operator to discard unsaved modifications, operator. activate edit mode, click reset button, reload original data into form fields, disable editing. unsaved changes exist.  
+- close tourist profile, manage window closure with confirmation, operator. attempt to close profile tab, check unsaved changes, display warning dialog, confirm or cancel closure. unsaved modifications present.

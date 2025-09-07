@@ -1,0 +1,1 @@
+view class details, allows viewing the details of a class, administrator. system displays screen with details of a single class: name, address, academic year.

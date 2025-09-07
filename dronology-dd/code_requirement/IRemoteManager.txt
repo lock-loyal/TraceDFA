@@ -1,0 +1,5 @@
+- remote service management, manage communication between server ui and services, system. handle remote operations for service interactions between server ui and services.  
+- retrieve service instances, allow clients to retrieve specific service instances for remote operations, client. request service instance by class, receive remote service reference.  
+- monitor service status changes, enable clients to track service status changes via listeners, client. register listener, receive notifications on service status changes.  
+- contribute custom services, enable registration of custom services into the remote manager, system. provide interface to register custom services for remote access.  
+- service lifecycle control, manage initialization and shutdown of remote services, system. initialize services on startup, shut down services on termination.

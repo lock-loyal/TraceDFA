@@ -1,0 +1,3 @@
+- mission logging, capture mission-specific information and error messages during operations, mission logger. log mission-related information and errors as they occur during mission execution.
+- hardware logging, log hardware-specific trace messages and status updates, hardware logger. record hardware-related trace information and status changes.
+- system event logging, provide different severity levels for system events including debug info warnings and errors, system logger. system events are logged with appropriate severity levels for monitoring and troubleshooting.

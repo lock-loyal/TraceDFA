@@ -1,0 +1,1 @@
+ui middleware supports route assignment to uav, allows ui middleware to assign route waypoints to an active uav for flight plan creation, ui middleware. assign list of waypoints from route to active uav, create flight plan.

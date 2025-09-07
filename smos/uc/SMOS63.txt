@@ -1,0 +1,14 @@
+Name: Perform Student Monitoring  
+Actors: Management  
+Description: Allows displaying students with a number of disciplinary notes and absences exceeding a user-specified threshold.  
+Preconditions:  
+• The user is logged into the system as management.  
+• The user clicks on the "Student Monitoring" button.  
+Event Sequence  
+User  
+System  
+1. Searches for students with absences and disciplinary notes exceeding the specified threshold.  
+2. Displays the retrieved information.  
+Postconditions:  
+• Information related to the collected data has been displayed.  
+• Connection to the SMOS server is terminated.

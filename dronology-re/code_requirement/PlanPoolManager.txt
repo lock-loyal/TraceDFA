@@ -1,0 +1,5 @@
+- manage pending plans, maintain a queue of pending flight plans for each uav and track their status, flight plan scheduler. each uav has a queue of pending flight plans with tracked status.  
+- activate flight plan, transition a pending flight plan to active status upon execution, flight plan executor. pending flight plan is activated and moved to current status.  
+- monitor plan completion, check if current flight plan is completed and update status accordingly, flight plan monitor. flight plan marked as completed when execution finishes.  
+- cancel pending plans, remove all pending flight plans assigned to a specific uav, flight plan manager. pending plans for selected uav are removed from queue.  
+- status change notification, notify registered listeners when flight plan status changes, monitoring service. listeners receive updates on flight plan status changes.

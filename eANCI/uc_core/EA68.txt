@@ -1,0 +1,1 @@
+cancel news, allow citizen to cancel informagiovani news subscriptions, citizen. citizen decides to cancel news, submits cancellation form, system receives form, notifies cancellation, redisplays form, extends subscribe informagiovani news use case when citizen cancels, system redisplays form as exit condition.

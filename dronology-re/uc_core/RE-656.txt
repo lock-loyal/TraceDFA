@@ -1,0 +1,1 @@
+modify assigned routes, allow user to reorder or remove flight plans before flight execution, user. user reorders routes or removes flight plans assigned to uav if flight has not started.

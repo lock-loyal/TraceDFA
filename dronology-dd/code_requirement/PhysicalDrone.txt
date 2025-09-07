@@ -1,0 +1,9 @@
+- send movement commands to uav, allows system to send movement commands including fly to waypoint, set speed, and set velocity, system. send fly to waypoint command with coordinates and speed, set speed or velocity as specified.  
+- initiate landing procedure, allows user to command uav to land, user. send land command to uav, execute landing procedure.  
+- execute takeoff command, allows user to command uav to take off to specified altitude, user. send takeoff command with altitude parameter, execute takeoff.  
+- resend last command, enables resending last command in case of failure, system. detect command failure, resend last command to uav.  
+- update uav coordinates, system updates uav's current coordinates during flight, system. continuously update coordinates based on uav's position.  
+- adjust uav ground speed, allows user to adjust uav's ground speed during flight, user. send set ground speed command with desired speed value.  
+- set uav flight velocity, enables setting 3d velocity for uav movement, user. send velocity command with x, y, z parameters.  
+- monitor battery level, system tracks and updates uav's battery status during operations, system. continuously monitor battery level, update status information.  
+- verify waypoint proximity, system checks distance to target waypoint to determine arrival, system. calculate distance to target, mark reached when within threshold.

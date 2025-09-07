@@ -1,0 +1,1 @@
+establish maximum number of activated uavs, reject further activation requests when maximum allowed uavs are reached, uav activation manager. maximum number of activated uavs reached, manager rejects activation requests.

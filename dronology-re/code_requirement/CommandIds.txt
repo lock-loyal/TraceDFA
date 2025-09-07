@@ -1,0 +1,6 @@
+- takeoff command initiation, allow users to send takeoff commands to uavs specifying target altitude, uav operator. user sends takeoff command with target altitude to uav, uav must be in state allowing takeoff.
+- flight mode adjustment, enable changing uav flight mode through set mode commands, uav operator. user issues set mode command to switch uav flight mode.
+- velocity control, provide capability to set uav velocity via velocity commands, uav operator. user sends set velocity command to adjust uav speed.
+- ground speed adjustment, allow users to modify uav ground speed using set groundspeed command, uav operator. user issues set groundspeed command to change uav speed.
+- movement cessation, enable stopping uav movement via stop command, uav operator. user sends stop command to halt uav movement.
+- location targeting, command uav to move to specific location using goto command, uav operator. user sends goto location command with coordinates.

@@ -1,0 +1,5 @@
+- create advertisement, add new banner linked to specific rest point, operator. activate banner creation, input advertisement details, validate data, store in database, confirm successful insertion. valid banner attributes and existing rest point association.  
+- modify advertisement, update existing banner content for rest point, operator. select banner to edit, input updated information, validate changes, update database entry, display modification confirmation. banner id must exist in system.  
+- delete advertisement, remove banner from database, operator. select banner to delete, confirm removal action, execute deletion, verify successful removal. banner id must be valid and active.  
+- retrieve advertisement list, obtain all banners or filtered by rest point, operator. initiate search with optional rest point id, fetch matching banners, display results. handle invalid rest point id by returning empty list.  
+- view advertisement details, display specific banner information by id, operator. input banner id, retrieve data from database, present details or handle non-existent id. valid banner identifier required.

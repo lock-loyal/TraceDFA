@@ -1,0 +1,1 @@
+- manage news, create or update news entry with details, operator. access news management feature, input news content, set publication and expiry dates, assign priority, save entry, validate data, confirm operation. publication date precedes expiry date, priority within defined range.

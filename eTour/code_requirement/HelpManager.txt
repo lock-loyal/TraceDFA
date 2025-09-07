@@ -1,0 +1,1 @@
+- context-sensitive help display, show relevant help messages when hovering over interface elements, system. trigger help on mouse enter, retrieve help text from file, display in designated component, revert on mouse exit. help file must be correctly formatted and accessible.

@@ -1,0 +1,1 @@
+cancel mission, allows user to cancel a currently executing mission by removing pending flight plans and synchronization points, user. request mission cancellation, remove pending flight plans and synchronization points.

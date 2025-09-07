@@ -1,0 +1,1 @@
+- define route task, associate a specific route task with a uav by providing unique identifier and name, mission planner. mission planner creates route task by associating uav identifier and task name.

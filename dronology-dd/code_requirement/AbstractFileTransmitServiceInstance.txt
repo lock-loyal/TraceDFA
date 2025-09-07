@@ -1,0 +1,4 @@
+- file-based item management, manage items stored as files including addition, update, and deletion, system. track file changes, notify listeners, maintain item list. 
+- transmit files between client and server, allow clients to upload and download files via service, user. upload file through client, store in server; download file by requesting byte array from server. 
+- real-time notifications for file changes, notify registered components when file changes occur, system. detect file changes, reload items, send notifications to listeners. 
+- delete item with existence validation, prevent deletion of non-existent items by checking file presence, system. validate item existence before deletion, throw error if missing.

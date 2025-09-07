@@ -1,0 +1,5 @@
+- upload file item, transfer file items from client to server for storage, file manager. client transfers file items to server for storage.  
+- download file item, retrieve stored file items from server to client, file manager. client retrieves stored file items from server.  
+- delete file item, remove file items from server storage, file manager. client removes file items from server storage.  
+- notify item change, inform listeners about item modifications including additions updates and deletions, file change monitor. listeners receive notifications on item changes.  
+- synchronize file items, maintain synchronization between server file items and client-side representations, file manager. server file items synchronized with client-side representations.

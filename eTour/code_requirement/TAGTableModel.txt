@@ -1,0 +1,1 @@
+- view tag details, display tag information in tabular format, operator. access tag management section, load tag data into table, present name and description columns, render rows with tag attributes. table cells non-editable.

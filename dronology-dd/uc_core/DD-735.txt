@@ -1,0 +1,1 @@
+uav takeoff command, specifies the target altitude for the takeoff command, system. takeoff command specifies target altitude.

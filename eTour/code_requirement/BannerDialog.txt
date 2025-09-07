@@ -1,0 +1,1 @@
+- upload advertisement, enable operator to upload new advertisement banner, operator. access banner upload feature, select image file, validate image dimensions, resize if necessary, preview banner, confirm selection, save banner. image dimensions must not exceed 140x40 pixels.

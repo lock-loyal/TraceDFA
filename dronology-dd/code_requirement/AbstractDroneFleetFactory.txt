@@ -1,0 +1,1 @@
+- drone fleet initialization, create and initialize drones with specified id, type, and initial coordinates, system. require drone id, type, and initial latitude/longitude/altitude for initialization.

@@ -1,0 +1,1 @@
+view register, details related to a class register, management. system displays information contained in register organized by date, shows list of students indicating absent or present, late arrivals, and form to manage justifications and disciplinary notes.

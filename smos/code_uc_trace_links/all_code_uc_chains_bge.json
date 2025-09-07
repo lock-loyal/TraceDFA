@@ -1,0 +1,19 @@
+{
+    "ServletLoadTeachingList": {
+        "SMOS62": 1.0009765625,
+        "SMOS58": 1.0009765625,
+        "SMOS46": 1.0,
+        "SMOS66": 1.0,
+        "SMOS45": 1.0,
+        "SMOS59": 0.99072265625
+    },
+    "RegisterLine": {},
+    "ServletInsertNewNote": {},
+    "ManagerClassroom": {},
+    "ServletShowClassroomManagement": {},
+    "ServletInsertClassroom": {},
+    "ServletLoadClassByAccademicYear": {},
+    "ServletShowClassroomList": {
+        "SMOS13": 0.92041015625
+    }
+}

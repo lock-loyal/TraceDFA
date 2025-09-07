@@ -1,0 +1,1 @@
+client registration, allows client to register using a unique id, client. register to uimiddleware using unique id.

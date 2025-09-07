@@ -1,0 +1,1 @@
+rescinding hover in place command, notify uav to continue to originally designated waypoint when hover command is rescinded during active flight plan, flight manager. flight plan active and hover command rescinded, flight manager notifies continue to waypoint.

@@ -1,0 +1,1 @@
+establish maximum number of activated uavs, allows setting the maximum number of simultaneously activated uavs, system. define max_uav parameter to establish maximum activated uavs.

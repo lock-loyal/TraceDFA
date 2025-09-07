@@ -1,0 +1,7 @@
+- plan uav flight, assign flight plans to uavs including ordered waypoints for navigation, flight operator. flight operator assigns flight plan with ordered waypoints to uav.  
+- return to home, command uav to return to its home location, real time flight operator. operator sends return to home command to selected uav.  
+- pause flight, temporarily halt uav movement during active flight, real time flight operator. operator sends pause command to active uav.  
+- cancel pending flights, remove all pending flight plans from uav queue, flight planner. flight planner cancels pending flight plans for selected uav.  
+- execute takeoff, initiate uav takeoff procedure with specified altitude, launch coordinator. coordinator triggers takeoff with target altitude parameter.  
+- monitor active flights, track currently executing flight plans and their statuses, monitoring operator. operator views list of active flights with real-time status.  
+- ui command routing, forward flight management commands from user interfaces to core services, ui middleware. middleware accepts ui commands and routes to flight management system.

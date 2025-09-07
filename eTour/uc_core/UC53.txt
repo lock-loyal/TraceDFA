@@ -1,0 +1,1 @@
+insert feedback, allow tourist to submit feedback for a specific site, tourist. activate feedback feature, verify no existing feedback, display input form, fill form with vote and comment, validate data, confirm submission, store feedback, update visited sites list. successful feedback notification, operation cancellation, server connection interruption.

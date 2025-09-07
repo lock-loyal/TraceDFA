@@ -1,0 +1,1 @@
+view class list, allows viewing the list of classes, administrator. system allows selection of academic year, administrator selects academic year, system searches for classes in archive and displays class management screen, displays list of classes for selected academic year.

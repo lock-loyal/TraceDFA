@@ -1,0 +1,1 @@
+cancel pending flight plan button, allows cancellation of a pending flight plan via a dedicated button, system. each uav has a cancel pending flight plan button associated with it.

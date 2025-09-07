@@ -1,0 +1,5 @@
+- physical drone initialization, create physical drone instances with unique identifiers and geographic coordinates, drone fleet manager. drone fleet manager creates physical drone instances with unique identifiers and coordinates.  
+- ground station association, associate each physical drone with a designated ground station during initialization, drone fleet manager. physical drones associated with designated ground station during initialization.  
+- coordinate assignment, set initial geographic coordinates including latitude and longitude for drone activation, drone fleet manager. initial coordinates set during drone activation.  
+- altitude workaround, temporarily set altitude to fixed value during testing phase, drone fleet manager. altitude temporarily fixed at 10 meters during testing.  
+- fleet registration, automatically register initialized drones with central fleet management system, drone fleet manager. initialized drones automatically registered to central fleet.

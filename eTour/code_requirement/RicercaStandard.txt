@@ -1,0 +1,2 @@
+- search cultural asset, retrieve list of cultural assets using standard parameters, turista. initiate search, input keywords and filters, submit request, process criteria, return paginated results. valid search parameters, active cultural assets available.  
+- search rest point, retrieve list of rest points using standard parameters, turista. activate search feature, input location and radius, submit query, validate inputs, display paginated results. valid radius and location coordinates.

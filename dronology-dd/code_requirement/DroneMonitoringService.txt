@@ -1,0 +1,4 @@
+- subscribe to monitoring messages, allows subscribing to receive monitoring messages for specific or all uavs, user. select uav or all, subscribe to receive monitoring messages.  
+- unsubscribe from monitoring messages, allows unsubscribing from previously subscribed monitoring messages, user. select existing subscription, unsubscribe to stop receiving messages.  
+- filter monitoring messages by uav, provides capability to filter monitoring messages by specific uav identifier, user. specify uav identifier, receive messages only for selected uav.  
+- manage monitoring subscriptions, handle registration and management of monitoring message subscriptions, system. maintain list of subscribed handlers, manage message distribution.

@@ -1,0 +1,1 @@
+view cultural asset record, display detailed information of selected cultural asset, agency operator. select cultural asset from search results, load and display asset details. valid data format.

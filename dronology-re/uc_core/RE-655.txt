@@ -1,0 +1,1 @@
+display uav details, display active flight plans when uav is selected, route assignment ui. when a uav is selected, display its active flight plans.

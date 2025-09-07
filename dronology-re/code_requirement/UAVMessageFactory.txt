@@ -1,0 +1,7 @@
+- uav state update, process uav state messages containing current status information, ground station connector. process uav state messages with current status info.  
+- handshake initiation, establish connection with uav via handshake messages during initial communication, ground station connector. establish connection via handshake messages during initial communication.  
+- monitor uav status, process monitoring messages to track uav operational parameters, ground station connector. process monitoring messages to track operational parameters.  
+- manage connection requests, handle incoming connection requests from uavs for establishing communication channels, ground station connector. handle connection requests from uavs.  
+- mode transition handling, process mode change messages to update uav operational states, ground station connector. process mode change messages to update operational states.  
+- message validation, reject messages with missing or invalid type identifiers, ground station connector. reject messages with missing or invalid type identifiers.  
+- json serialization, convert uav message objects into json format for transmission, ground station connector. convert message objects into json format.

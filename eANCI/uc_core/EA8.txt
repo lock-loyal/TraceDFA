@@ -1,0 +1,1 @@
+logout administrator, allow administrator to end their session, administrator. administrator clicks logout button, system logs out and returns to main screen, administrator must be authenticated in the system.

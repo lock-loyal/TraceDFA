@@ -1,0 +1,1 @@
+insert tag, allow agency operator to add a new search tag, agency operator. access tag insertion functionality, display input form, fill and submit form data, validate data and check duplicates, show existing tag error if duplicate, show invalid data error, store valid tag, display success notification.

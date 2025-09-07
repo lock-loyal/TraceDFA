@@ -1,0 +1,1 @@
+delete routes, allows deletion of unexecuted flight plan routes assigned to a uav, user. select route, click deselect button to delete unexecuted flight plan.

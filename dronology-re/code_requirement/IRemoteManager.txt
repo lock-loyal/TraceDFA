@@ -1,0 +1,5 @@
+- service registration, enable services to register themselves with the remote manager for client accessibility, service manager. services register via contributeservice to become accessible remotely.  
+- service discovery, allow clients to retrieve list of available services or specific service instances, service consumer. clients retrieve services via getservice or getservices.  
+- service status monitoring, enable clients to subscribe to service status change notifications, service consumer. clients add listeners via addservicelistener to monitor service availability.  
+- remote command forwarding, act as middleware for forwarding client commands to appropriate backend services, ui middleware. remote manager forwards client requests to corresponding service instances.  
+- service lifecycle management, manage initialization and termination of registered remote services, service manager. remote manager handles service startup and shutdown via initialize and teardown.

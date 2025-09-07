@@ -1,0 +1,1 @@
+- configure uav startup strategies, enables configuration of different startup strategies for uavs, system. define startup strategies to determine uav initialization behavior.

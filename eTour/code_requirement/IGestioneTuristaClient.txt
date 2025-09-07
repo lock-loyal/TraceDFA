@@ -1,0 +1,12 @@
+- registration, create new tourist account, tourist. submit personal details, validate input, store data, confirm successful registration. valid data format required.  
+- manage general preferences, update tourist preferences for system interactions, tourist. access preferences section, modify settings, save changes, confirm update. system reflects updated preferences immediately.  
+- manage search preferences, customize search parameters for future queries, tourist. set search criteria, save preferences, apply during searches. criteria must be non-conflicting.  
+- track cultural asset visits, record tourist visits to cultural assets, tourist. select visited asset, log visit details, store entry, display confirmation. visit date validation.  
+- track rest point visits, document tourist visits to rest points, tourist. choose visited rest point, input visit information, save record, notify success. mandatory feedback submission.  
+- add favorite cultural asset, include cultural asset in tourist favorites list, tourist. select asset, add to favorites, confirm addition, update list. unique asset selection.  
+- remove favorite cultural asset, delete cultural asset from favorites, tourist. access favorites list, remove entry, confirm deletion, refresh list. asset must exist in list.  
+- add favorite rest point, include rest point in tourist preferred list, tourist. choose rest point, mark as favorite, store preference, display updated list. maximum five favorites allowed.  
+- remove favorite rest point, eliminate rest point from favorites, tourist. navigate to favorites, delete entry, verify removal, update interface. rest point must be previously added.  
+- retrieve cultural asset favorites, display list of preferred cultural assets, tourist. access favorites section, request list, load entries, present in grid. session must be active.  
+- retrieve rest point favorites, show tourist preferred rest points, tourist. open favorites menu, fetch data, populate view. internet connection required.  
+- retrieve visit history, view logged cultural asset and rest point visits, tourist. access history section, filter by date or category, display results. data older than one year archived.

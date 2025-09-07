@@ -1,0 +1,1 @@
+- service unavailable, handle database exceptions by displaying error messages, citizen. system detects database error during operation, system displays error message with details, citizen reads notification, exit when error message is displayed, extends other use cases to handle database failures.

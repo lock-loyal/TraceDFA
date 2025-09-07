@@ -1,0 +1,18 @@
+Name: ViewStudentAcademicData  
+Actors: Student  
+Description: Displays academic information related to the user  
+Preconditions:  
+• The user is logged into the system as a student  
+• The user clicks the "Digital Register" button  
+
+Sequence of Events  
+User | System  
+--- | ---  
+1. |   
+2. |   
+| 1. Searches the archive for data related to the class register to which the student belongs  
+| 2. Displays data related to the student, specifically: Date, Absences, Disciplinary notes, Lates, and Excuses  
+
+Postconditions:  
+• The class register data related to the student has been displayed  
+• Connection to the SMOS server has been terminated

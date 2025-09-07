@@ -1,0 +1,1 @@
+- display active flights information, allows ui to show active flight details when accessed by users, ui. request active flight data from backend, display information upon retrieval.

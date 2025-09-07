@@ -1,0 +1,1 @@
+- create predefined flight patterns, allows mission planner to create predefined flight patterns for coordinated takeoff and landing operations, mission planner. select pattern type (coordinated_takeoff, coordinated_landing), generate corresponding flight pattern. only coordinated_takeoff and coordinated_landing patterns are supported.

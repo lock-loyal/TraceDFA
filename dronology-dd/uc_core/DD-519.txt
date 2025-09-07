@@ -1,0 +1,1 @@
+direction between waypoints, specify direction between two coordinates using a velocity vector from the first coordinate, system. specify direction between coordinates using velocity vector from first coordinate.

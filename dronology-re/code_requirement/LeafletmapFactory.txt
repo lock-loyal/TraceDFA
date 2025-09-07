@@ -1,0 +1,4 @@
+- map layer selection, provide users with options to select different map layers for flight visualization, drone operator. users can select from available map layers such as satellite imagery or cartographic maps.  
+- default map configuration, set initial map view to predefined coordinates and zoom level for consistent user experience, flight route planner. map initializes to specified center coordinates and zoom level.  
+- overlay layer support, enable display of additional map layers as overlays on top of base maps, mission monitor. users can activate overlay layers that appear above base map layers.  
+- base layer management, maintain multiple base map options that users can switch between, flight visualization ui. system provides multiple base map options for geographical reference.

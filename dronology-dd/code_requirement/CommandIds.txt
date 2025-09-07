@@ -1,0 +1,9 @@
+- set uav operational mode, allows changing the uav's current operational mode through command, system. send set_mode command with specified mode parameters to uav.  
+- navigate uav to specified coordinates, directs uav to fly to designated geographic location, user. issue goto_location command with target coordinates.  
+- initiate uav takeoff, triggers automated takeoff sequence for uav, user. send takeoff command to launch uav.  
+- emergency stop uav, immediately halts all uav movement and hovers in place, user. activate stop command during flight operations.  
+- adjust uav ground speed, modifies uav's horizontal movement speed during flight, system. send set_groundspeed command with new speed value.  
+- control uav velocity vectors, sets uav's three-dimensional movement velocity, system. issue set_velocity command with velocity components.  
+- configure status monitoring frequency, sets interval for receiving uav status updates, system. send set_monitor_frequency command with specified interval.  
+- adjust state reporting rate, modifies frequency of uav state transmissions to ground station, system. issue set_state_frequency command with new reporting rate.  
+- establish connection handshake, confirms successful communication link between ground station and uav, system. exchange connection_response packets during initialization.

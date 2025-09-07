@@ -1,0 +1,1 @@
+consult online help, allow citizen to access online help information, citizen. citizen enters online help section, system displays functionality list, citizen clicks relevant link, system presents help information explaining procedures and actions, citizen must be authenticated in the system, exit when citizen accesses specific functionality information.

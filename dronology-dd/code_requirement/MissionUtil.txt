@@ -1,0 +1,5 @@
+- activate predefined flight routes, allows system to execute predefined flight routes by name during mission execution, system. fetch route by name, plan flight using route's waypoints, throw error if route not found. route must exist in available routes.
+- execute single waypoint tasks, enables uav to fly to a specified single waypoint as part of mission tasks, system. create flight plan containing single waypoint, assign to uav.
+- retrieve final waypoint of mission route, obtain coordinates of last waypoint in specified route for mission planning, system. identify route's last waypoint, return coordinates. route must exist.
+- obtain home coordinates of uav, fetch stored home location coordinates for specified uav, system. check active uavs, return home location, throw error if uav not found. uav must be active.
+- emergency stop uav, immediately halt uav operations via emergency stop command, system. send emergency stop signal to specified uav.

@@ -1,0 +1,1 @@
+log flight plan events, log all flight plan related events, activity logger. activitylogger logs all flight plan related events.

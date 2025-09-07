@@ -1,0 +1,1 @@
+transmit new route assignments to ui middleware, send route assignments to update in dronology, system. assign routes to uav, send request to ui middleware to update assignment in dronology.

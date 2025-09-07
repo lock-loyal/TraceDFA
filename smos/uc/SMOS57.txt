@@ -1,0 +1,16 @@
+Name: ViewRegister  
+Actors: Teacher  
+Description: Viewing the class register  
+Preconditions:  
+• The user is logged into the system as a teacher  
+• The user has performed the use case "ViewClassList," and the system is displaying the list of all classes they teach  
+• The user clicks the "Register" button associated with one of the classes  
+
+Sequence of Events  
+User | System  
+--- | ---  
+1. Displays | Information related to the class register, specifically: Date, Absences, Disciplinary notes, Delays, and Justifications.  
+
+Postconditions:  
+• The information related to the class register has been displayed  
+• Connection to the SMOS server terminated.

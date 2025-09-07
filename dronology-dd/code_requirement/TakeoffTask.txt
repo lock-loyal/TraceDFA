@@ -1,0 +1,1 @@
+- define takeoff task for mission planning, allows system to define a takeoff task with specific coordinates for a uav as part of a mission plan, system. create takeoff task with uav id and coordinate, include in mission plan.

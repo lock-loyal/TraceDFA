@@ -1,0 +1,3 @@
+- geofence compliance monitoring, monitor uav location for compliance with predefined geofence boundaries during flight, system. check uav location against geofence during flight, trigger emergency stop upon breach.  
+- home location validation, validate home location coordinates during uav activation, system. check latitude, longitude, and altitude of home location during activation.  
+- emergency stop on geofence breach, automatically stop uav when geofence boundary violation is detected, system. detect geofence breach via monitoring messages, execute emergency stop command.

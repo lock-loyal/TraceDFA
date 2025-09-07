@@ -1,0 +1,5 @@
+- real time state monitoring, process and forward real time uav state messages to monitoring components, monitoring system. monitoring system processes real time uav state messages and forwards to components.  
+- handle monitoring messages, receive and process monitoring messages containing uav sensor data, monitoring system. monitoring messages containing sensor data are received and processed.  
+- maintain connection, periodically send keep alive signals to maintain active connection with remote systems, connection manager. connection manager sends keep alive signals every 30 seconds.  
+- message type handling, differentiate between uav state messages and monitoring messages for appropriate processing, message dispatcher. message dispatcher differentiates message types for processing.  
+- forward state changes, notify connected components about changes in uav operational state, state change handler. state change handler notifies components upon receiving uav state messages.

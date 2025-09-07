@@ -1,0 +1,1 @@
+uav distance, enables calculation of distances between uavs for collision avoidance, objectavoidance system. compute pairwise distances between uavs.

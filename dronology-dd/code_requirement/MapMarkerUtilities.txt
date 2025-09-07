@@ -1,0 +1,5 @@
+- display color-coded waypoints on map, differentiates first, intermediate, and last waypoints with green, blue, and red icons, user. add waypoints to flight route, display with color-coded markers.  
+- visualize flight routes with interactive polylines, draws lines between waypoints with varying colors based on selection status, user. create or edit flight route, display connecting lines between waypoints.  
+- enable edit mode for route modifications, allows users to add, drag, or remove waypoints when edit mode is active, user. activate edit mode, modify waypoints via map interactions.  
+- provide visual feedback for completed route segments, changes polyline color to green when associated waypoints are reached, system. mark waypoints as reached, update connected polyline segments to green.  
+- restrict map interactions during non-edit mode, prevents waypoint modifications when edit mode is inactive, system. disable drag/add operations when not in edit mode.

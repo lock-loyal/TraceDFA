@@ -1,0 +1,6 @@
+- display flight routes with waypoints on map, allows users to view flight routes with waypoints displayed on an interactive map, user. select flight route, display waypoints and path on map.  
+- edit waypoints with altitude and speed validation, enables users to modify waypoint parameters with enforced value constraints during route editing, user. edit waypoint, validate altitude and speed inputs, apply changes if valid.  
+- auto-center map view on selected route, automatically adjusts map viewport to display entire selected flight route, system. calculate route bounding coordinates, set map center and zoom level.  
+- confirm waypoint deletion during edit mode, requires user confirmation before removing waypoints to prevent accidental deletion, user. attempt waypoint deletion, prompt confirmation, proceed upon approval.  
+- toggle between map and satellite tile layers, allows users to switch base map layers for different visualization modes, user. select layer option, update map display with chosen tiles.  
+- synchronize waypoint table with map markers, maintains consistency between tabular waypoint data and visual map elements, system. update table rows when markers are added, removed, or reordered.

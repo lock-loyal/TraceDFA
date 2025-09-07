@@ -1,0 +1,1 @@
+log flight plans and waypoints reached, logs executed flight plans and reached waypoints to a dedicated flight log file, system. log executed flight plans and reached waypoints to flight log file.

@@ -1,0 +1,1 @@
+view regulatory plan, allow citizen to view the regulatory plan document, citizen. citizen accesses regulatory plan area via specific link, system displays document, citizen must have accessed the system, exit conditions include system showing plan or invoking service unavailable use case for technical failures.

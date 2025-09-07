@@ -1,0 +1,8 @@
+- drone connection, establish connection to physical or simulated drones based on specified parameters, drone operator. connect to drone via ip or launch simulated instance with home coordinates and speedup.  
+- command handling, process incoming drone commands such as set mode takeoff and goto location, drone operator. handle commands only when drone is connected and in responsive state.  
+- mode transition, switch drone flight modes including guided land and stabilize, drone operator. transition to loiter mode hands control to rc stabilize triggers guided mode.  
+- takeoff procedure, execute takeoff to specified altitude after arming and setting guided mode, drone operator. takeoff requires vehicle to be armable and in guided mode.  
+- velocity control, adjust drone velocity using north east down components, drone operator. set velocity via mavlink message for body-frame movement.  
+- rtk correction, send real-time kinematic adjustment data to drone for gps accuracy, drone operator. fragment rtk data into packets with sequence numbers.  
+- simulation management, launch and manage software-in-the-loop instances for testing, simulation operator. specify instance port home location and simulation speed.  
+- emergency handling, stop drone immediately upon critical command or failure, safety officer. emergency stop via specific mavlink commands.

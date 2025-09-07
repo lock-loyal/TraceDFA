@@ -1,0 +1,8 @@
+- define flight route, define flight routes by specifying ordered sequence of waypoints for flight plan creation, flight manager. flight routes defined as ordered sequence of waypoints.
+- assign flight route, assign flight route to specific uav by associating plan with uav identifier, flight operator. associate flight plan with specific uav identifier.
+- return home command, command uav to return to home location during active flight, flight operator. operator triggers return to home procedure during flight.
+- altitude takeoff, initiate uav takeoff procedure with specified target altitude parameter, flight operator. operator specifies altitude parameter for takeoff.
+- flight pause, pause active uav flight while maintaining current position, flight operator. operator triggers pause during active flight.
+- flight monitoring, retrieve detailed flight information including status and progress for specific uav, monitoring system. system provides real-time flight status updates.
+- active flight listing, display list of currently active flights with basic operational parameters, monitoring system. system maintains updated list of in-progress flights.
+- flight plan cancellation, remove pending flight plans from uav execution queue, flight operator. operator cancels queued plans before execution.

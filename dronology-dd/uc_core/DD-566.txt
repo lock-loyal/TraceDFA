@@ -1,0 +1,1 @@
+onboard obstacle avoidance, allows the objectavoidance system to retrieve the state of the uavs onboard objectavoidance status, objectavoidance system. retrieve state of uavs onboard objectavoidance status.

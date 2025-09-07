@@ -1,0 +1,1 @@
+- delete a disciplinary note, allows the administrator to remove a disciplinary note from a student's record, administrator. administrator selects the note to delete and confirms the action, system removes the note and updates the list, administrator must have valid permissions to perform deletion.

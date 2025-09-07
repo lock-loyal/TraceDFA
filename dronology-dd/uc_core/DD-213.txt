@@ -1,0 +1,1 @@
+log all gcs related events, log commands and messages exchanged with cgc, system. log commands sent to and messages received from cgc to dedicated gcs log file.

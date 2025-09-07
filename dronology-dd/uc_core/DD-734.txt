@@ -1,0 +1,1 @@
+uav set velocity command, specifies velocity vector using ned (north east down) directions, system. set_velocity command specifies velocity vector in ned directions.

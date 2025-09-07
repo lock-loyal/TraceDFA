@@ -1,0 +1,8 @@
+- display active uavs, display all active uavs with current status and location info, flight monitoring operator. display list of active uavs showing status battery life coordinates and speed.
+- uav selection, allow users to select one or multiple uavs via checkboxes, flight monitoring operator. select uavs using checkboxes for subsequent operations.
+- return to home, initiate return-to-home procedure for selected uavs, flight monitoring operator. confirm selection then send return-to-home command for chosen uavs.
+- status updates, automatically update uav status information at regular intervals, flight monitoring operator. system periodically refreshes uav status without user interaction.
+- connection handling, display reconnection notifications when service connections are lost, system. show reconnect notifications during service interruptions.
+- uav list management, dynamically add remove uav entries based on activation status, system. automatically update panel when uavs become active inactive.
+- detail visibility, expand collapse detailed uav information through toggle button, flight monitoring operator. toggle between condensed and expanded views of uav data.
+- emergency operations, provide emergency command interface for critical uav actions, flight monitoring operator. access emergency controls through dedicated component.

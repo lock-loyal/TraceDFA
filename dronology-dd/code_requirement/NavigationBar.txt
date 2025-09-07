@@ -1,0 +1,3 @@
+- navigate between active flights and flight routes sections, allows users to switch between active flights and flight routes sections via navigation bar, user. select active flights or flight routes from navigation bar, display corresponding section.  
+- display navigation menu with icons, provides visual icons in the navigation menu for active flights and flight routes, user. navigation menu includes radar icon for active flights and route icon for flight routes.  
+- highlight active section in navigation bar, visually indicate the currently selected section in the navigation bar, system. when user selects a section, highlight the corresponding menu item.

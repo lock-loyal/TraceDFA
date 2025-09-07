@@ -1,0 +1,17 @@
+Name: RejectStudentRegistration  
+Actors: Administrator  
+Description: Allows the administrator to reject a student's registration to the system  
+Preconditions:  
+• The user has already performed the use case "View Registration Requests"  
+• The user clicks the "Reject" button associated with a registration request  
+
+Sequence of Events  
+User  
+System  
+1. Deletes the registration request from the system.  
+2. Displays the list of registrations still pending activation  
+
+Postconditions:  
+• The user has rejected a registration request to the system  
+• The user cancels the operation  
+• Connection to the SMOS server is terminated

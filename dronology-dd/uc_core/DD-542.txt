@@ -1,0 +1,1 @@
+mission planning, expands predefined flight patterns into waypoints and synchronization points for uavs, system. include predefined flight pattern in mission plan, expand into set of waypoints and synchronization points for each participating uav.

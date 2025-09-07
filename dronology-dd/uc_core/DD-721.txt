@@ -1,0 +1,1 @@
+activation request denied, handles sending a denial message when activation request is denied, gcsmiddleware. send predefined activation denied message to gcs.

@@ -1,0 +1,3 @@
+- display multiple map layers, allows users to switch between different base map layers and overlays for flight visualization, user. select from available map layers including world imagery and satellite views.  
+- configure default map view, sets initial map center coordinates and zoom level upon initialization, system. load map with predefined center coordinates and zoom level.  
+- integrate external map tile services, utilize third-party tile services for rendering geographical data, system. fetch map tiles from configured external service urls.

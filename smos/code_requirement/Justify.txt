@@ -1,0 +1,1 @@
+- justify an absence, allows a student to provide documentation for an absence, student. student selects the date of absence and enters justification details, system records the justification with academic year. student id, absence date, and academic year must be specified.

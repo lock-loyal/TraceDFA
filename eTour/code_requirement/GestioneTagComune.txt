@@ -1,0 +1,1 @@
+- retrieve tags list, display all available tags for selection, operator. access tag management function, request tag list, process database query, return tag list or handle database error. database connection must be valid.

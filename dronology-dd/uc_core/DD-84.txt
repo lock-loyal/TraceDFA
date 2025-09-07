@@ -1,0 +1,1 @@
+default sequencing of uav's flight plans, services pending flight plans of a uav in fcfs order by default, system. service pending flight plans in first-come-first-served order.

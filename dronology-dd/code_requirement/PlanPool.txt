@@ -1,0 +1,7 @@
+- manage flight plans for uav, manage pending, executing, and completed flight plans for a single uav, system. maintain lists for pending, executing, completed flight plans.  
+- transition to next flight plan, set next pending plan as current when current completes, system. current plan completes, check pending list, set next plan as current.  
+- add new flight plan to pending queue, schedule new flight plan for execution, system. add new plan to pending queue, log scheduled plan.  
+- cancel pending flight plans, remove all pending flight plans from queue, system. clear pending plans list, log cancellation.  
+- abort current flight plan, cancel current plan and pending plans when overriding with new plan, system. override current and pending plans with new plan, log cancellations.  
+- enforce plan completion before transition, require current plan to complete before setting next plan, system. current plan must be completed before transitioning to next.  
+- enforce pending plan availability for transition, require at least one pending plan to transition from current, system. pending plans must exist to set next current plan.

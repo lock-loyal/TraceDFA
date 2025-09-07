@@ -1,0 +1,3 @@
+- execute predefined mission plans, allows executing predefined mission plans identified by their names, user. select predefined mission plan by name, trigger execution.  
+- cancel active mission, allows cancellation of the currently active mission, user. trigger cancellation command to halt active mission.  
+- remove uav from active mission, allows removing a specific uav from the current mission using its identifier, user. select uav by id, initiate removal from mission.

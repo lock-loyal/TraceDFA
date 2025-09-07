@@ -1,0 +1,1 @@
+check uav specific properties, allows the objectavoidance system to retrieve uav properties and check directives against them, system. retrieve uav properties, check directives against them.

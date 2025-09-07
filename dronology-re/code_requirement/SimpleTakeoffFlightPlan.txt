@@ -1,0 +1,5 @@
+- create takeoff flight plan, create flight plan for takeoff operation with specified altitude, flight plan manager. flight plan created with specified altitude, altitude not exceeding maximum allowed value.
+- enforce altitude limit, restrict takeoff altitude to predefined maximum value, flight plan manager. altitude exceeding maximum triggers override and warning.
+- track flight status, monitor flight plan status transitions from planned to flying to completed, flight monitoring system. status transitions occur as flight progresses.
+- assign drone to plan, link managed drone to flight plan during planning phase, flight plan manager. drone linked when flight plan created.
+- verify plan completion, check flight plan completion based on waypoint reached or status, flight monitoring system. plan marked completed when waypoint reached or status set.

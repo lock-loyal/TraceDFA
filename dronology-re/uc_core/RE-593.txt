@@ -1,0 +1,1 @@
+simulate virtual uav behavior, approximate the behavior of a uav, internal simulator. internal simulator approximates uav behavior.

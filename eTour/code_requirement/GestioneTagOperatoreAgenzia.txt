@@ -1,0 +1,4 @@
+- delete tag, remove existing tag from system, operator. select tag to delete, confirm action, validate tag id, execute deletion, notify success. valid tag identifier, tag must exist in database.
+- insert tag, add new tag to system, operator. access tag creation form, input name and description, validate format, submit data, store new tag. tag name cannot contain spaces, valid data format.
+- modify tag, update existing tag information, operator. select tag for edit, modify name or description, validate changes, confirm update, save modifications. tag name remains non-empty, format constraints apply.
+- retrieve tag, view detailed tag information, operator. search tag by identifier, validate input, fetch data from database, display tag details. valid tag identifier required.

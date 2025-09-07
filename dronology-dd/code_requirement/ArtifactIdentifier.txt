@@ -1,0 +1,6 @@
+- structured artifact identifiers, generate hierarchical identifiers for monitored artifacts, system. create identifiers with id parts, form composite structure.  
+- attach monitoring handlers to artifacts, associate handlers with specific artifact identifiers, system. attach handlers to artifacts via identifiers.  
+- hierarchical identifier equality checks, ensure identifiers are unique and correctly compared, system. compare identifiers by id parts and hierarchy structure.  
+- unique identifier generation, generate unique identifiers for each artifact, system. combine id parts with separator to form unique string.  
+- artifact identifier hierarchy management, manage parent-child relationships in identifier structure, system. each identifier may have child identifiers.  
+- monitor attached items per artifact, track items associated with each artifact identifier, system. maintain collection of items attached to each identifier.

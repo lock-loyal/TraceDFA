@@ -1,0 +1,22 @@
+Name: AddNewAddress  
+Actors: Administrator  
+Description: Adds a new address to the archive  
+Preconditions:  
+• The user is logged into the system as Administrator  
+• The user has already executed the use case "ViewAddressList," and the system is displaying the address list  
+• The user clicks the “New Address” button  
+
+Event Sequence  
+User  
+2. Fills out the form  
+3. Clicks the “Save” button  
+
+System  
+1. The system displays the form to fill out with: address name.  
+4. Performs checks on the validity of the entered data and adds a new address to the archive; if the entered data is invalid, triggers the "DataError" use case.  
+
+Postconditions:  
+• The user has added an address  
+• The data error is notified  
+• Connection to the SMOS server is interrupted  
+• The Administrator aborts the operation

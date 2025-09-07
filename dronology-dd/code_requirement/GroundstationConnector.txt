@@ -1,0 +1,9 @@
+- establish gcs connections, allows dronology to establish and manage connections with multiple ground control stations, system. receive connection requests from gcs, validate requests, set up communication channels.  
+- forward drone commands to gcs, enables sending drone commands from dronology to connected ground control stations, system. send commands through established communication channels to gcs.  
+- manage multiple simultaneous gcs connections, support concurrent connections with multiple ground control stations, system. maintain active connections, handle parallel communication streams.  
+- enforce unique listener registration, prevent duplicate status listeners for the same uav identifier, system. check existing registrations before adding new status listener.  
+- validate ground station connection requests, ensure only properly formatted connection requests are accepted, system. verify message type as connectionrequestmessage during handshake.  
+- handle connection termination gracefully, clean up resources when disconnecting from ground stations, system. terminate dispatchers, cancel active missions during teardown.  
+- provide real-time status updates to listeners, push uav property changes to registered monitoring components, system. maintain listener registry, dispatch updates via dedicated threads.  
+- integrate with mission planning service, coordinate mission cancellation during connection loss, system. trigger mission cancellation through missionplanningservice when disconnecting.  
+- implement bidirectional communication channels, maintain separate threads for incoming and outgoing messages, system. create readdispatcher and writedispatcher for socket communication.

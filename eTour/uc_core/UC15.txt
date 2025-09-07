@@ -1,0 +1,1 @@
+modify tourist account data, allow agency operator to update selected tourist account information, agency operator. select tourist from search results, load account data into editable form, edit fields and submit changes, validate data, confirm modification, store updated data, display success message. valid data format.

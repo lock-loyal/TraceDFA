@@ -1,0 +1,5 @@
+- register appenders for log message handling, allows system to register appenders for processing log messages, system. register appenders to process log messages.  
+- distribute info messages to appenders, routes info-level log messages to all registered appenders, system. log info message, send to all appenders.  
+- distribute warning messages to appenders, routes warning-level log messages to all registered appenders, system. log warning message, send to all appenders.  
+- distribute error messages to appenders, routes error-level log messages to all registered appenders, system. log error message, send to all appenders.  
+- remove appenders from logging system, allows removal of registered appenders when no longer needed, system. remove appender from processing chain.

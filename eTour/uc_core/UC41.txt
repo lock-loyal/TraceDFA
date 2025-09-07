@@ -1,0 +1,1 @@
+modify menu, allow restaurant point operator to update daily menu, restaurant point operator. activate menu editing, display weekly form, select day, load menu data, edit fields, validate inputs, confirm changes, save updates, notify success. valid data format.

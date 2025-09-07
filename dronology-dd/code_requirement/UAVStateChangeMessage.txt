@@ -1,0 +1,1 @@
+- track uav state changes, monitor and log state transitions of uavs, system. detect state change, record old state, new state, and timestamp.

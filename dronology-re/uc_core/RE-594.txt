@@ -1,0 +1,1 @@
+simulate takeoff, move the uav to takeoff altitude based on current coordinates, internal simulator. given a takeoff command, move uav to takeoff altitude corresponding to current longitude and latitude.

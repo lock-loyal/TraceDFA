@@ -1,0 +1,6 @@
+- service lifecycle management, manage starting and stopping of individual services, system. start service if not running, stop service if running, restart service with delay.  
+- universal service listeners, allow adding listeners to all services for status change notifications, system. add listener to all services, receive notifications on status changes.  
+- workspace configuration, set custom workspace directory for service operations, administrator. specify custom workspace path, apply to all services.  
+- service information retrieval, retrieve detailed information about all registered services, administrator. request service info list, receive list with service details.  
+- core service identification, distinguish core services from file-based services, system. filter services, return only core services excluding file-based ones.  
+- service error handling, handle errors during service information retrieval, system. throw exception when service info retrieval fails, log error details.

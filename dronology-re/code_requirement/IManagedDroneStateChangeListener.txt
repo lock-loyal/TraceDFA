@@ -1,0 +1,1 @@
+- drone state notification, notify listeners of state changes in managed drones, drone state monitor. managed drone state changes trigger notification to registered listeners.

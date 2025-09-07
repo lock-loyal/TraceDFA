@@ -1,0 +1,1 @@
+- send drone to specified waypoint, allows user to command a drone to navigate to a specific geographic coordinate, user. select drone, specify coordinate, send goto command.

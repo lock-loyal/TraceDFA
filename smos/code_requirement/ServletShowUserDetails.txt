@@ -1,0 +1,1 @@
+- view user details, allows the administrator to view detailed information of a specific user, administrator. administrator selects user from list, system retrieves and displays user details including role, contact information, and associated classes.

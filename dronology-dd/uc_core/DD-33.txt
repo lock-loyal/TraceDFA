@@ -1,0 +1,1 @@
+transition from flying to in_air, change uav state when there's no executing flight plan, system. uav in flying state with no executing flight plan, transition to in_air state.

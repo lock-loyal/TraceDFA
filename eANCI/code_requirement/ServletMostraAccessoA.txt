@@ -1,0 +1,1 @@
+- view access information, allow citizen to view their access information, citizen. citizen accesses system, system retrieves access details from database, system displays access information on user interface, exit when citizen views data or error occurs, citizen must be authenticated in the system.

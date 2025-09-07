@@ -1,0 +1,2 @@
+- upload mission plan via ui, allows user to upload mission plan file through the ui for execution, user. select mission file, upload via ui, system executes mission plan.  
+- execute uploaded mission plan, triggers mission execution upon successful file upload, system. file upload completes, read content, send to remote service for execution.

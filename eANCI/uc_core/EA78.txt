@@ -1,0 +1,1 @@
+modify information, allow employee to modify a news information, employee. employee requests news modification, system displays existing news list, employee selects news, system displays edit form, employee enters news data in form, system receives form and updates news data, handle errors by invoking service unavailable use case, employee must be authenticated in the system.

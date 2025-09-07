@@ -1,0 +1,1 @@
+view notes list, displays the list of notes related to the student, administrator. system displays all student's notes recorded during school year.

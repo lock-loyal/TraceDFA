@@ -1,0 +1,3 @@
+- display feedback, present list of feedback entries for cultural assets or rest points, operator. access feedback management section, load stored feedback data, populate table with ratings, comments, dates, and usernames, display in tabular format. handle invalid data entries.  
+- modify feedback comment, update existing feedback comment text, operator. select feedback entry from table, edit comment field, validate new input, confirm changes, update database record, refresh table display. non-empty comment constraint.  
+- delete feedback entry, remove selected feedback from system, operator. choose feedback row in table, initiate deletion, confirm action, remove entry from database, update table view. valid row selection required.

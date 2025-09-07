@@ -1,0 +1,5 @@
+- initialize drone, initialize drones by specifying mode (virtual/physical) and start coordinates, drone setup manager. specify mode and start coordinates for drone initialization.  
+- monitor active drones, retrieve list of currently active drones with status information, drone status monitor. list active drones with status.  
+- deactivate drone, deactivate selected drone to remove from active operations, drone operations manager. remove drone from active operations.  
+- command retry, resend previous command to uav after communication failure, drone communication handler. resend command upon communication failure.  
+- status notifications, notify listeners about drone status changes (active/inactive/error), drone monitoring system. listeners receive status change notifications.

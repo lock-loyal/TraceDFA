@@ -1,0 +1,1 @@
+modify rest point data, allow rest point operator to update selected rest point information, rest point operator. select rest point, load data into editable form, submit changes, validate data, confirm modification, store updated data, display success message. valid data format.

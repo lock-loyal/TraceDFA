@@ -1,0 +1,2 @@
+- view switching, allow users to switch between active flights and flight routes views via navigation menu, operator. user selects active flights or flight routes menu item to display respective section.
+- navigation menu icons, display radar icon for active flights and route icon for flight routes in navigation bar, operator. navigation menu items include representative icons for quick visual identification.

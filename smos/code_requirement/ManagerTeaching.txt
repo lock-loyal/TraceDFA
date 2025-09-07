@@ -1,0 +1,8 @@
+- create a teaching, allows the administrator to define a new academic course, administrator. administrator enters teaching name and clicks save button, system validates input and stores the teaching in the database, teaching name must be provided.
+- modify a teaching, enables updating existing course information, administrator. administrator selects target teaching from list, edits name field, and confirms changes, system updates teaching record with new values.
+- delete a teaching, removes an academic course from the system, administrator. administrator selects teaching for deletion and confirms action, system permanently removes teaching record after confirmation.
+- view teacher's assigned teachings, displays courses allocated to specific educators, teacher. system shows list of teachings associated with logged-in teacher's account based on stored assignments.
+- display classroom teachings, shows academic courses linked to selected classroom, administrator. user chooses classroom from directory, system retrieves and displays all teachings associated with chosen classroom.
+- verify teaching assignment, checks if course has designated instructor, administrator. system examines teaching records and returns status indicating whether teacher is assigned to selected course.
+- retrieve teaching details, provides complete course information upon request, user. user specifies teaching identifier, system returns corresponding name and registration details from database records.
+- list all teachings, displays complete catalog of academic courses, user. system shows scrollable list of all available teachings sorted alphabetically by course name.

@@ -1,0 +1,1 @@
+- display flight route information and map in split view, allows users to view flight route list alongside map and grid layout, user. display flight route list on left panel, show map and grid on right panel.

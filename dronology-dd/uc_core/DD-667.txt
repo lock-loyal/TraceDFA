@@ -1,0 +1,1 @@
+validate route altitude and speed, ensures altitude and speed values do not exceed the current maximum uav_max_altitude and uav_max_ground_speed set in the system, system. validate altitude and speed against uav_max_altitude and uav_max_ground_speed.

@@ -1,0 +1,8 @@
+- assign flight routes, provide a user interface for selecting and assigning flight routes to a specific uav, uav operator. select flight routes from available list, add to assigned routes panel, reorder via drag-and-drop, apply or cancel changes.
+- enforce non-empty routes, prevent assignment of flight routes without defined waypoints, route validation. selected flight route contains no waypoints, system displays error notification.
+- remove assigned routes, enable removal of assigned routes from the pending list, uav operator. select assigned route in panel, click remove button to delete from list.
+- toggle hover behavior, allow enabling or disabling hover command after completing assigned routes, uav operator. toggle switch to activate or deactivate hover upon route completion.
+- execute return-to-home, trigger immediate return-to-home command for selected uav, uav operator. click return-to-home button to initiate uav return sequence.
+- display route assignment count, show current number of assigned routes in panel caption, uav operator. panel caption updates dynamically when routes are added or removed.
+- validate route selection, require explicit selection before adding or removing routes, uav operator. attempt to add/remove without selection triggers notification prompting user action.
+- integrate real-time uav status, display current uav status and telemetry during route assignment, uav operator. interface shows battery level, coordinates, altitude, and health indicators.

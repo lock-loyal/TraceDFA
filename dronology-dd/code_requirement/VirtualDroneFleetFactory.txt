@@ -1,0 +1,4 @@
+- create virtual drone instances, initialize virtual drones with specified coordinates and add to fleet management, system. provide drone id, type, and coordinates, initialize virtual drone instance, register with fleet manager.  
+- track virtual drone activation status, monitor and publish activation status of virtual drones, system. publish virtual_uav_activated message upon successful initialization.  
+- set initial drone position, assign initial latitude, longitude, and altitude during virtual drone creation, system. configure base coordinates during initialization.  
+- enforce unique drone identifiers, ensure each virtual drone has distinct id during creation, system. check for duplicate drone id before initialization.

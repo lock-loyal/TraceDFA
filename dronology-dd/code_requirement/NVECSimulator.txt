@@ -1,0 +1,6 @@
+- simulate uav flight movement, calculates uav movement between waypoints using n-vector coordinate system, system. calculate movement between current and target positions using n-vector interpolation, update uav coordinates.  
+- track uav battery consumption, simulates battery voltage drain during flight operations, system. start battery drain simulation upon flight initiation, update voltage levels during flight.  
+- determine destination reachability, checks if uav has reached target waypoint based on distance moved per time step, system. calculate remaining distance to target, confirm arrival when within threshold.  
+- convert geographic coordinates to n-vector, transforms latitude/longitude/altitude coordinates to n-vector representation for flight simulation, system. convert lla coordinates to n-vector when setting flight path.  
+- maintain flight path parameters, stores current and target positions for ongoing flight simulation, system. update position parameters when new flight path is assigned.  
+- monitor battery voltage levels, provides real-time voltage status during flight operations, system. retrieve current voltage level from battery simulation component.

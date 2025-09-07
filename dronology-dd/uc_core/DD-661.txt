@@ -1,0 +1,1 @@
+cancel pending flight, allows user to cancel a pending flight by sending a request to uimiddleware, user. press cancel pending flight plan button, request sent to uimiddleware to cancel flight.

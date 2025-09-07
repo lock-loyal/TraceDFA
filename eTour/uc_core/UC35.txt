@@ -1,0 +1,1 @@
+login, allow registered user to access system with entitled privileges, registered user. activate login feature, display form, submit credentials, validate data, redirect to workspace or trigger loginerror use case. connection to etour server.

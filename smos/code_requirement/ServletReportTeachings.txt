@@ -1,0 +1,1 @@
+- view teacher class list, allows a teacher to view the list of classes they teach, administrator. system displays list of academic years with classes taught by teacher, administrator selects academic year, system displays classes associated with selected academic year.

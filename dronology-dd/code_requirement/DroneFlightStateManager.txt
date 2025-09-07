@@ -1,0 +1,7 @@
+- enforce valid flight mode transitions, restrict state transitions to predefined valid sequences, system. drone transitions between flight modes must follow allowed sequences, throw exception on invalid transitions.  
+- manage drone flight modes, track and update the current flight mode of a drone, system. handle transitions between on_ground, awaiting_takeoff_clearance, taking_off, flying, in_air, landing, user_controlled.  
+- notify state changes to monitoring system, publish flight mode changes to dronology monitoring manager, system. flight mode change triggers notification to monitoring system and registered listeners.  
+- manual takeover of drone control, allow switching to user_controlled mode from any flight mode, user. trigger manual takeover to switch drone to user_controlled mode.  
+- automatic transition after mission completion, set drone to in_air state when flight plan completes, system. flight plan completion triggers transition to in_air state.  
+- enforce landing sequence constraints, require landing_granted trigger before entering landing mode, system. drone must receive landing clearance before transitioning to landing state.  
+- maintain flight state during operations, preserve current flight mode until valid transition occurs, system. retain existing flight mode when invalid transition attempted.

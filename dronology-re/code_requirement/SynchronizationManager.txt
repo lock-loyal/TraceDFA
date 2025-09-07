@@ -1,0 +1,5 @@
+- coordinated takeoff altitude assignment, assign incremental altitudes to uavs during takeoff to prevent collisions, mission planner. when a uav initiates takeoff, assign next available altitude incrementally. max altitude constraint enforced.  
+- synchronization point creation, create named synchronization points for uavs to gather at specific mission phases, mission planner. create synchronization points with unique names for uav coordination.  
+- uav registration for synchronization, register uavs to specific synchronization points to enforce coordinated waiting, mission planner. uavs added to synchronization point must wait until all registered arrive.  
+- synchronization checkpoint clearance, allow uavs to proceed only when all registered at synchronization point have arrived, mission planner. uavs continue mission tasks after all registered uavs reach the point.  
+- altitude reset post-mission, reset altitude counter to minimum after mission completion for subsequent operations, mission planner. system resets altitude counter to prepare for next mission takeoff.

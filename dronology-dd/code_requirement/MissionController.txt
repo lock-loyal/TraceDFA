@@ -1,0 +1,4 @@
+- mission execution, allows operator to initiate a mission after ensuring no other mission is active, operator. initiate mission when no other mission is active, execute predefined tasks in sequence. only one mission can be active at a time.
+- sequential task activation, activates mission tasks automatically when previous tasks are completed, system. check for completed tasks, activate next task in sequence upon completion.
+- mission cancellation, allows operator to cancel the currently active mission, operator. request mission cancellation, stop all active tasks, reset synchronization states. mission must be active to cancel.
+- altitude synchronization reset, resets uav altitudes to default after mission completion or cancellation, system. upon mission completion or cancellation, reset all uav altitudes to default.

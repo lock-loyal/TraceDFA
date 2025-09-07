@@ -1,0 +1,1 @@
+uav set monitoring frequency command, allows gcsmiddleware to set the monitoring frequency for gcs, gcsmiddleware. handle and send set monitoring frequency command to gcs with desired frequency in ms.

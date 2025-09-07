@@ -1,0 +1,1 @@
+close connection if incorrect uav registration, closes connection when uav registration is incorrect, gcs. receive notification of incorrect uav registration, close connection with uav.

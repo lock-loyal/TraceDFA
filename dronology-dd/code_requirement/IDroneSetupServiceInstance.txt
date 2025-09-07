@@ -1,0 +1,6 @@
+- activate uavs with initialization parameters, allows activating uavs with specified mode and initial coordinates, user. provide mode (virtual/physical) and initial coordinates, activate uavs.  
+- monitor uav status changes, enables real-time monitoring of uav status changes through listeners, system. register listeners to receive notifications on uav status updates.  
+- deactivate active uavs, allows deactivating currently active uavs, user. select active uav, trigger deactivation.  
+- retrieve active uav list, provides list of all currently active uavs, system. maintain and return collection of active uavs.  
+- resend failed commands to uav, enables resending commands when previous attempts fail, system. detect command failure, automatically resend command to specified uav.  
+- access uav operational details, allows retrieval of detailed information about specific active uav, user. select uav by id, view operational status and parameters.

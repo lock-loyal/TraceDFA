@@ -1,0 +1,1 @@
+insert delays administrator, allows digitalizing the register and entering delay data by the administrator, administrator. system updates displayed screen based on date, administrator fills out form by entering students with delays and clicks save, submits data to server, system displays updated register data.

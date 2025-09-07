@@ -1,0 +1,1 @@
+assign or remove students to a parent, allows associating new students to a parent or removing previously established associations, administrator. system displays student management form for relevant parent, administrator selects students to assign to or remove from parent, clicks submit button, system assigns or removes students associated with parent.

@@ -1,0 +1,1 @@
+uav activation requires unique id, ensures uav activation is accepted only with a unique id, system. activation request received from gcsmiddleware, accepted if uav provides unique id.

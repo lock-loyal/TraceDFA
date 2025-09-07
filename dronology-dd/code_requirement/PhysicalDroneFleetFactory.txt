@@ -1,0 +1,4 @@
+- initialize physical drone, create and configure physical drone instances with specified id and coordinates, system. parse drone id into components, validate format, create physical drone with command handler, set initial coordinates. drone id must follow droneid:groundstationid format.
+- monitor physical drone activation, track activation of physical drones and publish status updates, system. upon drone initialization, publish physical_uav_activated message with coordinates.
+- assign command handler to drone, link command handler to manage drone operations, system. associate command handler with drone for executing commands.
+- manage drone fleet registration, register initialized drones with fleet management system, system. add initialized drone to drone fleet manager for tracking.

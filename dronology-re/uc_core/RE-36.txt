@@ -1,0 +1,1 @@
+single active drone instance, ensure only one instance of each registered drone is active at any time, uav activation manager. uav activation manager ensures only one instance is active.

@@ -1,0 +1,1 @@
+- process monitoring data, process real-time monitoring data asynchronously via a message queue, monitoring system. monitoring system processes real-time data through a message queue.

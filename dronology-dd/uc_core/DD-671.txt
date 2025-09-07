@@ -1,0 +1,1 @@
+persist route, allows route information to be represented in standard route xml format and transmitted to uimiddleware, system. represent route information using standard route xml format, transmit to uimiddleware.

@@ -1,0 +1,1 @@
+support for ground control station connected uavs, allows vehiclecore to support uavs capable of receiving and responding to commands sent via the ground control station, vehiclecore. support uavs capable of receiving and responding to commands sent via ground control station.

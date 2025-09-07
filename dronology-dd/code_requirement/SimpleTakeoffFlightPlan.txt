@@ -1,0 +1,7 @@
+- create takeoff flight plan, create a flight plan for takeoff with specified altitude, system. create flight plan with takeoff altitude, assign to uav, manage plan status. altitude must not exceed maximum allowed.
+- manage flight plan status transitions, enforce valid status transitions from planned to flying to completed, system. planned can transition to flying, flying to completed. invalid transitions throw exceptions.
+- enforce maximum altitude restriction, ensure takeoff altitude does not exceed predefined maximum limit, system. if altitude exceeds maximum, override to maximum and log warning.
+- log flight plan events, record flight plan start and completion times with timestamps, system. log start and completion events with formatted timestamps.
+- track flight plan waypoints, maintain list of waypoints for takeoff flight plan, system. waypoints include takeoff location with specified altitude.
+- assign drone to flight plan, link managed drone to flight plan during creation, system. flight plan is associated with specific uav during initialization.
+- check flight plan completion status, determine if flight plan is completed based on waypoint reached or status, system. completion is true if status is completed or waypoint is reached.

@@ -1,0 +1,1 @@
+delete address, delete an address from the archive, administrator. user clicks delete button, system verifies if address has associated classes and displays error message or deletes address, displays updated list of addresses.

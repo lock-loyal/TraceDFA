@@ -1,0 +1,4 @@
+- flight route visualization, display flight routes on a map with highlighted waypoints and paths, flight route manager. user clicks on a route, system highlights the selected route and displays it on the map.  
+- route selection confirmation, prompt user confirmation before deleting a flight route, flight route manager. user initiates route deletion, system prompts confirmation.  
+- unsaved changes handling, alert users to unsaved modifications before navigating away, flight route manager. user attempts to exit with unsaved changes, system displays warning.  
+- flight route controls, provide interactive controls for managing flight route display and actions, flight route manager. controls include route selection, deletion, and map interaction.

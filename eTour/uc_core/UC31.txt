@@ -1,0 +1,1 @@
+modify password, allow agency operator to update their account password, agency operator. select password change option, display password form, enter and confirm new password, save changes, confirm success. valid password format.

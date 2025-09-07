@@ -1,0 +1,1 @@
+- synchronization point activation, track activation state of synchronization points during mission execution, mission synchronization manager. synchronization points transition through not activated, active, and synched states.

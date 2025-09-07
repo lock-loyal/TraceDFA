@@ -1,0 +1,1 @@
+- authentication, verify tourist credentials during login, tourist. enter username and password, validate format, check against stored data, grant access if valid, deny access if invalid. username and password must adhere to specified format constraints.

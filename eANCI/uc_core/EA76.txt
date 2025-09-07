@@ -1,0 +1,1 @@
+territorial promotion information, allow citizen to view territorial promotion details, citizen. citizen requests promotion list display, system displays list, citizen selects promotion, system returns chosen promotion information, citizen must have logged into the system, exit when citizen views information or redirected to tourism authority website.

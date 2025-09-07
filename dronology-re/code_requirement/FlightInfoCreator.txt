@@ -1,0 +1,4 @@
+- retrieve current flight status, retrieve current flight status including active pending and completed flight plans for a specific uav, flight monitoring system. retrieve current active pending and completed flight plans for specific uav.
+- track active flights, track active flights for all uavs currently executing flight plans, flight monitoring system. track active flights for all uavs currently executing flight plans.
+- list pending plans, list pending flight plans awaiting execution for a specific uav, flight monitoring system. list pending flight plans for specific uav.
+- display completed plans, display completed flight plans for a specific uav, flight monitoring system. display completed flight plans for specific uav.

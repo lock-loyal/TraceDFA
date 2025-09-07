@@ -1,0 +1,4 @@
+- display satellite map, provide satellite map layer for flight visualization, map viewer. users select satellite map layer to view geographical details.  
+- select cartographic base map, enable selection of cartographic map layer with labeled features, map viewer. users switch to cartographic map for labeled geographical features.  
+- access local map tiles, display region-specific map tiles stored locally, local map operator. local operator accesses preloaded regional maps for detailed flight monitoring.  
+- configure online map sources, integrate third-party online map services through predefined urls, system administrator. administrator configures external map services by specifying provider urls.

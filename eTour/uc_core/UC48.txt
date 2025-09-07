@@ -1,0 +1,1 @@
+modify generic preferences, allow tourist to edit generic personal preferences, tourist. access functionality to modify preferences, load preferences into form, edit and submit changes, request confirmation, confirm operation, store updated preferences, notify success. operation cancellation, server connection interruption.

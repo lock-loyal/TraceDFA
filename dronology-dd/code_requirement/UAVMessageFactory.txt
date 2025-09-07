@@ -1,0 +1,6 @@
+- process uav state messages, parse and handle incoming state update messages from uavs, system. receive state message, parse json data, update internal uav state. message type must be valid.
+- establish uav handshake connection, handle initial connection handshake messages between uav and ground station, system. receive handshake message, validate format, establish communication channel.
+- monitor uav status updates, process periodic monitoring messages containing operational metrics, system. receive monitoring message, extract telemetry data, update monitoring dashboard.
+- manage uav mode changes, process mode transition requests from uavs or operators, system. receive mode change message, verify permissions, execute mode transition. invalid modes rejected.
+- handle connection requests, process incoming connection initiation requests from uavs, system. receive connection request, validate credentials, establish secure channel. invalid credentials blocked.
+- validate message formats, ensure all incoming messages contain recognized message types, system. check message type field, reject messages with unrecognized types. type field mandatory.

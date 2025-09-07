@@ -1,0 +1,1 @@
+default coordinate system, defines the default coordinate representation using lla format, system. use lla (longitude latitude altitude) format as default.

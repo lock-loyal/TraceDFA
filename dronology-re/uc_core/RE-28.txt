@@ -1,0 +1,1 @@
+execute flight plan, execute one flight plan at a time per uav, single uav flight plan scheduler. single uav flight plan scheduler executes one flight plan at a time for each uav.

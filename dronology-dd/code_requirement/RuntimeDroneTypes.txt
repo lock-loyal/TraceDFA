@@ -1,0 +1,4 @@
+- set runtime environment mode, configure system to operate in simulation or physical mode during initialization, system. select simulation or physical mode during initialization, cannot change after initial setup. mode can only be set once during execution.
+- register command handlers, manage drone command handlers for communication with physical or simulated drones, system. register command handler with unique id, prevent duplicate registrations. handler id must be unique.
+- retrieve command handlers, access registered command handlers by id during drone operations, system. use handler id to retrieve corresponding command handler. handler must be registered.
+- enforce single runtime configuration, maintain consistent runtime mode across all drone operations, system. runtime mode remains unchanged once set, applies to all operations.

@@ -1,0 +1,1 @@
+display uavs on map, allows displaying uav icons on the map based on current location when map is loaded and active uavs list is obtained, system. when map is loaded and all active uavs list is obtained, uirealtimeflightview displays icon on map for each registered uav based on current location.

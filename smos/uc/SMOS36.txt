@@ -1,0 +1,19 @@
+Name: EnterJustification  
+Actors: Administrator  
+Description: Entering a Justification  
+Preconditions:  
+- The user must be logged into the system as an Administrator.  
+- The user has completed the use case "ViewSingleRegisterDetails."  
+- The user has completed the use case "ViewListOfJustifications."  
+- The user clicks on one of the red-marked absences.  
+
+Sequence of Events  
+User | System  
+--- | ---  
+2. Fills out the form. | 1. Displays a form to enter the justification fields (justification date).  
+3. Clicks on "Save." | 4. Saves the justification.  
+
+Postconditions:  
+- The justification data has been entered into the system. The system returns to the register screen.  
+- The administrator cancels the operation.  
+- Connection to the SMOS server is interrupted.

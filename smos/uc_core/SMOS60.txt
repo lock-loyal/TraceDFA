@@ -1,0 +1,1 @@
+view student academic data, displays academic information related to the user, student. system searches archive for data related to class register, displays data including date, absences, disciplinary notes, delays, justifications.

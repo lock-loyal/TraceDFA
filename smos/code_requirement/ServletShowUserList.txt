@@ -1,0 +1,1 @@
+- view user list, allows the administrator to view all users registered in the system, administrator. administrator accesses user management section, system retrieves and displays list of all users with details like name and email, administrator navigates through paginated results. only users with administrator role can access this functionality.

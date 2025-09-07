@@ -1,0 +1,2 @@
+- execute mission plan, enable remote execution of mission plans by sending mission data as json string, mission planner. send mission plan as json string to dronology for execution.
+- cancel active mission, allow remote cancellation of the currently active mission, mission planner. cancel the currently active mission via remote command.

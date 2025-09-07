@@ -1,0 +1,8 @@
+- manage base position, set base location as drone's home coordinates for return operations, drone operator. base location set as drone's home coordinates for return operations.  
+- track real-time coordinates, update and monitor current drone position including latitude longitude and altitude, monitoring system. current drone position updated and monitored in real-time.  
+- flight mode transition, switch drone control to user-controlled mode from autonomous operations, flight mode manager. flight mode switched to user-controlled from autonomous.  
+- enforce flight mode rules, prevent invalid mode transitions based on current drone state, flight mode manager. invalid flight mode transitions prevented based on current state.  
+- maintain status proxy, manage proxy object reflecting drone's operational status and telemetry, status monitoring service. proxy object maintained to reflect operational status.  
+- home location update, update home location coordinates and propagate changes to status tracking, drone operator. home location coordinates updated and propagated to status tracking.  
+- velocity reporting, update velocity information in drone status proxy during flight operations, telemetry service. velocity information updated in status proxy during flight.  
+- battery level monitoring, update battery level in status proxy for power management, telemetry service. battery level updated in status proxy for power tracking.

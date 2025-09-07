@@ -1,0 +1,1 @@
+periodically update uav location, allows ui to periodically request and update uav locations on the map, ui. request current locations from uimiddleware, update uav locations on map.

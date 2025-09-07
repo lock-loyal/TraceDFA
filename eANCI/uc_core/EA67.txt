@@ -1,0 +1,1 @@
+modify interview booking, allow citizen to modify a booked interview at the clinic, citizen. citizen requests booking modification, system displays edit form, citizen edits and confirms, system updates booking, extends view clinic booking use case when citizen wants to modify chosen booking, system completes modification as exit condition.

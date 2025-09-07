@@ -1,0 +1,23 @@
+Name: AssignRemoveCourses  
+Actors: Administrator  
+Description: Assigns or removes one or more courses from a program  
+Preconditions:  
+• The user is logged into the system as an Administrator  
+• The user has executed the use case "ViewProgramDetails"  
+• The user is viewing the detailed information of a program  
+• The user clicks the "Program Courses" button  
+
+Sequence of Events  
+User  
+2. Selects the courses to assign or remove from the program  
+3. Clicks the "Submit" button  
+
+System  
+1. Displays a form allowing the addition and/or removal of courses from the program.  
+4. Associates or removes the selected courses with/to the program.  
+5. Returns to the program details view.  
+
+Postconditions:  
+• The Administrator cancels the operation  
+• Connection to the SMOS server is lost  
+• The system has modified the courses related to the program

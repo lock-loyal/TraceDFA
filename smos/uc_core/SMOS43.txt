@@ -1,0 +1,1 @@
+delete note, deletion of disciplinary notes, administrator. user clicks delete button, system sends error correction notification to student's parents, deletes note's data from archive, returns to register screen.

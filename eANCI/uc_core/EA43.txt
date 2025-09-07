@@ -1,0 +1,1 @@
+reject application, allow employee to reject an application and notify citizen, employee. employee rejects application, system marks application as rejected and sends notification to citizen, employee must be logged into system and selected pending application, notification sent to citizen or system encounters unexpected error invoking service unavailable use case.

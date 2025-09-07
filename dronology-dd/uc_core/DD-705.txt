@@ -1,0 +1,1 @@
+define groups of topics to monitor, allows defining wildcards for clients to receive messages from all associated topics, dronologyruntimemonitor. define wildcards, client receives messages from all topics associated with wildcard.

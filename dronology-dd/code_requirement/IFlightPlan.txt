@@ -1,0 +1,7 @@
+- assign drone to flight plan, link a specific drone to execute the flight plan, system. flight plan must have a designated drone for execution, managed drone required for flight execution.  
+- track flight plan status, monitor whether the flight plan is in progress or completed, system. check flight plan status as flying or completed.  
+- manage flight plan waypoints, define and retrieve the sequence of waypoints for the flight path, system. flight plan includes predefined waypoints for navigation.  
+- validate flight plan execution, ensure flight plan can only start with an assigned drone, system. flight plan requires assigned drone before status changes to flying.  
+- enforce flight zone safety, prevent flight plan status changes that violate flight zone constraints, system. flight zone exceptions block invalid status transitions.  
+- capture flight timing details, record scheduled start and end times for the flight plan, system. flight plan includes start and end timestamps.  
+- specify takeoff parameters, define the altitude at which the drone should take off, system. flight plan includes takeoff altitude setting.

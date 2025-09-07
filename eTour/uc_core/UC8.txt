@@ -1,0 +1,1 @@
+modify agency rest point data, allow agency operator to edit selected rest point information, agency operator. view rest points from search rest point use case, select rest point, load data into form, edit data, submit changes, validate data, confirm modification, store updated data. system blocks input after confirmation to prevent multiple submissions.

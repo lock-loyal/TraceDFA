@@ -1,0 +1,7 @@
+- manage tourist deletion, remove tourist profile from system, agency. access tourist management interface, select tourist, initiate deletion, confirm action, remove data, notify operator. valid tourist identifier required.  
+- activate tourist account, enable access for registered tourist, agency. select inactive tourist account, activate account, update status, confirm activation. account must be inactive.  
+- deactivate tourist account, disable tourist access temporarily, agency. choose active tourist account, deactivate, update status, confirm deactivation. account must be active.  
+- retrieve tourist list, obtain complete list of registered tourists, agency. access tourist management section, request list, display all tourist profiles. system response within 5 seconds.  
+- filter tourist list, view active or inactive tourist accounts, agency. select status filter (active/inactive), apply criteria, display filtered results. valid filter selection required.  
+- view rest point feedback, access tourist reviews on rest points, agency. select tourist profile, request feedback, retrieve and display reviews. tourist must have submitted feedback.  
+- view cultural asset feedback, check tourist reviews on cultural assets, agency. choose tourist profile, access feedback section, display cultural asset reviews. valid tourist identifier required.

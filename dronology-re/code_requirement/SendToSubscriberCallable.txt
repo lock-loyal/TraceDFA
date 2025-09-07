@@ -1,0 +1,2 @@
+- monitoring data distribution, notify registered subscribers about monitoring messages, monitoring subscribers. monitoring subscribers receive real-time updates on drone status and metrics, remote communication failure causes automatic unsubscription.
+- handle subscriber disconnection, automatically unregister monitoring handlers upon communication failure, monitoring system. remote communication failure detected, system unregisters affected handler.

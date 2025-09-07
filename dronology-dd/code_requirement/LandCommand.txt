@@ -1,0 +1,1 @@
+- land command execution, initiates landing process for specified uav, system. send land command with uav_id and mode, execute landing procedure.

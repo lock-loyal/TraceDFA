@@ -1,0 +1,4 @@
+- detect file changes, monitor specified directories for file creation modification or deletion events related to drone mission files, system service. system detects file changes in directories, notifies services upon events.
+- batch file change notifications, aggregate multiple file changes within short period into single notification, system service. multiple file changes detected within 500 milliseconds trigger single aggregated notification.
+- recursive directory monitoring, monitor specified directory and all subdirectories for relevant file changes, system service. monitor directory and subdirectories for file changes, skip hidden directories.
+- support multiple file types, monitor files with specified extensions such as flight routes or simulator scenarios, system service. monitor files with configured extensions (e.g. .route .scenario) for changes.

@@ -1,0 +1,1 @@
+waypoints connected by arcs, connects consecutive waypoints in a route on a map with arcs, system. consecutive waypoints in route on map connected by arcs.

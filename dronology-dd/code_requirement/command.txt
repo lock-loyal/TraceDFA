@@ -1,0 +1,9 @@
+- adjust monitoring frequency, allows changing the frequency at which drone status is monitored, user. set new monitoring frequency, apply to drone.  
+- adjust state update frequency, allows modifying how often the drone's state information is updated, user. set state update interval, apply to drone.  
+- command drone to navigate to specific coordinates, enables directing drone to a predefined geographic location, user. specify target coordinates, send command to drone.  
+- initiate automated takeoff, enables automated takeoff procedure for drone to reach specified altitude, user. set target altitude, trigger takeoff.  
+- control velocity, allows setting drone's velocity in three-dimensional space, user. define velocity components, apply to drone.  
+- redefine home location, allows setting a new home location for drone's return-to-home function, user. input new coordinates, update home location.  
+- adjust ground speed, enables modifying drone's horizontal movement speed, user. set desired speed, apply to drone.  
+- change operational mode, allows switching between different drone control modes, user. select mode from available options, activate new mode.  
+- toggle arming state, controls activation status of drone's propulsion system, user. send arm/disarm command to drone.

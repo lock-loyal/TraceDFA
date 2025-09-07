@@ -1,0 +1,4 @@
+- advanced search cultural asset, retrieve personalized cultural asset list using tourist preferences, turista. activate advanced search, input criteria, submit request, process with tourist profile, return customized results. valid tourist session required.  
+- advanced search rest points, obtain tailored rest points based on tourist history and tags, turista. select advanced filters, initiate search, utilize past visits and preferences, generate results. active tourist account.  
+- paginate search results, navigate through pages of search outcomes, turista. request next/previous page, validate page number, fetch and display results subset. page number within valid range.  
+- calculate result pages, determine total pages from search criteria, system. process search parameters, compute item count per page, return total pages. minimum one result required.

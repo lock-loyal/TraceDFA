@@ -1,0 +1,5 @@
+- view rest point details, display complete information of a specific rest point, tourist. select rest point from list, request details, retrieve and present data including tags and comments. valid rest point identifier required.  
+- retrieve rest point tags, obtain list of tags associated with a rest point, tourist. access tag information for selected rest point, process request, return categorized tags. system ensures tag relevance.  
+- display recent comments, show last 10 user feedback entries for rest point, tourist. select comments section, load latest entries, present in chronological order. comments limited to past 30 days.  
+- access rest point statistics, view vote distribution statistics for selected rest point, tourist. request statistics, calculate 30-day vote counts, display rating frequency breakdown. valid id verification.  
+- modify rest point feedback, update existing user review for rest point, tourist. edit comment content or rating, submit changes, validate input, confirm update success. original feedback must exist.

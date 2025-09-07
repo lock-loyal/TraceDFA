@@ -1,0 +1,1 @@
+- rename java files, allow administrator to rename java files to text files, administrator. administrator executes script, system processes current directory files, system identifies java files, system renames each to text format, exit when all files processed or none found, administrator must have directory write access.

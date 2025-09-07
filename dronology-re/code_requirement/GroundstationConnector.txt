@@ -1,0 +1,5 @@
+- establish gcs connection, handle incoming ground station connections and validate requests, ground station manager. ground station initiates connection, system validates and establishes communication channels.  
+- transmit uav commands, send commands to uavs through connected ground stations, uav operator. operator issues command, system queues and transmits via ground station.  
+- register status listeners, allow components to register for real-time uav status updates, monitoring system. component registers listener, system forwards status updates to registered components.  
+- execute safety validation, integrate safety checks before dispatching uav commands, safety officer. command is validated against safety rules before transmission.  
+- manage connection lifecycle, handle connection termination and resource cleanup, system administrator. administrator terminates connection, system stops communication threads and releases resources.

@@ -1,0 +1,1 @@
+view single register details, displays the details of one of the class registers, administrator. system displays information contained in the register organized by date, for current date shows list of students specifying absent/present, late arrivals, and a form from which justifications and disciplinary notes can be managed.

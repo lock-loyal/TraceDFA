@@ -1,0 +1,16 @@
+Name: EditAbsence  
+Actors: Administrator  
+Description: Modification of absences by the Administrator. Modification includes insertion/deletion of the absence.  
+Preconditions:  
+• The user must be logged into the system as an Administrator.  
+• The user has executed the use case "ViewSingleRegisterDetails".  
+• The user selects the date for which they wish to modify an absence.  
+Sequence of Events  
+User | System  
+--- | ---  
+2. Modifies the absence (Inserts or Deletes) and clicks "Save". | 1. Updates the screen based on the selected date.  
+3. Submits the modified data to the server. The system sends a rectification email to the student's parent.  
+Postconditions:  
+• The system has modified the selected absence and sent a notification of the modification to the parents. The system remains on the register screen.  
+• The Administrator cancels the operation.  
+• Connection to the SMOS server is interrupted.

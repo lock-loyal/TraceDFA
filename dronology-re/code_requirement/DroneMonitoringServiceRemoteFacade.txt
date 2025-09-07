@@ -1,0 +1,3 @@
+- subscribe monitoring messages, allow external systems to subscribe to monitoring messages for all drones, monitoring system. external systems subscribe to receive monitoring messages for all drones.  
+- subscribe artifact-specific messages, enable external systems to subscribe to monitoring messages for specific drone components, monitoring system. external systems subscribe to receive messages for specific drone components by identifier.  
+- adjust monitoring frequency, provide capability to modify the frequency of monitoring updates for individual drones, external system. users set desired frequency for monitoring data updates per drone.

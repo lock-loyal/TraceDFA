@@ -1,0 +1,21 @@
+Name: ModifyCourse  
+Actors: Administrator  
+Description: Modify the details of a course  
+Preconditions:  
+• The user is logged into the system as an Administrator  
+• The user has executed the use case "ViewCourseDetails"  
+• The user is viewing the detailed information of a course  
+• The user modifies one of the pieces of information in the course details view form  
+
+Sequence of Events  
+User  
+System  
+1. Clicks the "Save" button  
+2. Performs checks on the validity of the entered data and updates the course in the archive; if the entered data is invalid, triggers the "DataError" use case.  
+3. Displays the updated list of courses  
+
+Postconditions:  
+• The user has modified a course  
+• A data error is notified  
+• Connection to the SMOS server is interrupted  
+• The Administrator aborts the operation

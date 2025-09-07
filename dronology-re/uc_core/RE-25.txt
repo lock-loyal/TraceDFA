@@ -1,0 +1,1 @@
+assign unique id, assign a unique id to each activated uav, vehiclecore. vehiclecore assigns unique id to activated uav.

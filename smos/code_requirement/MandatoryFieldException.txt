@@ -1,0 +1,1 @@
+- mandatory field validation, ensures required fields are entered during data entry, user. user submits form without completing mandatory fields, system displays error message indicating missing fields, mandatory fields cannot be empty.

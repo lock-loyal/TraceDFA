@@ -1,0 +1,1 @@
+coordinate synchronous flights in mission planner, allows mission planner to synchronize and coordinate flights of multiple uavs, mission planner. synchronize and coordinate flights of multiple uavs.

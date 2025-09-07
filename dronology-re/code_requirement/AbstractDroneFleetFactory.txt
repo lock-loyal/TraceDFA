@@ -1,0 +1,3 @@
+- initialize drone, create drone instances with specified id type and initial coordinates, drone fleet manager. drone fleet manager creates drone instances with unique id type and initial location coordinates. invalid parameters result in initialization failure. 
+- assign drone identifier, generate and assign unique identifiers for each drone during initialization, drone provisioning system. provisioning system generates unique identifiers for each new drone instance.
+- coordinate-based initialization, initialize drone positions using latitude longitude and altitude coordinates, drone fleet configuration. drone positions initialized via coordinate values (latitude longitude altitude).

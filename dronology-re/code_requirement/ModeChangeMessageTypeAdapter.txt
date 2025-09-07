@@ -1,0 +1,3 @@
+- flight mode conversion, convert incoming mode change commands from ground station to standardized flight mode representations, uav communication handler. incoming mode commands converted from ground station-specific terms to system-standardized flight modes.  
+- unrecognized mode handling, log fatal errors when encountering unsupported flight mode indicators, system monitor. unsupported flight mode indicators trigger fatal error logging.  
+- mode message construction, generate uav mode change messages with converted flight mode and identifiers, message processor. mode change messages constructed with uav id ground station id and converted flight mode.

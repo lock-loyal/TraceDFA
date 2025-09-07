@@ -1,0 +1,1 @@
+view register, viewing the class register, teacher. teacher clicks register button, system displays class register information including date, absences, disciplinary notes, delays, and justifications.

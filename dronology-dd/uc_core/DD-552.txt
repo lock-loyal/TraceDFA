@@ -1,0 +1,1 @@
+automatic flight plan assignment, automatically assigns unassigned flight plans to the next available uav, flight plan scheduler. if flight plan is not assigned to specific uav, assign to next available uav.

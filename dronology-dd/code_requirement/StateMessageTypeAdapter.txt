@@ -1,0 +1,7 @@
+- monitor real-time uav state, parses incoming uav state messages to extract location, attitude, velocity, system. parse uav state messages, extract location, attitude, velocity data.  
+- track uav operational status, deserializes uav status and mode from state messages, system. extract status and mode fields from uav state messages.  
+- monitor uav battery metrics, extracts battery current, voltage, and level from state messages, system. parse battery status section of messages to obtain current, voltage, level values.  
+- validate message format for armed status, checks armed and armable boolean values in state messages, system. verify armed and armable fields contain valid boolean values.  
+- record uav movement parameters, captures groundspeed measurement from state messages, system. extract groundspeed value from uav state messages.  
+- handle malformed coordinate data, implements error logging when coordinate values have invalid format, system. detect invalid coordinate formats in messages, log errors while processing.  
+- process battery data anomalies, logs errors when battery metrics contain unexpected data types, system. identify invalid battery current/voltage/level formats, record errors.

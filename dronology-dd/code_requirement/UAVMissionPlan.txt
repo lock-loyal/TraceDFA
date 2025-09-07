@@ -1,0 +1,6 @@
+- create mission plan with tasks, allows mission planner to create mission plans containing routes, waypoints, takeoff, landing, and synchronization tasks, mission planner. define sequence of tasks including routes, waypoints, takeoff, landing, and synchronization points.  
+- synchronize uavs at designated points, enforce uavs to wait until all reach synchronization point before proceeding, system. uav arrives at synchronization point, wait until all others arrive, release when all synched.  
+- expand flight pattern into executable tasks, translate predefined flight patterns into concrete mission tasks during planning phase, system. process patterns like synchronized takeoff/landing, generate corresponding waypoint and coordination tasks.  
+- manage task execution order, ensure tasks execute in predefined sequence according to mission plan, system. execute tasks in order: takeoff, route navigation, synchronization, landing.  
+- handle route-based task dependencies, require route tasks to have defined waypoints before pattern expansion, system. validate presence of route waypoints before processing flight patterns.  
+- coordinate altitude for mission operations, set common altitude for synchronized flight operations, mission planner. specify coordination altitude for takeoff/landing patterns.

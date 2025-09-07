@@ -1,0 +1,1 @@
+client registers for uav type specification events, allows client to receive notifications when a new uav type specification is created, modified, or deleted, client. register with uimiddleware, receive uav type specification events on creation, modification, or deletion.

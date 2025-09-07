@@ -1,0 +1,1 @@
+forms management, allow citizen to download municipal forms, citizen. citizen clicks access forms section button, system redirects to section and displays available forms, citizen selects desired form, system initiates download, handle general errors by invoking service unavailable use case, download initiation or error handling are exit conditions, citizen must be logged in.

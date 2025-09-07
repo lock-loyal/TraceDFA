@@ -1,0 +1,1 @@
+uav goto command, specifies parameters for goto_waypoint command, system. goto_waypoint command includes target latitude, longitude, and altitude coordinate.

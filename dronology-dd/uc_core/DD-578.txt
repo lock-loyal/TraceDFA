@@ -1,0 +1,1 @@
+transition from in_air to flying, change uav state when a flight plan is assigned during flight, system. assign flight plan to uav in in_air state, transition to flying state.

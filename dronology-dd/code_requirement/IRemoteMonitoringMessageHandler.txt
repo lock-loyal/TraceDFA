@@ -1,0 +1,1 @@
+- forward monitoring data from uav, allows system to receive and process real-time monitoring data transmitted from uavs, system. receive monitoring messages from uavs, forward to monitoring component.

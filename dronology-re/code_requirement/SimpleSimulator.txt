@@ -1,0 +1,7 @@
+- flight simulation, simulate flight movement between specified start and target coordinates, simulator manager. flight simulator calculates movement steps between current position and target coordinates.  
+- battery drain simulation, simulate continuous battery voltage reduction during active flight operations, simulator manager. battery drain simulation runs during active flight operations.  
+- voltage monitoring, retrieve current battery voltage level during simulation runtime, system monitoring. voltage monitoring provides real-time battery level information.  
+- flight path assignment, define flight path by specifying current and target geographical coordinates, simulator manager. flight path requires defining start and target coordinates.  
+- movement progression, advance drone position along flight path based on specified distance per time step, simulator manager. movement progression calculates new position each simulation step.  
+- destination verification, check if drone has reached target coordinates within allowed distance threshold, simulator manager. destination verification triggers upon movement completion.  
+- checkpoint recording, capture current battery state at specific simulation intervals, system monitoring. checkpoint recording tracks battery status at defined points.

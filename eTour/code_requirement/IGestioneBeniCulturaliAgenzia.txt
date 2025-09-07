@@ -1,0 +1,6 @@
+- add cultural asset, create new cultural asset entry, operator. access add functionality, input details, submit form, validate data, confirm addition, store data, display success message. valid data format required.  
+- delete cultural asset, remove existing cultural asset from system, operator. select cultural asset, initiate deletion, confirm action, remove entry, update database, notify completion. cultural asset must exist in system.  
+- modify cultural asset, update cultural asset information, operator. select cultural asset, edit details, submit changes, validate input, confirm update, save modifications, display confirmation. valid data format enforced.  
+- assign tag to cultural asset, associate tag with cultural asset, operator. select cultural asset, choose tag, link entities, validate association, confirm operation, update records. tag must exist in system.  
+- remove tag from cultural asset, dissociate tag from cultural asset, operator. select cultural asset, identify existing tag, initiate removal, confirm action, update database, display success. tag must be previously assigned.  
+- view cultural assets, retrieve list of all cultural assets, operator. access view functionality, request data, process query, display comprehensive list. system response within 10 seconds.

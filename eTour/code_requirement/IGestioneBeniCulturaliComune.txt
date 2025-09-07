@@ -1,0 +1,5 @@
+- view cultural asset details, retrieve specific cultural asset information, user. select cultural asset from list, system displays details including name, description, and location. cultural asset must exist in the system.  
+- view cultural asset tags, display assigned tags for a cultural asset, operator. select cultural asset, system retrieves and shows associated tags. cultural asset identifier valid and active.  
+- access cultural asset feedback, view visitor reviews and ratings for a cultural asset, user. select cultural asset, system retrieves and presents feedback entries. feedback entries restricted to last 30 days.  
+- view cultural asset statistics, display visitor trend data for a cultural asset, operator. request statistics, system calculates and shows visit counts per day over the past month. statistics generated only for active cultural assets.  
+- update cultural asset feedback, modify existing visitor review or rating, user. edit feedback content, submit changes, system validates and stores updated feedback. user must have previously submitted feedback for the asset.

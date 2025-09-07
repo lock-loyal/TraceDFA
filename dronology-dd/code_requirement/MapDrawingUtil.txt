@@ -1,0 +1,4 @@
+- display real-time uav positions on map, visualize current uav positions with icons indicating focused, selected, or default state, user. select uav to focus or check, update icon color and position dynamically.  
+- highlight active flight routes, display flight routes with color coding based on user selection, user. focus on specific uav to show orange route, check uavs to display black routes.  
+- automatically adjust map center for new flights, reposition map view when new flight routes are added, system. detect new flight routes, calculate average center, update map view.  
+- reconnect to dronology services on connection loss, attempt reconnection when remote service communication fails, system. catch remote exceptions, initialize service connections again.

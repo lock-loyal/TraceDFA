@@ -1,0 +1,1 @@
+existing tag error, notify user when entering a duplicate search tag, user. system displays error message and requests confirmation, user confirms, system restores previous state, returns control to user. valid tag format.

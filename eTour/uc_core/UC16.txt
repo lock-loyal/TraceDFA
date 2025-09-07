@@ -1,0 +1,1 @@
+delete tourist account, allow agency operator to remove a tourist account from the system, agency operator. select tourist from search results, activate delete function, request confirmation, confirm deletion, delete account data, display deletion notification. valid user permissions.

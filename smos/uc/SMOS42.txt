@@ -1,0 +1,17 @@
+Name: DeleteJustification  
+Actors: Administrator  
+Description: Delete Justification  
+Preconditions:  
+• The user must be logged into the system as an Administrator.  
+• The user has performed the use case "ViewJustificationDetails," and the system is displaying the details of a justification.  
+• Clicks on "Delete."  
+
+Sequence of Events  
+User  
+System  
+1. Deletes the justification.  
+
+Postconditions:  
+• The justification has been deleted from the system. The system returns to the registry screen.  
+• The administrator cancels the operation.  
+• Connection to the SMOS server is interrupted.

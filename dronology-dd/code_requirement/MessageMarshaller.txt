@@ -1,0 +1,4 @@
+- track uav state changes, monitor and report state transitions of uavs, system. detect state change, create message with old and new states.  
+- notify flight plan activation, generate message when flight plan becomes active, system. flight plan activated, create notification with plan details.  
+- log completed flight plans, generate message upon flight plan completion, system. flight plan completed, create notification with start and end times.  
+- record uav command execution, log commands issued to uavs for monitoring, system. command sent to uav, create message with command details.

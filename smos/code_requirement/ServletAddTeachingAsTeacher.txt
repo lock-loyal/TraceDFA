@@ -1,0 +1,1 @@
+- assign teacher to classroom teachings, allows the administrator to assign selected teachings to a teacher for a specific classroom, administrator. administrator selects teacher, classroom, and teachings, system checks if teacher is already assigned to selected teachings in classroom, assigns teacher if not already assigned.

@@ -1,0 +1,1 @@
+reordering of uav's flight queue, allows reordering of pending flight plans for a uav, system. reorder pending flight plans of uav.

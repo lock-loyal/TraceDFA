@@ -1,0 +1,1 @@
+upload externally created flight route, allows uploading externally created flight routes to dronology through the ui middleware, user. create flight route externally, upload via ui middleware to dronology.

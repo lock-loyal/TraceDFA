@@ -1,0 +1,5 @@
+- drone registration, register individual drones with unique identifiers to the fleet, drone fleet manager. register individual drones with unique identifiers, duplicates prohibited. 
+- drone availability check, check if any drones are available for mission assignments, mission dispatcher. check availability status of drones. 
+- designated drone retrieval, retrieve specific drone by identifier from available pool if present, mission dispatcher. mission dispatcher retrieves specific drone by identifier when available. 
+- drone return to pool, return drone to available pool after completing mission or task, mission coordinator. completed drones returned to available pool. 
+- drone unregistration, unregister and stop drones removing them from the fleet, system administrator. unregistered drones stopped and removed from fleet.

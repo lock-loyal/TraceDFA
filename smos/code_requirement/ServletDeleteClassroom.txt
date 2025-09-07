@@ -1,0 +1,1 @@
+- delete a classroom, the administrator removes a classroom from the system, administrator. administrator selects classroom to delete, system confirms deletion, administrator confirms, system deletes classroom and displays updated classroom list for academic year. administrator must have valid permissions and classroom must exist.

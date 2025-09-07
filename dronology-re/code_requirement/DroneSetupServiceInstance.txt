@@ -1,0 +1,5 @@
+- initialize drone, activate drone in physical or virtual mode based on initialization info, drone setup operator. drone setup operator activates drone in physical or virtual mode, initialization info specifies mode type.  
+- deactivate drone, unregister drone and cancel pending flight plans, drone setup operator. drone setup operator unregisters drone and cancels pending flight plans.  
+- retrieve active uavs, provide list of currently active uavs with status information, drone setup operator. drone setup operator retrieves list of active uavs.  
+- resend command, resend latest command to uav for recovery from communication failure, drone setup operator. resend command to uav when communication failure occurs.  
+- monitor drone status, notify listeners when drone status changes occur, drone monitoring system. notify registered listeners upon drone status changes.

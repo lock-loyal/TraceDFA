@@ -1,0 +1,1 @@
+- establish gcs connection, handle incoming connection requests from ground control stations during link initiation, ground station connector. ground control station sends connection request when initiating a link.

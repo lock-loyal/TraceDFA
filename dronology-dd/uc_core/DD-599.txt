@@ -1,0 +1,1 @@
+simulate takeoff in internal simulator, simulate takeoff process in the internal simulator by moving uav to takeoff altitude, system. receive takeoff command, internalsimulator moves uav with infinite acceleration to takeoff altitude corresponding to current longitude and latitude.

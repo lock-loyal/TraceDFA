@@ -1,0 +1,3 @@
+- hardware status monitoring, log hardware-related events with severity levels, system. log hardware events using hwtrace, hwinfo, hwfatal methods based on severity.  
+- mission operation monitoring, log mission-specific information and errors, system. log mission events using missioninfo and missionerror methods during operations.  
+- system event logging, record system events at various severity levels for monitoring, system. log events using debug, info, warn, error, fatal methods based on event severity.

@@ -1,0 +1,6 @@
+- display flight routes, display active flight routes on the map with color-coded lines based on user selection, real time flight ui. focused uav route appears orange, checked uav routes appear black.  
+- update drone positions, dynamically update uav icons on the map reflecting real-time coordinates, real time flight ui. uav icons update positions when location changes.  
+- highlight selected uavs, distinguish selected uavs using unique icons for focused and checked states, real time flight ui. focused uav displays focused icon, checked uavs show selected icon.  
+- visualize waypoints, render flight route waypoints as dot markers on the map, real time flight ui. each waypoint represented by dot marker at coordinate.  
+- auto-center map, adjust map view to average uav positions when new drones activate, real time flight ui. new uav activation triggers map re-centering.  
+- reconnect services, automatically re-establish connection to backend services upon communication failure, real time flight ui. connection loss triggers reconnection attempts.

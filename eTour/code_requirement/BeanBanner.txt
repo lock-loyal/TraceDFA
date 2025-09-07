@@ -1,0 +1,1 @@
+- manage advertisement, link banner to rest point, operator. create new advertisement entry, input rest point id and banner file path, validate entries, store advertisement data, confirm successful linkage. valid rest point identifier, existing image file path.

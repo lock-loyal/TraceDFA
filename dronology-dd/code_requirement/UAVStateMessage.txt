@@ -1,0 +1,7 @@
+- track uav location, monitor and record uav's current geographical coordinates, system. continuously update and store uav's latitude, longitude, and altitude from state messages.  
+- monitor flight mode changes, track transitions between uav operational modes like guided/rtl/land, system. detect mode changes through state messages and update system records.  
+- report battery status, collect and display battery voltage/current/level metrics from uav telemetry, system. include battery status in regular state updates transmitted to ground station.  
+- detect armed status, identify whether uav's propulsion system is active/disabled, system. monitor armed/armable flags in state messages for safety checks.  
+- track velocity metrics, maintain speed and movement direction information from uav telemetry, system. update velocity vector data through incoming state messages.  
+- record uav operational status, track high-level state indicators like active/emergency/critical, system. maintain status history based on state message updates from ground control station.  
+- validate flight mode transitions, ensure uav only switches between compatible operational states, system. enforce valid mode change sequences per predefined state machine rules.

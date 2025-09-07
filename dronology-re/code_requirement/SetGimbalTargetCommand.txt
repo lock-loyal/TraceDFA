@@ -1,0 +1,1 @@
+- set gimbal target, allow operators to set the gimbal's target location using latitude longitude and altitude coordinates, drone operator. operators set gimbal's target location with specific coordinates.

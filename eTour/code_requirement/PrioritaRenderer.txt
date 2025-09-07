@@ -1,0 +1,1 @@
+- priority display, visualize advertisement priority using slider component, operator. access advertisement management interface, load table data, render priority values as sliders, validate input range, update display. valid integer values between 1 and 5.

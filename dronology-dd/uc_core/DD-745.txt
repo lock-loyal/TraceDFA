@@ -1,0 +1,1 @@
+adjust message frequency upon command, allows adjusting message frequency based on received commands, gcs. receive set frequency command from gcsmiddleware, adjust message frequency accordingly.

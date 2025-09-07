@@ -1,0 +1,5 @@
+- record student absence, allows the teacher to document a student's non-attendance, teacher. teacher selects student and specifies absence date, system saves absence record with academic year, date and academic year mandatory.  
+- justify absence, enables the parent to provide reason for recorded student absence, parent. parent selects absence entry, submits justification details, system updates absence record with justification reference.  
+- view absence history, displays student's absence records within selected academic year, parent. parent chooses student and academic year, system lists absences with dates and justification status.  
+- modify absence justification, allows administrator to update or remove absence justification details, administrator. administrator selects absence record, edits justification information, system applies changes to absence entry.  
+- track academic year absences, generates absence statistics report for a student, teacher. teacher selects student and academic year, system displays total absences and justification percentages.

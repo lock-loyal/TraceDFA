@@ -1,0 +1,3 @@
+- assign drone to mission, associate individual drones with missions including their starting coordinates, mission planner. each drone is assigned to a mission with specific starting coordinates defined by latitude, longitude, and altitude.
+- drone identification, uniquely identify drones using assigned names during mission assignments, mission planner. drones are uniquely identified by their assigned names during mission configuration.
+- coordinate modification, update assigned drone's starting position through coordinate adjustments, simulator setup manager. modify assigned drone's starting coordinates by adjusting latitude, longitude, or altitude values.

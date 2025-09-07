@@ -1,0 +1,8 @@
+- display uav status, present real-time status information including battery life and location coordinates, flight monitoring ui. present battery life percentage, latitude, longitude, and altitude.  
+- initiate takeoff, enable takeoff command execution after specifying target altitude, flight control ui. user clicks takeoff button, specifies altitude, system initiates takeoff.  
+- assign flight route, provide button to trigger assignment of new flight routes to selected uav, route management ui. click assign route button opens route selection interface.  
+- emergency return, implement immediate return-to-home functionality canceling active routes, emergency handler. click return home button cancels all routes and initiates return.  
+- resend commands, allow resending previous flight commands to uavs, command recovery ui. click resend button re-transmits last command.  
+- hover mode toggle, enable switching between hover-in-place and continue mission behaviors, flight mode ui. toggle switch controls hover mode activation.  
+- status visualization, display flight mode status through color-coded icons, system health monitor. user-controlled mode shows distinct icon, normal operations show default icon.  
+- altitude validation, prevent takeoff commands when uav already airborne, flight safety system. blocks takeoff if status not 'on_ground'.

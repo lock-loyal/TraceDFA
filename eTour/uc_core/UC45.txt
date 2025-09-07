@@ -1,0 +1,1 @@
+display personal statistics, allow rest point operator to view associated rest point statistics, rest point operator. select feature to view statistics, display form with rest point statistics data, show data on screen.

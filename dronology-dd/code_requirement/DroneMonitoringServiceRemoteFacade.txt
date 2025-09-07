@@ -1,0 +1,3 @@
+- subscribe to monitoring messages, allows clients to subscribe to all drone monitoring messages, client. register monitoring message handler to receive all messages.  
+- subscribe to specific drone monitoring messages, allows clients to subscribe to monitoring messages for a particular drone or topic, client. register monitoring message handler with artifact identifier for targeted subscription.  
+- adjust monitoring data frequency, allows setting the frequency of monitoring data updates for specific uavs, operator. specify uav id and desired frequency, system updates monitoring interval.

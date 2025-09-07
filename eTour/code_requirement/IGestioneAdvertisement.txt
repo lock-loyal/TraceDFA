@@ -1,0 +1,4 @@
+- add advertisement, create new banner for rest point, operator. access banner creation feature, select rest point, upload image, submit details, validate data, confirm operation, store banner, display success message. valid image format and rest point id required.  
+- delete advertisement, remove existing banner from system, operator. access banner management, select banner, initiate deletion, confirm action, remove banner, notify success. valid banner id must exist.  
+- modify advertisement, update banner image or details, operator. select target banner, edit image or information, submit changes, validate input, confirm modification, update database, display confirmation. banner id must be valid and active.  
+- view advertisement, retrieve list of banners for rest point, operator. select rest point, request associated banners, system fetches data and images, display in management interface. rest point id must be registered.

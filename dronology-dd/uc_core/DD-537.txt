@@ -1,0 +1,1 @@
+mission plan synchronization points, synchronize flight plans by inserting shared synchronization points between uavs' flight routes, system. insert shared synchronization points into ordered flight routes of participating uavs.

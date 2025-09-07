@@ -1,0 +1,1 @@
+view rest point record, view details of a selected rest point, agency operator. select rest point from search results, activate view record function, load and display rest point data. valid connection to etour server.

@@ -1,0 +1,4 @@
+- create simulator scenario, create and save new simulator scenarios with assigned drones and flight paths, drone simulator manager. create new simulator scenarios with assigned drones and flight paths, save to file system. scenario must have unique name.
+- activate simulator scenario, initialize virtual drones and assign predefined flight routes upon scenario activation, drone simulator operator. activating scenario initializes virtual drones and assigns their predefined flight routes. scenario must exist and have valid drone/flight path assignments.
+- categorize simulator scenarios, organize scenarios into predefined categories such as default, system administrator. scenarios are grouped into categories for organizational purposes.
+- reload simulator scenarios, automatically reload scenarios when changes are detected in file system, system service. changes to scenario files trigger automatic reloading into system.

@@ -1,0 +1,1 @@
+ignore specified takeoff altitude if uav is in the air, ensure takeoff altitude is ignored when uav is already airborne, system. assign flight plan to uav in air, ignore takeoff altitude.

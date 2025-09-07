@@ -1,0 +1,1 @@
+uav controlled by only one ui client at a time, ensure each uav is controlled by only one ui client at a time, ui middleware. ui middleware assigns only one control client per uav at a time.

@@ -1,0 +1,5 @@
+- initialize uavs, initialize uavs in either virtual or physical mode with specified start coordinates, uav setup manager. initialize uavs with mode selection and start coordinate assignment.  
+- track active uavs, retrieve list of currently active uavs for status monitoring, uav status monitor. retrieve list of active uavs.  
+- deactivate uavs, deactivate selected uavs to remove from active operations, uav setup manager. deactivate selected uavs.  
+- monitor status changes, subscribe to uav status changes for real-time updates, uav status monitor. subscribe to status change notifications.  
+- resend uav commands, resend commands to uavs in case of communication failures, uav command handler. resend commands when previous attempts fail.

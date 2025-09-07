@@ -1,0 +1,1 @@
+- monitor managed drone state changes, notifies listeners when the state of a managed drone changes, system. detect state change in drone, trigger notification to registered listeners, listeners must implement imanageddronestatechangelistener interface.

@@ -1,0 +1,1 @@
+ui middleware forwards resend waypoint commands from clients to dronology, allows ui middleware to forward resend waypoint commands from clients to dronology, uimiddleware. accept resend waypoint commands with {{uav_id}}, forward to dronology.

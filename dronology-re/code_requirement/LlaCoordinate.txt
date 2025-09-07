@@ -1,0 +1,5 @@
+- coordinate validation, validate latitude longitude and altitude values during coordinate creation, system core. latitude must be between -90 and 90, longitude between -180 and 180, altitude within acceptable range.  
+- coordinate conversion, convert between lla coordinates and n-vector/p-vector coordinate systems, system core. convert terrestrial positions to different coordinate representations.  
+- geographic position definition, define terrestrial positions using latitude longitude and altitude values, flight route manager. positions specified with angular degrees and elevation in meters.  
+- serialization support, serialize coordinate data with predefined field names for external systems, data exchange layer. coordinate components serialized as x(longitude) y(latitude) z(altitude).  
+- invalid parameter handling, reject coordinate creation with out-of-range latitude or longitude values, system core. throws exception when latitude exceeds ±90° or longitude exceeds ±180°.

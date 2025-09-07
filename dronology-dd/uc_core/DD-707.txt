@@ -1,0 +1,1 @@
+publishing of monitoring message, allows publishing of monitoring messages containing a hierarchical identifier, message type, timestamp, and serializable data, system. publish monitoring message, include hierarchical identifier, message type, timestamp, and serializable data.

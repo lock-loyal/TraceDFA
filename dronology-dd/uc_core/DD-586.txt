@@ -1,0 +1,1 @@
+activate registered uav, allows activation of a registered uav when its id is presented, uavactivationmanager. if presented uav_id represents a registered uav, activate it.

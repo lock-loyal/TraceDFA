@@ -1,0 +1,5 @@
+- insert classroom, allows the administrator to add a new classroom to the system, administrator. administrator provides classroom name, academic year, and address, system validates academic year is not below 1970, checks for existing classrooms with same details, saves new classroom if valid.
+- view classroom list, displays classrooms filtered by academic year, administrator. administrator selects academic year, system retrieves and shows all classrooms associated with specified year.
+- modify classroom details, enables updating existing classroom information, administrator. system displays classroom edit form with current data, administrator modifies fields and submits changes, system validates inputs and updates database.
+- delete classroom, removes classroom record from system, administrator. administrator selects classroom from list, confirms deletion, system removes classroom and associated data from database.
+- validate academic year, ensures year meets minimum requirement during classroom creation, administrator. system automatically checks if entered academic year is 1970 or later when administrator submits form, displays error for invalid years.

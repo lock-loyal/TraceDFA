@@ -1,0 +1,9 @@
+- tourist registration, allow guest user to create new account, guest user. access registration form, input details, validate uniqueness and data, store profile, confirm success. unique username required.  
+- update tourist profile, enable tourist to modify personal information, tourist. access profile, edit data fields, validate changes, update database, display confirmation. valid email format enforced.  
+- manage search preferences, let tourist add/remove search criteria, tourist. select preference action, input search parameters, validate constraints, update preference list. maximum five preferences allowed.  
+- record cultural asset visit, track tourist's visited cultural assets, tourist. select asset from map, log visit details, validate location data, store visit entry. visit date must be current/past.  
+- view favorite cultural assets, display tourist's preferred cultural sites, tourist. request favorites list, retrieve stored ids, fetch asset details, present in grid layout. system response under three seconds.  
+- add favorite cultural asset, allow tourist to bookmark cultural site, tourist. select asset details page, validate asset id, link to profile, confirm addition. duplicate entries prevented.  
+- remove favorite rest point, enable tourist to delete preferred rest point, tourist. choose rest point from list, verify ownership, delete association, update profile. rest point must exist in favorites.  
+- view visited rest points, show tourist's dining location history, tourist. access visit history section, retrieve stored records, display chronological list. data sorted by recent visit date.  
+- log rest point visit, record tourist's rest stop activity, tourist. input visit duration and rating, validate feedback range, save visit data. mandatory feedback score required.

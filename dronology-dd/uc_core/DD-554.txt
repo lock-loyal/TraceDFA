@@ -1,0 +1,1 @@
+assign next flight plan at completion of flight, automatically assign next flight plan when current flight is completed, system. if flight plan queue is not empty when uav reaches final waypoint of current flight plan, remove next flight plan from queue and set as executed flight plan.

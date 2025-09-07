@@ -1,0 +1,1 @@
+- handle unimplemented features, notifies administrator when accessing incomplete system components, administrator. system throws exception upon accessing non-implemented feature, displays warning message indicating incomplete functionality, feature remains inaccessible until future update.

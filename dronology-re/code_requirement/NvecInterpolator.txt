@@ -1,0 +1,1 @@
+- flight path interpolation, calculate precise intermediate positions along flight path for drone movement, flight simulator. drone moves along path from current to target position, simulator calculates next position at specified travel distance.

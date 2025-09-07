@@ -1,0 +1,1 @@
+client registers for emergency events, allows client to register for emergency event notifications when unexpected events occur, client. register with uimiddleware, receive notifications on emergency events.

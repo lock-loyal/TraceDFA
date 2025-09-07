@@ -1,0 +1,5 @@
+- monitor uav coordinates, track uav's current geographical coordinates in real-time, system. continuously update and track uav's lla coordinates during flight operations.  
+- track uav state changes, monitor and update operational states of uavs during missions, system. detect state changes in uavs and update system records accordingly.  
+- monitor uav battery levels, track remaining battery capacity of uavs during operations, system. continuously update battery level data throughout uav flight duration.  
+- track uav velocity, monitor and update real-time velocity of uavs during flight, system. maintain current velocity data for active uavs during missions.  
+- update uav operational mode, track changes in uav's operational mode during missions, system. detect mode transitions and update system records accordingly.

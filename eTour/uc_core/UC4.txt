@@ -1,0 +1,1 @@
+search cultural asset, retrieve list of cultural assets based on specified parameters, user. activate search functionality, display search form, fill form and submit, process request, return matching cultural assets list. system response within specified time.

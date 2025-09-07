@@ -1,0 +1,4 @@
+- monitor drone state, track real-time status including location attitude velocity and operational mode, monitoring system. continuously track drone state parameters such as location, attitude, velocity, and operational mode.  
+- track battery status, monitor battery parameters including current voltage and charge level, monitoring system. monitor current voltage and charge level of drone battery, invalid battery parameters trigger error logging.  
+- detect operational mode, determine current operational mode of the drone from incoming state data, flight controller. determine if drone is in manual autonomous or other operational modes.  
+- validate arming status, verify armed and armable statuses to ensure safe operation readiness, safety manager. check armed status indicates active motors, armable status confirms pre-flight checks completion.

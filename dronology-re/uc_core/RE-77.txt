@@ -1,0 +1,1 @@
+waypoint definition, specify waypoints using coordinates including longitude latitude and altitude, . each waypoint is specified with coordinates.

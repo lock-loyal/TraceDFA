@@ -1,0 +1,4 @@
+- uav status visualization, display uav statuses using distinct icons for default, focused, and selected states, real time monitoring ui. uav status changes, ui updates corresponding icon.  
+- flight operation icons, provide visual icons for takeoff, return-to-home, and route assignment commands, flight control ui. display takeoff, return-to-home, and assign route buttons with dedicated icons.  
+- status indication, indicate uav operational status through icons such as ok or user-controlled, status monitoring panel. uav status changes, corresponding status icon updates.  
+- command retransmission, enable resending commands through dedicated resend icon, flight command interface. user clicks resend icon, system resends last command.

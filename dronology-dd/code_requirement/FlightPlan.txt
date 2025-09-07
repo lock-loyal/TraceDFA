@@ -1,0 +1,5 @@
+- flight plan creation, create flight plans with waypoints and assign to uavs, user. define waypoints, assign to uav, save as flight plan. flight plan must include start and end coordinates.
+- flight status management, manage flight status transitions from planned to flying to completed, system. flight status changes only allowed from planned to flying, flying to completed.
+- flight plan monitoring, track flight progress by checking waypoint completion, system. monitor each waypoint reached status, update flight completion status when all waypoints reached.
+- uav assignment to flight plans, assign specific uavs to flight plans during planning phase, user. select uav during flight plan creation, link to flight plan.
+- flight plan validation, ensure flight plan transitions adhere to valid status sequences, system. prevent invalid status changes like completed to flying.

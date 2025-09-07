@@ -1,0 +1,1 @@
+hover at completion of flight, sets uav state to in_air when flight plan queue is empty after reaching final waypoint, system. uav reaches final waypoint of current flight plan, check if queue is empty, set state to in_air.

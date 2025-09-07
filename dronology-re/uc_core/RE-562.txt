@@ -1,0 +1,1 @@
+pattern-based flight path, document longitude latitude and altitude of waypoints in a flight route as offsets from uav starting position, . a flight pattern documents waypoints' longitude latitude altitude as offsets.

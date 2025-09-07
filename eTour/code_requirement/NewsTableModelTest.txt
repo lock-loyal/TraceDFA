@@ -1,0 +1,5 @@
+- add news entry, create new news record with title and priority, operator. access news management interface, input news details, submit form, validate data, store entry, refresh table display. title and priority mandatory fields.  
+- modify news entry, update existing news information, operator. select news record, edit content or priority, submit changes, validate input, update record, confirm success. valid date format required.  
+- delete news entry, remove news from system, operator. select news item, trigger deletion, confirm action, remove entry, update data source. confirmation dialog before permanent removal.  
+- display news records, show prioritized news list, operator. open news management panel, load stored entries, render table with titles and priorities. system retrieves data on interface initialization.  
+- validate news operations, ensure data integrity during modifications, system. detect invalid indices or null inputs, block invalid requests, display error messages. invalid row indices or empty parameters.

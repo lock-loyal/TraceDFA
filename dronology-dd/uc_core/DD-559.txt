@@ -1,0 +1,1 @@
+remove aborted flight plan, removes the aborted flight plan from the associated uav, system. when flight plan is aborted, remove it from associated uav.

@@ -1,0 +1,4 @@
+- flight route categorization, organize flight routes into predefined categories for structured access, system. assign each flight route to one or more predefined categories.  
+- retrieve flight route by identifier, fetch detailed flight route information using unique identifier, system. use unique identifier to fetch route details from storage.  
+- access flight route by name, allow users to retrieve specific flight route details using route name, user. input route name, system returns corresponding route information.  
+- manage flight route categories, maintain predefined categories for organizing flight routes, administrator. create, update or remove flight route categories as needed.

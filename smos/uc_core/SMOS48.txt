@@ -1,0 +1,1 @@
+delete a report card, the administrator deletes a report card from the system, administrator. system displays deletion confirmation form, administrator confirms deletion, system deletes report card, displays success message and shows class list form.

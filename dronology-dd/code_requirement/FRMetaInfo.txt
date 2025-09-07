@@ -1,0 +1,5 @@
+- display flight route metadata, show route name, description, number of waypoints, creation and modification dates, user. select a flight route, display metadata including name, description, waypoints count, dates.  
+- toggle between map and table views, allow users to switch between graphical map and tabular route representations, user. enable checkbox to display table view or hide it.  
+- enable auto-zoom to route, automatically adjust map viewport to display entire route when selected, user. check zoom to route checkbox for automatic viewport adjustment.  
+- confirm unsaved changes before route deletion, prompt user to confirm deletion if unsaved edits exist, system. attempt to delete route with pending changes, show confirmation dialog.  
+- edit route name and description via double-click, modify route metadata by double-clicking labels in info panel, user. double-click name or description field, enter edit mode, save on focus loss.

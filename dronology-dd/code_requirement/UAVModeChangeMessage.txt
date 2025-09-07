@@ -1,0 +1,1 @@
+- uav mode change notification, notify system of uav mode changes from ground station, system. ground station sends mode change messages with uav id and ground station id.

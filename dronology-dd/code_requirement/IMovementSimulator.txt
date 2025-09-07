@@ -1,0 +1,4 @@
+- simulate drone movement to waypoints, simulates virtual drone movement along a flight path towards assigned waypoints, system. calculate movement steps, update drone position towards target coordinates.  
+- check destination proximity during flight, verifies if drone has reached target coordinates within allowed distance threshold, system. compare current position to target after each movement step, trigger destination reached status.  
+- update flight path dynamically, allows adjusting target coordinates during active movement simulation, system. receive new target coordinates, update internal flight path parameters.  
+- validate waypoint completion, confirms drone arrival at intermediate checkpoints along flight path, system. assess position against checkpoint coordinates, trigger next segment upon confirmation.

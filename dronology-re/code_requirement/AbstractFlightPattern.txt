@@ -1,0 +1,1 @@
+- define flight pattern, create predefined flight patterns with synchronization points and tasks for expanding into mission plans, mission planner. each flight pattern defines synchronization points and tasks, mission planner expands patterns into executable mission plans. each pattern must specify synchronization points.

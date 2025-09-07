@@ -1,0 +1,9 @@
+- manage flight mode states, track and manage flight mode states including taking off, flying, landing, and in_air, system. track flight mode states, update based on drone actions and commands.
+- enforce safety distance during takeoff, ensure safe distance from other drones before allowing takeoff, system. check distances to other drones, prevent takeoff if within safety zone.
+- monitor and update drone status, continuously update drone status including coordinates and flight state, system. monitor drone coordinates and state, update status information.
+- handle emergency stop commands, process emergency stop commands to immediately halt drone operations, system. receive emergency stop command, halt drone operations.
+- manage flight plan assignments, assign and unassign flight plans to drones, system. assign flight plan to drone, unassign upon completion or command.
+- execute waypoint navigation, navigate drone through assigned flight plan waypoints, system. move drone to next waypoint, notify upon reaching waypoint.
+- control temporary flight halts, allow temporary halts in drone flight with automatic resumption, system. initiate halt, resume flight after specified duration.
+- coordinate landing procedures, manage landing process including state transitions and flight unassignment, system. set landing state, unassign flight upon landing completion.
+- track and enforce safety modes, manage safety modes such as normal and halted states, system. set safety mode based on commands or conditions, enforce mode restrictions.

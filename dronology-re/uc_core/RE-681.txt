@@ -1,0 +1,1 @@
+display activated uavs, display the name and status of all currently activated uavs, real time flight ui. real time flight ui displays names and statuses of activated uavs.

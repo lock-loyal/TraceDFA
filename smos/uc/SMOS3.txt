@@ -1,0 +1,12 @@
+Name: Logout  
+Actors: Registered User  
+Description: Allows a user to exit the system  
+Preconditions:  
+• The user is logged into the system  
+• Clicks the logout button  
+Sequence of Events  
+User  
+System  
+1. Displays the login form  
+Postconditions:  
+• The user can log in to the system again

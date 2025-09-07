@@ -1,0 +1,7 @@
+- capture uav message data, capture monitoring data from uavs with key-value pairs, monitoring system. monitoring data captured as key-value pairs from uavs.  
+- associate message with uav, link each message to originating uav using unique identifier, monitoring system. message linked to originating uav via unique identifier.  
+- track message timestamps, record precise timestamps for message sending and receiving, monitoring system. message sending and receiving times recorded.  
+- ground station identification, associate each message with originating ground control station, monitoring system. message includes ground station identifier.  
+- dynamic message properties, enable adding and retrieving custom properties to messages, monitoring system. custom properties added and retrieved from messages.  
+- serialize messages, convert messages to json format for transmission or logging, monitoring system. messages converted to json format.  
+- artifact identification, generate unique identifiers for messages within monitoring framework, monitoring system. unique identifiers generated for messages.

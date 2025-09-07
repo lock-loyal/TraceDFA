@@ -1,0 +1,17 @@
+tourist: turista
+cultural asset: beneculturale
+rest point: puntodistoro
+search: ricerca
+operator: operatore
+visit: visita
+agency: agenzia
+advertisement: advertisement
+etour: etour
+preferences: preferenze
+statistics: statistiche
+convention: convenzione
+category: categoria
+feedback: feedback
+dish: piatto
+record: scheda
+votes: voti

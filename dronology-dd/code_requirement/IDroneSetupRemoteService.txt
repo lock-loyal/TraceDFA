@@ -1,0 +1,4 @@
+- initialize drones, allows initializing drones with specified mode and home coordinates, user. provide drone name, mode, and home coordinates for initialization.  
+- retrieve active drones, allows monitoring of currently active drones, user. request list of active drones, display retrieved information.  
+- track drone status changes, enables notification upon changes in drone status, user. register listener to receive status change updates.  
+- resend command to drone, allows resending commands to a specific drone, user. select drone, resend command. drone must exist and be active.

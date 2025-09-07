@@ -1,0 +1,1 @@
+view note details, displays the details of a note, administrator. system displays form with note details: student, description, teacher, date.

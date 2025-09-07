@@ -1,0 +1,1 @@
+display active route details, allows ui to display active route details including waypoints and their connections, ui. display waypoints and their connections.

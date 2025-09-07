@@ -1,0 +1,1 @@
+- execute landing strategy, initiate landing procedure for uav upon receiving stop command, flight controller. uav initiates landing procedure when stop command received, ensuring controlled descent.

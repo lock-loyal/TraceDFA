@@ -1,0 +1,1 @@
+- mission execution error handling, detect and handle errors during mission execution, system. throw mission execution exception upon invalid commands or failed operations, business constraint: mission execution errors include invalid commands, waypoints, or failed operations.

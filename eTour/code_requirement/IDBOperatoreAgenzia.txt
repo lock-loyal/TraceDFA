@@ -1,0 +1,2 @@
+- retrieve operator data, fetch agency operator details using username, operator. access operator profile, input username, system validates and retrieves data, display operator information. valid username format required.  
+- modify operator password, update agency operator login credentials, operator. access password change function, enter new password, confirm changes, validate input, update credentials, notify success. current password must match existing records.

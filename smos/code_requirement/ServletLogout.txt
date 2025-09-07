@@ -1,0 +1,1 @@
+- user logout, allows a user to securely terminate their session and exit the system, user. user clicks logout option, system invalidates current session and redirects to login page, user must be authenticated to perform logout.

@@ -1,0 +1,5 @@
+- mode transition mapping, maps incoming mode change messages from ground station to corresponding uav flight modes, system. receive mode change message, map to flight mode, update uav state.  
+- handle unsupported mode changes, log fatal error upon receiving unsupported mode change command, system. unsupported mode received, log fatal error, reject command.  
+- deserialize mode change messages, convert json mode change messages into internal message format, system. parse json message, extract uavid, gsid, mode, create internal message.  
+- user-controlled mode activation, switch uav to user-controlled mode upon receiving 'loiter' command, user. send 'loiter' command, activate user-controlled flight mode.  
+- in-air mode activation, switch uav to in-air mode upon receiving 'guided' command, system. receive 'guided' command, set flight mode to in_air.

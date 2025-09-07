@@ -1,0 +1,1 @@
+message frequency units, allows defining message frequency in seconds, system. define message frequency in units of seconds.

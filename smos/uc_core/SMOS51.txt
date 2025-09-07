@@ -1,0 +1,1 @@
+reject student registration, allows administrator to reject student's registration to system, administrator. system deletes registration request from system, displays list of registrations still pending activation.

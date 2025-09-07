@@ -1,0 +1,1 @@
+new user, insertion of a new user into the system, administrator. system displays user input form containing first name, last name, email, phone, login, password, confirm password fields, administrator fills form fields, clicks save button, system performs validity checks on entered data and adds new user to repository or triggers dataerror use case if data is invalid.

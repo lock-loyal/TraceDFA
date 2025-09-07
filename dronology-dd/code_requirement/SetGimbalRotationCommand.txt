@@ -1,0 +1,1 @@
+- adjust gimbal orientation, allows system to set gimbal rotation angle for targeting specific coordinates, system. send gimbal rotation command with target coordinate, adjust orientation accordingly.

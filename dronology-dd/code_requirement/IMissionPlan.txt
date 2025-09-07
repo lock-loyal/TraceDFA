@@ -1,0 +1,3 @@
+- create mission plan with route sets, allows user to create a mission plan by adding multiple route sets, user. define mission plan, add route sets to organize flight routes.
+- manage mission plan metadata, enables editing and retrieval of mission plan name and description, user. edit mission plan details, retrieve metadata for reference.
+- obsolete mission plan interface, indicates deprecated mission plan interface replaced by new implementation, system. transition from deprecated mission plan interface to new implementation.

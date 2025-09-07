@@ -1,0 +1,1 @@
+- manage preferences, allow tourist to customize display settings, tourist. access preferences menu, adjust font size and type, select theme, save changes, system applies new settings. valid font size range, available theme options.

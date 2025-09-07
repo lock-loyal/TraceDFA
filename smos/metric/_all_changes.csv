@@ -1,0 +1,10 @@
+file_name,top@p,map_change,precision_change,recall_change,f1_change
+_no_art.csv,20%,-0.18,-0.122,-0.017,-0.036
+_no_art.csv,15%,-0.174,-0.135,-0.024,-0.044
+_no_art.csv,10%,-0.159,-0.157,-0.036,-0.058
+_no_decompose.csv,20%,0.001,0.027,-0.013,-0.011
+_no_decompose.csv,15%,-0.009,0.006,-0.008,-0.009
+_no_decompose.csv,10%,-0.011,-0.025,-0.001,-0.003
+_no_link.csv,20%,-0.074,-0.137,0.111,0.066
+_no_link.csv,15%,-0.051,-0.129,0.073,0.053
+_no_link.csv,10%,-0.028,-0.113,0.05,0.044

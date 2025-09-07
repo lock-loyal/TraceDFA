@@ -1,0 +1,2 @@
+- collision detection, detect potential collisions between uavs by monitoring their proximity, system. monitor uav proximity, detect potential collisions when distance is below safety threshold, record involved uavs and distance.  
+- collision event logging, log collision events containing involved uavs and distance for analysis, system. upon collision detection, create log entry with uav ids and measured distance.

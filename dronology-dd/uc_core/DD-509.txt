@@ -1,0 +1,1 @@
+takeoff altitude tag, indicates that the flight route xml format includes an optional takeoff altitude tag, system. include optional takeoff altitude tag in flight route xml format.

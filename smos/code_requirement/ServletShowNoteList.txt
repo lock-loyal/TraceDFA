@@ -1,0 +1,1 @@
+- view disciplinary notes, allows administrator or director to view disciplinary notes for a student in a specific academic year, administrator. administrator selects student and academic year, system retrieves and displays list of disciplinary notes associated with selected student. access restricted to privileged users, student must exist in system records.

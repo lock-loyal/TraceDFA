@@ -1,0 +1,5 @@
+- synchronize uavs at designated points, coordinate multiple uavs to wait at designated synchronization points until all arrive, system. create synchronization points, register uavs, hold until all uavs arrive.  
+- assign safe takeoff altitudes, incrementally assign safe altitudes to prevent collisions during takeoff, system. calculate next safe altitude, increment until maximum limit.  
+- enforce maximum altitude limit, restrict takeoff altitude to predefined maximum safe distance, system. throw error when altitude exceeds maximum limit.  
+- track uav synchronization progress, monitor number of unsynchronized uavs at each synchronization point, system. count remaining uavs needing to reach synchronization point.  
+- manage synchronization points lifecycle, create and activate synchronization points for mission phases, system. create named points, activate when mission phase starts.

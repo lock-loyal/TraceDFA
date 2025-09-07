@@ -1,0 +1,3 @@
+- track flight plan progress, monitor the status of flight plans as they transition from pending to current to completed, system. flight plans move through pending, current, completed states based on execution progress.  
+- maintain flight history, record completed flight plans for historical reference, system. store completed flight plans in a list accessible for review.  
+- manage pending flight plans, allow addition and retrieval of pending flight plans for a uav, system. add new flight plans to pending list, retrieve list when needed.

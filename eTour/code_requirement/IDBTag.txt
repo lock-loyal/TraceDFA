@@ -1,0 +1,10 @@
+- create tag, add new tag to system, operator. access tag management, input tag details, submit form, validate data, store tag in database, confirm creation. valid tag name and unique identifier required.  
+- modify tag, update existing tag information, operator. select tag from list, edit details, save changes, validate input, update database record, display success message. tag must exist in system.  
+- delete tag, remove tag from system, operator. choose tag to delete, confirm action, remove tag from database and associations, handle dependencies. tag cannot be associated with active cultural assets or rest points.  
+- assign tag to cultural asset, associate tag with cultural asset, operator. select cultural asset and tag, link entities in database, confirm association. valid cultural asset and tag identifiers required.  
+- assign tag to rest point, link tag with rest point, operator. choose rest point and tag, establish connection, save to database. existing rest point and tag must be valid.  
+- remove tag from cultural asset, dissociate tag from cultural asset, operator. select cultural asset and tag, delete association, update database. cultural asset must have prior tag assignment.  
+- remove tag from rest point, eliminate tag-rest point connection, operator. pick rest point and assigned tag, remove link, persist changes. rest point must have existing tag association.  
+- view tag list, display all available tags, operator. access tag management interface, retrieve tag list from database, present in table or list format. system connected to active database.  
+- view cultural asset tags, display tags linked to cultural asset, operator. select cultural asset, query database for associated tags, show results. valid cultural asset identifier required.  
+- view rest point tags, show tags connected to rest point, operator. choose rest point, fetch tag associations from database, present to user. rest point must exist in system.

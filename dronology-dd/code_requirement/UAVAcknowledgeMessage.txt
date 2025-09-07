@@ -1,0 +1,1 @@
+- acknowledge command receipt, confirm receipt of commands sent to uavs, system. send command to uav, receive acknowledgment from uav.

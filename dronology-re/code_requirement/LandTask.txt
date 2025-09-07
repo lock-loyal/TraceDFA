@@ -1,0 +1,1 @@
+- define landing task, create a landing task specifying the target location for uav landing, mission planner. landing task requires latitude longitude and altitude coordinates for landing location.

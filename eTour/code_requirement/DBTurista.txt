@@ -1,0 +1,6 @@
+- tourist registration, create new tourist account, tourist. access registration form, enter personal details, submit form, validate input, store data, confirm successful registration. mandatory fields, unique username and email.  
+- modify tourist profile, update tourist information, tourist. access profile editing, modify details, save changes, validate data, update database, display confirmation. valid data format, existing account.  
+- add favorite cultural asset, link cultural asset to tourist preferences, tourist. select cultural asset, choose add to favorites, confirm selection, update preferences list. cultural asset must exist.  
+- remove favorite cultural asset, delete cultural asset from tourist preferences, tourist. access favorites list, select asset, confirm removal, update preferences. asset previously added.  
+- deactivate tourist account, disable tourist profile, operator. select tourist account, choose deactivation option, confirm action, update account status. active account required.  
+- retrieve tourist details, view tourist information, operator. search tourist by username or id, display profile data, handle invalid entries. valid credentials.

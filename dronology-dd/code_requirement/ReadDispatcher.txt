@@ -1,0 +1,5 @@
+- receive and process uav state messages, allows system to receive and process uav state messages sent from ground control stations, system. read incoming messages, parse uav state messages, dispatch for status updates.  
+- handle uav handshake messages, process incoming handshake messages from uavs to establish communication, system. receive handshake message, post to queue manager for processing.  
+- manage socket connection for message reception, maintain socket connection to continuously receive messages from ground control stations, system. establish socket connection, read incoming data, handle connection errors.  
+- dispatch monitoring messages, forward monitoring messages received from uavs to monitoring system, system. receive monitoring message, post to monitoring manager.  
+- handle message parsing errors, detect and log errors during message parsing to ensure system stability, system. catch parsing exceptions, log error details, continue processing.

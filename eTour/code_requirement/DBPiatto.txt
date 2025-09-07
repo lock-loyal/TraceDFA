@@ -1,0 +1,4 @@
+- add dish to menu, insert new dish into specified menu, operator. access dish management, input dish name and price, assign to menu, validate entries, store in database, confirm successful addition. valid price format, existing menu id.  
+- update dish information, modify details of existing dish, operator. select dish from menu, edit name or price, submit changes, validate data, update database entry, display confirmation. valid dish id, non-empty name.  
+- remove dish from menu, delete existing dish entry, operator. select dish to delete, confirm removal action, execute deletion, verify successful removal. dish must exist in the system.  
+- retrieve menu dishes, display all dishes associated with specific menu, operator. select menu identifier, query database, list matching dishes, present results. valid menu id required.

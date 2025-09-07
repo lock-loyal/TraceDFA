@@ -1,0 +1,1 @@
+modify tourist data, allow tourist to update their account information, tourist. access data modification function, load current data into form, edit and submit changes, validate data, confirm changes, store updated data, display success message. valid data format, etour server connection maintained.

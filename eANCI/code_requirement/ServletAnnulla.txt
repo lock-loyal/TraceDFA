@@ -1,0 +1,1 @@
+- cancel operation, allow administrator and employee to cancel ongoing administrative operation, administrator, employee. user initiates cancel action during operation, system removes temporary session data and redirects to main menu, user must be authenticated in the system.

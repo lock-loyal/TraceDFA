@@ -1,0 +1,1 @@
+card canceled, allow citizen to cancel their young card, citizen. citizen decides to cancel young card and submits cancellation form, system receives form notifies successful cancellation and redisplays form, extends young card registration use case when citizen cancels card, exit condition when system redisplays form.

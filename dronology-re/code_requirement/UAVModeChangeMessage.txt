@@ -1,0 +1,1 @@
+- mode change notification, enable ground stations to send mode change notifications for specific uavs, ground station operator. ground station sends mode change notification including ground station id, uav id, and new mode. mode must be valid and correspond to existing uav and ground station.

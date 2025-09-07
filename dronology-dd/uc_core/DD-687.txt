@@ -1,0 +1,1 @@
+uav information and operations, display uav information for monitoring purposes, ui. for each activated uav, display information (longitude, latitude, altitude, groud speed, battery level, etc.).

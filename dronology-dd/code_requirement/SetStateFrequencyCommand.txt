@@ -1,0 +1,1 @@
+- adjust state update frequency, allows modifying the frequency of state updates from uavs, system. send command to uav with new frequency value in milliseconds.

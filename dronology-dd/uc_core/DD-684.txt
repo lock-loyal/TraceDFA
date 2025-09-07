@@ -1,0 +1,1 @@
+display map in ui, displays a map with default zoom level and center coordinates when the realtimeflightui is loaded, system. load realtimeflightui, display map using configuration file settings.

@@ -1,0 +1,5 @@
+- real-time coordinate updates, provide real-time updates of uav coordinates during flight, monitoring system. monitoring system receives real-time coordinate updates during flight.  
+- state change notifications, notify about changes in uav operational state such as flying or idle, monitoring system. monitoring system receives notifications when uav state changes.  
+- battery level monitoring, continuously monitor and report current battery level of uav, monitoring system. monitoring system receives battery level updates during flight.  
+- velocity tracking, track and report current velocity of uav in real-time, monitoring system. monitoring system receives velocity updates during flight.  
+- mode status updates, provide updates when uav operational mode changes, monitoring system. monitoring system receives notifications when uav mode changes.

@@ -1,0 +1,4 @@
+- return home validation, validate home location exists in flight plan before initiating return, flight manager. flight manager validates home location exists in flight plan before initiating return.  
+- home coordinate position, handle home coordinate as first last or intermediate waypoint in flight plan, flight plan scheduler. home coordinate is first, last, or intermediate waypoint in flight plan.  
+- invalid home coordinate, prevent return home execution with non-existent home coordinates, flight manager. return home execution prevented if home coordinates not in flight plan.  
+- flight plan integrity, ensure flight plan contains valid home coordinate for return operation, flight plan scheduler. flight plan must contain valid home coordinate for return operation.

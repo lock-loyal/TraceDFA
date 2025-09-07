@@ -1,0 +1,4 @@
+- state transition tracking, track uav state transitions between different flight modes, monitoring system. track transitions between flight modes like takeoff, landing, hovering.
+- flight plan activation, generate notification when a flight plan becomes active for a uav, monitoring system. flight plan activated for uav, system generates notification.
+- flight plan completion, generate notification when uav completes flight plan execution, monitoring system. uav completes flight plan execution, system generates notification.
+- command transmission, generate message when command is sent to uav, monitoring system. command sent to uav, system generates transmission message.

@@ -1,0 +1,1 @@
+activation state is on_ground, sets uav state to on_ground when initially activated on the ground, system. when uav is activated on ground, transition to on_ground state.

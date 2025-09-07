@@ -1,0 +1,5 @@
+- retrieve uav status, allows system to access current status of uav, system. access uav status including battery level, velocity, and coordinates.  
+- track uav location, provides real-time tracking of uav's geographical position, system. monitor latitude, longitude, and altitude coordinates.  
+- display uav battery level, enables viewing current battery level of uav, user. request battery level information from uav proxy.  
+- access uav ground station association, identifies which ground station manages the uav, system. retrieve groundstation id linked to uav.  
+- verify uav home location, confirms predefined home location coordinates for uav, system. check stored home location coordinates.

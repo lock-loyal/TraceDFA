@@ -1,0 +1,1 @@
+- synchronization task creation, create synchronization tasks linked to specific uavs within mission plans, mission planner. synchronization tasks created for uavs must be named and assigned to specific uavs.

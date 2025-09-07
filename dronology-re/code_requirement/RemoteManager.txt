@@ -1,0 +1,5 @@
+- remote service access, provide remote access to core services including flight route planning and drone setup, remote client. remote clients access core services via remote interfaces.  
+- external service contribution, allow external systems to contribute additional remote services, system integrator. external systems contribute services via service registration.  
+- service discovery, enable clients to retrieve lists of available core and file-based services, remote client. clients retrieve lists of available services.  
+- service listener management, allow clients to register listeners for service status changes, monitoring component. clients register listeners to receive service status notifications.  
+- remote registration, handle registration and unregistration of remote client instances, remote client. remote clients register their presence with the system.

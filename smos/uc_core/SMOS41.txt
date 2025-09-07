@@ -1,0 +1,1 @@
+edit note, editing a disciplinary note, administrator. administrator modifies student, description, teacher, date fields, clicks save, system saves changes and returns to register screen.

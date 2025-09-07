@@ -1,0 +1,1 @@
+- user login, authenticates the user into the system and redirects to role-specific home page, user. user enters username and password, clicks login button, system validates credentials, redirects to home page matching user's role (administrator, teacher, student, parent, ata, director), invalid credentials or system errors display error message.

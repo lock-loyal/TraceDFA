@@ -1,0 +1,5 @@
+- add menu, create new menu entry for rest point, operator. access menu management, input day and rest point details, validate data, save to database, confirm success. valid rest point id required.  
+- remove menu, delete existing menu from rest point, operator. select menu entry, confirm deletion, execute removal, update database, notify completion. menu must exist.  
+- update menu, modify menu details for rest point, operator. retrieve current menu data, edit day information, validate changes, save updates, display confirmation. valid day format required.  
+- view menus, display all menus associated with rest point, operator. request menu list, retrieve from database, present in interface. rest point id must be valid.  
+- retrieve daily menu, obtain menu for specific day and rest point, operator. specify day and rest point, fetch data, display menu details. day must match available entries.

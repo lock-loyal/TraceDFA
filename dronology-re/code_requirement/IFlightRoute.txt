@@ -1,0 +1,5 @@
+- flight route configuration, define flight routes by specifying waypoints and takeoff altitude, flight route manager. flight routes configured with ordered waypoints and takeoff altitude.  
+- waypoint management, add or remove waypoints to adjust flight route paths, flight route editor. add or remove waypoints from existing flight routes.  
+- flight route categorization, categorize flight routes for organization and retrieval, flight route manager. assign categories to flight routes for structured access.  
+- flight route metadata, provide descriptive information and configuration settings for flight routes, flight route editor. configure description and operational parameters for flight routes.  
+- altitude specification, set takeoff altitude as part of flight route configuration, flight route planner. define required takeoff altitude when creating flight routes.

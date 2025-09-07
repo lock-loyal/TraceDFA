@@ -1,0 +1,21 @@
+Name: ViewingAReportCard  
+Actors: Management  
+Description: Viewing a report card  
+Preconditions:  
+• The user has logged into the system as Management  
+• The user clicks the "Online Report Cards" button  
+
+Sequence of Events  
+User  
+System  
+1. Selects the academic year  
+3. Chooses the class of the student whose report card they want to view  
+5. Selects the student whose report card to view and the term of interest by clicking the corresponding button  
+2. Displays the list of classes in the system with an adjacent "Report Cards" button for each class  
+4. Displays the list of students in the class selected by the user  
+6. Displays the report card of the selected student related to the chosen semester.  
+
+Postconditions:  
+• The system displays the report card of a student  
+• The user interrupts the operation  
+• Connection to the SMOS server is terminated

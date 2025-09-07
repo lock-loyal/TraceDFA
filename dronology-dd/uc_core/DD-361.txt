@@ -1,0 +1,1 @@
+gcs connection to gcs middleware, allows gcs to connect to gcs middleware by providing its unique id, gcs. announce to gcs middleware, provide unique id.

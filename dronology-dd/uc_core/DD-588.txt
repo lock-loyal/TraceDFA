@@ -1,0 +1,1 @@
+deactivate physical uavs, removes all scheduled flight plans when a uav is deactivated, system. deactivate uav, remove all scheduled flight plans from flight plan pool.

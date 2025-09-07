@@ -1,0 +1,1 @@
+museum information, allow citizen to view museum details, citizen. citizen requests museum list display, system shows museum list, citizen selects museum, system displays museum information including location, opening dates and hours, museum website link, citizen must be logged into the system, exit when citizen views information or redirects to museum site for booking.

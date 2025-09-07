@@ -1,0 +1,1 @@
+emergency operations, allow users to perform emergency operations on a group of uavs, real time flight ui. perform emergency operations (e.g., hovering multiple uavs, sending multiple uavs to home).

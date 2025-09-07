@@ -1,0 +1,5 @@
+- create new simulator scenario, allows creation of new simulator scenarios with default settings, user. create new scenario, assign default name, save to storage.
+- activate simulator scenario, initialize virtual drones and assign flight paths upon scenario activation, user. select scenario, initialize drones in virtual mode, plan assigned flight paths.
+- manage scenario categories, provide predefined categories for organizing simulator scenarios, system. scenarios are organized under predefined categories such as default.
+- handle missing scenario error, prevent activation of non-existent scenarios by checking availability, system. scenario must exist in storage before activation.
+- reload simulator scenarios, reload scenarios from storage during service startup, system. on service start, load all stored simulator scenarios.

@@ -1,0 +1,1 @@
+- update teaching details, allows the administrator to modify an existing teaching's information, administrator. administrator selects teaching to edit, enters new name, and submits changes, system checks for duplicate entries and updates teaching if valid. teaching name must be unique and mandatory fields must be filled.

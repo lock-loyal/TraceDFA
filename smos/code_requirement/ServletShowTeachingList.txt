@@ -1,0 +1,1 @@
+- view teaching list, allows the administrator to view all teachings in the system, administrator. administrator accesses teaching management section, system retrieves and displays list of available teachings. only users with administrator role can access this functionality.

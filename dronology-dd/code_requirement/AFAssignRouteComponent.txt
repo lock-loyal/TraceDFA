@@ -1,0 +1,5 @@
+- assign routes to uav, allows user to assign and reorder multiple routes for selected uav through drag-and-drop interface, user. select uav, choose routes from available list, drag to assign, reorder assigned routes as needed. routes must contain at least one waypoint.
+- confirm route validity before assignment, ensure selected routes contain valid waypoint configurations before assigning to uav, system. check waypoint count exceeds zero when user attempts route assignment.
+- manage assigned route queue, display and maintain ordered list of pending routes for selected uav, user. show number of assigned routes, allow sequential removal through selection and delete action.
+- maintain uav status visibility during route assignment, display real-time status indicators including battery level and health status during route configuration, system. show battery percentage, health color coding, and operational status throughout assignment process.
+- implement hover mode toggle, allow users to enable/disable hover-in-place capability during flight operations through switch control, user. toggle hover mode switch to activate/deactivate position holding feature.

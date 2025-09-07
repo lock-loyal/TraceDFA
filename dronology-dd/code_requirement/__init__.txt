@@ -1,0 +1,6 @@
+- vehicle state monitoring, periodically send vehicle state messages at configured intervals, system. send state messages at specified intervals when connection is successful.  
+- vehicle command handling, process incoming commands for vehicle control, system. receive and execute commands through defined interface.  
+- rtk gps adjustment transmission, send rtk correction data to improve gps accuracy, system. transmit rtk adjustment data to vehicle when received.  
+- vehicle connection management, establish and monitor connection to the vehicle, system. initiate connection, update status upon success or failure.  
+- concurrent vehicle control, ensure thread-safe operations for vehicle commands and messaging, system. use locks to manage concurrent access to vehicle resources.  
+- dynamic message interval adjustment, modify state and monitor message intervals during operation, system. update intervals without stopping message transmission.

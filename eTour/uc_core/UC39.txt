@@ -1,0 +1,1 @@
+modify banner, allow rest point operator to update banner advertisement image, rest point operator. select banner editing, view associated banners, select banner, display image selection form, select image and submit request, validate image and request confirmation, confirm changes, save new image, notify success. valid image format.

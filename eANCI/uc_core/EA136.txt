@@ -1,0 +1,1 @@
+forms, allow citizen to download forms, citizen. citizen clicks button to access forms section, system redirects to section and shows available forms, citizen selects desired form, system starts download, handle general errors by invoking service unavailable use case, download initialized or errors are exit conditions, citizen must be logged in.

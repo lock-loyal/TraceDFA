@@ -1,0 +1,5 @@
+- enforce flight state transitions, enforce predefined state transitions for drone flight modes, flight state manager. drone state changes follow allowed transitions, invalid transitions throw exceptions.
+- manual override, allow switching to user controlled mode from any flight state, flight state manager. user triggers manual takeover, drone transitions to user controlled mode.
+- state change notification, notify registered listeners upon drone state changes, flight state manager. state change occurs, listeners receive notification.
+- landing clearance requirement, transition to landing state requires being in air and landing granted, flight state manager. drone in air state, landing granted, transitions to landing.
+- takeoff sequence enforcement, transition from awaiting clearance to taking off requires takeoff granted, flight state manager. takeoff clearance granted, drone transitions to taking off state.

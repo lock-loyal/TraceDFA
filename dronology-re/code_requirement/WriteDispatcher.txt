@@ -1,0 +1,3 @@
+- command transmission, transmit drone commands via network connection to uavs, ground station connector. dispatcher sends commands from queue through output stream to uav.  
+- command queue management, maintain ordered queue for outgoing drone commands, ground station connector. outgoing commands are queued and processed in sequence.  
+- dispatcher shutdown, gracefully terminate command transmission using marker object, ground station connector. marker object signals shutdown, stops processing and closes connection.

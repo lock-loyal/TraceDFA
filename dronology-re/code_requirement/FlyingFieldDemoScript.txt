@@ -1,0 +1,4 @@
+- initialize virtual drones, initialize drones in virtual mode with specified coordinates, system operator. system operator initializes drones in virtual mode, each with specified coordinates. drones must be in virtual mode for simulation.
+- set drone initial positions, set initial positions for drones using latitude longitude and altitude, demo coordinator. demo coordinator sets initial positions using coordinates.
+- simulate multi-drone scenario, create simulation scenarios with multiple drones in predefined locations, demo coordinator. demo coordinator creates scenarios with multiple drones at predefined coordinates.
+- manage remote connections, establish and manage remote connections to drone services, system operator. system operator connects to remote services via specified address and port.

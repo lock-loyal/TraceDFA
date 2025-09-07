@@ -1,0 +1,1 @@
+log actions and timestamps for flight plan events, records action types and timestamps for flight plan events into mission log, system. log timestamp and action type for events including time of scheduling, time of execution, time of completing plan, reordering plan, canceling plan.

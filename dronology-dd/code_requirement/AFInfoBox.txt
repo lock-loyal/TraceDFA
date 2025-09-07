@@ -1,0 +1,7 @@
+- assign new flight route to uav, allows user to assign a new flight route to a selected uav via ui button, user. click assign route button, select from available routes, confirm assignment.
+- display real-time uav status information, shows current uav status including battery level and flight mode in active flights panel, system. continuously update status info during flight operations.
+- toggle hover in place mode for uav, enables switching hover mode via toggle switch in active flight info box, user. flip hover switch to activate/deactivate position holding.
+- initiate uav takeoff sequence, triggers takeoff procedure through dedicated button with altitude specification, user. click takeoff button, input target altitude, confirm takeoff.
+- return uav to home location, activates return-to-home procedure via dedicated button in active flight panel, user. click return home button to cancel routes and initiate landing.
+- resend previous command to uav, allows resending last command through dedicated button when communication issues occur, user. click resend command button to retransmit last instruction.
+- disable controls during user-controlled mode, grays out interaction buttons when uav enters user-controlled flight mode, system. detect user-controlled status, disable route/takeoff commands.

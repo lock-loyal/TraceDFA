@@ -1,0 +1,4 @@
+- virtual uav simulation, simulate virtual uav behavior through internal flight dynamics model, flight simulator. simulate virtual uav behavior using flight dynamics model.
+- battery level tracking, track and update battery level during flight operations, flight simulator. battery level tracked and updated during flight operations.
+- coordinate-based navigation, navigate to target coordinates using predefined flight paths, flight simulator. navigate to target coordinates along predefined flight paths.
+- flight status synchronization, synchronize flight status including coordinates and battery level, flight simulator. flight status synchronized with current coordinates and battery level.

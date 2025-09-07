@@ -1,0 +1,2 @@
+- validate coordinate equality, ensure coordinates with identical latitude longitude and altitude are considered equal, system validator. coordinates with identical latitude longitude and altitude values are treated as equal.  
+- coordinate uniqueness in collections, prevent duplicate coordinates in hash-based collections, system validator. hash-based collections reject duplicate coordinates based on latitude longitude and altitude.

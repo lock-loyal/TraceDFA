@@ -1,0 +1,6 @@
+- uav status updates, post status updates from uavs to their respective queues, ground station manager. status updates from uavs are added to their designated queues and forwarded to validation.  
+- command transmission, send commands to uavs via outgoing command queue, ground station operator. outgoing commands are queued and transmitted to uavs.  
+- safety validation, validate uav safety information during registration, safety validator. uav handshake messages require successful safety case validation before registration.  
+- uav registration, register new uavs upon successful handshake and safety validation, system. valid handshake messages trigger drone initialization in the system.  
+- monitoring message handling, process monitoring messages through dedicated monitoring queue, monitoring system. monitoring messages are queued for processing via monitoring thread.  
+- thread management, create dispatch threads for individual uav message processing, system. dedicated dispatch threads handle status updates for each registered uav.

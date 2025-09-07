@@ -1,0 +1,2 @@
+- location conversion, convert geographic coordinates between degrees and radians, system. receive coordinates in degrees, validate input ranges, convert to radians, store converted values. coordinates must be within valid degree ranges.  
+- distance calculation, compute distance between two geographic points, tourist. input two sets of coordinates, validate radian values, apply trigonometric formula, return calculated distance. valid latitude/longitude ranges enforced.

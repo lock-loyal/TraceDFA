@@ -1,0 +1,1 @@
+ui middleware releases control locks, allows ui middleware to release control locks when client heartbeat fails after client_heartbeat_time, system. client heartbeat fails after client_heartbeat_time, uimiddleware releases all control locks held by client.

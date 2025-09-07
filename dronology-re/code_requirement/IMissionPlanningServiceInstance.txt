@@ -1,0 +1,3 @@
+- execute mission plan, initiate execution of a predefined mission plan containing multiple coordinated uav operations, mission planner. user triggers execution of a predefined mission plan. mission plan must exist and be valid.
+- cancel active mission, terminate currently executing mission and halt all associated uav operations, mission planner. user initiates cancellation of ongoing mission. active mission must be in progress.
+- remove uav from mission, remove specified uav from mission participation while maintaining mission integrity, mission planner. user removes uav from active or planned mission. uav must be assigned to mission.

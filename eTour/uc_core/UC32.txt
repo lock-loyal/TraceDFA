@@ -1,0 +1,1 @@
+error modify password, notify user when password confirmation fails during password change, user. display error message, confirm notification reading, return to password change interface.

@@ -1,0 +1,1 @@
+connection lost, deactivates all uavs associated with gcs when a socket error or time-out occurs, system. when a socket error or time-out occurs, deactivate all uavs associated with gcs.

@@ -1,0 +1,3 @@
+- establish gcs connection, listen on predefined port for incoming ground control station connections, ground station connector. server listens on port, accepts socket connection, creates handler for gcs communication.  
+- delegate connection handling, transfer accepted gcs connections to drone connector service for further processing, ground station connector. upon new connection, server delegates to drone connector service.  
+- manage network exceptions, handle socket exceptions and io errors during connection acceptance, ground station connector. server handles socket exceptions and io errors during connection acceptance.

@@ -1,0 +1,1 @@
+- takeoff altitude configuration, specify altitude value for uav takeoff, operator. operator inputs altitude value in meters, clicks takeoff button to execute. invalid non-numeric values reset to default.

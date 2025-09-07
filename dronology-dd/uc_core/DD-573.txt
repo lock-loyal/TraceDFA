@@ -1,0 +1,1 @@
+simulated uavs assigned unique ids, assign unique identifiers to simulated uavs during instantiation, system. instantiate simulated uav with id unique from all currently activated uavs.

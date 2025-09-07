@@ -1,0 +1,1 @@
+- insert delay after route execution, specify delay duration in seconds before proceeding to next route task, system. after uav completes route, wait for specified duration in seconds before next task. duration must be specified in seconds.

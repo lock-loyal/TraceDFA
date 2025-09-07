@@ -1,0 +1,7 @@
+- manage cultural asset, add new cultural asset to database, operator. access asset management, input details, validate fields, confirm insertion, store data, return success status. maximum five tags allowed, valid data format required.  
+- update cultural asset, modify existing cultural asset information, operator. retrieve current data, edit details, validate changes, confirm update, save to database, notify operator. valid identifier and data format.  
+- delete cultural asset, remove cultural asset from system, operator. select asset, confirm deletion, remove from database, update records, display confirmation. asset must exist and have no active dependencies.  
+- search cultural asset, retrieve cultural assets by keyword and tags, user. input search criteria, apply filters, execute query, paginate results, display matching assets. maximum five tags, valid geographic coordinates.  
+- advanced cultural asset search, retrieve personalized results based on tourist preferences, tourist. authenticate, input criteria, apply preference filters, execute query, return sorted assets. valid tourist id, maximum distance constraint.  
+- list cultural assets, display all registered cultural assets, operator. request full list, retrieve from database, format results, present in interface. system handles large datasets efficiently.  
+- paginate cultural asset results, calculate total pages for search outcomes, system. determine item count, divide by per-page limit, return page quantity. valid search parameters must be active.

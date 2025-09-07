@@ -1,0 +1,1 @@
+search rest points, retrieve list of rest points based on specified criteria, operator. activate rest point search function, display search form, submit parameters, process request, return matching rest points. system completes operation within 15 seconds.

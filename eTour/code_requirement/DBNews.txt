@@ -1,0 +1,4 @@
+- delete advertisement, remove existing news entry, operator. access delete function, select news item, confirm deletion, process request, remove from database. valid news identifier required.  
+- add advertisement, create new news entry, operator. access add function, input details and submit, validate data, store in database. maximum active news limit not exceeded.  
+- modify advertisement, update existing news details, operator. access edit function, load current data, modify fields, submit changes, validate input, update database entry. valid data format required.  
+- retrieve active advertisements, display list of current news entries, operator. access news list, fetch entries from database, display within allowed maximum active limit. maximum active news constraint enforced.

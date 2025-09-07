@@ -1,0 +1,3 @@
+- mission scheduling, schedule mission plans with delayed execution for route sets, mission manager. schedule mission plans, route sets executed after specified delays. route sets within same mission plan have same route assigned to multiple uavs throws error.
+- route assignment, assign routes to uavs ensuring no duplicate assignments for same route, mission manager. assign routes to uavs, check route not assigned to multiple uavs in same route set.
+- error on duplicate route, throw error when same route assigned to multiple uavs within route set, mission manager. same route assigned to multiple uavs in route set triggers error.

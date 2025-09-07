@@ -1,0 +1,4 @@
+- specify drone mode, select between virtual or physical mode during drone initialization, drone operator. drone operator selects virtual or physical mode during initialization. mode must be specified.
+- assign initial location, define initial location using longitude latitude and altitude coordinates during drone setup, drone operator. initial location must be provided with coordinates during setup.
+- set drone type, assign a specific type identifier when initializing a drone, system administrator. system administrator assigns type identifier during initialization.
+- configure safety info, provide optional safety-related information for drone operations, safety officer. safety officer can configure optional safety information post-initialization.

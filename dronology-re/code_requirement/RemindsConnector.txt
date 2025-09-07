@@ -1,0 +1,7 @@
+- monitor uav events, transform uav state and monitoring messages into transmittable events, monitoring system. uav state and monitoring messages transformed into events and transmitted.  
+- categorize monitoring messages, categorize incoming messages into predefined scopes for event routing, monitoring system. messages categorized into scopes like flight control or route planning.  
+- transmit event data, send serialized event data through dedicated communication probes, monitoring system. events transmitted via probes after json serialization.  
+- manage probe instances, dynamically create and maintain probes per uav and message category, monitoring system. probes created per uav id and message type combination.  
+- handle transmission errors, catch and log exceptions during event transmission attempts, monitoring system. transmission errors logged without stopping processing.  
+- map message types, associate raw message types with business domains like flight control, monitoring system. messages mapped to domains like uavcontrol or routeplanning.  
+- maintain probe registries, store active probes in maps keyed by uav identifiers, monitoring system. probes stored in concurrent hash maps for thread safety.

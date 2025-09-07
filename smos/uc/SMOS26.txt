@@ -1,0 +1,18 @@
+Name: DeleteCourse  
+Actors: Administrator  
+Description: Deletes a course from the archive  
+Preconditions:  
+• The user is logged into the system as an Administrator  
+• The user has executed the use case "ViewCourseDetails"  
+• The user is viewing the detailed information of a course  
+• The user clicks on the "Delete" button  
+
+Sequence of Events  
+User          | System  
+---------------------------------  
+1.            | Deletes the course from the archive  
+2.            | Displays the updated list of courses  
+
+Postconditions:  
+• The user has deleted a course  
+• Connection to the SMOS server is terminated

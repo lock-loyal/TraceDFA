@@ -1,0 +1,1 @@
+ui middleware forwards hover in place commands from clients to dronology, allows ui middleware to forward hover in place commands from clients to dronology, uimiddleware. accept hover in place commands associated with uav_id, forward to dronology.

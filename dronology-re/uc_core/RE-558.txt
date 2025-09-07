@@ -1,0 +1,1 @@
+cancel active plan, abort currently executing flight plan of a uav when requested, single uav flight plan scheduler. if requested, scheduler aborts current flight plan.

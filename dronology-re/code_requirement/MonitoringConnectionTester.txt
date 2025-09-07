@@ -1,0 +1,3 @@
+- monitoring message handler registration, enable registration of message handlers for receiving monitoring messages, monitoring tester. register message handler to receive monitoring messages. handler not registered results in no message reception.
+- remote monitoring service connection, establish connection to remote monitoring service for message handling, monitoring tester. connect to remote monitoring service and register message handler.
+- artifact identification for monitoring, specify artifact identifier to determine monitoring scope, monitoring tester. artifact identifier defines scope of monitored components.

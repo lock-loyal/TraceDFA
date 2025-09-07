@@ -1,0 +1,4 @@
+- add preference, enable tourist to create new generic preference entry, tourist. access add feature, input preference details, submit form, system processes request, confirm creation, store preference. valid data format required.  
+- modify preference, allow tourist to update existing generic preference details, tourist. select preference entry, edit information, submit changes, validate input, confirm modification, update stored data. valid preference id must exist.  
+- delete preference, permit tourist to remove existing generic preference, tourist. select preference entry, confirm deletion request, system removes entry, display success notification. confirmation dialog required.  
+- view preference, retrieve tourist's stored generic preferences, tourist. access view feature, system fetches current preferences, display details in readable format. preferences must be previously set.

@@ -1,0 +1,2 @@
+- manage map view for active flights, allows users to control the map display during active flights, user. toggle between following selected uavs or viewing all uavs on the map via dedicated buttons.
+- display real-time uav positions on map, updates map to show current positions of all active uavs during flight monitoring, system. continuously update map with latest uav coordinates during active flights.

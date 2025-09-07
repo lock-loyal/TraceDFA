@@ -1,0 +1,1 @@
+multiple map types, support different types of map layers e.g. terrain satellite, map component. support different types of map layers e.g. terrain satellite.

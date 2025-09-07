@@ -1,0 +1,1 @@
+view course details, allows viewing the details of a course, administrator. user clicks course details button, system displays screen with details of single course.

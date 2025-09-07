@@ -1,0 +1,1 @@
+change color for the first and the last waypoint, differentiates starting and ending waypoints from intermediate ones using color, system. color starting waypoint, ending waypoint, and intermediate waypoints differently.

@@ -1,0 +1,2 @@
+- feedback submission, capture tourist review and rating for cultural asset visit, tourist. access cultural asset feedback form, input rating and comments, submit feedback, validate input, store review data, confirm submission. valid rating range (1-5), mandatory comment field.  
+- visit recording, log tourist visit to cultural asset with date, system. detect cultural asset entry, capture visit timestamp, associate with tourist and asset ids, store visit record. system clock synchronized.

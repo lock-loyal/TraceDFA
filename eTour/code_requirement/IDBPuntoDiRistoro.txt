@@ -1,0 +1,7 @@
+- add rest point, create new rest point entry, operator. access rest point management, open form, input details, validate data, confirm submission, store in database, display success message. maximum five tags allowed, invalid data prevents submission.  
+- modify rest point, update existing rest point information, operator. select rest point, edit details, validate changes, confirm update, save to database, notify operator. handle non-existent id or connection errors.  
+- delete rest point, remove rest point from system, operator. select rest point, request deletion, confirm action, remove from database, refresh list. rest point must exist, active dependencies block removal.  
+- search rest points, retrieve rest points by criteria, tourist. enter keywords/tags/location/distance, submit search, system processes, return paginated results. maximum five tags applied, distance filter enforced.  
+- advanced rest point search, personalized rest point results, tourist. authenticate, input preferences/keywords/tags, set filters, submit search, system prioritizes preferences, display results. valid tourist id required, tag limit enforced.  
+- view rest point details, display comprehensive rest point information, tourist. select rest point from list, request details, system retrieves data, show description/location/tags. handle invalid id with error message.  
+- list all rest points, access complete rest point directory, operator. request full list, system retrieves entries, display in manageable pages. requires operator privileges, large datasets paginated.

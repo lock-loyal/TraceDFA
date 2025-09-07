@@ -1,0 +1,1 @@
+modify employee, allow administrator to modify an employee, administrator. press employee edit button, system shows edit form, administrator enters data, system saves changes, handle service unavailable by invoking service unavailable use case, administrator must be authenticated in the system, includes search employee use case when administrator wants to modify an employee.

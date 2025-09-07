@@ -1,0 +1,1 @@
+request convention, allow rest point operator to request a convention agreement with the agency, rest point operator. enable convention request feature, display data entry form, submit convention details, validate data, confirm request, send to agency, notify agency. valid convention data format.

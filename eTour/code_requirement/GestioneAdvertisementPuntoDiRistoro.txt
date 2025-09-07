@@ -1,0 +1,1 @@
+- advertisement management, enable operator to handle rest point advertisements, operator. access advertisement management interface, perform create/update/delete operations on rest point advertisements, validate changes, confirm operations, update system records. operator must have valid authorization.

@@ -1,0 +1,11 @@
+Name: IncorrectLogin  
+Actors: Registered User  
+Description: Occurs when the user has entered incorrect authentication credentials.  
+Preconditions:  
+• The provided login data is incorrect  
+Sequence of Events  
+User  
+System  
+1. Displays the login form  
+Postconditions:  
+• The user can retry the login

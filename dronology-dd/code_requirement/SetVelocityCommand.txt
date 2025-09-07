@@ -1,0 +1,1 @@
+- set uav velocity, send velocity commands in ned coordinates via gcs to control uav movement, operator. specify x, y, z in ned coordinates, send command to gcs. velocity specified in ned (north, east, down) coordinate system.

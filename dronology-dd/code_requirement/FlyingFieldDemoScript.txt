@@ -1,0 +1,3 @@
+- initialize virtual drones for simulation, allows system to initialize drones in virtual mode with specified coordinates, system. create drone initialization info with virtual mode and coordinates, send to setup service. 
+- assign flight routes to drones during demo setup, enables system to assign predefined or random flight routes to initialized drones, system. retrieve available flight routes, select route, assign to drone via flight manager. 
+- connect to remote drone management services, establishes connection to backend services for drone control and route planning, system. lookup remote services via rmi protocol, connect to drone setup and flight manager services.

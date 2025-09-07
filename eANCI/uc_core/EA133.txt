@@ -1,0 +1,1 @@
+request tosap rejected, allow employee to handle rejected tosap requests, employee. employee views received notification, system displays citizen's request, employee detects error and rejects request, system sends notification to citizen, system notifies outcome to citizen is exit condition, employee must be authenticated in the system, includes request tosap use case.

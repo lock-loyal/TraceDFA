@@ -1,0 +1,1 @@
+- view address list, allows the administrator to view all addresses stored in the system, administrator. system retrieves and displays complete list of addresses, administrator accesses address management section.

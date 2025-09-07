@@ -1,0 +1,1 @@
+- view classrooms by academic year, allows the administrator to view classrooms associated with a specific academic year, administrator. administrator selects academic year, system retrieves and displays list of classrooms for selected academic year, administrator must have valid privileges.

@@ -1,0 +1,1 @@
+calculate directions, compute direction from first to second coordinate, coordinate system. when given two coordinates, compute direction.

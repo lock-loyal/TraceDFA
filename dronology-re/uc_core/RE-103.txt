@@ -1,0 +1,1 @@
+remove pending plans when return to home, cancel all scheduled flight plans for a uav when its current flight is cancelled, single uav flight plan scheduler. uav's current flight is cancelled, scheduler cancels all scheduled flight plans.

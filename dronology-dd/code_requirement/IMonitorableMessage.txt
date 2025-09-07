@@ -1,0 +1,3 @@
+- subscribe to monitoring messages, allows system components to subscribe to uav status and monitoring messages, system. components subscribe via monitoring api to receive real-time uav status updates.
+- standardize message format for monitoring, enforce consistent structure for all monitoring-related messages across system, system. messages must include uav id, timestamp, data payload, and message type.
+- categorize monitoring messages by type, classify monitoring messages into distinct types for processing and filtering, system. define message categories (e.g., status, alert) and enforce type specification.

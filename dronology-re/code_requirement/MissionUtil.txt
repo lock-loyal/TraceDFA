@@ -1,0 +1,5 @@
+- activate flight route, activate predefined flight routes by name for assigned uavs, mission planner. select predefined route by name and activate for assigned uav, route must exist in system.
+- activate waypoint, send uav to specified single waypoint coordinate, mission planner. uav flies to specified waypoint coordinate.
+- retrieve route endpoints, obtain first and last waypoint coordinates of named flight route, mission analytics. system returns coordinates for route's start and end points, route must be predefined.
+- locate uav home, fetch home base coordinates for specified uav, mission planner. system provides home location coordinates registered for uav.
+- emergency uav stop, immediately halt all operations for specified uav, mission safety officer. uav ceases current activity and hovers or lands.

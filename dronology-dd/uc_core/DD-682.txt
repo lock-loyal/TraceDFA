@@ -1,0 +1,1 @@
+request uav state upon loading, allows ui to retrieve and display activated uavs information upon loading, system. ui requests activated uavs info from uimiddleware upon loading, displays list upon response.

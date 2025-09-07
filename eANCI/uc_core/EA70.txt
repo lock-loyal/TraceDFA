@@ -1,0 +1,1 @@
+cancel interview booking, allow citizen to cancel an interview booking, citizen. citizen submits cancellation form, system notifies cancellation and redisplays form, extends book interview use case when citizen cancels, exit condition system redisplays form.

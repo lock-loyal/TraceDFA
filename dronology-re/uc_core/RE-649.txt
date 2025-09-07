@@ -1,0 +1,1 @@
+transmit route assignments to ui middleware, notify dronology when a route is assigned or removed from a uav, route assignment ui. route is assigned or removed from uav, route assignment ui notifies dronology.
