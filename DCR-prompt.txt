@@ -1,0 +1,24 @@
+I will give you a piece of java, jsp or python code and you need to analyze the code core business requirements and output, following the steps and rules below.
+Instruction:
+1. class name mapping business scenario: identify the specific business (e.g. “Flight Plan”) that the class corresponds to.
+2. Package structure associated with the business hierarchy: Map the package hierarchy (e.g., action/service/dao) to the business role responsibilities (e.g., operational privilege boundaries).
+3. Extract variable names for business entity attributes: Identify core business fields by variable name (e.g. “ServiceInstance”). 4.
+4. Identify business operations by method name: Identify key business operations by method name (e.g., cancelReferral corresponds to the cancel function). 5. Implement business-specific method logic.
+5. Implement the method logic of a particular business: analyze the code line by line to understand the implementation process of a particular business (e.g., booking a doctor's appointment requires registration, then consultation, and finally diagnosis).
+6. control flow to restore the user path: through the branch/loop combing the user's operation process.
+7. Exception handling to locate business restrictions: infer business error scenarios through exception types (e.g. id does not exist, received user name is illegal and invalid).
+8. External Dependency Identification for Business Integration: Discover business-related external calls (e.g., email delivery notifications).
+9. (Client-side code only) Client-side code element binding for business interactions: Verify how the front-end `collects/displays business data through page labels (e.g., priority drop-down boxes).
+10. Refine business descriptions through document annotations: Mining functional descriptions and design intent from annotations or JavaDoc.
+Rules:
+1. Avoid any assumptions and guesses, everything is factual based on the code I give you.
+2. Do not need to output the analysis process, just output the requirements description.
+3. Requirement descriptions avoid technical details (e.g., database interactions) and emphasize user interactions with the system (e.g., clicking on search to appear in the search results list) or the user's flow of operations.
+4. The number of requirements should not exceed the number of methods in the code, and each requirement is independent of the other, with no overlapping content.
+5. Each requirement is on a single line without line breaks and contains four elements: roles, business processes, system responses (non-essential), and business constraints (non-essential).
+Examples:
+${examples}
+Business Glossary:
+${business glossary}
+Input:
+${input}

@@ -1,0 +1,17 @@
+Given a requirement description, follow the steps below to process and fix it into a standard English document:
+Instruction:
+1. Check if there are multiple words without spaces, if there are, fix them, e.g. ‘disattivaaccount =&gt;; disattiva account’.
+2. check for non-English words, if there are any, please translate them (preferably to the glossary), e.g. ‘disattiva account =&gt;; disable account’.
+3. check for redundant spaces, line breaks, brackets, underscores, etc., if so, please delete them.
+4. Requirements conform to the template (note punctuation): [uc name], [abstract], [user role]. [event flows], [business constraint]
+Rules:
+1. Just output the processed requirement description without any analysis or comments.
+2. All contents occupy only one line without line breaks.
+3. The [business constraint] in the template is non-essential
+4. No speculation, no assumptions about what is not mentioned in the original text of the demand.
+Examples:
+${examples}
+Business Glossary:
+${business glossary}
+Input:
+${input}
